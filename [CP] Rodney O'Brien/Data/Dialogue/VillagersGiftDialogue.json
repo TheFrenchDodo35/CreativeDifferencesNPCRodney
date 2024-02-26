@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Elliott",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Elliott.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Elliott.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -13,7 +13,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Gus.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gus.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -21,7 +21,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gunther",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Gunther.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gunther.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -29,7 +29,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/GuntherSilvian",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:GuntherSilvian.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:GuntherSilvian.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -37,7 +37,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Leah.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Leah.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -45,7 +45,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sophia",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Sophia.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Sophia.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -53,7 +53,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Olivia",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Olivia.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Olivia.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -61,7 +61,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Susan",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Susan.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Susan.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -69,7 +69,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Abigail.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Abigail.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -77,7 +77,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Emily.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Emily.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -85,7 +85,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Evelyn.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Evelyn.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -93,7 +93,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/George",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:George.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:George.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -101,7 +101,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Harvey",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Harvey.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Harvey.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -109,7 +109,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Jas.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Jas.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -117,7 +117,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Shane.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Shane.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -125,7 +125,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Vincent.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Vincent.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -133,7 +133,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Alex.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Alex.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -141,7 +141,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Caroline",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Caroline.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Caroline.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -149,7 +149,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Willy",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Willy.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Willy.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -157,7 +157,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Linus",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Linus.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Linus.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -165,7 +165,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Jodi.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Jodi.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -173,7 +173,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Kent.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Kent.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -181,7 +181,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Krobus",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Krobus.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Krobus.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -189,7 +189,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Marnie.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Marnie.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -197,7 +197,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Maru.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Maru.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -205,7 +205,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Penny.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Penny.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -213,7 +213,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Pierre.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Pierre.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -221,7 +221,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Robin.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Robin.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -229,7 +229,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Sam.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Sam.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -237,7 +237,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Sandy.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Sandy.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -245,7 +245,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Leo",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Leo.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Leo.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -253,7 +253,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lewis",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Lewis.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Lewis.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -261,7 +261,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Wizard",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Wizard.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Wizard.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -269,7 +269,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Clint",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Clint.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Clint.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -277,7 +277,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pam",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Pam.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Pam.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -285,7 +285,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Demetrius",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Demetrius.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Demetrius.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -293,7 +293,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Dwarf",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Dwarf.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Dwarf.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -301,7 +301,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marlon",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Marlon.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Marlon.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -309,7 +309,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/MarlonFey",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:MarlonFey.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:MarlonFey.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -317,7 +317,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Andy",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Andy.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Andy.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -325,7 +325,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Victor",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Victor.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Victor.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -333,7 +333,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lance",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Lance.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Lance.GiftReaction_An_autographed_photo}}",
             },
         },
         {
@@ -341,7 +341,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "AcceptGift_(O)An_autographed_photo": "{{i18n:Haley.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Haley.GiftReaction_An_autographed_photo}}",
             },
         },
     ]
