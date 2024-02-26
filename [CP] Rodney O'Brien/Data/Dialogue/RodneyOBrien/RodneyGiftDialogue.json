@@ -26,6 +26,7 @@
                 "AcceptGift_category_junk": "{{i18n:GiftReactionCategory_-20}}",
                 "AcceptGift_(O)446": "{{i18n:GiftReaction_Rabbit's_Foot}}",
                 "AcceptGift_(O)WWWA.AutographedPhoto": "{{Random:{{i18n:GiftReaction_An_autographed_photo}}++{{i18n:GiftReaction_An_autographed_photo~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)WWWA.GenuineAutograph": "{{Random:{{i18n:GiftReaction_An_autographed_photo}}++{{i18n:GiftReaction_An_autographed_photo~1}}|inputSeparator=++}}",
                 //Edit when content packs update
  //               "AcceptGift_Rabbit_Floof": "{{i18n:GiftReaction_RabbitFloof}}",
  //               "AcceptGift_Stardrop_Flower": "{{i18n:GiftReaction_StardropFlower}}",

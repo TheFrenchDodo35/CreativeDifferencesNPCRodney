@@ -32,5 +32,21 @@
                 }
             }
         },
+{
+            "LogName": "Silo Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "WWWA.ComfyHouse": {
+                    "ID": "WWWA.ComfyHouse",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/ComfyHouse.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
     ]
 }

@@ -82,7 +82,7 @@
                                 "summer_Fri4": "{{i18n:summer_Fri4}}",
                                 "summer_Fri6": "{{i18n:summer_Fri6}}",
                                 "summer_Fri8": "{{i18n:summer_Fri8}}",
-                                "summer_Fri10": "{{i18n:summer_Fri10}}.{{RomanticRodney}}",
+                                "summer_Fri10": "{{i18n:summer_Fri10.{{RomanticRodney}}}}",
                                 "summer_Sat": "{{i18n:summer_Sat}}",
                                 "summer_Sat2": "{{i18n:summer_Sat2}}",
                                 "summer_Sat4": "{{i18n:summer_Sat4}}",

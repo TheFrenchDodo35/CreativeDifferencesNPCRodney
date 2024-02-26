@@ -429,7 +429,7 @@
   "GiftReactionCategory_-20": "According to my tarot deck, this gift is trash.$3",
   "GiftReaction_Rabbit's_Foot": "Is that...$8#$b#The foot of a rabbit? Why would you give this to me, you maniac?$5#$b#I don't want it. Take it back.$2[446]'",
   "GiftReaction_An_autographed_photo": "Are you really giving it back to me?$5#$b#Do you value my job so little, you monster?$5#$b#Leave me alone.$2",
-  "GiftReaction_An_autographed_photo~1": "Listen, if you hate so much that you'll give it back to me, at least do something useful with it. You could always recycle it.$5",
+  "GiftReaction_An_autographed_photo~1": "Listen, if you hate so much that you'll give it back to me, at least do something useful with it. You could always recycle it or offer it to someone else!$5", //changed in 3.0.0
   "GiftReaction_StardropFlower": "@...$8#$b#This probably the prettiest flower I have ever seen, thank you so much!$1",
   "GiftReaction_RabbitFloof": "DEAR YOBA IT'S SO FLUFFY I'M GONNA DIE.$8",
   "GiftReaction_GiftReaction_RabbitClover": "My my, thanks a lot @. I could always use some good luck!$1",

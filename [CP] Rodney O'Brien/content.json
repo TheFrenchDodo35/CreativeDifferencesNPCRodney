@@ -5,7 +5,7 @@
 		{
 			"Logname": "The Writer, The Witch & The Wardrobe Assistant Includes",
 			"Action": "Include",
-			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/FishableAutograph.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/ItemGiftTastes.json, Data/Mail.json, Data/MailTriggerActions.json, Data/AutographRecycling.json"
+			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/FishableAutograph.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/Gift Tastes/ItemGiftTastes.json, Data/Mail.json, Data/MailTriggerActions.json, Data/AutographRecycling.json"
 		},
 		{
 			"Logname": "Rodney Includes",
@@ -255,7 +255,7 @@
 			"Name": "RodneyCoastalGuildVisit",
 			"Value": "1030 EastScarp_CoastalGuild 8 13 3 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1500 EastScarp_CoastalGuild 8 13 2 read",
 			"When": {
-				"HasMod": "DestyNova.Mateo.CP",
+				"HasMod": "DN.SnS.CP",
 				"HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail": "true",
 			}
 		},
@@ -263,14 +263,14 @@
 			"Name": "RodneyBookwormMobile",
 			"Value": "1130 Custom_RodneysHouse 1 13 0",
 			"When": {
-				"HasMod |contains=Fellowclown.TravelingDreamer": "false",
+				"HasMod |contains=Fellowclown.AND": "false",
 			}
 		},
 		{
 			"Name": "RodneyBookwormMobile",
 			"Value": "1130 Custom_Fellowclown_TravelingTrailer 16 16 2 read",
 			"When": {
-				"HasMod": "Fellowclown.TravelingDreamer",
+				"HasMod": "Fellowclown.AND",
 			}
 		},
 		//Special Order Token
@@ -278,14 +278,14 @@
 			"Name": "SpecialOrderType",
 			"Value": "",
 			"When": {
-				"HasMod |contains=DestyNova.Mateo.CP": "false",
+				"HasMod |contains=DN.SnS.CP": "false",
 			}
 		},
 		{
 			"Name": "SpecialOrderType",
 			"Value": "Esca.EMP/ESCoastalGuild",
 			"When": {
-				"HasMod": "DestyNova.Mateo.CP",
+				"HasMod": "DN.SnS.CP",
 			}
 		},
 		//Dating tokens
@@ -420,7 +420,7 @@
 			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} Mateo 6 22 1",
 			"When": {
-				"HasMod": "DestyNova.Mateo.CP",
+				"HasMod": "DN.SnS.CP",
 				"HasSeenEvent": "12360004",
 			}
 		},
@@ -552,7 +552,7 @@
 			"Name": "Rodney_PoetryReadingActor",
 			"Value": "{{Rodney_PoetryReadingActor}} Mateo -1000 -1000 0",
 			"When": {
-				"HasMod": "DestyNova.Mateo.CP",
+				"HasMod": "DN.SnS.CP",
 			}
 		},
 		{
@@ -614,7 +614,7 @@
 			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "{{Rodney_PoetryReadingReactions}}speak Mateo \"{{i18n:event-134371017.Mateo.PoetryReaction1}}$7\"/",
 			"When": {
-				"HasMod": "DestyNova.Mateo.CP",
+				"HasMod": "DN.SnS.CP",
 				"HasFlag |contains=RivalHearts_AideenMateo": true,
 			}
 		},
@@ -654,7 +654,7 @@
 			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "{{Rodney_PoetryReadingReactions}}speak Mateo \"{{i18n:event-134371017.Mateo.PoetryReaction2}}$9\"/emote RodneyOBrien 28/",
 			"When": {
-				"HasMod": "DestyNova.Mateo.CP",
+				"HasMod": "DN.SnS.CP",
 				"HasFlag |contains=RivalHearts_AideenMateo": false,
 			}
 		},
@@ -667,9 +667,9 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingReactions",
-			"Value": "{{Rodney_PoetryReadingReactions}}speak Barron \"{{i18n:event-134371017.Barron.PoetryReaction}}$4\"/emote RodneyOBrien 60/",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak FC.Barron \"{{i18n:event-134371017.FC.Barron.PoetryReaction}}$4\"/emote RodneyOBrien 60/",
 			"When": {
-				"HasMod": "Fellowclown.TravelingDreamer",
+				"HasMod": "Fellowclown.AND",
 			}
 		},
 		{
