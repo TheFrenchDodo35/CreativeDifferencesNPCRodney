@@ -1,0 +1,585 @@
+{
+  "Changes": [
+    //  _                     _   _             
+    // | |                   | | (_)            
+    // | |     ___   ___ __ _| |_ _  ___  _ __  
+    // | |    / _ \ / __/ _` | __| |/ _ \| '_ \ 
+    // | |___| (_) | (_| (_| | |_| | (_) | | | |
+    // |______\___/ \___\__,_|\__|_|\___/|_| |_|
+    {
+      "LogName": "Egg Festival position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 47 57 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 38 72 3",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Egg Festival position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 48 56 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 38 72 3",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "LogName": "Flower Dance position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ], //Setup
+          "Value": "RodneyOBrien 32 38 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ], //Dance
+          "Value": "RodneyOBrien 12 32 0",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Flower Dance position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ], //Setup
+          "Value": "RodneyOBrien 31 38 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ], //Dance
+          "Value": "RodneyOBrien 12 32 0",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "LogName": "Luau position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 21 20 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 48 11 3",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Luau position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 21 20 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 48 11 3",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "LogName": "Moonlight Jellies position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 13 33 1",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Moonlight Jellies position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 13 32 1",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "LogName": "Fair position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 43 90 1",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Fair position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 44 89 1",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall20", //Ridgeside Gathering
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 101 54 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 67 43 0",
+          "Delimiter": "/"
+        },
+      ]
+    },
+    {
+      "LogName": "Spirit's Eve position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 18 50 2",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Spirit's Eve position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 64 64 2",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "LogName": "Ice Festival position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 85 28 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Main-Event_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 73 44 0",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Ice Festival position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 67 11 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Main-Event_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 67 24 2",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "LogName": "Winter Star position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 23 74 1",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+      }
+    },
+    {
+      "LogName": "Winter Star position SVE",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 20 49 2",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter28", //Ember of resolution
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 41 29 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 50 44 3",
+          "Delimiter": "/"
+        },
+      ]
+    },
+    //Fireworks Festival
+    {
+      "LogName": "Rodney Fireworks Festival",
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer20",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 46 21 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "set-up",
+            6
+          ],
+          "Value": "/animate RodneyOBrien false true 120 27 27 27",
+        },
+      ],
+      "When": {
+        "HasMod": "violetlizabet.FireworksFestival"
+      }
+    },
+    //Surfing Festival
+    {
+      "LogName": "Rodney Surfing Festival",
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer5",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 45 11 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 145 64 3",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "PostEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 34 15 0",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod": "spacechase0.SurfingFestival"
+      }
+    },
+    // Marketpalooza
+    {
+      "LogName": "Rodney Marketpalooza",
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall3",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 11 8 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 46 18 2",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod": "Fellowclown.Nikolai"
+      }
+    },
+    // Fashion Festival
+    {
+      "LogName": "Rodney Fashion Festival",
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring19",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 41 19 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 42 26 3",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod": "UNA.FF.CP"
+      }
+    },
+    // Love Festival
+    {
+      "LogName": "Rodney Love Festival",
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 24 74 0",
+          "Delimiter": "/"
+        },
+      ],
+      "When": {
+        "HasMod": "AvalonMFX.LoveFestival"
+      }
+    },
+  ]
+}

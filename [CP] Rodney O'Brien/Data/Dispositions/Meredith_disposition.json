@@ -1,0 +1,59 @@
+{
+    "Changes": [
+        {
+            "LogName": "NPC Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "MeredithOBrien": {
+                    "DisplayName": "{{i18n:MeredithDisplayName}}",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "BirthSeason": "fall",
+                    "BirthDay": 17,
+                    "HomeRegion": "Other", //edit when making her social
+                    "IsDarkSkinned": true,
+                    "CanBeRomanced": false, //edit when making her social
+                    "CanSocialize": false, //edit when making her social
+                    "LoveInterest": "Your Mom",
+                    "PerfectionScore": false, //edit when making her social
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "SocialTab": "HiddenAlways", //edit when making her social 
+                    "Calendar": "HiddenAlways", //edit when making her social
+                    "ShakePortraits": [8],
+                    "Home": [
+                        {
+                            "ID": "Default",
+                            "Location": "Custom_ES_TNPCWaitingWarpRoom",
+                            "Tile": {
+                                "X": "5",
+                                "Y": "13",
+                            },
+                            "Direction": "Right"
+                        }
+                    ],
+                    "FriendsAndFamily": {
+                        "Elliott": "{{i18n:MeredithElliottRelationship}}",
+                        "RodneyOBrien": "{{i18n:MeredithRodneyRelationship}}",
+                        "EdwinaOBrien": "{{i18n:MeredithEdwinaRelationship}}",
+                    },
+                    "Appearance": [
+                        //Spring
+                        {
+                            "ID": "Generic Meredith Outfit",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/Portraits-Meredith.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/MeredithOBrien/MeredithOBrien.png}}"
+                        },
+                    ]
+                },
+                
+                }
+            }
+        ]
+    }

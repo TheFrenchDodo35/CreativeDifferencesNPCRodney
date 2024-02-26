@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney Book Launch Party Invite",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "WWWA.RodneyBookLaunchInvite":"{{i18n:Mail.RodneyBookLaunchInvite}}",
+            }
+        },
+        {
+            "LogName": "Rodney Library Talk Invite",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "WWWA.RodneyLibraryTalkInvite":"{{i18n:Mail.RodneyLibraryTalkInvite}}"
+            }
+        },
+        {
+            "LogName": "Rodney Library Talk Invite",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "WWWA.RodneyNationalLibraryInvite":"{{i18n:Mail.RodneyNationalLibraryInvite}}"
+            }
+        },
+    ]
+}

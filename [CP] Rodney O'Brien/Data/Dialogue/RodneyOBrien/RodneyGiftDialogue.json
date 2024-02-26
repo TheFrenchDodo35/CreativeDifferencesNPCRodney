@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RodneyOBrien",
+            "Entries": {
+                "AcceptGift_(O)80": "{{Random:{{i18n:GiftReaction_Quartz}}++{{i18n:GiftReaction_Quartz~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)91": "{{Random:{{i18n:GiftReaction_Banana}}++{{i18n:GiftReaction_Banana~1}}++{{i18n:GiftReaction_Banana~2}}|inputSeparator=++}}",
+                "AcceptGift_(O)253": "{{Random:{{i18n:GiftReaction_Triple_Shot_Espresso}}++{{i18n:GiftReaction_Triple_Shot_Espresso~1}}++{{i18n:GiftReaction_Triple_Shot_Espresso~2}}++{{i18n:GiftReaction_Triple_Shot_Espresso~3}}|inputSeparator=++}}",
+                "AcceptGift_(O)303": "{{Random:{{i18n:GiftReaction_Pale_Ale}}++{{i18n:GiftReaction_Pale_Ale~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)444": "{{i18n:GiftReaction_Duck_Feather}}",
+                "AcceptGift_category_gem": "{{Random:{{i18n:GiftReactionCategory_-2}}++{{i18n:GiftReactionCategory_-2~1}}++{{i18n:GiftReactionCategory_-2~2}}++{{i18n:GiftReactionCategory_-2~3}}++{{i18n:GiftReactionCategory_-2~4}}|inputSeparator=++}}",
+
+                "AcceptGift_category_flowers": "{{Random:{{i18n:GiftReactionCategory_-80}}++{{i18n:GiftReactionCategory_-80~1}}++{{i18n:GiftReactionCategory_-80~2}}++{{i18n:GiftReactionCategory_-80~3}}|inputSeparator=++}}",
+                "AcceptGift_(O)167": "{{Random:{{i18n:GiftReaction_Joja_Cola}}++{{i18n:GiftReaction_Joja_Cola~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)395": "{{Random:{{i18n:GiftReaction_Coffee}}++{{i18n:GiftReaction_Coffee~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)424": "{{Random:{{i18n:GiftReaction_Cheese}}++{{i18n:GiftReaction_Cheese~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)426": "{{i18n:GiftReaction_Goat_Cheese}}",
+                "AcceptGift_(O)346": "{{Random:{{i18n:GiftReaction_Beer}}++{{i18n:GiftReaction_Beer~1}}|inputSeparator=++}}",
+                "AcceptGift_category_fish": "{{Random:{{i18n:GiftReactionCategory_-4}}++{{i18n:GiftReactionCategory_-4~1}}++{{i18n:GiftReactionCategory_-4~2}}++{{i18n:GiftReactionCategory_-4~3}}++{{i18n:GiftReactionCategory_-4~4}}|inputSeparator=++}}",
+                "AcceptGift_(O)216": "{{Random:{{i18n:GiftReaction_Bread}}++{{i18n:GiftReaction_Bread~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)390": "{{i18n:GiftReaction_Stone}}",
+                "AcceptGift_(O)78": "{{Random:{{i18n:GiftReaction_Cave_Carrot}}++{{i18n:GiftReaction_Cave_Carrot~1}}++{{i18n:GiftReaction_Cave_Carrot~2}}|inputSeparator=++}}",
+                "AcceptGift_category_bait": "{{i18n:GiftReactionCategory_-21}}",
+                "AcceptGift_category_junk": "{{i18n:GiftReactionCategory_-20}}",
+                "AcceptGift_(O)446": "{{i18n:GiftReaction_Rabbit's_Foot}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{Random:{{i18n:GiftReaction_An_autographed_photo}}++{{i18n:GiftReaction_An_autographed_photo~1}}|inputSeparator=++}}",
+                //Edit when content packs update
+ //               "AcceptGift_Rabbit_Floof": "{{i18n:GiftReaction_RabbitFloof}}",
+ //               "AcceptGift_Stardrop_Flower": "{{i18n:GiftReaction_StardropFlower}}",
+ //              "AcceptGift_Rabbit_Clover": "{{i18n:GiftReaction_RabbitClover}}",
+                "AcceptGift_(O)306": "{{Random:{{i18n:GiftReaction_Mayonnaise}}++{{i18n:GiftReaction_Mayonnaise~1}}|inputSeparator=++}}",
+            }
+        },
+ //       {
+ //           "LogName": "Rodney Stardrop Flower",
+   //         "Action": "EditData",
+     //       "Target": "Characters/Dialogue/RodneyOBrien",
+       //     "Entries": {
+         //       "AcceptGift_Rabbit's_Foot": "{{i18n:GiftReaction_StardropFlower}}",
+           // },
+        //    "//HasMod": "PurpleChickadee.StardropFlower"
+       // },
+        //{
+        //    "LogName": "Rodney Rabbit Floof",
+          //  "Action": "EditData",
+            //"Target": "Characters/Dialogue/RodneyOBrien",
+//            "Entries": {
+  //              "AcceptGift_Rabbit's_Foot": "{{i18n:GiftReaction_RabbitFloof}}",
+    //        },
+      //      "HasMod": "DaisyNiko.RabbitFloof"
+   //     },
+     //   {
+       //     "LogName": "Rodney Rabbit Clover",
+         //   "Action": "EditData",
+           // "Target": "Characters/Dialogue/RodneyOBrien",
+           // "Entries": {
+             //   "AcceptGift_Rabbit's_Foot": "{{i18n:GiftReaction_RabbitClover}}"
+            //},
+          //  "HasMod": "LorenOlson.RabbitClovers"
+       // },
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Rodney.SpecialOrders.AutographCleanup": {
+                    "Name": "[Rodney.SpecialOrders.AutographCleanup_Name]",
+                    "Requester": "Rodney",
+                    "Duration": "Month",
+                    "Repeatable": "false",
+                    "RequiredTags": "event_134371010",
+                    "OrderType": "{{SpecialOrderType}}",
+                    "SpecialRule": "",
+                    "Text": "[Rodney.SpecialOrders.AutographCleanup_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        /*                       {
+                            "Type": "Collect",
+                            "Text": "[Rodney.SpecialOrders.AutographCleanup.Objective_0_Text]",
+                            "RequiredCount": "30",
+					        "Data": {
+								"DropBox": "RodneysDrawer",
+								"DropBoxGameLocation": "Custom_RodneysHouse",
+								"DropBoxIndicatorLocation": "11 24",
+								"AcceptedContextTags": "item_an_autographed_photo"
+							}
+                        }, */
+                        {
+                            "Type": "Donate",
+                            "Text": "[Rodney.SpecialOrders.AutographCleanup.Objective_0_Text]",
+                            "RequiredCount": "30",
+                            "Data": {
+                                "DropBox": "RodneysDrawer",
+                                "DropBoxGameLocation": "Custom_ESRodneysHouse",
+                                "DropBoxIndicatorLocation": "11 24",
+                                "AcceptedContextTags": "item_an_autographed_photo"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "10000"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "AutographCleanupComplete", // string
+                                "NoLetter": "true", // boolean
+                                "Host": "true" // boolean
+                            }
+                        },
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/SpecialOrderStrings",
+            "Entries": {
+                "Rodney.SpecialOrders.AutographCleanup_Name": "{{i18n:Quests.Rodney.SpecialOrders.AutographCleanup.Name}}",
+                "Rodney.SpecialOrders.AutographCleanup_Text": "{{i18n:Quests.Rodney.SpecialOrders.AutographCleanup.Text}}",
+                "Rodney.SpecialOrders.AutographCleanup.Objective_0_Text": "{{i18n:Quests.Rodney.SpecialOrders.AutographCleanup.Objective.0.Text}}",
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/RodneyOBrien/Emojis",
+            "FromFile": "Assets/WWWemojis.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Mods/atravita_SpecialOrdersExtended_EmojiOverride",
+            "Entries": {
+                "Rodney": {
+                    "AssetName": "Mods/RodneyOBrien/Emojis",
+                    "Location": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                /*      "Edwina": {
+                    "AssetName": "Mods/RodneyOBrien/Emojis",
+                    "Location": {
+                        "X": 9,
+                        "Y": 0
+                    }
+                },
+                "Meredith": {
+                    "AssetName": "Mods/RodneyOBrien/Emojis",
+                    "Location": {
+                        "X": 18,
+                        "Y": 0
+                    }
+                }, */
+            },
+        },
+    ]
+}

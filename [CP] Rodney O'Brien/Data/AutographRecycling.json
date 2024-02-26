@@ -1,0 +1,43 @@
+    {
+	"Changes": [
+
+        {
+            "LogName": "Autograph Recycling",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)20",
+                "OutputRules"
+            ],
+            "Entries": {
+                "WWWA.AutographRecycling": {
+                    "Id": "WWWA.AutographRecycling",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O)WWWA.AutographedPhoto",
+                            "RequiredCount": 1,
+                        }
+                    ],
+                    "UseFirstValidOutput": true,
+                    "OutputItem": [
+                        {
+                            "Id": "WWWA.AutographedPhotoToGenuineAutograph",
+                            "Condition": "RANDOM 0.1",
+                            "ItemId": "(O)WWWA.GenuineAutograph",
+                            "MinStack": 1,
+                        },
+                        {
+                            "Id": "WWWA.AutographedPhotoToCloth",
+                            "ItemId": "(O)428",
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                        },
+                    ],
+                    "MinutesUntilReady": 60,
+                    "DaysUntilReady": -1,
+                },
+            },
+        },
+    ]
+    }

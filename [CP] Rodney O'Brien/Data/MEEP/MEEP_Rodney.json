@@ -1,0 +1,276 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.00",
+            "FromFile": "Assets/MEEP_Images/TarotCard.00.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.01",
+            "FromFile": "Assets/MEEP_Images/TarotCard.01.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.02",
+            "FromFile": "Assets/MEEP_Images/TarotCard.02.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.03",
+            "FromFile": "Assets/MEEP_Images/TarotCard.03.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.04",
+            "FromFile": "Assets/MEEP_Images/TarotCard.04.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.05",
+            "FromFile": "Assets/MEEP_Images/TarotCard.05.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.06",
+            "FromFile": "Assets/MEEP_Images/TarotCard.06.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.07",
+            "FromFile": "Assets/MEEP_Images/TarotCard.07.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.08",
+            "FromFile": "Assets/MEEP_Images/TarotCard.08.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.09",
+            "FromFile": "Assets/MEEP_Images/TarotCard.09.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.10",
+            "FromFile": "Assets/MEEP_Images/TarotCard.10.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.11",
+            "FromFile": "Assets/MEEP_Images/TarotCard.11.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.12",
+            "FromFile": "Assets/MEEP_Images/TarotCard.12.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.13",
+            "FromFile": "Assets/MEEP_Images/TarotCard.13.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.14",
+            "FromFile": "Assets/MEEP_Images/TarotCard.14.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.15",
+            "FromFile": "Assets/MEEP_Images/TarotCard.15.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.16",
+            "FromFile": "Assets/MEEP_Images/TarotCard.16.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.17",
+            "FromFile": "Assets/MEEP_Images/TarotCard.17.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.18",
+            "FromFile": "Assets/MEEP_Images/TarotCard.18.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.19",
+            "FromFile": "Assets/MEEP_Images/TarotCard.19.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.20",
+            "FromFile": "Assets/MEEP_Images/TarotCard.20.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.21",
+            "FromFile": "Assets/MEEP_Images/TarotCard.21.png"
+        },
+        // Cartes invers�es
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.01.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.01.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.02.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.02.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.03.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.03.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.04.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.04.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.05.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.05.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.06.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.06.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.07.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.07.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.08.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.08.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.09.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.09.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.10.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.10.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.11.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.11.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.12.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.12.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.13.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.13.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.14.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.14.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.15.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.15.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.16.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.16.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.17.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.17.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.18.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.18.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.19.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.19.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.20.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.20.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/TarotSpread.21.Inverted",
+            "FromFile": "Assets/MEEP_Images/TarotCard.21.Inverted.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "TheFrenchDodoRodney/WeddingPhoto",
+            "FromFile": "Assets/MEEP_Images/WeddingPhoto.png"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ESRodneysHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 25
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image TheFrenchDodoRodney/TarotSpread.{{Random: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 |key=TarotCard}}",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:TarotCard.{{Random: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 |key=TarotCard}}}}"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ESRodneysHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image TheFrenchDodoRodney/WeddingPhoto",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:WeddingPhoto}}"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ESRodneysHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 14
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_Letter {{i18n:MEEP-Board}}",
+                        "MEEP_Letter_Type": "2"
+                    }
+                }
+            ]
+        }
+    ]
+}

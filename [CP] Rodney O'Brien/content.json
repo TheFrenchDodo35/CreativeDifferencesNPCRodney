@@ -1,0 +1,800 @@
+{
+	"Format": "2.0.0",
+	// INCLUDES
+	"Changes": [
+		{
+			"Logname": "The Writer, The Witch & The Wardrobe Assistant Includes",
+			"Action": "Include",
+			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/FishableAutograph.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/ItemGiftTastes.json, Data/Mail.json, Data/MailTriggerActions.json, Data/AutographRecycling.json"
+		},
+		{
+			"Logname": "Rodney Includes",
+			"Action": "Include",
+			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Schedule/RodneyOBrien/RodneyScheduleDialogue.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json,",
+		},
+		{
+			"Logname": "Meredith Includes",
+			"Action": "Include",
+			"FromFile": "Data/Dispositions/Meredith_disposition.json",
+		},
+		//Basic Portraits & Sprites
+		{
+			"LogName": "Portraits Rodney",
+			"Action": "Load",
+			"Target": "Portraits/RodneyOBrien",
+			"FromFile": "Assets/{{Target}}/Rodney_Spring1.png"
+		},
+		{
+			"LogName": "Sprites Rodney",
+			"Action": "Load",
+			"Target": "Characters/RodneyOBrien",
+			"FromFile": "Assets/{{Target}}/Rodney_Spring1.png"
+		},
+		{
+			"LogName": "Portraits Meredith",
+			"Action": "Load",
+			"Target": "Portraits/MeredithOBrien",
+			"FromFile": "Assets/{{Target}}/Portraits-Meredith.png"
+		},
+		{
+			"LogName": "Sprites Meredith",
+			"Action": "Load",
+			"Target": "Characters/MeredithOBrien",
+			"FromFile": "Assets/{{Target}}/MeredithOBrien.png"
+		},
+		{
+			"LogName": "Young Rodney Sprite",
+			"Action": "Load",
+			"Target": "Characters/RodneyOBrien_YoungRodney",
+			"FromFile": "Assets/Characters/RodneyOBrien/RodneyYoungRodney.png",
+		},
+		{
+			"LogName": "Child Meredith Sprite",
+			"Action": "Load",
+			"Target": "Characters/MeredithOBrien_ChildMeredith",
+			"FromFile": "Assets/TempActors/ChildMeredith.png",
+		},
+	],
+	/*
+   _____ ____  _   _ ______ _____ _____ 
+  / ____/ __ \| \ | |  ____|_   _/ ____|
+ | |   | |  | |  \| | |__    | || |  __ 
+ | |   | |  | | . ` |  __|   | || | |_ |
+ | |___| |__| | |\  | |     _| || |__| |
+  \_____\____/|_| \_|_|    |_____\_____|                                                                           
+*/
+	"ConfigSchema": {
+		"EnableAutograph": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun.",
+			"Section": "Autograph Spawning"
+		},
+
+		"Silo": {
+			"AllowValues": "Vanilla, Yri",
+			"Default": "Vanilla",
+			"Description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)'",
+			"Section": "Silo's appearance"
+		}
+	},
+	/*
+	  ____                                        _            _____           _                         
+	 |  _ \   _   _   _ __     __ _   _ __ ___   (_)   ___    |_   _|   ___   | | __   ___   _ __    ___ 
+	 | | | | | | | | | '_ \   / _` | | '_ ` _ \  | |  / __|     | |    / _ \  | |/ /  / _ \ | '_ \  / __|
+	 | |_| | | |_| | | | | | | (_| | | | | | | | | | | (__      | |   | (_) | |   <  |  __/ | | | | \__ \
+	 |____/   \__, | |_| |_|  \__,_| |_| |_| |_| |_|  \___|     |_|    \___/  |_|\_\  \___| |_| |_| |___/
+	           |___/                                                                                      
+	*/
+	"DynamicTokens": [
+		//Rasmodia Compatibility
+		{
+			"Name": "WizardGender",
+			"Value": "{{i18n:WizardFemale}}",
+			"When": {
+				"HasMod": "Nom0ri.RomRas"
+			}
+		},
+		{
+			"Name": "WizardGender",
+			"Value": "{{i18n:WizardMale}}",
+			"When": {
+				"HasMod |contains=Nom0ri.RomRas": "false",
+			}
+		},
+		{
+			"Name": "WizardPronoun",
+			"Value": "{{i18n:WizardHer}}",
+			"When": {
+				"HasMod": "Nom0ri.RomRas"
+			}
+		},
+		{
+			"Name": "WizardPronoun",
+			"Value": "{{i18n:WizardHis}}",
+			"When": {
+				"HasMod |contains=Nom0ri.RomRas": "false",
+			}
+		},
+		{
+			"Name": "WizardDialogue1",
+			"Value": "{{i18n:wizard_dialogue_female1}}",
+			"When": {
+				"HasMod": "Nom0ri.RomRas"
+			}
+		},
+		{
+			"Name": "WizardDialogue1",
+			"Value": "{{i18n:wizard_dialogue_male1}}",
+			"When": {
+				"HasMod |contains=Nom0ri.RomRas": "false",
+			}
+		},
+		{
+			"Name": "WizardDialogue2",
+			"Value": "{{i18n:wizard_dialogue_female2}}",
+			"When": {
+				"HasMod": "Nom0ri.RomRas"
+			}
+		},
+		{
+			"Name": "WizardDialogue2",
+			"Value": "{{i18n:wizard_dialogue_male2}}",
+			"When": {
+				"HasMod |contains=Nom0ri.RomRas": "false",
+			}
+		},
+		{
+			"Name": "WizardDialogue3",
+			"Value": "{{i18n:wizard_dialogue_female3}}",
+			"When": {
+				"HasMod": "Nom0ri.RomRas"
+			}
+		},
+		{
+			"Name": "WizardDialogue3",
+			"Value": "{{i18n:wizard_dialogue_male3}}",
+			"When": {
+				"HasMod |contains=Nom0ri.RomRas": "false",
+			}
+		},
+		//Schedule dialogue
+		{
+			"Name": "RodneyPierDialogue",
+			"Value": "{{i18n:rod.001.0}}",
+			"When": {
+				"Hearts:RodneyOBrien": "0, 2"
+			}
+		},
+		{
+			"Name": "RodneyPierDialogue",
+			"Value": "{{i18n:rod.001.1}}",
+			"When": {
+				"Hearts:RodneyOBrien": "4, 6"
+			}
+		},
+		{
+			"Name": "RodneyPierDialogue",
+			"Value": "{{i18n:rod.001.2}}",
+			"When": {
+				"Hearts:RodneyOBrien": "8, 10"
+			}
+		},
+		{
+			"Name": "RodneyPierDialogue",
+			"Value": "{{i18n:rod.001.Romantic}}",
+			"When": {
+				"Relationship:RodneyOBrien |contains=Dating": true
+			}
+		},
+		{
+			"Name": "RodneyMountainDialogue",
+			"Value": "{{i18n:rod.007.0}}",
+			"When": {
+				"Hearts:RodneyOBrien": "0, 2"
+			}
+		},
+		{
+			"Name": "RodneyMountainDialogue",
+			"Value": "{{i18n:rod.007.1}}",
+			"When": {
+				"Hearts:RodneyOBrien": "4, 6"
+			}
+		},
+		{
+			"Name": "RodneyMountainDialogue",
+			"Value": "{{i18n:rod.007.2}}",
+			"When": {
+				"Hearts:RodneyOBrien": "8, 10"
+			}
+		},
+		{
+			"Name": "RodneyMountainDialogue",
+			"Value": "{{i18n:rod.007.Romantic}}",
+			"When": {
+				"Relationship:RodneyOBrien |contains=Dating": true
+			}
+		},
+		//Schedule positions
+		{
+			"Name": "RodneyLibrarySpot",
+			"Value": "23 5 2",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+			}
+		},
+		{
+			"Name": "RodneyLibrarySpot",
+			"Value": "24 12 2",
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			}
+		},
+		{
+			"Name": "RodneyVineyardSheerwaterSpot",
+			"Value": "Custom_LK_ClearingHouse 24 28 3",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+			}
+		},
+		{
+			"Name": "RodneyVineyardSheerwaterSpot",
+			"Value": "Custom_ShearwaterBridge 29 22 2",
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			}
+		},
+		{
+			"Name": "RodneyCoastalGuildVisit",
+			"Value": "1000 Town 68 35 2 frontsit/1500 ArchaeologyHouse {{RodneyLibrarySpot}} read",
+			"When": {
+				"HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail": "false",
+			}
+		},
+		{
+			"Name": "RodneyCoastalGuildVisit",
+			"Value": "1030 Custom_ESCoastalGuild 8 13 3 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1500 Custom_ESCoastalGuild 8 13 2 read",
+			"When": {
+				"HasMod": "DestyNova.Mateo.CP",
+				"HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail": "true",
+			}
+		},
+		{
+			"Name": "RodneyBookwormMobile",
+			"Value": "1130 Custom_RodneysHouse 1 13 0",
+			"When": {
+				"HasMod |contains=Fellowclown.TravelingDreamer": "false",
+			}
+		},
+		{
+			"Name": "RodneyBookwormMobile",
+			"Value": "1130 Custom_Fellowclown_TravelingTrailer 16 16 2 read",
+			"When": {
+				"HasMod": "Fellowclown.TravelingDreamer",
+			}
+		},
+		//Special Order Token
+		{
+			"Name": "SpecialOrderType",
+			"Value": "",
+			"When": {
+				"HasMod |contains=DestyNova.Mateo.CP": "false",
+			}
+		},
+		{
+			"Name": "SpecialOrderType",
+			"Value": "Esca.EMP/ESCoastalGuild",
+			"When": {
+				"HasMod": "DestyNova.Mateo.CP",
+			}
+		},
+		//Dating tokens
+		{
+			"Name": "RodneyDatability",
+			"Value": false,
+			"When": {
+				/*				"HasFlag |contains=DatingRodney": false, */
+				"Relationship:RodneyOBrien |contains=Dating": false
+			}
+		},
+		{
+			"Name": "RodneyDatability",
+			"Value": true,
+			"When": {
+				/*				"HasFlag": "DatingRodney",*/
+				"Relationship:RodneyOBrien |contains=Dating": true
+			}
+		},
+		{
+			"Name": "RomanticRodney",
+			"Value": "Romantic",
+			"When": {
+				"Relationship:RodneyOBrien |contains=Dating": true
+			}
+		},
+		{
+			"Name": "RomanticRodney",
+			"Value": "Platonic",
+			"When": {
+				"Relationship:RodneyOBrien |contains=Dating": false
+			}
+		},
+		//  ___                      _            _____         _                     
+		// | __| __ __  ___   _ _   | |_   ___   |_   _|  ___  | |__  ___   _ _    ___
+		// | _|  \ V / / -_) | ' \  |  _| (_-<     | |   / _ \ | / / / -_) | ' \  (_-<
+		// |___|  \_/  \___| |_||_|  \__| /__/     |_|   \___/ |_\_\ \___| |_||_| /__/
+		{
+			"Name": "EventGunther",
+			"Value": "Gunther",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+			}
+		},
+		{
+			"Name": "EventGunther",
+			"Value": "GuntherSilvian",
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		},
+		// SALOON PARTY//
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "farmer -1000 -1000 0 RodneyOBrien 14 18 1 Gunther 15 18 2 Gus 12 18 3 Emily 10 18 1 Shane 20 17 3 Pam 7 18 1 Harvey 3 21 1 Elliott 11 23 0 Leah 12 21 2 MeredithOBrien 9 22 1 Marnie 16 20 3 Lewis 16 21 3 Caroline 19 21 2 Pierre 19 22 0 Sam 22 20 3 Abigail 22 21 3 Sebastian 21 22 0 Clint 15 23 0",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "farmer -1000 -1000 0 RodneyOBrien 14 18 1 GuntherSilvian 15 18 2 Gus 12 18 3 Emily 10 18 1 Shane 20 17 3 Pam 7 18 1 Harvey 3 21 1 Elliott 11 23 0 Leah 12 21 2 MeredithOBrien 9 22 1 Marnie 16 20 3 Lewis 16 21 3 Caroline 19 21 2 Pierre 19 22 0 Sam 22 20 3 Abigail 22 21 3 Sebastian 21 22 0 Clint 15 23 0",
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Sterling 8 21 0 Henry 9 20 2 Mia 8 20 2",
+			"When": {
+				"HasMod": "Himetarts.ARV.CP"
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} OliverK 15 21 0",
+			"When": {
+				"HasSeenEvent": "57873000",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Nova.Eli 6 21 1 Nova.Dylan 7 23 0",
+			"When": {
+				"HasMod": "TenebrousNova.EliDylan.CP",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Hawthorn 18 20 3",
+			"When": {
+				"HasMod": "TheLoreSeeker.LongLiveTheKing",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Cambria 8 23 0 VoidOrchid 4 13 2",
+			"When": {
+				"HasMod": "Squeaks.MGC.CP",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} JortsCat 17 17 2 JeanCat 16 17 2",
+			"When": {
+				"HasMod": "tiakall.jortsandjean",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Basil 5 20 1 Marie 5 19 1 Zack 10 23 0",
+			"When": {
+				"HasMod": "MineralTownArchitects.MineralTown",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} VivienneLK 17 21 0",
+			"When": {
+				"HasSeenEvent": "57870020",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Anew 7 20 2",
+			"When": {
+				"HasMod": "CreatorKami.TYRSA.CP",
+				"HasSeenEvent": "105090009",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Mateo 6 22 1",
+			"When": {
+				"HasMod": "DestyNova.Mateo.CP",
+				"HasSeenEvent": "12360004",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} PS.Thysania 24 20 3",
+			"When": {
+				"HasMod": "KediDili.ProjectStarlight.CP",
+				"HasSeenEvent": "70030006",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} SenS 3 13 2",
+			"When": {
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP"
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Lyell 6 17 1",
+			"When": {
+				"HasMod": "Fellowclown.Lyell",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Valerie 4 22 1",
+			"When": {
+				"HasMod": "Fellowclown.MagicalFamily",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Dex 6 20 1",
+			"When": {
+				"HasMod": "DefinitelyDaire.TSG.CP",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} DialaSBV 20 20 3 DeryaSBV 20 19 3",
+			"When": {
+				"HasMod": "skellady.SBVCP",
+			}
+		},
+		// LIBRARY GATHERING //
+		{
+			"Name": "Rodney_LibaryTalk",
+			"Value": "farmer -1000 -1000 0 {{EventGunther}} 6 8 2 RodneyOBrien 7 10 3 Gus 4 10 1 Elliott 8 11 3 Leah 3 11 1"
+		},
+		//	{
+		//		"Name": "Rodney_LibaryTalk",
+		//		"Value": "{{Rodney_LibaryTalk}} EdwinaOBrien 7 13 0",
+		//			"When": {
+		//				"HasMod": "TheFrenchDodo.EdwinaOBrien",
+		//				"HasSeenEvent": "134371005",
+		//			}
+		//		},
+		{
+			"Name": "Rodney_LibaryTalk",
+			"Value": "{{Rodney_LibaryTalk}} Anew 8 12 1",
+			"When": {
+				"HasMod": "CreatorKami.TYRSA.CP",
+				"HasSeenEvent": "105090009",
+			},
+		},
+		// NATIONAL LIBRARY EVENT 
+		{
+			"Name": "Rodney_BookReading",
+			"Value": "farmer -1000 -1000 0 {{EventGunther}} -1000 -1000 0 RodneyOBrien 12 11 2 Gus -1000 -1000 0 Elliott -1000 -1000 0 Leah -1000 -1000 0 KatarynaLK -1000 -1000 0 MeredithOBrien -1000 -1000 0"
+		},
+		{
+			"Name": "Rodney_BookReading",
+			"Value": "{{Rodney_BookReading}} Anew -1000 -1000 0",
+			"When": {
+				"HasMod": "CreatorKami.TYRSA.CP",
+				"HasSeenEvent": "105090009",
+			},
+		},
+		{
+			"Name": "Rodney_BookReading",
+			"Value": "{{Rodney_BookReading}}/addTemporaryActor Cameron 16 32 11 12 3 true Character/warp Cameron -1000 -1000 0",
+			"When": {
+				"HasMod": "Lemurkat.NPCJasper",
+			},
+		},
+		{
+			"Name": "Rodney_BookReading_Actors_Warp",
+			"Value": "warp {{EventGunther}} 14 11/warp Gus 19 11/warp Elliott 13 14/warp Leah 14 14/warp farmer 16 43/warp RodneyOBrien 15 43/warp KatarynaLK 20 15/warp MeredithOBrien 15 14"
+		},
+		{
+			"Name": "Rodney_BookReading_Actors_Warp",
+			"Value": "{{Rodney_BookReading_Actors_Warp}}/warp Anew 20 14",
+			"When": {
+				"HasMod": "CreatorKami.TYRSA.CP",
+				"HasSeenEvent": "105090009",
+			},
+		},
+		{
+			"Name": "Rodney_BookReading_Actors_Warp",
+			"Value": "{{Rodney_BookReading_Actors_Warp}}/warp Cameron 21 13",
+			"When": {
+				"HasMod": "Lemurkat.NPCJasper",
+			},
+		},
+		// Poetry reading
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "farmer -1000 -1000 0 RodneyOBrien -1000 -1000 2 Aideen -1000 -1000 0 Jacob -1000 -1000 0 Rosa -1000 -1000 0"
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} MisterGinger -1000 -1000 0",
+			"When": {
+				"HasMod": "Lemurkat.Tristan.CP",
+				"HasSeenEvent": "5295000",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} JosephineK -1000 -1000 0",
+			"When": {
+				"HasSeenEvent": "57873000",
+				"HasSeenEvent |contains=57873005": false,
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} Mateo -1000 -1000 0",
+			"When": {
+				"HasMod": "DestyNova.Mateo.CP",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} Nova.Eli -1000 -1000 0 Nova.Dylan -1000 -1000 0",
+			"When": {
+				"HasMod": "TenebrousNova.EliDylan.CP",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} Trace -1000 -1000 0 Anew -1000 -1000 0",
+			"When": {
+				"HasMod": "CreatorKami.TYRSA.CP",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} Yri -1000 -1000 0",
+			"When": {
+				"HasMod": "yri.yri",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} PlumForrest -1000 -1000 0",
+			"When": {
+				"HasMod": "TiaraPhoenixCupcake.cp.PlumForrest",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} Henry -1000 -1000 0 Sterling -1000 -1000 0",
+			"When": {
+				"HasMod": "Himetarts.ARV.CP"
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} Lavril -1000 -1000 0 Void -1000 -1000 0",
+			"When": {
+				"HasMod": "Arknir27.Lavril",
+				"HasSeenEvent": "63070012",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} SenS -1000 -1000 0",
+			"When": {
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+				"HasSeenEvent": "107701000",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "speak Rosa \"{{i18n:event-134371017.Rosa.PoetryReaction}}$3\"/speak Jacob \"{{i18n:event-134371017.Jacob.PoetryReaction}}$2\"/emote RodneyOBrien 28/pause 300/speak Aideen \"{{i18n:event-134371017.Aideen.PoetryReaction}}$5\"/emote RodneyOBrien 16/pause 200/"
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Mateo \"{{i18n:event-134371017.Mateo.PoetryReaction1}}$7\"/",
+			"When": {
+				"HasMod": "DestyNova.Mateo.CP",
+				"HasFlag |contains=RivalHearts_AideenMateo": true,
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak SenS \"{{i18n:event-134371017.Sen.PoetryReaction}}\"/emote RodneyOBrien 8/",
+			"When": {
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+				"HasSeenEvent": "107701000",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak JosephineK \"{{i18n:event-134371017.Josephine.PoetryReaction}}\"/emote RodneyOBrien 60/",
+			"When": {
+				"HasSeenEvent": "57873000",
+				"HasSeenEvent |contains=57873005": false,
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Void \"{{i18n:event-134371017.Void.PoetryReaction}}\"/speak Lavril \"{{i18n:event-134371017.Lavril.PoetryReaction}}\"/emote RodneyOBrien 32/",
+			"When": {
+				"HasMod": "Arknir27.Lavril",
+				"HasSeenEvent": "63070012",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak MisterGinger \"{{i18n:event-134371017.Tristan.PoetryReaction}}$1\"/emote RodneyOBrien 8/",
+			"When": {
+				"HasMod": "Lemurkat.Tristan.CP",
+				"HasSeenEvent": "5295000",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Mateo \"{{i18n:event-134371017.Mateo.PoetryReaction2}}$9\"/emote RodneyOBrien 28/",
+			"When": {
+				"HasMod": "DestyNova.Mateo.CP",
+				"HasFlag |contains=RivalHearts_AideenMateo": false,
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Nova.Dylan \"{{i18n:event-134371017.Dylan.PoetryReaction1}}$5\"/speak Nova.Eli \"{{i18n:event-134371017.Eli.PoetryReaction}}$3\"/speak Nova.Dylan \"{{i18n:event-134371017.Dylan.PoetryReaction2}}$7\"/emote RodneyOBrien 40/",
+			"When": {
+				"HasMod": "TenebrousNova.EliDylan.CP",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Barron \"{{i18n:event-134371017.Barron.PoetryReaction}}$4\"/emote RodneyOBrien 60/",
+			"When": {
+				"HasMod": "Fellowclown.TravelingDreamer",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Trace \"{{i18n:event-134371017.Trace.PoetryReaction}}$3\"/emote RodneyOBrien 32/speak Anew \"{{i18n:event-134371017.Anew.PoetryReaction}}$13\"/",
+			"When": {
+				"HasMod": "CreatorKami.TYRSA.CP",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Yri \"{{i18n:event-134371017.Yri.PoetryReaction}}$3\"/emote RodneyOBrien 28/",
+			"When": {
+				"HasMod": "yri.yri",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak PlumForrest \"{{i18n:event-134371017.Plum.PoetryReaction}}\"/",
+			"When": {
+				"HasMod": "TiaraPhoenixCupcake.cp.PlumForrest",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Henry \"{{i18n:event-134371017.Henry.PoetryReaction}}$6\"/speak Sterling \"{{i18n:event-134371017.Sterling.PoetryReaction}}$3\"/",
+			"When": {
+				"HasMod": "Himetarts.ARV.CP",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Dex \"{{i18n:event-134371017.Dex.PoetryReaction}}$5\"/shake RodneyOBrien 500/emote RodneyOBrien 16/",
+			"When": {
+				"HasMod": "DefinitelyDaire.TSG.CP",
+			}
+		},
+		//6 hearts shadowfolk
+		{
+			"Name": "ShadowGuy",
+			"Value": "SenS",
+			"When": {
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			}
+		},
+		{
+			"Name": "ShadowGuy",
+			"Value": "Krobus",
+			"When": {
+				"HasMod |contains=7thAxis.LitD.CP": "false",
+				"HasMod |contains=7thAxis.DitR.CP": "false",
+			}
+		},
+		{
+			"Name": "SenOutfit",
+			"Value": "changePortrait SenS Default/changeSprite SenS Default/",
+			"When": {
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			}
+		},
+		{
+			"Name": "SenOutfit",
+			"Value": "",
+			"When": {
+				"HasMod |contains=7thAxis.LitD.CP": "false",
+				"HasMod |contains=7thAxis.DitR.CP": "false",
+			}
+		},
+		//4 hearts saloon
+		{
+			"Name": "4HeartsSaloonSetup",
+			"Value": "farmer -1000 -1000 0 RodneyOBrien 10 21 2 Elliott 9 22 1 Gus 10 18 2 Pam 7 18 1 MeredithOBrien 11 21 2",
+		},
+		{
+			"Name": "4HeartsSaloonSetup",
+			"Value": "{{4HeartsSaloonSetup}} Nova.Eli 17 20 2",
+			"When": {
+				"HasMod": "TenebrousNova.EliDylan.CP",
+			}
+		},
+		{
+			"Name": "4HeartsSaloonSetup",
+			"Value": "{{4HeartsSaloonSetup}} Thompson 27 17 1",
+			"When": {
+				"HasMod": "AndrewJC.APelicanTown",
+			}
+		},
+		{
+			"Name": "4HeartsSaloonSetup",
+			"Value": "{{4HeartsSaloonSetup}} Sigurd 3 19 2",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+			}
+		},
+		{
+			"Name": "4HeartsSaloonSetup",
+			"Value": "{{4HeartsSaloonSetup}} Jello 4 14 2",
+			"When": {
+				"HasMod": "Jellonip.RRRR",
+			}
+		},
+		{
+			"Name": "4HeartsSaloonAnimations",
+			"Value": "animate Gus false true 1000 18 19 20",
+		},
+		{
+			"Name": "4HeartsSaloonAnimations",
+			"Value": "{{4HeartsSaloonAnimations}}/animate Nova.Eli false true 1000 97",
+			"When": {
+				"HasMod": "TenebrousNova.EliDylan.CP",
+			}
+		},
+		{
+			"Name": "4HeartsSaloonAnimations",
+			"Value": "{{4HeartsSaloonAnimations}}/animate Thompson false true 1200 39 38",
+			"When": {
+				"HasMod": "AndrewJC.APelicanTown",
+			}
+		},
+		{
+			"Name": "4HeartsSaloonAnimations",
+			"Value": "{{4HeartsSaloonAnimations}}/animate Sigurd false true 1200 56",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+			}
+		},
+	],
+}

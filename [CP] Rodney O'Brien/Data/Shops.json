@@ -1,0 +1,240 @@
+/*
+Add Marketpalooza shop
+*/
+{
+  "Changes": [
+    { 
+      "Logname": "WWA shops",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        
+        "WWWA.RodneyLedger": { //Rodney House Shop
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "{{InternalAssetKey:Assets/Shops/RodneyHomeShop.png}}",
+              "Dialogues": [
+                {
+                  "Id": "WWWA.RodneyLedgerDialogue",
+                  "Dialogue": "{{i18n:WWWA.RodneyLedger.message}}"
+                }
+              ]
+            },
+          ],
+          "Items": [
+            {
+              "Id": "WWWA.RodneyLedger.PrunusCrown",
+              "ItemId": "(H)WWWA.PrunusCrown",
+              "Price": "3000",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.PinkSummerHat",
+              "ItemId": "(H)WWWA.PinkSummerHat",
+              "Price": "2000",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.EggHat",
+              "ItemId": "(H)WWWA.EggHat",
+              "Price": "2000",
+              "AvailableStockLimit": "Player",
+            },
+           {
+              "Id": "WWWA.RodneyLedger.RodneyWinterStarScarecrow",
+              "ItemId": "(BC)WWWA.RodneyWinterStarScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneySummerOutfitScarecrow",
+              "ItemId": "(BC)WWWA.RodneySummerOutfitScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneyCosplayScarecrow",
+              "ItemId": "(BC)WWWA.RodneyCosplayScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneyEggFestivalScarecrow",
+              "ItemId": "(BC)WWWA.RodneyEggFestivalScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneyBeachOutfitScarecrow",
+              "ItemId": "(BC)WWWA.RodneyBeachOutfitScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+          ]
+        },
+        "WWWA.Bookexchange": { //Book Exchange
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "{{Random:{{InternalAssetKey:Assets/Shops/BookExchangePortrait1.png}}++{{InternalAssetKey:Assets/Shops/BookExchangePortrait2.png}}|inputSeparator=++}}",
+              "Dialogues": [
+                {
+                  "Id": "WWWA.BookexchangeDialogue",
+                  "Dialogue": "{{i18n:WWWA.Bookexchange.message}}"
+                }
+              ]
+            },
+          ],
+          "Items": [
+            {
+              "Id": "WWWA.Bookexchange.Group1",
+              "AvailableStock": 1,
+              "TradeItemId": "WWWA.AutographedPhoto",
+              "TradeItemAmount": 1,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": true,
+              "RandomItemId": [
+                "(O)WWWA.Book.ArcanaCatcherPrunus",
+                "(O)WWWA.Book.ArtifactOrCutlery",
+                "(O)WWWA.Book.CrabsAndWhyIHateThem",
+                "(O)WWWA.Book.DeferenceArlington",
+                "(O)WWWA.Book.FishingForDumbDumbs",
+                "(O)WWWA.Book.GettingChicksToLoveYou",
+                "(O)WWWA.Book.Goblins",
+                "(O)WWWA.Book.GuideToSculptingWithGold",
+                "(O)WWWA.Book.HerpetologyOfFerngill",
+                "(O)WWWA.Book.LunarkinTrollTales",
+                "(O)WWWA.Book.MysteriesOfTheDwarves",
+                "(O)WWWA.Book.PepperRexes",
+                "(O)WWWA.Book.TheBookOfYoba",
+                "(O)WWWA.Book.TheGreatBookOfSlimes",
+                "(O)WWWA.Book.TheGreatTomeOfMayo",
+                "(O)WWWA.Book.TheJojaConspiracy",
+                "(O)WWWA.Book.TheTarotRevealed",
+                "(O)WWWA.Book.WhyPepperRexesAreTheBest",
+              ]
+            },
+            {
+              "Id": "WWWA.Bookexchange.Group2",
+              "AvailableStock": 1,
+              "TradeItemId": "WWWA.AutographedPhoto",
+              "TradeItemAmount": 1,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": true,
+              "RandomItemId": [
+                "(O)WWWA.Book.ArcanaCatcherPrunus",
+                "(O)WWWA.Book.ArtifactOrCutlery",
+                "(O)WWWA.Book.CrabsAndWhyIHateThem",
+                "(O)WWWA.Book.DeferenceArlington",
+                "(O)WWWA.Book.FishingForDumbDumbs",
+                "(O)WWWA.Book.GettingChicksToLoveYou",
+                "(O)WWWA.Book.Goblins",
+                "(O)WWWA.Book.GuideToSculptingWithGold",
+                "(O)WWWA.Book.HerpetologyOfFerngill",
+                "(O)WWWA.Book.LunarkinTrollTales",
+                "(O)WWWA.Book.MysteriesOfTheDwarves",
+                "(O)WWWA.Book.PepperRexes",
+                "(O)WWWA.Book.TheBookOfYoba",
+                "(O)WWWA.Book.TheGreatBookOfSlimes",
+                "(O)WWWA.Book.TheGreatTomeOfMayo",
+                "(O)WWWA.Book.TheJojaConspiracy",
+                "(O)WWWA.Book.TheTarotRevealed",
+                "(O)WWWA.Book.WhyPepperRexesAreTheBest",
+              ]
+            },
+            {
+              "Id": "WWWA.Bookexchange.Group3",
+              "AvailableStock": 1,
+              "TradeItemId": "WWWA.AutographedPhoto",
+              "TradeItemAmount": 1,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": true,
+              "RandomItemId": [
+                "(O)WWWA.Book.ArcanaCatcherPrunus",
+                "(O)WWWA.Book.ArtifactOrCutlery",
+                "(O)WWWA.Book.CrabsAndWhyIHateThem",
+                "(O)WWWA.Book.DeferenceArlington",
+                "(O)WWWA.Book.FishingForDumbDumbs",
+                "(O)WWWA.Book.GettingChicksToLoveYou",
+                "(O)WWWA.Book.Goblins",
+                "(O)WWWA.Book.GuideToSculptingWithGold",
+                "(O)WWWA.Book.HerpetologyOfFerngill",
+                "(O)WWWA.Book.LunarkinTrollTales",
+                "(O)WWWA.Book.MysteriesOfTheDwarves",
+                "(O)WWWA.Book.PepperRexes",
+                "(O)WWWA.Book.TheBookOfYoba",
+                "(O)WWWA.Book.TheGreatBookOfSlimes",
+                "(O)WWWA.Book.TheGreatTomeOfMayo",
+                "(O)WWWA.Book.TheJojaConspiracy",
+                "(O)WWWA.Book.TheTarotRevealed",
+                "(O)WWWA.Book.WhyPepperRexesAreTheBest",
+              ]
+            },
+            {
+              "Id": "WWWA.Bookexchange.Group4",
+              "AvailableStock": 1,
+              "TradeItemId": "WWWA.AutographedPhoto",
+              "TradeItemAmount": 1,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": true,
+              "RandomItemId": [
+                "(O)WWWA.Book.ArcanaCatcherPrunus",
+                "(O)WWWA.Book.ArtifactOrCutlery",
+                "(O)WWWA.Book.CrabsAndWhyIHateThem",
+                "(O)WWWA.Book.DeferenceArlington",
+                "(O)WWWA.Book.FishingForDumbDumbs",
+                "(O)WWWA.Book.GettingChicksToLoveYou",
+                "(O)WWWA.Book.Goblins",
+                "(O)WWWA.Book.GuideToSculptingWithGold",
+                "(O)WWWA.Book.HerpetologyOfFerngill",
+                "(O)WWWA.Book.LunarkinTrollTales",
+                "(O)WWWA.Book.MysteriesOfTheDwarves",
+                "(O)WWWA.Book.PepperRexes",
+                "(O)WWWA.Book.TheBookOfYoba",
+                "(O)WWWA.Book.TheGreatBookOfSlimes",
+                "(O)WWWA.Book.TheGreatTomeOfMayo",
+                "(O)WWWA.Book.TheJojaConspiracy",
+                "(O)WWWA.Book.TheTarotRevealed",
+                "(O)WWWA.Book.WhyPepperRexesAreTheBest",
+              ]
+            },
+            {
+              "Id": "WWWA.Bookexchange.Group5",
+              "AvailableStock": 1,
+              "TradeItemId": "WWWA.AutographedPhoto",
+              "TradeItemAmount": 1,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": true,
+              "RandomItemId": [
+                "(O)WWWA.Book.ArcanaCatcherPrunus",
+                "(O)WWWA.Book.ArtifactOrCutlery",
+                "(O)WWWA.Book.CrabsAndWhyIHateThem",
+                "(O)WWWA.Book.DeferenceArlington",
+                "(O)WWWA.Book.FishingForDumbDumbs",
+                "(O)WWWA.Book.GettingChicksToLoveYou",
+                "(O)WWWA.Book.Goblins",
+                "(O)WWWA.Book.GuideToSculptingWithGold",
+                "(O)WWWA.Book.HerpetologyOfFerngill",
+                "(O)WWWA.Book.LunarkinTrollTales",
+                "(O)WWWA.Book.MysteriesOfTheDwarves",
+                "(O)WWWA.Book.PepperRexes",
+                "(O)WWWA.Book.TheBookOfYoba",
+                "(O)WWWA.Book.TheGreatBookOfSlimes",
+                "(O)WWWA.Book.TheGreatTomeOfMayo",
+                "(O)WWWA.Book.TheJojaConspiracy",
+                "(O)WWWA.Book.TheTarotRevealed",
+                "(O)WWWA.Book.WhyPepperRexesAreTheBest",
+              ]
+            }
+          ]
+        }
+      }
+    },
+  ]
+}

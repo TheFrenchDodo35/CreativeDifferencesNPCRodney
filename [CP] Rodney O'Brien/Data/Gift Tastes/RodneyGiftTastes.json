@@ -1,0 +1,32 @@
+{
+	"Changes": [
+		{
+			"LogName": "NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"RodneyOBrien": "{{i18n:RodLove}}/80 91 253 303 444/{{i18n:RodLike}}/-80 -2 167 306 346 395 424 426/{{i18n:RodDislike}}/-4 78 216 290/{{i18n:RodHate}}/-21 -20 446/{{i18n:RodNeutral}}/NEUTRAL/ ",
+			},
+		},
+		{
+			"LogName": "Rodney Rabbit's Foot Replacers",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "RemoveDelimited",
+					"Target": [
+						"Fields",
+						"RodneyOBrien",
+						"7"
+					],
+					"Search": "446",
+					"Delimiter": " "
+				}
+			],
+			"When": {
+				"Query: {{HasMod |contains=PurpleChickadee.StardropFlower}} OR {{HasMod |contains=LorenOlson.RabbitClovers}} OR {{HasMod |contains=DaisyNiko.RabbitFloof}}": true
+			}
+		},
+	]
+}

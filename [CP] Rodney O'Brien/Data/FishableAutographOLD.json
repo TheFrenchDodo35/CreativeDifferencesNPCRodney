@@ -1,0 +1,704 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"LogName": "Autograph Location Data",
+			"Target": "Data/Locations",
+			"TextOperations": [
+				// indices 4 through 7 refer to seasons spring through winter respectively
+				//Beach					
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Beach",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Beach",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Beach",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Beach",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"Beach",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01",
+					"Delimiter": " "
+				},
+				//Forest
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Forest",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Forest",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Forest",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Forest",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"Forest",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//UndergroundMine
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"UndergroundMine",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"UndergroundMine",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"UndergroundMine",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"UndergroundMine",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"UndergroundMine",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//Desert
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Desert",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Desert",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Desert",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Desert",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"Desert",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//Mountain
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Mountain",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Mountain",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Mountain",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Mountain",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"Mountain",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//Secret Woods
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Woods",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Woods",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Woods",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Woods",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"Woods",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//Sewer
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sewer",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sewer",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sewer",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sewer",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//Bug land
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"BugLand",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"BugLand",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"BugLand",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"BugLand",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//Witch Swamp
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"WitchSwamp",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"WitchSwamp",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"WitchSwamp",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"WitchSwamp",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//IslandNorth
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//IslandSouth
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouth",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouth",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouth",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouth",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"IslandSouth",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//IslandWest
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandWest",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} 2", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} 2",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} 2",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} 2",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"IslandNorth",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//IslandSouthEast
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEast",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEast",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEast",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEast",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"IslandSouthEast",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				//IslandSouthEast
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEastCave",
+						4
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1", //-1 is code for fishable on the beach
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEastCave",
+						5
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEastCave",
+						6
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"IslandSouthEastCave",
+						7
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} -1",
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+				{
+					"Operation": "Prepend",
+					"Target": [
+						"Fields",
+						"IslandSouthEastCave",
+						8
+					],
+					"Value": "{{spacechase0.JsonAssets/ObjectId:An autographed photo}} .01", //0.01 is the probability of digging it in an artifact spot
+					"Delimiter": " " // if there are already values, add a space between them and the new ones
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"LogName": "Autograph Trash Fish Table",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{spacechase0.JsonAssets/ObjectId:An autographed photo}}": "{{i18n:AutographName}}/5/sinker/1/1/600 2600/spring summer fall winter/both/-1/0/.02/0/0",
+			},
+		},
+	]
+}

@@ -1,0 +1,224 @@
+{
+
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "RodneyOBrien": {
+                    "Name": "RodneyOBrien",
+                    "LovedTags": [
+                        "Cappuccino Mousse Cake",
+                        "Personal Pizza",
+                        "Ice Cream Sandwich",
+                        "Black Licorice",
+                        "Hummus Snack Pack",
+                        "Stardrop Sorbet"
+                    ],
+                    "LikedTags": [
+                        "Joja Cola",
+                        "Nachos",
+                        "Salmon Burger",
+                        "Popcorn",
+                        "Fries",
+                        "Salted Peanuts",
+                        "Star Cookie",
+                        "Apple Slices",
+                        "Rock Candy"
+                    ],
+                    "DislikedTags": [
+                        "Kale Smoothie",
+                        "Jasmine Tea",
+                        "Sour Slimes",
+                        "Chocolate Popcorn",
+                        "Jawbreaker",
+                        "Panzanella Salad",
+                        "Truffle Popcorn",
+                        "JojaCorn"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "RodneyOBrien": {
+                    "NPCName": "RodneyOBrien",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_0", //Brave Little Sapling - family, comedy
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.movie.0.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "sprout_leave",
+                                    "Script": "/shake RodneyOBrien 1500/pause 500/message \"{{i18n:spring.movie.0.4}}\"",
+                                    "Text": "{{i18n:spring.movie.0.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.movie.0.3}}"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "spring_movie_1", //Natural Wonders - documentary, family
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.movie.1.1}}"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.movie.1.2}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "summer_movie_0", //Prairie King - action 
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.movie.0.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "PK_villain",
+                                    "Script": "/message \"{{i18n:summer.movie.0.2}}\"",
+                                    "Text": "{{i18n:summer.movie.0.3}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.movie.0.4}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_1", //Wumbus - sci-fi, comedy, family
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.movie.1.1}}"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.movie.1.2}}"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "fall_movie_0", //Mysterium - horror, art
+                            "Response": "hate",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.movie.0.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "mysterium_shadow",
+                                    "Script": "/shake RodneyOBrien 2500/pause 500/message \"{{i18n:fall.movie.0.2}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.movie.0.3}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "fall_movie_1", //Howls in the rain - horror
+                            "Response": "hate",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.movie.1.1}}"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.movie.1.2}}"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "winter_movie_0", //Miracle at Coldstar Ranch - family, romance
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.movie.0.1}}"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.movie.0.2}}"
+                                }
+                            },
+                            "ID": "reaction_6"
+                        },
+                        {
+                            "Tag": "winter_movie_1", //Zuzu City Express - classic, romance
+                            "Response": "hate",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.movie.1.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "zuzucityexpress_mind_heart",
+                                    "Script": "/message \"{{i18n:winter.movie.1.2}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.movie.1.3}}"
+                                }
+                            },
+                            "ID": "reaction_7"
+                        },
+
+                    ]
+            }
+        } 
+} 
+            
+        ]
+    }

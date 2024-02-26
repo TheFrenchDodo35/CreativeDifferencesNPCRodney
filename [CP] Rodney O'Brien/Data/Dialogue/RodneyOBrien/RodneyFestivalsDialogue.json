@@ -1,0 +1,131 @@
+﻿{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.EggFestival.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.FlowerDance.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Luau.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Jellies.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Fair.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall20",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.RSVgathering.{{RomanticRodney}}}}",
+      },
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.SpiritsEve.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.IceFestival.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.WinterStar.{{RomanticRodney}}}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter28",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.RSVember.{{RomanticRodney}}}}",
+      },
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer20",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Fireworks.{{RomanticRodney}}}}",
+      },
+      "When": {
+        "HasMod": "violetlizabet.FireworksFestival"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer5",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Surfing.{{RomanticRodney}}}}",
+      },
+      "When": {
+        "HasMod": "spacechase0.SurfingFestival"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall3",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Marketpalooza.{{RomanticRodney}}}}",
+      },
+      "When": {
+            "HasMod": "Fellowclown.Nikolai"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring19",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.FashionFestival.{{RomanticRodney}}}}",
+      },
+      "When": {
+            "HasMod": "UNA.FF.CP"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter13",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.LoveFestival.{{RomanticRodney}}}}",
+      },
+      "When": {
+            "HasMod": "AvalonMFX.LoveFestival"
+      }
+    },
+  ]
+}

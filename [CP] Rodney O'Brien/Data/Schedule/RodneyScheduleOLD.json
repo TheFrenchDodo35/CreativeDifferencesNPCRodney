@@ -1,0 +1,157 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney Vanilla Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "rain": "{{Random:610 ElliottHouse 4 5 3 \"Strings\\schedules\\RodneyOBrien:rod.004\"/1730 ElliottHouse 5 8 1 \"Strings\\schedules\\RodneyOBrien:rod.005\"/2000 ElliottHouse 3 5 3 \"Strings\\schedules\\RodneyOBrien:rod.006\"/2200 Custom_RodneysHouse 13 13 0 sleep++610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1800 Custom_RodneysHouse 1 13 0/2200 Custom_RodneysHouse 13 13 0 sleep++610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1100 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1500 Saloon 11 20 0/1730 Custom_RodneysHouse 7 15 0/2000 Custom_RodneysHouse 5 15 0/2030 Custom_RodneysHouse 6 15 0/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "Mon": "{{Random:630 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1000 Saloon 12 22 3 sit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1430 SeedShop 16 29 3/1730 ElliottHouse 4 5 3 \"Strings\\schedules\\RodneyOBrien:rod.004\"/2200 Custom_RodneysHouse 13 13 0 sleep++630 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1000 Custom_EastScarpeInn 35 32 1/1100 Custom_EastScarpeInn 28 26 2 frontsit/1500 Custom_EastScarpe 55 80 2 frontsit/1900 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "Tue": "{{Random:700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.014\"/1130 Custom_RodneysHouse 1 13 0/1800 Custom_EastScarpe 67 110 3 \"Strings\\schedules\\RodneyOBrien:rod.010\"/2300 Custom_RodneysHouse 13 13 0 sleep++700 Custom_EastScarpe 35 116 2 \"Strings\\schedules\\RodneyOBrien:rod.014\"/1130 Custom_RodneysHouse 1 13 0/1800 Custom_EastScarpe 60 113 3/2300 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "Wed": "700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/{{Random:1000 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/++1000 Custom_EastScarpeInn 35 32 1/1100 Custom_EastScarpeInn 28 26 2 frontsit|inputSeparator=++}}/1400 ArchaeologyHouse 23 5 2 read/{{Random:1730 Beach 43 36 2 \"Strings\\schedules\\RodneyOBrien:rod.001\"/2230 Custom_RodneysHouse 13 13 0 sleep++1730 Custom_RodneysHouse 7 15 0/2000 Custom_RodneysHouse 5 15 0/2030 Custom_RodneysHouse 6 15 0/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "spring_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++53 49++65 49++85 87++80 88++18 63++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 23 5 2 read/1800 Custom_LK_ClearingHouse {{Random:24 28 3++15 37 0++18 29 2 frontsit|inputSeparator=++}}/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "summer_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++53 49++65 49++85 87++80 88++18 63++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 23 5 2 read/1800 Custom_LK_ClearingHouse {{Random:24 28 3++15 37 0++18 29 2 frontsit|inputSeparator=++}}/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "fall_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++53 49++65 49++85 87++80 88++18 63++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 23 5 2 read/1800 Custom_LK_ClearingHouse {{Random:24 28 3++15 37 0++18 29 2 frontsit|inputSeparator=++}}/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Thu": "{{Random:630 Custom_EastScarpe 30 61 2/1000 Custom_EastScarpeInn 35 32 1/1100 Custom_EastScarpeInn 28 26 2 frontsit/1430 ArchaeologyHouse 23 5 2 read/1730 Custom_RodneysHouse 1 14 0/2130 Custom_RodneysHouse 9 26 0/2230 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep++610 BathHouse_MensLocker 7 25 0/1200 BathHouse_MensLocker 6 6 2 sport/1800 BathHouse_MensLocker 4 13 0/1900 BathHouse_MensLocker 7 25 0/2000 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "spring_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++53 49++65 49++85 87++80 88++18 63++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 80 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "summer_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++53 49++65 49++85 87++80 88++18 63++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 80 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "fall_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++53 49++65 49++85 87++80 88++18 63++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 80 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:28 99 2++35 75 2++25 21 2 frontsit++23 27 3|inputSeparator=++}}/{{Random:1430 Mountain 80 32 3++1430 Forest 76 98 2++1430 Forest 85 52 2|inputSeparator=++}}/1800 Custom_EastScarpe {{Random:49 114 2++58 65 3++31 68 3|inputSeparator=++}}/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "spring_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Custom_RodneysHouse 12 28 1 \"Strings\\schedules\\RodneyOBrien:rod.008\"/830 Custom_EastScarpe 11 119 2 sunbathing/1130 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1500 Beach 13 40 2 frontsit/1900 Custom_RodneysHouse 1 14 0/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "summer_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Custom_RodneysHouse 12 28 1 \"Strings\\schedules\\RodneyOBrien:rod.008\"/830 Custom_EastScarpe 11 119 2 sunbathing/1130 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1500 Beach 13 40 2 frontsit/1900 Custom_RodneysHouse 1 14 0/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "fall_Sat": "610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Sat": "610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "Sun": "{{Random:610 Custom_ESDeepMountains 86 44 1 \"Strings\\schedules\\RodneyOBrien:rod.007\"/1800 Custom_RodneysHouse 13 13 0 sleep++610 Forest 97 40 2 frontsit/1600 Forest 28 15 0 \"Strings\\schedules\\RodneyOBrien:rod.019\"/2000 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "fall_18": "730 Custom_RodneysHouse 7 7 1/1200 Custom_RodneysHouse 10 27 2/1800 Custom_RodneysHouse 2 32 1/2130 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_15": "730 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1100 Saloon 12 22 3 sit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1430 ArchaeologyHouse 23 5 2 read/1630 Beach 46 21 3 \"Strings\\schedules\\RodneyOBrien:rod.012\"/2200 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_16": "700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1100 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1600 Beach 51 11 2 \"Strings\\schedules\\RodneyOBrien:rod.011\"/2230 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_17": "700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.016\"/1100 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1600 Beach 54 21 2\"Strings\\schedules\\RodneyOBrien:rod.017\"/2230 Custom_RodneysHouse 13 13 0 sleep",
+            },
+        },
+        {
+            "LogName": "Rodney SVR3 Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "spring_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++31 47++73 102++109 103++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 23 5 2 read/1800 Custom_LK_ClearingHouse {{Random:24 28 3++15 37 0++18 29 2 frontsit|inputSeparator=++}}/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "summer_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++31 47++73 102++109 103++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 23 5 2 read/1800 Custom_LK_ClearingHouse {{Random:24 28 3++15 37 0++18 29 2 frontsit|inputSeparator=++}}/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "fall_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++31 47++73 102++109 103++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 23 5 2 read/1800 Custom_LK_ClearingHouse {{Random:24 28 3++15 37 0++18 29 2 frontsit|inputSeparator=++}}/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Thu": "{{Random:630 Custom_EastScarpe 30 61 2/1000 Custom_EastScarpeInn 35 32 1/1100 Custom_EastScarpeInn 28 26 2 frontsit/1430 ArchaeologyHouse 23 5 2 read/1730 Custom_RodneysHouse 1 14 0/2130 Custom_RodneysHouse 9 26 0/2230 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep++610 BathHouse_MensLocker 7 25 0/1200 BathHouse_MensLocker 6 6 2 sport/1800 BathHouse_MensLocker 4 13 0/1900 BathHouse_MensLocker 7 25 0/2000 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "spring_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++31 47++73 102++109 103++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 79 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "summer_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++31 47++73 102++109 103++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 79 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "fall_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++31 47++73 102++109 103++15 12++80 59|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 79 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:27 100 2++38 68 2 frontsit++17 12 2 frontsit++23 27 3|inputSeparator=++}}/{{Random:1430 Mountain 79 32 3++1430 Forest 77 99 2++1430 Forest 85 52 2|inputSeparator=++}}/1800 Custom_EastScarpe {{Random:49 114 2++58 65 3++31 68 3|inputSeparator=++}}/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "spring_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Custom_RodneysHouse 12 28 1 \"Strings\\schedules\\RodneyOBrien:rod.008\"/830 Custom_EastScarpe 11 119 2 sunbathing/1130 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1500 Beach 13 39 2 frontsit/1900 Custom_RodneysHouse 1 14 0/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "summer_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Custom_RodneysHouse 12 28 1 \"Strings\\schedules\\RodneyOBrien:rod.008\"/830 Custom_EastScarpe 11 119 2 sunbathing/1130 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1500 Beach 13 39 2 frontsit/1900 Custom_RodneysHouse 1 14 0/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "fall_Sat": "610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Sat": "610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "Sun": "{{Random:610 Custom_ESDeepMountains 86 44 1 \"Strings\\schedules\\RodneyOBrien:rod.007\"/1800 Custom_RodneysHouse 13 13 0 sleep++610 Forest 97 40 2 frontsit/1600 Forest 31 14 0 \"Strings\\schedules\\RodneyOBrien:rod.019\"/2000 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "fall_18": "730 Custom_RodneysHouse 7 7 1/1200 Custom_RodneysHouse 10 27 2/1800 Custom_RodneysHouse 2 32 1/2130 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_15": "730 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1100 Saloon 12 22 3 sit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1430 ArchaeologyHouse 23 5 2 read/1630 Beach 46 21 3 \"Strings\\schedules\\RodneyOBrien:rod.012\"/2200 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_16": "700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1100 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1600 Beach 51 11 2 \"Strings\\schedules\\RodneyOBrien:rod.011\"/2230 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_17": "700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.016\"/1100 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1600 Beach 54 21 2\"Strings\\schedules\\RodneyOBrien:rod.017\"/2230 Custom_RodneysHouse 13 13 0 sleep",
+            },
+            "When": {
+                "HasMod": "DaisyNiko.SVR3",
+            },
+        },
+        {
+            "LogName": "Rodney Saturday Vanilla Bus Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "fall_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Desert 9 11 2 frontsit/1500 Desert 7 32 2/1630 Desert 31 49 2 frontsit/1900 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "winter_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Desert 9 11 2 frontsit/1500 Desert 7 32 2/1630 Desert 31 49  2frontsit/1900 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+            },
+            "When": {
+                "HasFlag": "ccVault",
+            },
+        },
+        {
+            "LogName": "Rodney Saturday SVR3 Bus Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "fall_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Desert 9 11 2 frontsit/1500 Desert 7 32 2/1630 Desert 31 56 2 frontsit/1900 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "winter_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Desert 9 11 2 frontsit/1500 Desert 7 32 2/1630 Desert 31 56 2 frontsit/1900 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+            },
+            "When": {
+                "HasFlag": "ccVault",
+                "HasMod": "DaisyNiko.SVR3",
+
+            },
+        },
+        {
+            "LogName": "Rodney Saturday SVE Bus Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "fall_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Desert 24 17 2 frontsit/1500 Desert 28 45 2/1630 Desert 11 10 frontsit/1900 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "winter_Sat": "{{Random:610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1200 Custom_RodneysHouse 10 27 2/1400 Custom_RodneysHouse 2 32 1 \"Strings\\schedules\\RodneyOBrien:rod.009\"/1600 Custom_RodneysHouse 1 13 0/2330 Custom_RodneysHouse 13 13 0 sleep++610 Desert 15 17 2 frontsit/1500 Desert 10 39 2/1630 Desert 10 10 frontsit/1900 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+            },
+            "When": {
+                "HasFlag": "ccVault",
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+            },
+        },
+        {
+            "LogName": "Rodney MineralTown Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "Tue": "{{Random:700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.014\"/1130 Custom_RodneysHouse 1 13 0/1800 Custom_EastScarpe 67 110 3 \"Strings\\schedules\\RodneyOBrien:rod.010\"/2300 Custom_RodneysHouse 13 13 0 sleep++700 Custom_EastScarpe 35 116 2 \"Strings\\schedules\\RodneyOBrien:rod.014\"/1130 Custom_RodneysHouse 1 13 0/1800 Custom_EastScarpe 60 113 3/2300 Custom_RodneysHouse 13 13 0 sleep++610 Custom_HM_Library 1 7 2 read/1600 Custom_HM_Inn 16 13 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.021\"/2200 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+            },
+            "When": {
+                "HasMod": "MineralTownArchitects.MineralTown",
+            },
+        },
+        {
+            "LogName": "Rodney Schedule SVE",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "Wed": "700 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/{{Random:1000 Saloon 3 19 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.002\"/++1000 Custom_EastScarpeInn 35 32 1/1100 Custom_EastScarpeInn 28 26 2 frontsit|inputSeparator=++}}/1400 ArchaeologyHouse 24 12 2 read/{{Random:1730 Beach 43 36 2 \"Strings\\schedules\\RodneyOBrien:rod.001\"/2230 Custom_RodneysHouse 13 13 0 sleep++1730 Custom_RodneysHouse 7 15 0/2000 Custom_RodneysHouse 5 15 0/2030 Custom_RodneysHouse 6 15 0/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+                "spring_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++66 101++77 39++17 12++15 12++105 56|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 24 12 2 read/1800 Custom_ShearwaterBridge 29 22 2/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "summer_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++66 101++77 39++17 12++15 12++105 56|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 24 12 2 read/1800 Custom_ShearwaterBridge 29 22 2/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "fall_Thu": "630 Custom_EastScarpe 30 61 2/1000 Town {{Random:68 35++66 101++77 39++17 12++15 12++105 56|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/1500 ArchaeologyHouse 24 12 2 read/1800 Custom_ShearwaterBridge 29 22 2/2100 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Thu": "{{Random:630 Custom_EastScarpe 30 61 2/1000 Custom_EastScarpeInn 35 32 1/1100 Custom_EastScarpeInn 28 26 2 frontsit/1430 ArchaeologyHouse 24 12 2 read/1730 Custom_RodneysHouse 1 14 0/2130 Custom_RodneysHouse 9 26 0/2230 Custom_RodneysHouse 8 15 2 read/2330 Custom_RodneysHouse 13 13 0 sleep++610 BathHouse_MensLocker 7 25 0/1330 BathHouse_MensLocker 6 6 2 sport/1800 BathHouse_MensLocker 4 13 0/1900 BathHouse_MensLocker 7 25 0/2000 Custom_RodneysHouse 13 13 0 sleep++|inputSeparator=++}}",
+                "spring_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++66 101++77 39++79 88++15 12++105 56|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 80 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "summer_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++66 101++77 39++79 88++15 12++105 56|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 80 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "fall_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:68 35++66 101++77 39++79 88++15 12++105 56|inputSeparator=++}} 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.000\"/{{Random:1430 Mountain 80 32 3++1430 Forest 73 51 2 frontsit++1500 Forest 100 23 0|inputSeparator=++}}/1830 Custom_EastScarpe {{Random:55 80++53 20++66 10++68 22|inputSeparator=++}} 2 frontsit/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_Fri": "630 Custom_RodneysHouse 4 17 2 sport \"Strings\\schedules\\RodneyOBrien:rod.013\"/1000 Town {{Random:28 99 2++35 75 2++25 21 2 frontsit++23 27 3|inputSeparator=++}}/{{Random:1430 Mountain 80 32 3++1430 Forest 76 98 2++1430 Forest 85 52 2|inputSeparator=++}}/1800 Custom_EastScarpe {{Random:49 114 2++58 65 3++31 68 3|inputSeparator=++}}/2330 Custom_RodneysHouse 13 13 0 sleep",
+                "winter_15": "730 Custom_EastScarpe 19 120 2 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1100 Saloon 12 22 3 sit \"Strings\\schedules\\RodneyOBrien:rod.002\"/1430 ArchaeologyHouse 24 12 2 read/1630 Beach 46 21 3 \"Strings\\schedules\\RodneyOBrien:rod.012\"/2200 Custom_RodneysHouse 13 13 0 sleep",
+            },
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+            },
+        },
+        {
+            "LogName": "Rodney Schedule Spirit's Eve at Scarp Inn",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "fall_27": "610 Custom_RodneysHouse 12 29 2 \"Strings\\schedules\\RodneyOBrien:rod.008\"/1130 Custom_EastScarpeInn 32 33 0 \"Strings\\schedules\\RodneyOBrien:rod.015\"/2000 Town 18 50 2",
+            },
+        },
+ {
+            "LogName": "Rodney Schedule Sunday Vanilla",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "Sun": "{{Random:610 Custom_ESDeepMountains 86 44 1 \"Strings\\schedules\\RodneyOBrien:rod.007\"/1800 Custom_RodneysHouse 13 13 0 sleep++610 Forest 97 40 2 frontsit/1600 Forest 28 15 0 \"Strings\\schedules\\RodneyOBrien:rod.019\"/2000 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+            },
+        },
+        {
+            "LogName": "Rodney Schedule Sunday Ridgeside Village",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RodneyOBrien",
+            "Entries": {
+                "Sun": "{{Random:610 Custom_Ridgeside_RSVCliff 80 25 2 frontsit \"Strings\\schedules\\RodneyOBrien:rod.018\"/1700 Custom_Ridgeside_RidgesideVillage 62 43 2/2100 Custom_RodneysHouse 13 13 0 sleep++610 Custom_ESDeepMountains 86 44 1 \"Strings\\schedules\\RodneyOBrien:rod.007\"/1800 Custom_RodneysHouse 13 13 0 sleep++610 Forest 97 40 2 frontsit/1600 Forest 28 15 0 \"Strings\\schedules\\RodneyOBrien:rod.019\"/2000 Custom_RodneysHouse 13 13 0 sleep|inputSeparator=++}}",
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            },
+        },
+    ]
+}
+//facingDirection - 0 (up), 1 (right), 2 (down), and 3 (left). Defaults to down.

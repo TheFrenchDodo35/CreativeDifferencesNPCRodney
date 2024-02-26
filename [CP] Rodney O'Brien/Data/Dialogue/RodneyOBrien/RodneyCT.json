@@ -1,0 +1,117 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney Conversation Topics",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RodneyOBrien",
+            "Entries": {
+                //Vanilla
+                "joja_Begin": "{{i18n:joja_Begin}}",
+                "cc_Begin": "{{i18n:cc_Begin}}",
+                "cc_Bus": "{{i18n:cc_Bus}}",
+                "cc_Bridge": "{{i18n:cc_Bridge}}",
+                "cc_Complete": "{{i18n:cc_Complete}}",
+                "movieTheater": "{{i18n:movieTheater}}",
+                "pamHouseUpgrade": "{{i18n:pamHouseUpgrade}}",
+                "pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous}}",
+                //This mod
+                "MeetingMeredith": "{{i18n:MeetingMeredith}}",
+                "DwarfStory": "{{i18n:DwarfStory}}",
+                "ShadowfolkStory": "{{i18n:ShadowfolkStory1}}{{WizardGender}}{{i18n:ShadowfolkStory2}}",
+                "EdwinaAppears": "{{i18n:EdwinaAppears}}",
+                "RodStoryReading": "{{i18n:RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:BookLaunchParty}}",
+                "FerngillNationalLibraryReading": "{{i18n:FerngillNationalLibraryReading}}",
+                "RodneyBirthaySuit": "{{i18n:RodneyBirthaySuit}}",
+                "RodneyPoetryReading": "{{i18n:RodneyPoetryReading}}",
+                "RodneyOliverPlotHole": "{{i18n:RodneyOliverPlotHole}}",
+                "RodneyMeetsFievel": "{{i18n:RodneyMeetsFievel}}",
+                //East Scarp
+                "reject_EastScarp_Vintage_Ruby_Ring": "{{i18n:reject_534}}",
+                "Aideen_Garden": "{{i18n:Aideen_Garden}}",
+                // ARV
+                "SterlingTrash": "{{i18n:SterlingTrash}}",
+                "SterlingSwim": "{{i18n:SterlingSwim}}",
+                "SterlingBike": "{{i18n:SterlingBike}}",
+                "SterlingDrugs": "{{i18n:SterlingDrugs}}",
+                "SterlingRelapse": "{{i18n:SterlingRelapse}}",
+                "SterlingApology": "{{i18n:SterlingApology}}",
+                "SterlingRiver": "{{i18n:SterlingRiver}}",
+                //Realistic writer Elliott
+                "elliott_writing_letter1": "{{i18n:elliott_writing_letter1}}",
+                "elliott_writing_letter2": "{{i18n:elliott_writing_letter2}}",
+                "elliott_writing_letter3": "{{i18n:elliott_writing_letter3}}",
+                "elliott_writing_letter4": "{{i18n:elliott_writing_letter4}}",
+                //Juliet & JEssie
+                "JulietGremlin": "{{i18n:JulietGremlin}}",
+                // Juna
+                "JunaBeachBallet": "{{i18n:JunaBeachBallet}}",
+                "JunaForestPicnic": "{{i18n:JunaForestPicnic}}",
+                "BigFootWizard": "{{i18n:BigFootWizard1}}{{WizardGender}}{{i18n:BigFootWizard2}}",
+                // Lavril
+                "LavrilUnlocked": "{{i18n:LavrilUnlocked}}",
+                // Lucikiel hot demon man
+                "LucikielArrives": "{{i18n:LucikielArrives}}",
+                "ReputationIncreased": "{{i18n:ReputationIncreased}}",
+                // Jasper
+                "JasperGone2": "{{i18n:JasperGone2}}",
+                "JasperHomeA": "{{i18n:JasperHomeA}}",
+                // RSV
+                "keahi_prank": "{{i18n:keahi_prank}}",
+                // Yri
+                "YriIntroduction": "{{i18n:YriIntroduction}}",
+                "AfterProposal": "{{i18n:AfterProposal}}",
+                "YriShack": "{{i18n:YriShack}}",
+                // Mateo
+                "MateoAcceptance": "{{i18n:MateoAcceptance}}",
+                "GuildComplete": "{{i18n:GuildComplete}}",
+                // Jean & Jorts
+                "MeetTheCats": "{{i18n:MeetTheCats}}",
+                "DumpsterFishing": "{{i18n:DumpsterFishing}}",
+                "RubberCatting": "{{i18n:RubberCatting}}",
+                // Qi's Pumpkin spice
+                "pumpkin_spice_madness": "{{i18n:pumpkin_spice_madness}}",
+                // TNAG
+                "Lewis_specialnight": "{{i18n:Lewis_specialnight}}",
+                // CopperSun Joja Mods
+                "blackmarketpostCC": "{{i18n:blackmarketpostCC}}",
+                "Shane_Starts_Selling": "{{i18n:Shane_Starts_Selling}}",
+                "j_spring_seedsCT": "{{i18n:j_spring_seedsCT}}",
+                // Eli & Dylan
+                "EliIntro": "{{i18n:EliIntro}}",
+                "DylanIntro": "{{i18n:DylanIntro}}",
+                // TYRSA
+                "TYRSA_AnewCoupleInTown": "{{i18n:TYRSA_AnewCoupleInTown}}",
+                "TYRSA_AnewAndPenny": "{{i18n:TYRSA_AnewAndPenny}}",
+                // More conversation topics
+                "wedding": "{{i18n:wedding}}",
+                "luauBest": "{{i18n:luauBest}}",
+                "luauShorts": "{{i18n:luauShorts}}",
+                "luauPoisoned": "{{i18n:luauPoisoned}}",
+                "divorce": "{{i18n:divorce}}",
+                "babyBoy": "{{i18n:babyBoy}}",
+                "babyGirl": "{{i18n:babyGirl}}",
+                "joja_Complete": "{{i18n:joja_Complete}}",
+                "willyBoatRepaired": "{{i18n:willyBoatRepaired}}",
+                "leoValleyArrival": "{{i18n:leoValleyArrival}}",
+                "islandResortUnlocked": "{{i18n:islandResortUnlocked}}",
+                "railroadEarthquake": "{{i18n:railroadEarthquake}}",
+                "MaruCometSighting": "{{i18n:MaruCometSighting}}",
+                "HaleysCakeWalk": "{{i18n:HaleysCakeWalk}}",
+                "ElliottTourOver": "{{i18n:ElliottTourOver}}",
+                // Mineral Town
+                "MineralTownIntro": "{{i18n:MineralTownIntro}}",
+                // Metalcore goes cottagecore
+                "CamieIntro": "{{i18n:CamieIntro}}",
+                // Unhinged Mayo mod
+                "MayoPlan": "{{i18n:MayoPlan}}",
+                //Fievel
+                "Fievel2H": "{{i18n:Fievel2H}}",
+                "Fievel10H": "{{i18n:Fievel10H}}",
+                //Lurking in the dark
+                "LitD_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
+                "LitD_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
+            }
+        },
+    ]
+}

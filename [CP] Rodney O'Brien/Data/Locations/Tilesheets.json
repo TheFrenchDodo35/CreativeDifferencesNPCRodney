@@ -1,0 +1,42 @@
+{
+    "Changes": [
+ /*
+			  _______ _ _           _               _       
+			 |__   __(_) |         | |             | |      
+				| |   _| | ___  ___| |__   ___  ___| |_ ___ 
+				| |  | | |/ _ \/ __| '_ \ / _ \/ _ \ __/ __|
+				| |  | | |  __/\__ \ | | |  __/  __/ |_\__ \
+				|_|  |_|_|\___||___/_| |_|\___|\___|\__|___/
+ */
+		{
+			"LogName": "Silo Tilesheet Vanilla",
+			"Action": "Load",
+			"Target": "maps/fall_silo, maps/spring_silo, maps/summer_silo, maps/winter_silo",
+			"FromFile": "Assets/Tilesheets/SiloVanilla/{{TargetWithoutPath}}.png,",
+			"When": {
+				"Silo": "Vanilla",
+			}
+		},
+		{
+			"LogName": "Silo Tilesheet Yri Project Yellog",
+			"Action": "Load",
+			"Target": "maps/fall_silo, maps/spring_silo, maps/summer_silo, maps/winter_silo",
+			"FromFile": "Assets/Tilesheets/SiloYri/{{TargetWithoutPath}}.png",
+			"When": {
+				"Silo": "Yri",
+			}
+		},
+		{
+			"LogName": "TheFrenchDodo's Tilesheet",
+			"Action": "Load",
+			"Target": "maps/thefrenchdodo-tilesheet",
+			"FromFile": "Assets/Tilesheets/thefrenchdodo-tilesheet.png",
+		},
+		{
+			"LogName": "Mini library patch seasonals",
+			"Action": "Load",
+			"Target": "maps/spring_MiniLibrary, maps/summer_MiniLibrary, maps/fall_MiniLibrary, maps/winter_MiniLibrary,",
+			"FromFile": "Assets/Tilesheets/MiniLibrary/{{TargetWithoutPath}}.png",
+		},
+        ]
+}

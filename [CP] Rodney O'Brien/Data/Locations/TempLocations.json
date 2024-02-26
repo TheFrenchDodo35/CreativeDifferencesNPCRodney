@@ -1,0 +1,46 @@
+{
+    "Changes": [
+		//  _____                          _       __  __                       
+		// | ____| __   __   ___   _ __   | |_    |  \/  |   __ _   _ __    ___ 
+		// |  _|   \ \ / /  / _ \ | '_ \  | __|   | |\/| |  / _` | | '_ \  / __|
+		// | |___   \ V /  |  __/ | | | | | |_    | |  | | | (_| | | |_) | \__ \
+		// |_____|   \_/    \___| |_| |_|  \__|   |_|  |_|  \__,_| | .__/  |___/
+		//                                                        |_|          
+		{
+			"LogName": "MineStory", //Rodney 6 hearts shadowfolk
+			"Action": "Load",
+			"Target": "Maps/MineStory",
+			"FromFile": "assets/Maps/Mine1.tmx"
+		},
+		{
+			"LogName": "SmoluanuBase", //Rodney 6 hearts dwarf
+			"Action": "Load",
+			"Target": "Maps/SmoluanuBase",
+			"FromFile": "assets/Maps/Mine2.tmx"
+		},
+		{
+			"LogName": "SaloonBookLaunch", //Rodney 8 hearts
+			"Action": "Load",
+			"Target": "Maps/SaloonBookLaunch",
+			"FromFile": "assets/Maps/SaloonBookLaunch.tmx",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+			}
+		},
+		{
+			"LogName": "SaloonBookLaunchSVE", //Rodney 8 hearts
+			"Action": "Load",
+			"Target": "Maps/SaloonBookLaunchSVE",
+			"FromFile": "assets/Maps/SaloonBookLaunchSVE.tmx",
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		},
+		{
+			"LogName": "FlashbackEventMap", //Rodney 8 hearts
+			"Action": "Load",
+			"Target": "Maps/FlashbackEventMap",
+			"FromFile": "assets/Maps/FlashbackEvent.tmx"
+		},
+    ]
+}

@@ -1,0 +1,291 @@
+{
+    "Changes": [
+        {
+            "LogName": "NPC Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RodneyOBrien": {
+                    "DisplayName": "{{i18n:RodneyDisplayName}}",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Neutral",
+                    "BirthSeason": "summer",
+                    "BirthDay": 3,
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": "{{RodneyDatability}}",
+                    "LoveInterest": "Your Mom",
+                    "PerfectionScore": true,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "SocialTab": "UnknownUntilMet",
+                    "Calendar": "HiddenUntilMet",
+                    "ShakePortraits": [8],
+                    "Home": [
+                        {
+                            "ID": "Default",
+                            "Location": "Custom_ESRodneysHouse",
+                            "Tile": {
+                                "X": "13",
+                                "Y": "13",
+                            },
+                            "Direction": "Right"
+                        }
+                    ],
+                    "FriendsAndFamily": {
+                        "Elliott": "{{i18n:RodneyElliottRelationship}}",
+                        "MeredithOBrien": "{{i18n:RodneyMeredithRelationship}}",
+                        "EdwinaOBrien": "{{i18n:RodneyEdwinaRelationship}}",
+                    },
+                    "Appearance": [
+                        //Spring
+                        {
+                            "ID": "Spring Outfit 1",
+                            "Season": "Spring",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Spring1.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Spring1.png}}"
+                        },
+                        {
+                            "ID": "Spring Outfit 1 - Pink",
+                            "Season": "Spring",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Spring1_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Spring1_Pink.png}}"
+                        },
+                        //Summer
+                        {
+                            "ID": "Summer Outfit 1",
+                            "Season": "Summer",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Summer1.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Summer1.png}}"
+                        },
+                        {
+                            "ID": "Summer Outfit 1 - Pink",
+                            "Season": "Summer",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Summer1_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Summer1_Pink.png}}"
+                        },
+                        {
+                            "ID": "Summer Outfit 2",
+                            "Season": "Summer",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Summer2.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Summer2.png}}"
+                        },
+                        {
+                            "ID": "Summer Outfit 2 - Pink",
+                            "Season": "Summer",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Summer2_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Summer2_Pink.png}}"
+                        },
+                        //Fall
+                        {
+                            "ID": "Fall Outfit 1",
+                            "Season": "Fall",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Fall1.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Fall1.png}}"
+                        },
+                        {
+                            "ID": "Fall Outfit 1 - Pink",
+                            "Season": "Fall",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Fall1_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Fall1_Pink.png}}"
+                        },
+                        {
+                            "ID": "Fall Outfit 2",
+                            "Season": "Fall",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Fall2.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Fall2.png}}"
+                        },
+                        {
+                            "ID": "Fall Outfit 2 - Pink",
+                            "Season": "Fall",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Fall2_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Fall2_Pink.png}}"
+                        },                        
+                        //Winter
+                        {
+                            "ID": "Winter Outfit 1",
+                            "Season": "Winter",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Winter1.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Winter1.png}}"
+                        },
+                        {
+                            "ID": "Winter Outfit 1 - Pink",
+                            "Season": "Winter",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Winter1_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Winter1_Pink.png}}"
+                        },
+                        {
+                            "ID": "Winter Outfit 2",
+                            "Season": "Winter",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Winter2.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Winter2.png}}"
+                        },
+                        {
+                            "ID": "Winter Outfit 2 - Pink",
+                            "Season": "Winter",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Winter2_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Winter2_Pink.png}}"
+                        },
+                        //Beach 
+                        {
+                            "ID": "Beach",
+                            "IsIslandAttire": true,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyOBrien_beach.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyOBrien_beach.png}}",
+                            "Precedence": -20
+                        },
+                        //Event 
+                        {
+                            "ID": "Birthday Suit",
+                            "Condition": "EVENT_ID 134371007",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyBirthdaySuit.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyBirthdaySuit.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Breakfast date",
+                            "Condition": "EVENT_ID 134371022",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyOBrienBreakfast.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyOBrienBreakfast.png}}",
+                            "Precedence": -20
+                        },
+
+                        //Festivals
+
+                        {
+                            "ID": "Egg Festival",
+                            "Condition": "EVENT_ID festival_spring13",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyEggFestival.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyEggFestival.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Flower Dance",
+                            "Condition": "EVENT_ID festival_spring24",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyFlowerDancePink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyFlowerDancePink.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Luau",
+                            "Condition": "EVENT_ID festival_summer11",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyLuau.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyLuau.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Moonlight Jellies",
+                            "Condition": "EVENT_ID festival_summer28",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyJellies.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyJellies.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "SDV Fair",
+                            "Condition": "EVENT_ID festival_fall16",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyFair.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyFair.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Spirit's Eve",
+                            "Condition": "EVENT_ID festival_fall27",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneySpiritsEve.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneySpiritsEve.png}}",
+                            "Precedence": -20
+                        },
+
+                        {
+                            "ID": "Ice Festival",
+                            "Condition": "EVENT_ID festival_winter8",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyIceFestival.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyIceFestival.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Winter Star",
+                            "Condition": "EVENT_ID festival_winter25",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyWinterStar.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyWinterStar.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Beach",
+                            "IsIslandAttire": true,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyOBrien_beach.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyOBrien_beach.png}}",
+                            "Precedence": -20
+                        },      
+                        //Modded Festivals
+                        {
+                            "ID": "Fireworks Festival",
+                            "Condition": "EVENT_ID festival_summer20",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney-FireworksFestival.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney-FireworksFestival.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Surfing Festival",
+                            "Condition": "EVENT_ID festival_summer5",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneySurfingFestival.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneySurfingFestival.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Fashion Festival",
+                            "Condition": "EVENT_ID festival_spring19",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneyBlueSuit.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyBlueSuit.png}}",
+                            "Precedence": -20
+                        },
+                        {
+                            "ID": "Marketpalooza",
+                            "Condition": "EVENT_ID festival_fall3",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Fall2_Pink.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Fall2_Pink.png}}",
+                            "Precedence": -20
+                        },
+                    ]
+                },
+                
+                }
+            }
+        ]
+    }
