@@ -4,7 +4,7 @@
         {
             "LogName": "Silo patching",
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "FromFile": "Assets/Maps/Silo_Outdoor.tmx",
             "ToArea": {
                 "X": 86,
@@ -16,28 +16,28 @@
         {
             "LogName": "Rodney House warps",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESRodneysHouse",
-            "FromFile": "Assets/Maps/Custom_ESRodneysHouse.tmx",
+            "Target": "Maps/EastScarp_RodneysHouse",
+            "FromFile": "Assets/Maps/EastScarp_RodneysHouse.tmx",
             "PatchMode": "Replace",
             "AddWarps": [
-                "10 34 Custom_ESRodneysBasement 20 1",
-                "7 34 Custom_EastScarpe 88 32",
+                "10 34 EastScarp_RodneysBasement 20 1",
+                "7 34 EastScarp_Village 88 32",
             ],
         },
         {
             "LogName": "Rodney basement warp",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESRodneysBasement",
-            "FromFile": "Assets/Maps/Custom_ESRodneysBasement.tmx",
+            "Target": "Maps/EastScarp_RodneysBasement",
+            "FromFile": "Assets/Maps/EastScarp_RodneysBasement.tmx",
             "PatchMode": "Replace",
             "AddWarps": [
-                "20 0 Custom_ESRodneysHouse 10 33",
+                "20 0 EastScarp_RodneysHouse 10 33",
             ],
         },
  /*       {
             "LogName": "Silo Warp",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESRodneysHouse",
+            "Target": "Maps/EastScarp_RodneysHouse",
             "MapTiles": [
                 {
                     "Position": {
@@ -46,7 +46,7 @@
                     },
                     "Layer": "Back",
                     "SetProperties": {
-                        "Action": "Warp 20 1 Custom_ESRodneysBasement"
+                        "Action": "Warp 20 1 EastScarp_RodneysBasement"
                     }
                 },
                 {
@@ -56,7 +56,7 @@
                     },
                     "Layer": "Back",
                     "SetProperties": {
-                        "Action": "Warp 88 32 Custom_EastScarpe"
+                        "Action": "Warp 88 32 EastScarp_Village"
                     }
                 }
             ],
@@ -64,7 +64,7 @@
         {
             "LogName": "Sleepover at Rodney's House",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESRodneysHouse",
+            "Target": "Maps/EastScarp_RodneysHouse",
             "MapTiles": [
                 {
                     "Position": { "X": 12, "Y": 13 },

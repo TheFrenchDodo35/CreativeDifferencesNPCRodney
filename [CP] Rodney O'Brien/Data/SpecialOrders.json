@@ -17,24 +17,14 @@
                     "MailToRemoveOnEnd": null,
                     "RandomizedElements": null,
                     "Objectives": [
-                        /*                       {
-                            "Type": "Collect",
-                            "Text": "[Rodney.SpecialOrders.AutographCleanup.Objective_0_Text]",
-                            "RequiredCount": "30",
-					        "Data": {
-								"DropBox": "RodneysDrawer",
-								"DropBoxGameLocation": "Custom_RodneysHouse",
-								"DropBoxIndicatorLocation": "11 24",
-								"AcceptedContextTags": "item_an_autographed_photo"
-							}
-                        }, */
+
                         {
                             "Type": "Donate",
                             "Text": "[Rodney.SpecialOrders.AutographCleanup.Objective_0_Text]",
                             "RequiredCount": "30",
                             "Data": {
                                 "DropBox": "RodneysDrawer",
-                                "DropBoxGameLocation": "Custom_ESRodneysHouse",
+                                "DropBoxGameLocation": "EastScarp_RodneysHouse",
                                 "DropBoxIndicatorLocation": "11 24",
                                 "AcceptedContextTags": "item_an_autographed_photo"
                             }

@@ -223,7 +223,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESRodneysHouse",
+            "Target": "Maps/EastScarp_RodneysHouse",
             "MapTiles": [
                 {
                     "Position": {
@@ -240,7 +240,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESRodneysHouse",
+            "Target": "Maps/EastScarp_RodneysHouse",
             "MapTiles": [
                 {
                     "Position": {
@@ -257,7 +257,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESRodneysHouse",
+            "Target": "Maps/EastScarp_RodneysHouse",
             "MapTiles": [
                 {
                     "Position": {

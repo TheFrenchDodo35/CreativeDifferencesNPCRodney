@@ -28,7 +28,7 @@
                     "Home": [
                         {
                             "ID": "Default",
-                            "Location": "Custom_ES_TNPCWaitingWarpRoom",
+                            "Location": "EastScarp__TNPCWaitingWarpRoom",
                             "Tile": {
                                 "X": "5",
                                 "Y": "13",

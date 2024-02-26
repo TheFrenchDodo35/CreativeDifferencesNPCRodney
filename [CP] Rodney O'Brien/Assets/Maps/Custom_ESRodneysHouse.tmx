@@ -98,7 +98,7 @@
  <objectgroup id="2" name="Back">
   <object id="68" name="TileData" x="112" y="160" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_EastScarpe 88 28"/>
+    <property name="TouchAction" value="Warp EastScarp_Village 88 28"/>
    </properties>
   </object>
  </objectgroup>

@@ -3,7 +3,7 @@
 		{
 			"LogName": "Events Data Blanks",
 			"Action": "Load",
-			"Target": "Data/Events/Custom_ESRodneysHouse, Data/Events/Custom_ESFerngillNationalLibrary, Data/Events/Custom_ESLibraryExterior, Data/Events/Custom_ESRodneysBasement",
+			"Target": "Data/Events/EastScarp_RodneysHouse, Data/Events/EastScarp_FerngillNationalLibrary, Data/Events/EastScarp_LibraryExterior, Data/Events/EastScarp_RodneysBasement",
 			"FromFile": "Data/blank.json"
 		},
 		{

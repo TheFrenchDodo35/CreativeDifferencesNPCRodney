@@ -253,7 +253,7 @@
 		},
 		{
 			"Name": "RodneyCoastalGuildVisit",
-			"Value": "1030 Custom_ESCoastalGuild 8 13 3 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1500 Custom_ESCoastalGuild 8 13 2 read",
+			"Value": "1030 EastScarp_CoastalGuild 8 13 3 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1500 EastScarp_CoastalGuild 8 13 2 read",
 			"When": {
 				"HasMod": "DestyNova.Mateo.CP",
 				"HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail": "true",

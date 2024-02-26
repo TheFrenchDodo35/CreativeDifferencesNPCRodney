@@ -10,7 +10,7 @@
     {
       "LogName": "Maps loading",
       "Action": "Load",
-      "Target": "Maps/Custom_ESRodneysBasement,Maps/Custom_ESRodneysHouse,Maps/Custom_ESFerngillNationalLibrary,Maps/Custom_ESLibraryExterior",
+      "Target": "Maps/EastScarp_RodneysBasement,Maps/EastScarp_RodneysHouse,Maps/EastScarp_FerngillNationalLibrary,Maps/EastScarp_LibraryExterior",
       "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
     },
     //Silo
@@ -19,10 +19,10 @@
       "Action": "EditData",
       "Target": "Data/Locations",
       "Entries": {
-        "Custom_ESRodneysHouse": {
+        "EastScarp_RodneysHouse": {
           "DisplayName": "{{i18n:MapName.ESRodneysHouse}}",
           "CreateOnLoad": {
-            "MapPath": "Maps/Custom_ESRodneysHouse"
+            "MapPath": "Maps/EastScarp_RodneysHouse"
           },
           "DefaultArrivalTile": {
             "X": 7,
@@ -42,10 +42,10 @@
       "Action": "EditData",
       "Target": "Data/Locations",
       "Entries": {
-        "Custom_ESRodneysBasement": {
+        "EastScarp_RodneysBasement": {
           "DisplayName": "{{i18n:MapName.ESRodneysBasement}}",
           "CreateOnLoad": {
-            "MapPath": "Maps/Custom_ESRodneysBasement"
+            "MapPath": "Maps/EastScarp_RodneysBasement"
           },
           "DefaultArrivalTile": {
             "X": 20,
@@ -66,10 +66,10 @@
       "Action": "EditData",
       "Target": "Data/Locations",
       "Entries": {
-        "Custom_ESFerngillNationalLibrary": {
+        "EastScarp_FerngillNationalLibrary": {
           "DisplayName": "{{i18n:MapName.ESFerngillNationalLibrary}}",
           "CreateOnLoad": {
-            "MapPath": "Maps/Custom_ESFerngillNationalLibrary"
+            "MapPath": "Maps/EastScarp_FerngillNationalLibrary"
           },
           "DefaultArrivalTile": {
             "X": 16,
@@ -89,10 +89,10 @@
       "Action": "EditData",
       "Target": "Data/Locations",
       "Entries": {
-        "Custom_ESLibraryExterior": {
+        "EastScarp_LibraryExterior": {
           "DisplayName": "{{i18n:MapName.ESLibraryExterior}}",
           "CreateOnLoad": {
-            "MapPath": "Maps/Custom_ESLibraryExterior"
+            "MapPath": "Maps/EastScarp_LibraryExterior"
           },
           "DefaultArrivalTile": {
             "X": 31,

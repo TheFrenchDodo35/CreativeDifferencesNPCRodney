@@ -26,7 +26,7 @@
                     "Home": [
                         {
                             "ID": "Default",
-                            "Location": "Custom_ESRodneysHouse",
+                            "Location": "EastScarp_RodneysHouse",
                             "Tile": {
                                 "X": "13",
                                 "Y": "13",
