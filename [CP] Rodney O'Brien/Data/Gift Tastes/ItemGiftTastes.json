@@ -291,7 +291,7 @@
                     "Delimiter": " ",
                     "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP", },
                 },
-                //Genuie autograph gift tastes
+                //Genuine autograph gift tastes
                 //Like
                 { //Barron
                     "Operation": "Append",

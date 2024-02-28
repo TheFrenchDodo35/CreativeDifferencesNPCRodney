@@ -981,7 +981,7 @@
   "Rodney.HitBySlingshot": "Who do you think you are to attack two-time award winner, author Rodney O'Brien?$5", //added in 3.0.0
 
   //Custom items //added in 3.0.0
-  //Note for translators: all these items were moved from the JsonAssets pack so you can just port the translation.
+  //Note for translators: most of these items were moved from the JsonAssets pack so you can just port the translation. New items have a comment saying added in 3.0.0
   //Scarecrows
   "WWWA.RodneyBeachOutfitScarecrow": "Rodney Beach Outfit",
   "WWWA.RodneyBeachOutfitScarecrow.Description": "A cardboard cutout of Rodney wearing a beach outfit. It can probably work as a scarecrow.",
@@ -1042,6 +1042,8 @@
   "WWWA.EggHat.Description": "Vincent made this hat. Can't you tell?",
   "WWWA.PinkSummerHat": "Pink Summer Hat",
   "WWWA.PinkSummerHat.Description": "Rodney has the exact same hat.",
+  "WWWA.WinterStarHat": "Purple Winter Star Hat", //added in 3.0.0
+  "WWWA.WinterStarHat.Description": "A very fashionable hat to keep your head warm and look handsome for the Feast Of The Winter Star.", //added in 3.0.0
 
   //Mail //added in 3.0.0
   //Note for translators: all these letters were moved from the Mail Framework Mod pack so you can just port the translation.

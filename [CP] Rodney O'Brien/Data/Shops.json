@@ -41,6 +41,12 @@ Add Marketpalooza shop
               "Price": "2000",
               "AvailableStockLimit": "Player",
             },
+            {
+              "Id": "WWWA.WinterStarHat.EggHat",
+              "ItemId": "(H)WWWA.WinterStarHat",
+              "Price": "2000",
+              "AvailableStockLimit": "Player",
+            },
            {
               "Id": "WWWA.RodneyLedger.RodneyWinterStarScarecrow",
               "ItemId": "(BC)WWWA.RodneyWinterStarScarecrow",

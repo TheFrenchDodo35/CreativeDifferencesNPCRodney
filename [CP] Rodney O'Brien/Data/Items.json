@@ -347,6 +347,7 @@
                 "WWWA.PrunusCrown": "WWWA.PrunusCrown/{{i18n:WWWA.PrunusCrown.Description}}/false/true//{{i18n:WWWA.PrunusCrown}}/0/Mods\\TheFrenchDodo\\PrunusCrown",
                 "WWWA.EggHat": "WWWA.EggHat/{{i18n:WWWA.EggHat.Description}}/false/true//{{i18n:WWWA.EggHat}}/0/Mods\\TheFrenchDodo\\EggHat",
                 "WWWA.PinkSummerHat": "WWWA.PinkSummerHat/{{i18n:WWWA.PinkSummerHat.Description}}/false/true//{{i18n:WWWA.PinkSummerHat}}/0/Mods\\TheFrenchDodo\\PinkSummerHat",
+                "WWWA.WinterStarHat": "WWWA.WinterStarHat/{{i18n:WWWA.WinterStarHat.Description}}/false/true//{{i18n:WWWA.WinterStarHat}}/0/Mods\\TheFrenchDodo\\WinterStarHat",
             }
         },
         {
@@ -366,6 +367,12 @@
             "Action": "Load",
             "Target": "Mods\\TheFrenchDodo\\PinkSummerHat",
             "FromFile": "Assets/Items/Hats/PinkSummerHat.png"
+        },
+        {
+            "Logname": "Rodney Winter Star loading",
+            "Action": "Load",
+            "Target": "Mods\\TheFrenchDodo\\WinterStarHat",
+            "FromFile": "Assets/Items/Hats/WinterStarHat.png"
         },
     	]
 }
