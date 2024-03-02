@@ -433,24 +433,24 @@
   "GiftReaction_RabbitFloof": "DEAR YOBA IT'S SO FLUFFY I'M GONNA DIE.$8",
   "GiftReaction_GiftReaction_RabbitClover": "My my, thanks a lot @. I could always use some good luck!$1",
   //Books reaction 
-  "RodneyReaction.Book.ArcanaCatcherPrunus": "",
-  "RodneyReaction.Book.ArtifactOrCutlery": "",
-  "RodneyReaction.Book.CrabsAndWhyIHateThem": "",
-  "RodneyReaction.Book.DeferenceArlington": "",
-  "RodneyReaction.Book.FishingForDumbDumbs": "",
-  "RodneyReaction.Book.GettingChicksToLoveYou": "",
-  "RodneyReaction.Book.Goblins": "",
-  "RodneyReaction.Book.GuideToSculptingWithGold": "",
-  "RodneyReaction.Book.HerpetologyOfFerngill": "",
-  "RodneyReaction.Book.LunarkinTrollTales": "",
-  "RodneyReaction.Book.MysteriesOfTheDwarves": "",
-  "RodneyReaction.Book.PepperRexes": "",
-  "RodneyReaction.Book.TheBookOfYoba": "",
-  "RodneyReaction.Book.TheGreatBookOfSlimes": "",
-  "RodneyReaction.Book.TheGreatTomeOfMayo": "",
-  "RodneyReaction.Book.TheJojaConspiracy": "",
-  "RodneyReaction.Book.TheTarotRevealed": "",
-  "RodneyReaction.Book.WhyPepperRexesAreTheBest": "",
+  "RodneyReaction.Book.ArcanaCatcherPrunus": "I...$8#$b#I'm not very proud of this book, but I appreciate the sentiment.$2", //added in 3.0.0
+  "RodneyReaction.Book.ArtifactOrCutlery": "Oh thank you! I heard Gunther wrote that book after people kept trying to donate their old silverware to the museum.$1", //added in 3.0.0
+  "RodneyReaction.Book.CrabsAndWhyIHateThem": "Thanks a lot, @! This book is a real masterpiece. Mateo's prose when it comes to expressing their hatred of crabs is worthy of an award. Or two!$1", //added in 3.0.0
+  "RodneyReaction.Book.DeferenceArlington": "Thanks, but you know I already have that, right? I mean, I wrote it.$7",
+  "RodneyReaction.Book.FishingForDumbDumbs": "Thank you, I guess? I don't plan on doing any fishing, though.$7",
+  "RodneyReaction.Book.GettingChicksToLoveYou": "Oh, that's nice! Shane is not the most skilled writer, but he makes up for it with his passion when talking about chickens!$1", //added in 3.0.0
+  "RodneyReaction.Book.Goblins": "Thanks a lot! I love reading about Professor Jasper's research. Goblins are fascinating, aren't they?$1", //added in 3.0.0
+  "RodneyReaction.Book.GuideToSculptingWithGold": "Not this again.$5#$b#I can't believe Lewis wrote a book about the way he spends the town's money for stupid vanity projects.$5", //added in 3.0.0
+  "RodneyReaction.Book.HerpetologyOfFerngill": "Thank you! I like having books about various topics when doing research for a novel.$1#$b#Hmm, maybe this one could inspire a giant lizard monster for my next book?", //added in 3.0.0
+  "RodneyReaction.Book.LunarkinTrollTales": "Oh! How did you know?$8#$b#I love that book! I used to read it to Meredith when she was a kid!$1", //added in 3.0.0
+  "RodneyReaction.Book.MysteriesOfTheDwarves": "Another masterpiece by Professor Jasper! Thank you very much, @!$1", //added in 3.0.0
+  "RodneyReaction.Book.PepperRexes": "Thank you! It's not as good as Mateo's other publications in my opinion, but it's an interesting read.", //added in 3.0.0
+  "RodneyReaction.Book.TheBookOfYoba": "Hmm, thank you, I guess?$7#$b#Sorry, but I'm not religious at all and this kind of books make me uncomfortable.$2", //added in 3.0.0
+  "RodneyReaction.Book.TheGreatBookOfSlimes": "What?$8#$b#Do you know what I hate? Slimes. They're rough and sticky and they get everywhere.$7", //added in 3.0.0
+  "RodneyReaction.Book.TheGreatTomeOfMayo": "Yum, mayonnaise! Thank you, @!$1", //added in 3.0.0
+  "RodneyReaction.Book.TheJojaConspiracy": "Thank you! I think the person who wrote that book deserves the highest honour in the Ferngill Republic.$1", //added in 3.0.0
+  "RodneyReaction.Book.TheTarotRevealed": "According to my tarot deck, this is an excellent gift!$3#$b#Thank you, @. It means a lot that you'd bring me that book.$4", //added in 3.0.0
+  "RodneyReaction.Book.WhyPepperRexesAreTheBest": "Thank you! I really like this book, even though I believe Mateo lacks some objectivity when it comes to Pepper Rexes.$1", //added in 3.0.0
 
   // Schedule dialogue Platonic 
   //the name of the strings has been changed in 2.0.0
