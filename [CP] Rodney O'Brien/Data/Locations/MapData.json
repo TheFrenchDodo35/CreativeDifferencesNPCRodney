@@ -29,12 +29,6 @@
             "Y": 33
           },
           "ExcludeFromNpcPathfinding": false,
-/*            "Music": [
-                    {
-                      "Id": "WWWA.ComfyHouse",
-                      "Track": "WWWA.ComfyHouse",
-                    }
-                  ],*/
           "MusicDefault": "WWWA.ComfyHouse",
           "ArtifactSpots": [],
           "FishAreas": {},
