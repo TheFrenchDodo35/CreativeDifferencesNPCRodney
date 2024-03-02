@@ -76,6 +76,185 @@
                     "Value": "WWWA.Book.ArcanaCatcherPrunus",
                     "Delimiter": " ",
                 },
+                //ArtifactOrCutlery
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 7 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                //GuideToSculptingWithGold
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 7 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 9 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                //CrabsAndWhyIHateThem
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 1 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                //DeferenceArlington
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sophia", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Olivia", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Victor", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                //FishingForDumbDumbs
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sophia", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Olivia", 5 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Victor", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                //Goblins
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.Goblins",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 1 ],
+                    "Value": "WWWA.Book.Goblins",
+                    "Delimiter": " ",
+                },
+                //HerpetologyOfFerngill
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 1 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                //MysteriesOfTheDwarves
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 1 ],
+                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
+                    "Delimiter": " ",
+                },
+                //PepperRexes
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                //TheJojaConspiracy
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MorrisTod", 7 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                //WhyPepperRexesAreTheBest
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "GuntherSilvian", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
             ]
         },
     ]
