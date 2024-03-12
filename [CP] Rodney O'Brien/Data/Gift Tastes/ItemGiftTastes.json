@@ -196,12 +196,12 @@
                     "Value": "WWWA.Book.ArcanaCatcherPrunus",
                     "Delimiter": " ",
                 },
-                { 
+/*               { 
                     "Operation": "Append",
                     "Target": [ "Fields", "MeredithOBrien", 1 ],
                     "Value": "WWWA.Book.ArcanaCatcherPrunus",
                     "Delimiter": " ",
-                },
+                }, */
                 { 
                     "Operation": "Append",
                     "Target": [ "Fields", "Maru", 1 ],
@@ -216,18 +216,12 @@
                     "Delimiter": " ",
                 },
                 //Dislike 
-                { 
+ /*               { 
                     "Operation": "Append",
                     "Target": [ "Fields", "EdwinaOBrien", 5 ],
                     "Value": "WWWA.Book.ArcanaCatcherPrunus",
                     "Delimiter": " ",
-                },
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "RodneyOBrien", 5 ],
-                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
-                    "Delimiter": " ",
-                },
+                },*/
                 //Hate 
                 { 
                     "Operation": "Append",

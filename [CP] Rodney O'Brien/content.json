@@ -10,7 +10,7 @@
 		{
 			"Logname": "Rodney Includes",
 			"Action": "Include",
-			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Schedule/RodneyOBrien/RodneyScheduleDialogue.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json,",
+			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json,",
 		},
 		{
 			"Logname": "Meredith Includes",
@@ -253,7 +253,7 @@
 		},
 		{
 			"Name": "RodneyCoastalGuildVisit",
-			"Value": "1030 EastScarp_CoastalGuild 8 13 3 \"Strings\\schedules\\RodneyOBrien:rod.003\"/1500 EastScarp_CoastalGuild 8 13 2 read",
+			"Value": "1030 EastScarp_CoastalGuild 8 13 3/1500 EastScarp_CoastalGuild 8 13 2 read",
 			"When": {
 				"HasMod": "DN.SnS.CP",
 				"HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail": "true",
