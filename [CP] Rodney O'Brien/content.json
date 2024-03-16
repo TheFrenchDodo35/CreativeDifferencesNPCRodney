@@ -1,16 +1,52 @@
 {
 	"Format": "2.0.0",
+/*
+   _____ ____  _   _ ______ _____ _____ 
+  / ____/ __ \| \ | |  ____|_   _/ ____|
+ | |   | |  | |  \| | |__    | || |  __ 
+ | |   | |  | | . ` |  __|   | || | |_ |
+ | |___| |__| | |\  | |     _| || |__| |
+  \_____\____/|_| \_|_|    |_____\_____|                                                                           
+*/
+	"ConfigSchema": {
+		"EnableAutograph": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun.",
+			"Section": "Autograph Spawning"
+		},
+		"Silo": {
+			"AllowValues": "Vanilla, Yri",
+			"Default": "Vanilla",
+			"Description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)",
+			"Section": "Silo's appearance"
+		},
+		"RodneyPolyamory": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Description": "Choose whether you want Rodney to ask you out on a date when you are already in a relationship. Default is false. Note that you won't ever be able to date both Elliott & Rodney since they are related.",
+			"Section": "Polyamorous Rodney"
+		}
+	},
 	// INCLUDES
 	"Changes": [
 		{
 			"Logname": "The Writer, The Witch & The Wardrobe Assistant Includes",
 			"Action": "Include",
-			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/FishableAutograph.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/Gift Tastes/ItemGiftTastes.json, Data/Mail.json, Data/TriggerActions/MailTriggerActions.json, Data/TriggerActions/JAmigrationTriggerActions.json, Data/AutographRecycling.json, Data/Gift Tastes/ItemGiftTastesSVE.json"
+			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/Gift Tastes/ItemGiftTastes.json, Data/Mail.json, Data/TriggerActions/MailTriggerActions.json, Data/TriggerActions/JAmigrationTriggerActions.json, Data/AutographRecycling.json, Data/Gift Tastes/ItemGiftTastesSVE.json"
 		},
 		{
 			"Logname": "Rodney Includes",
 			"Action": "Include",
 			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json,",
+		},
+		{
+			"LogName": "Rodney's autograph spawn",
+			"Action": "Include",
+			"FromFile": "Data/FishableAutograph.json", 
+			"When": {
+				"EnableAutograph": true,
+			},
 		},
 		{
 			"Logname": "Meredith Includes",
@@ -55,29 +91,6 @@
 			"FromFile": "Assets/TempActors/ChildMeredith.png",
 		},
 	],
-	/*
-   _____ ____  _   _ ______ _____ _____ 
-  / ____/ __ \| \ | |  ____|_   _/ ____|
- | |   | |  | |  \| | |__    | || |  __ 
- | |   | |  | | . ` |  __|   | || | |_ |
- | |___| |__| | |\  | |     _| || |__| |
-  \_____\____/|_| \_|_|    |_____\_____|                                                                           
-*/
-	"ConfigSchema": {
-		"EnableAutograph": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun.",
-			"Section": "Autograph Spawning"
-		},
-
-		"Silo": {
-			"AllowValues": "Vanilla, Yri",
-			"Default": "Vanilla",
-			"Description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)'",
-			"Section": "Silo's appearance"
-		}
-	},
 	/*
 	  ____                                        _            _____           _                         
 	 |  _ \   _   _   _ __     __ _   _ __ ___   (_)   ___    |_   _|   ___   | | __   ___   _ __    ___ 
