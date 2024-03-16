@@ -302,8 +302,8 @@
   "RodneyMeetsFievel": "Don't panic, @, but I think there is a giant rodent living in East Scarp.$8#$b#I'm torn between calling an exterminator or embracing our new mouse overlord. I'm leaning towards embracing it, because I don't wanna hurt such a cute mouse.", //Added in 1.0.8
   "Fievel2H": "I never noticed the cave on the cliff behind my house before. I heard some noise coming from it the other day and I saw Aideen's enormous cat coming out of it. I wonder what's going on.", //Added in 1.0.8
   "Fievel10H": "I finally explored the cave on the cliff behind my house and turns out it's a lovely troglodytic house!$1#$b#And there's a cute, yet giant, mouse living there. He tried to sell me a pufferfish for 3 pieces of cheese so there's that.", //Added in 1.0.8
-  "LitD_CT_ShadowPlay": "I think Elliott's shack has a gas leak or something.#$b#The other night, I was going home after spending the day there, being my usual quality writing coach, and I noticed two people running around near Emily's house.#$b#And they looked exactly like the Shadowfolk from the legends!$8#$b#There is no such thing of course, so my money's on gas leak. Or maybe asbestos.", //added in 2.0.0
-  "LitD_CT_GardenCompleted": "Have you ever visited the cave on the East Scarp beach? That place looks scary.$2#$b#I swear I heard some voices coming from there the other day.$2#$b#Oh well, it's was probably the kids!$1#$b#Right?$2", //added in 2.0.0
+  "LitD_CT_ShadowPlay": "I think Elliott's shack has a gas leak or something.#$b#The other night, I was going home after spending the day there, being my usual quality writing coach, and I noticed two people running around near Emily's house.#$b#And they looked exactly like the Shadowfolk from the legends!$8#$b#There is no such thing of course, so my money's on gas leak. Or maybe asbestos.", 
+  "LitD_CT_GardenCompleted": "Have you ever visited the cave on the East Scarp beach? That place looks scary.$2#$b#I swear I heard some voices coming from there the other day.$2#$b#Oh well, it's was probably the kids!$1#$b#Right?$2", 
   "LitD_CT_SensFlowers": "Have you noticed those beautiful flowers that started growing everywhere? They look like crocuses, but prettier!$1",
   //Festival dialogue Platonic (string name has been edited in 2.0.0 )
   "Rodney.EggFestival.Platonic": "Do you like my hat?$1#$b#I was at the library last week and Vincent, Jas and Eloise were planning on painting eggs for the Egg Festival. Eloise said my head looked like an egg.#$b#Long story short, Vincent made this hat for me. I am pulling it off though.",
@@ -317,27 +317,27 @@
   "Rodney.WinterStar.Platonic": "Merry Winter Star my dear @! I hope you haven't been naughty, otherwise your only present will be some coal and clay!$1#$b#Or worse...#$b#Like, I don't know, having to talk to Clint for more than five minutes, something like that.$7",
   "Rodney.RSVember.Platonic": "What are you wishing for, farmer?$1#$b#Me? Oh, nothing. I have everything I need in this world.#$b#Well... I might wish for another Stellar Skirmishes movie trilogy!$1", //Ember of Resolutions (Ridgeside)
   "Rodney.Fireworks.Platonic": "I'm very happy we can enjoy some beautiful fireworks in the Summer.$1#$b#I just wish this was funded by the local taxes, you know? I'm still wondering what Lewis is doing with that money.$7",
-  "Rodney.Surfing.Platonic": "Hey there farmer! Or should I say surfer?$1#$b#I will be cheering for you during the race.#$b#Don't let me down!$7", //added in 2.0.0
-  "Rodney.Marketpalooza.Platonic": "My dear farmer, I'm very happy to see you here! Would you like to browse my wares?$1#$b#And remember, it's for charity so don't be cheap.$7", //added in 2.0.0
-  "Rodney.FashionFestival.Platonic": "Fancy seeing you there, @! I didn't know you were interested in fashion.$1#$b#Me? Oh, I just pulled this old thing from storage for today.", //added in 2.0.0
-  "Rodney.LoveFestival.Platonic": "You're still young, farmer. Enjoy love and life while you can!$1#$b#Oh don't worry about me. I'm not sad. Just a tiny bit melancholic. All this talk of love reminds me of Annwenn, the love of my life.", //added in 2.0.0
+  "Rodney.Surfing.Platonic": "Hey there farmer! Or should I say surfer?$1#$b#I will be cheering for you during the race.#$b#Don't let me down!$7", 
+  "Rodney.Marketpalooza.Platonic": "My dear farmer, I'm very happy to see you here! Would you like to browse my wares?$1#$b#And remember, it's for charity so don't be cheap.$7", 
+  "Rodney.FashionFestival.Platonic": "Fancy seeing you there, @! I didn't know you were interested in fashion.$1#$b#Me? Oh, I just pulled this old thing from storage for today.", 
+  "Rodney.LoveFestival.Platonic": "You're still young, farmer. Enjoy love and life while you can!$1#$b#Oh don't worry about me. I'm not sad. Just a tiny bit melancholic. All this talk of love reminds me of Annwenn, the love of my life.", 
 
     //Festival dialogue romantic added in 2.0.0
-  "Rodney.EggFestival.Romantic": "Hey there sweetie. Would you like a hat matching mine?$1#$b#Vincent was happy to make this one for me. I'm sure I could ask him to make one for you.#$b#I know it looks a little silly, but I'm convincend I am pulling it off.", //added in 2.0.0
-  "Rodney.FlowerDance.Romantic": "I like this silly yet quaint event much better now that we're dating!$1#$b#I mean, I still don't really like having to wear a suit, but it's worth it if I get the chance to dance with you.$4", //added in 2.0.0
-  "Rodney.Luau.Romantic": "It's great to hang on the beach with everyone, but I still believe that having hot soup in the scorching heat of Summer is the dumbest idea ever.#$b#Especially with pants on.$2#$b#How about we skip the festival and go back to my place so I can get out of my bathing suit and change into my birthday suit$4?", //added in 2.0.0
-  "Rodney.Jellies.Romantic": "Hey sweetie! Be careful not to fall in the water!$8#$b#Jellyfish are beautiful creatures, but they can also be deadly.#$b#Stay close to me and I won't let anything bad happen to you.$4", //added in 2.0.0
-  "Rodney.Fair.Romantic": "Are you enjoying the fair, sweetie?#$b#Me? Oh, I've been trying to find the courage to approach Welwick for hours.#$b#I've always admired their work so this is kind of a 'Notice me, senpai' situation for me.$2", //added in 2.0.0
-  "Rodney.RSVgathering.Romantic": "Hey there sweetie! Do you understand what is happening here? I sure as hell don't.$1#$b#It is some kind of gender-based warfare? Is it just good fun? Did Lenny have a vision in a dream telling her to organize this event?#$b#I guess I'll never know for sure.$1", //added in 2.0.0
-  "Rodney.SpiritsEve.Romantic": "Hello Number One! How are you doing on this fine evening?#$b#Number One? Oh, it's how Captain Pierre-Jean Breton, the lead character of Stellar Gallivant: The Second Genesis, calls his executive officer.#$b#And that's how I feel about you. You're number one in my heart.$4", //added in 2.0.0
-  "Rodney.IceFestival.Romantic": "Are you okay, sweetie? You look cold.#$b#Here, come into my arms and I'll keep you warm.$4", //added in 2.0.0
-  "Rodney.WinterStar.Romantic": "Merry Winter Star, sweetie! I hope you haven't been naughty, otherwise you'll only get some coal and clay!$1#$b#Though, I wouldn't mind getting naughty with you later tonight.$4", //added in 2.0.0
-  "Rodney.RSVember.Romantic": "What are you wishing for, sweetie?$1#$b#Me? Oh, nothing. I have everything I need in this world.#$b#A home, a family I love, a job I like, good friends and... you of course.$4", //added in 2.0.0
-  "Rodney.Fireworks.Romantic": "I'm very happy we can enjoy some beautiful fireworks in the Summer.$1#$b#Why don't you lay down with me so we can hold hands and enjoy the show, sweetie?$4", //added in 2.0.0
-  "Rodney.Surfing.Romantic": "Hey there my sweet farmer! Or should I say my sweet surfer?$1#$b#I will be cheering for you during the race.$1", //added in 2.0.0
-  "Rodney.Marketpalooza.Romantic": "My sweet farmer, I'm very happy to see you here! Would you like to browse my wares?$1#$b#You've already seen all of this, but it's for charity so you could get something to gift away. Like an autographed photo for Mayor Lewis, maybe?", //added in 2.0.0
-  "Rodney.FashionFestival.Romantic": "Fancy seeing you there, sweetie! I'm sure the show's gonna be amazing$1#$b#Do you want to get something from the stalls? Although, I'm not sure you could look any better.$4", //added in 2.0.0
-  "Rodney.LoveFestival.Romantic": "Hello my love! I'm happy you could make it here. All this talk of love would have been so depressing if you hadn't come!$4", //added in 2.0.0
+  "Rodney.EggFestival.Romantic": "Hey there sweetie. Would you like a hat matching mine?$1#$b#Vincent was happy to make this one for me. I'm sure I could ask him to make one for you.#$b#I know it looks a little silly, but I'm convincend I am pulling it off.", 
+  "Rodney.FlowerDance.Romantic": "I like this silly yet quaint event much better now that we're dating!$1#$b#I mean, I still don't really like having to wear a suit, but it's worth it if I get the chance to dance with you.$4", 
+  "Rodney.Luau.Romantic": "It's great to hang on the beach with everyone, but I still believe that having hot soup in the scorching heat of Summer is the dumbest idea ever.#$b#Especially with pants on.$2#$b#How about we skip the festival and go back to my place so I can get out of my bathing suit and change into my birthday suit$4?", 
+  "Rodney.Jellies.Romantic": "Hey sweetie! Be careful not to fall in the water!$8#$b#Jellyfish are beautiful creatures, but they can also be deadly.#$b#Stay close to me and I won't let anything bad happen to you.$4", 
+  "Rodney.Fair.Romantic": "Are you enjoying the fair, sweetie?#$b#Me? Oh, I've been trying to find the courage to approach Welwick for hours.#$b#I've always admired their work so this is kind of a 'Notice me, senpai' situation for me.$2", 
+  "Rodney.RSVgathering.Romantic": "Hey there sweetie! Do you understand what is happening here? I sure as hell don't.$1#$b#It is some kind of gender-based warfare? Is it just good fun? Did Lenny have a vision in a dream telling her to organize this event?#$b#I guess I'll never know for sure.$1", 
+  "Rodney.SpiritsEve.Romantic": "Hello Number One! How are you doing on this fine evening?#$b#Number One? Oh, it's how Captain Pierre-Jean Breton, the lead character of Stellar Gallivant: The Second Genesis, calls his executive officer.#$b#And that's how I feel about you. You're number one in my heart.$4", 
+  "Rodney.IceFestival.Romantic": "Are you okay, sweetie? You look cold.#$b#Here, come into my arms and I'll keep you warm.$4", 
+  "Rodney.WinterStar.Romantic": "Merry Winter Star, sweetie! I hope you haven't been naughty, otherwise you'll only get some coal and clay!$1#$b#Though, I wouldn't mind getting naughty with you later tonight.$4", 
+  "Rodney.RSVember.Romantic": "What are you wishing for, sweetie?$1#$b#Me? Oh, nothing. I have everything I need in this world.#$b#A home, a family I love, a job I like, good friends and... you of course.$4", 
+  "Rodney.Fireworks.Romantic": "I'm very happy we can enjoy some beautiful fireworks in the Summer.$1#$b#Why don't you lay down with me so we can hold hands and enjoy the show, sweetie?$4", 
+  "Rodney.Surfing.Romantic": "Hey there my sweet farmer! Or should I say my sweet surfer?$1#$b#I will be cheering for you during the race.$1", 
+  "Rodney.Marketpalooza.Romantic": "My sweet farmer, I'm very happy to see you here! Would you like to browse my wares?$1#$b#You've already seen all of this, but it's for charity so you could get something to gift away. Like an autographed photo for Mayor Lewis, maybe?", 
+  "Rodney.FashionFestival.Romantic": "Fancy seeing you there, sweetie! I'm sure the show's gonna be amazing$1#$b#Do you want to get something from the stalls? Although, I'm not sure you could look any better.$4", 
+  "Rodney.LoveFestival.Romantic": "Hello my love! I'm happy you could make it here. All this talk of love would have been so depressing if you hadn't come!$4", 
 
   //Strings from maps
   "RodneyCoffee": "It's Rodney's trusted coffee maker. There's a sticky note on it that says 'Writer's fuel'",
@@ -476,17 +476,17 @@
 
   // Schedule dialogue romantic 
   //the name of the strings has been changed in 2.0.0
-  "rod.001.Romantic": "Feel the ocean breeze, sweetie, and let the energy of the Gem Sea flow through you.#$b#Now, how about you and I go skinny-dipping?$4", //added in 2.0.0
-  "RodneyFreeAutographDialogue": "Hey, I know how to make your day better. Here take this!",//added in 2.0.0
-  "rod.007.Romantic": "Hello there my sweet farmer! That's a nice surprise. I didn't expect to see you here. I often come here to enjoy the sights.#$b#Let me know next time you feel like trekking all the way up here, we can make a date out of it!$1",//added in 2.0.0
-  "rod.008.Romantic": "Hello sweetie.$7#$b#Sorry, I'm not fully awake yet.$2#$b#%Rodney takes a sip of coffee.#$b#At least, I already have pants on. But maybe you were hoping otherwise?$4",//added in 2.0.0
-  "rod.011.Romantic": "The Night Market is pretty magical, isn't it, my love?#$b#We should set up a booth next year. I'll offer tarot readings and you can be the eye-candy to lure customers in.$1",//added in 2.0.0
-  "rod.012.Romantic": "I came to see Elliott, and I had completely forgotten that the Night Market was starting today! Did you get me anything, sweetie?$1", //added in 2.0.0
-  "rod.014.Romantic": "You know, I wish I could enjoy this beach without pants sometimes.$4#$b#But if you and I want some privacy, we could always go to the remote beach south of Cherry Orchard and we could wear whatever we want.$4", //added in 2.0.0
-  "rod.015.Romantic": "Isn't this event lovely? Rosa did great!$1#$b#It's good to have our own Spirit's Eve celebration in East Scarp, right?#$b#Oh sweetie, we should get matching costumes next year! That's way we could be the greatest power couple of the festival!$1", //added in 2.0.0
-  "rod.016.Romantic": "I might visit the Night Market again. It leaves tomorrow and we won't be able to enjoy it until next year, will you join me, my love?$1", //added in 2.0.0
-  "rod.017.Romantic": "I'm considering visiting the Mermaid Boat tonight.#$b#For...$2#$b#Research purposes! Yep, that's it. I plan on telling a story about mermaids in an upcoming novel.$1#$b#That is why I want to see the Mermaid Show. Research.$4#$b#Care to join me? I hear it's rather romantic.$4", //added in 2.0.0
-  "rod.018.Romantic": "Hello there, sweetie! The view is pretty amazing from up here, don't you think?#$b#I mean, I love the ocean view in East Scarp, but this is something else. You can see the whole valley!$1", //added in 2.0.0
+  "rod.001.Romantic": "Feel the ocean breeze, sweetie, and let the energy of the Gem Sea flow through you.#$b#Now, how about you and I go skinny-dipping?$4", 
+  "RodneyFreeAutographDialogue": "Hey, I know how to make your day better. Here take this!",
+  "rod.007.Romantic": "Hello there my sweet farmer! That's a nice surprise. I didn't expect to see you here. I often come here to enjoy the sights.#$b#Let me know next time you feel like trekking all the way up here, we can make a date out of it!$1",
+  "rod.008.Romantic": "Hello sweetie.$7#$b#Sorry, I'm not fully awake yet.$2#$b#%Rodney takes a sip of coffee.#$b#At least, I already have pants on. But maybe you were hoping otherwise?$4",
+  "rod.011.Romantic": "The Night Market is pretty magical, isn't it, my love?#$b#We should set up a booth next year. I'll offer tarot readings and you can be the eye-candy to lure customers in.$1",
+  "rod.012.Romantic": "I came to see Elliott, and I had completely forgotten that the Night Market was starting today! Did you get me anything, sweetie?$1", 
+  "rod.014.Romantic": "You know, I wish I could enjoy this beach without pants sometimes.$4#$b#But if you and I want some privacy, we could always go to the remote beach south of Cherry Orchard and we could wear whatever we want.$4", 
+  "rod.015.Romantic": "Isn't this event lovely? Rosa did great!$1#$b#It's good to have our own Spirit's Eve celebration in East Scarp, right?#$b#Oh sweetie, we should get matching costumes next year! That's way we could be the greatest power couple of the festival!$1", 
+  "rod.016.Romantic": "I might visit the Night Market again. It leaves tomorrow and we won't be able to enjoy it until next year, will you join me, my love?$1", 
+  "rod.017.Romantic": "I'm considering visiting the Mermaid Boat tonight.#$b#For...$2#$b#Research purposes! Yep, that's it. I plan on telling a story about mermaids in an upcoming novel.$1#$b#That is why I want to see the Mermaid Show. Research.$4#$b#Care to join me? I hear it's rather romantic.$4", 
+  "rod.018.Romantic": "Hello there, sweetie! The view is pretty amazing from up here, don't you think?#$b#I mean, I love the ocean view in East Scarp, but this is something else. You can see the whole valley!$1", 
   // Movie dialogue 
   "spring.movie.0.1": "I'm not sure what to expect from this movie to be honest. I'm glad to be here with you, though!#$b#Are you they're not airing the new Stellar Skirmishes movie?$7",
   "spring.movie.0.2": "Come on brave little sapling, you can do it!$2",
@@ -850,68 +850,68 @@
   "event-134371018.04": "Eek, a giant talking mouse!$8", //Added in 1.0.8
   "event-134371018.05": "I'm a giant? That's neat!$1", //Added in 1.0.8
   //5 hears event - added in 2.0.0
-  "event-134371004.01": "What a mess.", //added in 2.0.0
-  "event-134371004.02": "Hey! Please come in.", //added in 2.0.0
-  "event-134371004.03": "Yeah, this place is a dump.$2#$b#I didn't exactly plan to move in the Valley in advance. When I bought this place, I emptied my house into a truck and here I was!$1", //added in 2.0.0
-  "event-134371004.04": "So... yeah.", //added in 2.0.0
-  "event-134371004.05": "You really have a lot of useless junk.", //added in 2.0.0
-  "event-134371004.06": "That's a lot... Do you need any help?", //added in 2.0.0
-  "event-134371004.07": "I really do...#$b#But fear not, for I have devised the most ingenious solution to this hoarding problem!$1", //added in 2.0.0
-  "event-134371004.08": "That's really kind of you to ask, @, but no. I have devised the most ingenious solution to this hoarding problem.$1", //added in 2.0.0
-  "event-134371004.09": "I'm gonna set up a ledger upstairs so you can buy some of this stuff. It's a bit of everything, including some promotional material from my publisher.", //added in 2.0.0
-  "event-134371004.10": "So you want to sell me your old stuff?", //added in 2.0.0
-  "event-134371004.11": "Do you have money trouble, Rodney?", //added in 2.0.0
-  "event-134371004.12": "What? No!$8#$b#Well, yes, but it's not for me! I'll give all the money I make from this to Gunther to fund the Library's educational programs!", //added in 2.0.0
-  "event-134371004.13": "No.$7#$b# I'll give all the money I make from this to Gunther to fund the Library's educational programs!", //added in 2.0.0
-  "event-134371004.14": "I'll set up the ledger very soon, now if you'll excuse me, I still have some work to do down here!$1", //added in 2.0.0
-  "event-134371004.15": "You can leave now.", //added in 2.0.0
+  "event-134371004.01": "What a mess.", 
+  "event-134371004.02": "Hey! Please come in.", 
+  "event-134371004.03": "Yeah, this place is a dump.$2#$b#I didn't exactly plan to move in the Valley in advance. When I bought this place, I emptied my house into a truck and here I was!$1", 
+  "event-134371004.04": "So... yeah.", 
+  "event-134371004.05": "You really have a lot of useless junk.", 
+  "event-134371004.06": "That's a lot... Do you need any help?", 
+  "event-134371004.07": "I really do...#$b#But fear not, for I have devised the most ingenious solution to this hoarding problem!$1", 
+  "event-134371004.08": "That's really kind of you to ask, @, but no. I have devised the most ingenious solution to this hoarding problem.$1", 
+  "event-134371004.09": "I'm gonna set up a ledger upstairs so you can buy some of this stuff. It's a bit of everything, including some promotional material from my publisher.", 
+  "event-134371004.10": "So you want to sell me your old stuff?", 
+  "event-134371004.11": "Do you have money trouble, Rodney?", 
+  "event-134371004.12": "What? No!$8#$b#Well, yes, but it's not for me! I'll give all the money I make from this to Gunther to fund the Library's educational programs!", 
+  "event-134371004.13": "No.$7#$b# I'll give all the money I make from this to Gunther to fund the Library's educational programs!", 
+  "event-134371004.14": "I'll set up the ledger very soon, now if you'll excuse me, I still have some work to do down here!$1", 
+  "event-134371004.15": "You can leave now.", 
   //Post Special Order event - added in 2.0.0
-  "event-134371019.01": "That's absolutely perfect, Robin!$1", //added in 2.0.0
-  "event-134371019.02": "Impeccable craftsmanship.", //added in 2.0.0
-  "event-134371019.03": "Thank you both! I love how it turned out. It's more enjoyable than I thought to work on such a small project!$1#$b#Oh, hey @!", //added in 2.0.0
-  "event-134371019.04": "@! I'm glad you're here. What do you think of the new mini-library?$1", //added in 2.0.0
-  "event-134371019.05": "It's simple. In this beautiful and very cute mini-library, you can trade those autographed photos of me for books!$1#$b#Most of these books come from my personal collection. People can drop those photos so I can recycle them and in exchange, they get a book. Everybody wins!$1", //added in 2.0.0
-  "event-134371019.06": "By the way Rodney, why is there so many autographed photos of you everywhere in the Valley?", //added in 2.0.0
-  "event-134371019.07": "That's a bit embarrassing.$2#$b#When I moved to the Valley and started writing again, my publisher had all these photos of me printed because he believed I was on the verge on publishing a new book and he wanted to give me some exposure.#$b#Pretty standard marketing right? Then, and this is the embarrassing part, the plane that was shipping thousands of photos of me had a mishap with its hold.#$b#The cargo wasn't very well secured either and one night, it rained photos of me everywhere in the area.", //added in 2.0.0
-  "event-134371019.08": "My publisher hasn't done anything to fix it and the shipping company went bankrupt. So I'm doing what I can to help.", //added in 2.0.0
-  "event-134371019.09": "That's not supposed to be a funny story!$8", //added in 2.0.0
-  "event-134371019.10": "I'm sorry, Rodney, but it is!$1#$b#I can't stop picturing the night sky full of photos of you!$1", //added in 2.0.0
+  "event-134371019.01": "That's absolutely perfect, Robin!$1", 
+  "event-134371019.02": "Impeccable craftsmanship.", 
+  "event-134371019.03": "Thank you both! I love how it turned out. It's more enjoyable than I thought to work on such a small project!$1#$b#Oh, hey @!", 
+  "event-134371019.04": "@! I'm glad you're here. What do you think of the new mini-library?$1", 
+  "event-134371019.05": "It's simple. In this beautiful and very cute mini-library, you can trade those autographed photos of me for books!$1#$b#Most of these books come from my personal collection. People can drop those photos so I can recycle them and in exchange, they get a book. Everybody wins!$1", 
+  "event-134371019.06": "By the way Rodney, why is there so many autographed photos of you everywhere in the Valley?", 
+  "event-134371019.07": "That's a bit embarrassing.$2#$b#When I moved to the Valley and started writing again, my publisher had all these photos of me printed because he believed I was on the verge on publishing a new book and he wanted to give me some exposure.#$b#Pretty standard marketing right? Then, and this is the embarrassing part, the plane that was shipping thousands of photos of me had a mishap with its hold.#$b#The cargo wasn't very well secured either and one night, it rained photos of me everywhere in the area.", 
+  "event-134371019.08": "My publisher hasn't done anything to fix it and the shipping company went bankrupt. So I'm doing what I can to help.", 
+  "event-134371019.09": "That's not supposed to be a funny story!$8", 
+  "event-134371019.10": "I'm sorry, Rodney, but it is!$1#$b#I can't stop picturing the night sky full of photos of you!$1", 
   //Dating proposal
-  "event-134371020.01": "Hello @.", //added in 2.0.0
-  "event-134371020.02": "Say, I have been meaning to ask you something for a while and...#$b#Dear Yoba, this is so embarrassing.$2", //added in 2.0.0
-  "event-134371020.03": "Do you think you and I should be more than friends?", //added in 2.0.0
-  "event-134371020.04": "I would like that a lot. (ROMANTIC)", //added in 2.0.0
-  "event-134371020.05": "I don't see you as more than a friend, Rodney. (PLATONIC)", //added in 2.0.0
-  "event-134371020.06": "Oh.$8#$b#Well, that's even more embarrassing.$2#$b#Well, let's just pretend this never happened and be on our merry way!$1#$b#See you around town, farmer!", //added in 2.0.0
-  "event-134371020.07": "That's marvelous!$1#$b#Since I'm a gentleman, I'd like to take you out on a proper date!#$b#Meet tonight in East Scarp after 10pm, okay?#$b#I'm looking forward to it!$1", //added in 2.0.0
+  "event-134371020.01": "Hello @.", 
+  "event-134371020.02": "Say, I have been meaning to ask you something for a while and...#$b#Dear Yoba, this is so embarrassing.$2", 
+  "event-134371020.03": "Do you think you and I should be more than friends?", 
+  "event-134371020.04": "I would like that a lot. (ROMANTIC)", 
+  "event-134371020.05": "I don't see you as more than a friend, Rodney. (PLATONIC)", 
+  "event-134371020.06": "Oh.$8#$b#Well, that's even more embarrassing.$2#$b#Well, let's just pretend this never happened and be on our merry way!$1#$b#See you around town, farmer!", 
+  "event-134371020.07": "That's marvelous!$1#$b#Since I'm a gentleman, I'd like to take you out on a proper date!#$b#Meet tonight in East Scarp after 10pm, okay?#$b#I'm looking forward to it!$1", 
   //Dating beach Event - Added in 2.0.0
-  "event-134371021.01": "You came!$1", //added in 2.0.0
-  "event-134371021.02": "I found the perfect spot for our date. I don't go there often because it's not really easy to access, but you are worth it.$4",//added in 2.0.0
-  "event-134371021.03": "Follow me!",//added in 2.0.0
-  "event-134371021.04": "Almost there!",//added in 2.0.0
-  "event-134371021.05": "Here we are, at last!",//added in 2.0.0
-  "event-134371021.06": "So, what do you think? Gus made us some delicious food and helped me carry everything here earlier, including the table!$1",//added in 2.0.0
-  "event-134371021.07": "Do you like it?",//added in 2.0.0
-  "event-134371021.08": "It's gorgeous, I love it!",//added in 2.0.0
-  "event-134371021.09": "It's really nice.",//added in 2.0.0
-  "event-134371021.10": "Not as gorgeous as you, sweetie.$4",//added in 2.0.0
-  "event-134371021.11": "Not as nice as you, sweetie.$4",//added in 2.0.0
-  "event-134371021.12": "Come on, the view is stunning.",//added in 2.0.0
-  "event-134371021.13": "I'm so glad I'm able to share this place with you, sweetie.",//added in 2.0.0
-  "event-134371021.14": "You know, I...#$b#I haven't felt this way in years, @. And truth be told, I didn't expect to feel like this again. I'm an old man and I genuinely believed love and passion were in my past.#$b#But when, I look at you, I just...#$b#%Rodney's biting his lower lips while looking at you.",//added in 2.0.0
-  "event-134371021.15": "My sweet farmer.",//added in 2.0.0
-  "event-134371021.16": "I'm gonna kiss you now.$4",//added in 2.0.0
-  "event-134371021.17": "I can't believe I'm dating Rodney! Life is full of surprises.",//added in 2.0.0
+  "event-134371021.01": "You came!$1", 
+  "event-134371021.02": "I found the perfect spot for our date. I don't go there often because it's not really easy to access, but you are worth it.$4",
+  "event-134371021.03": "Follow me!",
+  "event-134371021.04": "Almost there!",
+  "event-134371021.05": "Here we are, at last!",
+  "event-134371021.06": "So, what do you think? Gus made us some delicious food and helped me carry everything here earlier, including the table!$1",
+  "event-134371021.07": "Do you like it?",
+  "event-134371021.08": "It's gorgeous, I love it!",
+  "event-134371021.09": "It's really nice.",
+  "event-134371021.10": "Not as gorgeous as you, sweetie.$4",
+  "event-134371021.11": "Not as nice as you, sweetie.$4",
+  "event-134371021.12": "Come on, the view is stunning.",
+  "event-134371021.13": "I'm so glad I'm able to share this place with you, sweetie.",
+  "event-134371021.14": "You know, I...#$b#I haven't felt this way in years, @. And truth be told, I didn't expect to feel like this again. I'm an old man and I genuinely believed love and passion were in my past.#$b#But when, I look at you, I just...#$b#%Rodney's biting his lower lips while looking at you.",
+  "event-134371021.15": "My sweet farmer.",
+  "event-134371021.16": "I'm gonna kiss you now.$4",
+  "event-134371021.17": "I can't believe I'm dating Rodney! Life is full of surprises.",
   //Breakfast date
-  "event-134371022.01": "Good morning beautiful!", //added in 2.0.0
-  "event-134371022.02": "I woke up early so I'm making us some breakfast!$1", //added in 2.0.0
-  "event-134371022.03": "I...$2#$b#Okay, if you were wondering, I need to tell you that I don't ever want to get married again.$2#$b#Don't me wrong, I love you and I want to be with you, but I have already done marriage, you know? And it's not what I want for the future.$2#$b#You don't have to say anything, okay? I just needed to get it out there now that we have been dating for a while.#$b#The last few weeks have been wonderful and I hope we have many more to come.$1.#$b#I love you so much, my sweet @.$4", //added in 2.0.0
-  "event-134371022.04": "So, we're good, right?", //added in 2.0.0
-  "event-134371022.05": "Of course we are!", //added in 2.0.0
-  "event-134371022.06": "Yes. And about that breakfast?", //added in 2.0.0
-  "event-134371022.07": "This makes me very happy.$4", //added in 2.0.0
-  "event-134371022.08": "What?$8#$b#Oh yeah, of course! Well, I'm glad we're okay.", //added in 2.0.0
-  "event-134371022.09": "So, how do you like your eggs?", //added in 2.0.0
+  "event-134371022.01": "Good morning beautiful!", 
+  "event-134371022.02": "I woke up early so I'm making us some breakfast!$1", 
+  "event-134371022.03": "I...$2#$b#Okay, if you were wondering, I need to tell you that I don't ever want to get married again.$2#$b#Don't me wrong, I love you and I want to be with you, but I have already done marriage, you know? And it's not what I want for the future.$2#$b#You don't have to say anything, okay? I just needed to get it out there now that we have been dating for a while.#$b#The last few weeks have been wonderful and I hope we have many more to come.$1.#$b#I love you so much, my sweet @.$4", 
+  "event-134371022.04": "So, we're good, right?", 
+  "event-134371022.05": "Of course we are!", 
+  "event-134371022.06": "Yes. And about that breakfast?", 
+  "event-134371022.07": "This makes me very happy.$4", 
+  "event-134371022.08": "What?$8#$b#Oh yeah, of course! Well, I'm glad we're okay.", 
+  "event-134371022.09": "So, how do you like your eggs?", 
 
   //Rodney's autograph name for fishing
   "AutographName": "An autographed photo",
@@ -948,42 +948,42 @@
   "config.EnableAutograph.description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun.",
   "config.section.Autograph Spawning.name": "Autograph Spawning",
   //Special order - added in 2.0.0
-  "Quests.Rodney.SpecialOrders.AutographCleanup.Name": "Autograph clean-up", //added in 2.0.0
-  "Quests.Rodney.SpecialOrders.AutographCleanup.Text": "Promotional photos of myself have been polluting the Valley. Please deliver some to my house so I can have them properly recycled.     -Two-time award winner, author Rodney O'Brien.", //added in 2.0.0
-  "Quests.Rodney.SpecialOrders.AutographCleanup.Objective.0.Text": "Deliver 30 autographed photos of Rodney to the drawer in his kitchen.", //added in 2.0.0
+  "Quests.Rodney.SpecialOrders.AutographCleanup.Name": "Autograph clean-up", 
+  "Quests.Rodney.SpecialOrders.AutographCleanup.Text": "Promotional photos of myself have been polluting the Valley. Please deliver some to my house so I can have them properly recycled.     -Two-time award winner, author Rodney O'Brien.", 
+  "Quests.Rodney.SpecialOrders.AutographCleanup.Objective.0.Text": "Deliver 30 autographed photos of Rodney to the drawer in his kitchen.", 
   //Dating - added in 2.0.0
-  "give_pendant": "I'm flattered, I really am, but...$2#$b#I don't think I want to get married again. I hope you're not mad, sweetie.$2#$b#$Rodney gives you a loving hug.", //added in 2.0.0
-  "pendant_reject": "I don't want to get married again, you already know that right?$2", //added in 2.0.0
-  "bouquet_reject": "I do like flowers, but when I want us to be more serious, I'll let you know.", //added in 2.0.0
+  "give_pendant": "I'm flattered, I really am, but...$2#$b#I don't think I want to get married again. I hope you're not mad, sweetie.$2#$b#$Rodney gives you a loving hug.", 
+  "pendant_reject": "I don't want to get married again, you already know that right?$2", 
+  "bouquet_reject": "I do like flowers, but when I want us to be more serious, I'll let you know.", 
   //Romantic 10H dialogue - added in 2.0.0
-  "spring_Mon10.Romantic": "The kids at the library said you should be hiding me in town for the Egg Festival...#$b#Because my head looks like a giant egg!$1#$b#Ah, kids. So cute, yet so stupid.", //added in 2.0.0
-  "spring_Tue10.Romantic": "Hello sweetie! You'll never guess what I discovered last night. You remember my magical girl novel? Arcana Catcher:Prunus?#$b#Well, turns out despite its failure at launch, it gained some popularity online. People are writing fanfictions and cosplaying as Prunus! They call themselves the Arcanists!$1#$b#That's so cool! I may need to establish a social media presence to engage with them.",  //added in 2.0.0
-  "spring_Wed10.Romantic": "You know sweetie, I'm really grateful for Joja...#$b#Well, without that awful job you used to have there, you would probably never have moved to the Valley and we never would have met...$2#$b#I'm so glad I met you.$4", //added in 2.0.0
-  "spring_Thu10.Romantic": "Hey sweetie, do you know what happens when you don't pay your exorcist?#$b#You get repossessed!$1#$b#Get it?#$b#Although, I may need an exorcist myself because you are looking hauntingly beautiful.$4", //added in 2.0.0
-  "spring_Fri10.Romantic": "Yesterday, I watched a documentary about the Fern Islands and now, I really want to visit again.$2#$b#Last time I went was on spring break when I was a student.#$b#We should go on a romantic getaway there! Just you, me, enjoying the tropical lifestyle in our bathing suits...$4", //added in 2.0.0
-  "spring_Sat10.Romantic": "You know, sweetie, if I were to rate you on a scale of 1 to 10, I'd say you're a 9.#$b#And I'm the 1 you need!$1", //added in 2.0.0
-  "spring_Sun10.Romantic": "Hello sweetie. Say, are you JojaPrime Video?#$b#Because I could lay down and watch you for hours.$4",  //added in 2.0.0
+  "spring_Mon10.Romantic": "The kids at the library said you should be hiding me in town for the Egg Festival...#$b#Because my head looks like a giant egg!$1#$b#Ah, kids. So cute, yet so stupid.", 
+  "spring_Tue10.Romantic": "Hello sweetie! You'll never guess what I discovered last night. You remember my magical girl novel? Arcana Catcher:Prunus?#$b#Well, turns out despite its failure at launch, it gained some popularity online. People are writing fanfictions and cosplaying as Prunus! They call themselves the Arcanists!$1#$b#That's so cool! I may need to establish a social media presence to engage with them.",  
+  "spring_Wed10.Romantic": "You know sweetie, I'm really grateful for Joja...#$b#Well, without that awful job you used to have there, you would probably never have moved to the Valley and we never would have met...$2#$b#I'm so glad I met you.$4", 
+  "spring_Thu10.Romantic": "Hey sweetie, do you know what happens when you don't pay your exorcist?#$b#You get repossessed!$1#$b#Get it?#$b#Although, I may need an exorcist myself because you are looking hauntingly beautiful.$4", 
+  "spring_Fri10.Romantic": "Yesterday, I watched a documentary about the Fern Islands and now, I really want to visit again.$2#$b#Last time I went was on spring break when I was a student.#$b#We should go on a romantic getaway there! Just you, me, enjoying the tropical lifestyle in our bathing suits...$4", 
+  "spring_Sat10.Romantic": "You know, sweetie, if I were to rate you on a scale of 1 to 10, I'd say you're a 9.#$b#And I'm the 1 you need!$1", 
+  "spring_Sun10.Romantic": "Hello sweetie. Say, are you JojaPrime Video?#$b#Because I could lay down and watch you for hours.$4",  
   "summer_Mon10.Romantic": "Abigail is so fun to be around. I love how she keeps talking about eating rocks.#$b#That's why she reminds me so much of the King Of Wands.$3#$b#This tarot arcana is about energy, passion, adventure and impulsiveness. I mean, that's pretty much Abigail!$3", //no change from regular dialogue
-  "summer_Tue10.Romantic": "Do you know how I got the idea for Meredith's name?#$b#You'll never guess!$1#$b#My parents were supposed to have a daughter instead of me and had already chosen the name Meredith for me.$1#$b#They almost named me Meredith but finally settled for Rodney. Naming my daughter Meredith was a nice callback and my parents loved it.$1",  //added in 2.0.0
+  "summer_Tue10.Romantic": "Do you know how I got the idea for Meredith's name?#$b#You'll never guess!$1#$b#My parents were supposed to have a daughter instead of me and had already chosen the name Meredith for me.$1#$b#They almost named me Meredith but finally settled for Rodney. Naming my daughter Meredith was a nice callback and my parents loved it.$1",  
   "summer_Wed10.Romantic": "I haven't published much these past fifteen years and I know some people from my old life are worried about it.#$b#I have enough money to live a comfortable life here and I take pride in the fact that the acquisition of wealth is no longer the driving force of my life.$1#$b#I'm happy that I work to better myself and hopefully the rest of humanity.", //no change from regular dialogue
   "summer_Thu10.Romantic": "After careful consideration, I've decided which tarot arcana suits Leah the best.$3#$b#She's the Knight of Cups!$3#$b#This arcana is about creativity, charm, beauty and imagination. If fits her personality so well.$3", //no change from regular dialogue
-  "summer_Fri10.Romantic": "Hey sweetie! Do you likes sales?#$b#Because clothing is 100% off at my place.$4", //added in 2.0.0
-  "summer_Sat10.Romantic": "One of these nights, we should go on a movie date!#$b#Oh shoot, I remember I'm not allowed to take you to the movie theater!$8#$b#They don’t let you bring in your own snacks.$4", //added in 2.0.0
+  "summer_Fri10.Romantic": "Hey sweetie! Do you likes sales?#$b#Because clothing is 100% off at my place.$4", 
+  "summer_Sat10.Romantic": "One of these nights, we should go on a movie date!#$b#Oh shoot, I remember I'm not allowed to take you to the movie theater!$8#$b#They don’t let you bring in your own snacks.$4", 
    "summer_Sun10.Romantic": "You know farmer @, you did a great job on %farm Farm.#$b#I mean, you left an awful corporate job and turned an abandoned farmland into a thriving farm.#$b#I read somewhere that when we hit our lowest point, we are open to the greatest change.#$b#It made me think of you.$1",
-  "fall_Mon10.Romantic": "Oh no, sweetie! You have something on your butt!$8#$b#It's my eyes.$4", //added in 2.0.0
-  "fall_Tue10.Romantic": "I do my best to be supportive of Elliott's writing, because his parents don't really believe he can make it as writer.$2#$b#He thinks he can do it all alone, and to be honest, he probably can.#$b#While it is always best to believe in oneself, a little help from others can be a great blessing.$1#$b#And I should know, I wouldn't be where I am today without your support, sweetie.$4", //added in 2.0.0
+  "fall_Mon10.Romantic": "Oh no, sweetie! You have something on your butt!$8#$b#It's my eyes.$4", 
+  "fall_Tue10.Romantic": "I do my best to be supportive of Elliott's writing, because his parents don't really believe he can make it as writer.$2#$b#He thinks he can do it all alone, and to be honest, he probably can.#$b#While it is always best to believe in oneself, a little help from others can be a great blessing.$1#$b#And I should know, I wouldn't be where I am today without your support, sweetie.$4", 
   "fall_Wed10.Romantic": "I don't really get how Elliott is fine with living on a derelict shed on the beach. That kid has such a magnetic personality and yet, he choses to hide from the world.$2#$b#That's why he reminds me of The Hermit.$3#$b#This arcana is perfect to describe someone who enjoys being alone and relies on introspection and inner guidance.$3", //no change from regular dialogue
-  "fall_Thu10.Romantic": "You changed a lot since you arrived in the Valley, sweetie. I'm sure your grandfather would be very proud of what you accomplished on %farm farm. I sure am proud of you!", //added in 2.0.0
+  "fall_Thu10.Romantic": "You changed a lot since you arrived in the Valley, sweetie. I'm sure your grandfather would be very proud of what you accomplished on %farm farm. I sure am proud of you!", 
   "fall_Fri10.Romantic": "Now that I've started writing again, I have so many ideas!$1#$b#Those short stories inspired by life in Stardew Valley gave me some new ideas. I would love to write a novel about the Dwarves.#$b#Apparently they referred to themselves as Sky People. Now that would make some quality science fiction!$1", //no change from regular dialogue
   "fall_Sat10.Romantic": "You know what it is...$4#$b#It's tarot time!$3#$b#$y 'Which tarot arcana matches granny Evelyn personality?_The Queen Of Cups_Wrong! The Queen Of Cups is about someone who shows compassion, warmth and kindness while acting as a counselor. It's better suited to Marnie!$3_The King Of Swords_That is correct! The King Of Swords represents mental clarity, intellectual power, authority and truth. I can't think of a tarot arcana more appropriate for her!$3", //no change from regular dialogue
-  "fall_Sun10.Romantic": "Oh, there you are sweetie! You always so busy. Aren't you tired of running through my mind?$4",  //added in 2.0.0
+  "fall_Sun10.Romantic": "Oh, there you are sweetie! You always so busy. Aren't you tired of running through my mind?$4",  
   "winter_Mon10.Romantic": "I'm very proud of Meredith.#$b#She accomplished so much and she's not even thirty years old!#$b#When I was her age, I was still working odd jobs in Zuzu City by day and writing at night.#$b#I can't wait to see what she does next.$1",//no change from regular dialogue
   "winter_Tue10.Romantic": "I was walking on the beach last week and I tripped on a book!#$b#A library book! Buried in the snow!$5#$b#I'm so glad Gunther replaced the previous librarian, that one didn't know how to care of his book collection!",//no change from regular dialogue
-  "winter_Wed10.Romantic": "Tell me sweetie...#$b#Have I ever told you that on Wednesdays, I wear pink?$1#$b#Oh! You should do it as well and we could be The Pink Wednesday Lovers!$1", //added in 2.0.0
-  "winter_Thu10.Romantic": "I'm really grateful for my life here. I enjoy walking around East Scarp, the neighbors are friendly, I can see Elliott almost everyday and it's always a pleasure when Meredith visits!#$b#And I have you to be thankful for as well, my sweet @.$4", //added in 2.0.0
-  "winter_Fri10.Romantic": "You know sweetie, when I first met you, I thought you were pretty dumb and rude.$2#$b#I've never been so wrong! You're smart, gentle and, quite frankly, drop-dead gorgeous.$1", //added in 2.0.0
-  "winter_Sat10.Romantic": "Hello sweetie! There's a new episode of Stellar Gallivant: Uncovering airing tomorrow night!$1#$b#What about Joja Prime Video and chill at my place?$4", //added in 2.0.0
-  "winter_Sun10.Romantic": "I have been wanting to have a little garden near my house for while. I could ask Aideen about planting some tulips.#$b#Then, I'd put your tulips and my tulips together.$4",//added in 2.0.0
+  "winter_Wed10.Romantic": "Tell me sweetie...#$b#Have I ever told you that on Wednesdays, I wear pink?$1#$b#Oh! You should do it as well and we could be The Pink Wednesday Lovers!$1", 
+  "winter_Thu10.Romantic": "I'm really grateful for my life here. I enjoy walking around East Scarp, the neighbors are friendly, I can see Elliott almost everyday and it's always a pleasure when Meredith visits!#$b#And I have you to be thankful for as well, my sweet @.$4", 
+  "winter_Fri10.Romantic": "You know sweetie, when I first met you, I thought you were pretty dumb and rude.$2#$b#I've never been so wrong! You're smart, gentle and, quite frankly, drop-dead gorgeous.$1", 
+  "winter_Sat10.Romantic": "Hello sweetie! There's a new episode of Stellar Gallivant: Uncovering airing tomorrow night!$1#$b#What about Joja Prime Video and chill at my place?$4", 
+  "winter_Sun10.Romantic": "I have been wanting to have a little garden near my house for while. I could ask Aideen about planting some tulips.#$b#Then, I'd put your tulips and my tulips together.$4",
 
   //Locations name //added in 3.0.0
   "MapName.ESRodneysHouse": "Rodney's House", //added in 3.0.0
@@ -1066,8 +1066,8 @@
 
   //Mail //added in 3.0.0
   //Note for translators: all these letters were moved from the Mail Framework Mod pack so you can just port the translation.
-  "Mail.RodneyBookLaunchInvite": "^My dear @,^My book, The Chronicles of Stardew Valley, is getting officialy released soon! I'd like to invite you, along with a couple of very dear friends to a little shindig at the Stardrop Saloon next Friday! Be there by 7 pm, okay?^Dress code is smart casual. I hope to see you there.^Your friend, Rodney O'Brien.^ ^ ^^^^PS: My publisher printed these pictures to promote the book and I don't know what do with them so have a few of them.%item object (O)WWWA.AutographedPhoto 10 %%[#]An invitation from Rodney O'Brien",
-  "Mail.RodneyLibraryTalkInvite": "^Dear @,^Would you meet me at the library at your earliest convenience? There is a thing I'd like to talk to with all my friends!^Your friend, Rodney O'Brien.^PS: I have a box of these photos at home and I don't know what to do with it, so here you go.%item object (O)WWWA.AutographedPhoto 20 %%[#]Meet me at the Library",
+  "Mail.RodneyBookLaunchInvite": "^My dear @,^My book, The Chronicles of Stardew Valley, is getting officially released soon! I'd like to invite you, along with a couple of very dear friends to a little shindig at the Stardrop Saloon next Friday! Be there by 7 pm, okay?^Dress code is smart casual. I hope to see you there.^Your friend, Rodney O'Brien.^ ^ ^^^^PS: My publisher printed these pictures to promote the book and I don't know what do with them so have a few of them.%item object (O)WWWA.AutographedPhoto 10 %%[#]An invitation from Rodney O'Brien",
+  "Mail.RodneyLibraryTalkInvite": "^Dear @,^Would you meet me at the library at your earliest convenience? There is a thing I'd like to talk about with all my friends!^Your friend, Rodney O'Brien.^PS: I have a box of these photos at home and I don't know what to do with it, so here you go.%item object (O)WWWA.AutographedPhoto 20 %%[#]Meet me at the Library",
   "Mail.RodneyNationalLibraryInvite": "My dear friend @,^as promised here are the details concerning the public reading I will be doing at the Ferngill National Library.^The event will happen tomorrow afternoon. We'll need to leave early to go to Zuzu City by bus. Meet me at the bus stop before 10 am, okay?^I look forward to seeing you there.^Your friend, Rodney O'Brien.^PS: I really don't know what to do with these, so here, have a few!%item object (O)WWWA.AutographedPhoto 40 %%[#]Let's visit the National Library",
 }
 /* ++ edit festival dialogue for romance. 

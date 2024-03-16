@@ -189,7 +189,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Farm",
             "Entries": {
-                "134371020/t 600 1000/f RodneyOBrien 2500/e 134371014/w sunny": "continue/64 15/farmer 64 16 2 RodneyOBrien 64 18 0/unskippable/pause 500/speak RodneyOBrien \"{{i18n:event-134371020.01}}\"/emote farmer 8/pause 1000/speak RodneyOBrien \"{{i18n:event-134371020.02}}\"/pause 500/emote farmer 16/pause 1000/question fork0 \"{{i18n:event-134371020.03}}#{{i18n:event-134371020.04}}#{{i18n:event-134371020.05}}#\"/fork DateRodney/pause 500/emote RodneyOBrien 28/addMailReceived RejectedRodney/pause 500/addConversationTopic RejectedRodney 4/speak RodneyOBrien \"{{i18n:event-134371020.06}}\"/pause 100/end",
+                "134371020/t 600 1000/f RodneyOBrien 2500/e 134371014/w sunny/o Elliott": "continue/64 15/farmer 64 16 2 RodneyOBrien 64 18 0/unskippable/pause 500/speak RodneyOBrien \"{{i18n:event-134371020.01}}\"/emote farmer 8/pause 1000/speak RodneyOBrien \"{{i18n:event-134371020.02}}\"/pause 500/emote farmer 16/pause 1000/question fork0 \"{{i18n:event-134371020.03}}#{{i18n:event-134371020.04}}#{{i18n:event-134371020.05}}#\"/fork DateRodney/pause 500/emote RodneyOBrien 28/addMailReceived RejectedRodney/pause 500/addConversationTopic RejectedRodney 4/speak RodneyOBrien \"{{i18n:event-134371020.06}}\"/pause 100/end",
                 "DateRodney": "emote RodneyOBrien 20/addMailReceived DatingRodney/pause 500/speak RodneyOBrien \"{{i18n:event-134371020.07}}\"/emote farmer 32/pause 300/emote RodneyOBrien 20/pause 1000/end"
             },
         },
