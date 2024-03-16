@@ -458,7 +458,7 @@
   "rod.001.1.Platonic": "I like this area. I often come here. It's a great place to think and there's nobody to bother me.$1#$b#Oh I didn't mean it like that.$8#$b# You're not bothering me, @!$4",
   "rod.001.2.Platonic": "Feel the ocean breeze, @, and let the energy of the Gem Sea flow through you.#$b#Feels good, doesn't it?$1",
   "RodneyFreeAutographDialogue": "Hey, I know how to make your day better. Here take this!",
-  "rod.003": "I'm impressed, I didn't know Mateo was a fan.$8#$b#They have some of my books here!", //changed in 2.0.0
+  "rod.003": "I'm impressed, I didn't know Mateo was a fan.$8#$b#They have some of my books here!",
   "rod.007.0.Platonic": "You know @, I'm impressed.#$b#I walked all the way out here in order to be alone with my thoughts, and yet you still manage to find me and bother me with your nonsensical small talk.$2",
   "rod.007.1.Platonic": "You came all the way up here? I'm impressed!$1#$b#Take a moment to breath the fresh air and enjoy the view, it's worth it.",
   "rod.007.2.Platonic": "Oh hey @! That's a nice surprise. I didn't expect to see you here. I often come here to enjoy the sights.#$b#It's a great place to get the inspiration going.",
@@ -994,6 +994,7 @@
   //Shops //added in 3.0.0
   "WWWA.RodneyLedger.message": "My shop has wares, if you have coin.",  //added in 3.0.0
   "WWWA.Bookexchange.message": "Exchange your autographed photos for books!", //added in 3.0.0
+  "WWWA.Marketpalooza.message": "Shop for charity!", //added in 3.0.0
 
   //1.6 dialogue strings: 
   "Rodney.DumpsterDiveComment": "Uh, you okay @? Need some help?$2", //added in 3.0.0

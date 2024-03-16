@@ -84,17 +84,17 @@
 //Marketpalooza
 {
             "Action": "EditMap",
-            "Target": "Maps/Custom_Fellowclown.Nikolai_Marketpalooza",
+            "Target": "Maps/Fellowclown.SW_Marketpalooza",
             "FromFile": "Assets/Maps/Marketpalooza_patch.tbin",
-            "PatchMode": "Overlay",
+            "PatchMode": "Replace",
             "ToArea": {
-                "X": 9,
-                "Y": 4,
+                "X": 8,
+                "Y": 1,
                 "Width": 3,
-                "Height": 5,
+                "Height": 6,
             },
             "When": {
-                "HasMod": "Fellowclown.Nikolai"
+                "HasMod": "Fellowclown.SW"
             }
         },
 

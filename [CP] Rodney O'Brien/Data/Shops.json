@@ -1,6 +1,3 @@
-/*
-Add Marketpalooza shop
-*/
 {
   "Changes": [
     { 
@@ -237,9 +234,84 @@ Add Marketpalooza shop
                 "(O)WWWA.Book.TheTarotRevealed",
                 "(O)WWWA.Book.WhyPepperRexesAreTheBest",
               ]
-            }
+            },
           ]
-        }
+        },
+        "WWWA.Marketpalooza": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "{{InternalAssetKey:Assets/Portraits/RodneyOBrien/Rodney_Fall2_Pink.png}}",
+              "Dialogues": [
+                {
+                  "Id": "WWWA.Marketpalooza",
+                  "Dialogue": "{{i18n:WWWA.Marketpalooza.message}}"
+                }
+              ]
+            },
+          ],
+          "Items": [
+            {
+              "Id": "WWWA.RodneyLedger.PrunusCrown",
+              "ItemId": "(H)WWWA.PrunusCrown",
+              "Price": "3000",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.PinkSummerHat",
+              "ItemId": "(H)WWWA.PinkSummerHat",
+              "Price": "2000",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.EggHat",
+              "ItemId": "(H)WWWA.EggHat",
+              "Price": "2000",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.WinterStarHat.EggHat",
+              "ItemId": "(H)WWWA.WinterStarHat",
+              "Price": "2000",
+              "AvailableStockLimit": "Player",
+            },
+           {
+              "Id": "WWWA.RodneyLedger.RodneyWinterStarScarecrow",
+              "ItemId": "(BC)WWWA.RodneyWinterStarScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneySummerOutfitScarecrow",
+              "ItemId": "(BC)WWWA.RodneySummerOutfitScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneyCosplayScarecrow",
+              "ItemId": "(BC)WWWA.RodneyCosplayScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneyEggFestivalScarecrow",
+              "ItemId": "(BC)WWWA.RodneyEggFestivalScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+            {
+              "Id": "WWWA.RodneyLedger.RodneyBeachOutfitScarecrow",
+              "ItemId": "(BC)WWWA.RodneyBeachOutfitScarecrow",
+              "AvailableStock": 2,
+              "Price": "2500",
+              "AvailableStockLimit": "Player",
+            },
+          ]
+        },
       }
     },
   ]
