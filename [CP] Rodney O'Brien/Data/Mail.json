@@ -1,6 +1,13 @@
 {
     "Changes": [
         {
+            "LogName": "Add Rodney's deluxe stationery",
+            "Action": "Load",
+            "Target": "Mods/TheFrenchDodo.RodneyOBrien/LetterBackgrounds",
+            "FromFile": "Assets/RodneyLetterBG.png"
+        },
+    
+        {
             "LogName": "Rodney Book Launch Party Invite",
             "Action": "EditData",
             "Target": "Data/Mail",
@@ -26,3 +33,5 @@
         },
     ]
 }
+
+//[letterbg Mods/TheFrenchDodo.RodneyOBrien/LetterBackgrounds 0]
