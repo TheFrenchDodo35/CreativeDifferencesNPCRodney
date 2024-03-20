@@ -3,7 +3,6 @@
         {   "LogName": "Gift tastes for custom items for SVE NPCs",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
-            "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP", },
             "TextOperations": [
                 //AutographedPhoto gift tastes
                 //Like
@@ -32,13 +31,7 @@
                     "Value": "WWWA.AutographedPhoto",
                     "Delimiter": " ",
                 },
-                //Dislike
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "Apples", 5 ],
-                    "Value": "WWWA.AutographedPhoto",
-                    "Delimiter": " ",
-                },
+
                 //Genuine autograph gift tastes
                 //neutral
                 { 
@@ -50,12 +43,6 @@
                 //BOOKS GIFT TASTES 
                 //ArcanaCatcherPrunus
                 //Hate
-                {
-                    "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 7 ],
-                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
-                    "Delimiter": " ",
-                },
                 { //
                     "Operation": "Append",
                     "Target": [ "Fields", "Andy", 7 ],
@@ -70,25 +57,7 @@
                     "Value": "WWWA.Book.ArcanaCatcherPrunus",
                     "Delimiter": " ",
                 },
-                { //
-                    "Operation": "Append",
-                    "Target": [ "Fields", "Lance", 7 ],
-                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
-                    "Delimiter": " ",
-                },
                 //ArtifactOrCutlery
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 1 ],
-                    "Value": "WWWA.Book.ArtifactOrCutlery",
-                    "Delimiter": " ",
-                },
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "Lance", 1 ],
-                    "Value": "WWWA.Book.ArtifactOrCutlery",
-                    "Delimiter": " ",
-                },
                 { 
                     "Operation": "Append",
                     "Target": [ "Fields", "GuntherSilvian", 7 ],
@@ -98,27 +67,8 @@
                 //GuideToSculptingWithGold
                 { 
                     "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 7 ],
-                    "Value": "WWWA.Book.GuideToSculptingWithGold",
-                    "Delimiter": " ",
-                },
-                { 
-                    "Operation": "Append",
                     "Target": [ "Fields", "GuntherSilvian", 9 ],
                     "Value": "WWWA.Book.GuideToSculptingWithGold",
-                    "Delimiter": " ",
-                },
-                //CrabsAndWhyIHateThem
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 1 ],
-                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
-                    "Delimiter": " ",
-                },
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "Lance", 1 ],
-                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
                     "Delimiter": " ",
                 },
                 //DeferenceArlington
@@ -149,12 +99,6 @@
                 //FishingForDumbDumbs
                 { 
                     "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 9 ],
-                    "Value": "WWWA.Book.FishingForDumbDumbs",
-                    "Delimiter": " ",
-                },
-                { 
-                    "Operation": "Append",
                     "Target": [ "Fields", "Sophia", 9 ],
                     "Value": "WWWA.Book.FishingForDumbDumbs",
                     "Delimiter": " ",
@@ -171,19 +115,7 @@
                     "Value": "WWWA.Book.FishingForDumbDumbs",
                     "Delimiter": " ",
                 },
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "Lance", 9 ],
-                    "Value": "WWWA.Book.FishingForDumbDumbs",
-                    "Delimiter": " ",
-                },
                 //Goblins
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 1 ],
-                    "Value": "WWWA.Book.Goblins",
-                    "Delimiter": " ",
-                },
                 { 
                     "Operation": "Append",
                     "Target": [ "Fields", "GuntherSilvian", 1 ],
@@ -204,28 +136,10 @@
                     "Value": "WWWA.Book.MysteriesOfTheDwarves",
                     "Delimiter": " ",
                 },
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 1 ],
-                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
-                    "Delimiter": " ",
-                },
                 //PepperRexes
                 { 
                     "Operation": "Append",
                     "Target": [ "Fields", "GuntherSilvian", 1 ],
-                    "Value": "WWWA.Book.PepperRexes",
-                    "Delimiter": " ",
-                },
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "Lance", 1 ],
-                    "Value": "WWWA.Book.PepperRexes",
-                    "Delimiter": " ",
-                },
-                { 
-                    "Operation": "Append",
-                    "Target": [ "Fields", "MarlonFey", 1 ],
                     "Value": "WWWA.Book.PepperRexes",
                     "Delimiter": " ",
                 },
@@ -243,16 +157,133 @@
                     "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
                     "Delimiter": " ",
                 },
+            ]
+        },
+        {   "LogName": "Gift tastes for custom items for SVE Marlon",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": { "Relationship:MarlonFey": "Friendly", },
+            "TextOperations": [
+
+                //BOOKS GIFT TASTES 
+                //ArcanaCatcherPrunus
+                //Hate
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 7 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                //ArtifactOrCutlery
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                //GuideToSculptingWithGold
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 7 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                //CrabsAndWhyIHateThem
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                //FishingForDumbDumbs
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                //Goblins
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.Goblins",
+                    "Delimiter": " ",
+                },
+                //MysteriesOfTheDwarves
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
+                    "Delimiter": " ",
+                },
+                //PepperRexes
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MarlonFey", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                //WhyPepperRexesAreTheBest
                 { 
                     "Operation": "Append",
                     "Target": [ "Fields", "MarlonFey", 1 ],
                     "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
                     "Delimiter": " ",
                 },
+            ]
+        },
+        {   "LogName": "Gift tastes for custom items for Lance",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": { "HasSeenEvent": "6951319", },
+            "TextOperations": [
+                { //
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 7 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 1 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                 { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
                 { 
                     "Operation": "Append",
                     "Target": [ "Fields", "Lance", 1 ],
                     "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+            ]
+        },
+        {   "LogName": "Gift tastes for custom items for Apples",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": { "HasSeenEvent": "7775927", },  
+            "TextOperations": [
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Apples", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
                     "Delimiter": " ",
                 },
             ]

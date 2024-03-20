@@ -2,7 +2,7 @@
    "Name": "[NPC] Rodney O'Brien",
    "Author": "TheFrenchDodo",
    "Description": "Adds a friendly writer that also happens to be Elliott's uncle.",
-   "Version": "3.0.0",
+   "Version": "3.0.1",
    "UniqueID": "TheFrenchDodo.RodneyOBrien",
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
