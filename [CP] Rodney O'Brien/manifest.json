@@ -31,6 +31,10 @@
          "UniqueID": "yri.ProjectYellogTownOverhaul",
          "IsRequired": false,
       },
+      {
+         "UniqueID": "JoXW.MobilePhone",
+         "IsRequired": false,
+      },
    ],
    "UpdateKeys": [
       "Nexus:13437"

@@ -232,6 +232,18 @@
             "Custom_HM_Inn_16_13": "{{i18n:rod.021}}",
         }
     },
+        {
+        "LogName": "Rodney Mobile Phone Cues",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/RodneyOBrien",
+        "Entries": {
+            "MobilePhoneGreeting": "{{i18n:MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:MobilePhoneReminisce}}",
+            "MobilePhoneGoodBye": "{{i18n:MobilePhoneGoodBye}}",
+        },
+        "When": { "HasMod": "JoXW.MobilePhone", },
+
+    },
         ]
 }
 //quickquestion  $y 'QUESTION_PLAYER ANSWER1_NPC ANSWER 1_PLAYER ANSWER2_NPC ANSWER2'

@@ -454,9 +454,9 @@
 
   // Schedule dialogue Platonic 
   //the name of the strings has been changed in 2.0.0
-  "rod.001.0.Platonic": "I like this area. I often come here. It's a great place to think and there's nobody to bother me.$1#$b#Well... except you.$7",
-  "rod.001.1.Platonic": "I like this area. I often come here. It's a great place to think and there's nobody to bother me.$1#$b#Oh I didn't mean it like that.$8#$b# You're not bothering me, @!$4",
-  "rod.001.2.Platonic": "Feel the ocean breeze, @, and let the energy of the Gem Sea flow through you.#$b#Feels good, doesn't it?$1",
+  "rod.001.0": "I like this area. I often come here. It's a great place to think and there's nobody to bother me.$1#$b#Well... except you.$7",
+  "rod.001.1": "I like this area. I often come here. It's a great place to think and there's nobody to bother me.$1#$b#Oh I didn't mean it like that.$8#$b# You're not bothering me, @!$4",
+  "rod.001.2": "Feel the ocean breeze, @, and let the energy of the Gem Sea flow through you.#$b#Feels good, doesn't it?$1",
   "RodneyFreeAutographDialogue": "Hey, I know how to make your day better. Here take this!",
   "rod.003": "I'm impressed, I didn't know Mateo was a fan.$8#$b#They have some of my books here!",
   "rod.007.0.Platonic": "You know @, I'm impressed.#$b#I walked all the way out here in order to be alone with my thoughts, and yet you still manage to find me and bother me with your nonsensical small talk.$2",
@@ -467,7 +467,7 @@
   "rod.011.Platonic": "The Night Market is pretty magical, don't you think @?#$b#I might set up a booth and offer tarot readings next year, it would certainly fit with the atmosphere!$1",
   "rod.012.Platonic": "I came to see Elliott, and I had completely forgotten that the Night Market was starting today! Did you buy anything, @?",
   "rod.013": "Of course, I exercise! I love food too much!$1",
-  "rod.014.Platonic": "You know, I wish I could enjoy this beach without pants sometimes.$4#$b#Tried it once and Mayor Lewis came to tell me that children come here sometimes. What a bummer.$b#$e#What?$7",
+  "rod.014.Platonic": "You know, I wish I could enjoy this beach without pants sometimes.$4#$b#Tried it once and Mayor Lewis came to tell me that children come here sometimes. What a bummer.#$b#$e#What?$7",
   "rod.015.Platonic": "Isn't this event quaint? Rosa did great!$1#$b#It's good to have our own Spirit's Eve celebration in East Scarp, right?#$b#Oh don't worry, I'll be heading into town later. I want every one to see my amazing costume. Have I told you it's an official replica?$4",
  // "rod.016.Platonic": "I might visit the Night Market again. It leaves tomorrow and we won't be able to enjoy it until next year!$1", //removed in 3.0.0
   "rod.017.Platonic": "I'm considering visiting the Mermaid Boat tonight.#$b#For...$2#$b#Research purposes! Yep, that's it. I plan on telling a story about mermaids in an upcoming novel.$1#$b#That is why I want to see the Mermaid Show. Research.$4#$b#Yeah.#$e#You're still here?$7",
