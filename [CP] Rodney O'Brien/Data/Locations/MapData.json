@@ -109,5 +109,146 @@
       }
     },
 
+    // World map stuff Mads did and I don't really understand but it works to there's that.
+   {
+     "LogName": "NO SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+     },
+     "TargetField": [ "EastScarp", "MapAreas" ],
+     "Entries": {
+       "RodneysSilo": {
+         "Id": "RodneysSilo",
+         "PixelArea": {
+           "X": 204,
+           "Y": 35,
+           "Width": 4,
+           "Height": 11
+         },
+         "Tooltips": [
+           {
+             "Id": "RodneysSilo",
+             "Text": "{{i18n:MapName.ESRodneysHouse}}"
+           }
+         ],
+         "WorldPositions": [
+           {
+             "Id": "RodneySilo",
+             "LocationName": "EastScarp_RodneysHouse",
+             "ExtendedTileArea": null,
+             "MapPixelArea": {
+               "X": 204,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysHouse}}"
+           },
+           {
+             "Id": "RodneysBasement",
+             "LocationName": "EastScarp_RodneysBasement",
+             "MapPixelArea": {
+               "X": 204,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysBasement}}"
+           },
+           {
+             "ScrollTextZones": [],
+             "Id": "Default",
+             "LocationName": "EastScarp_Village",
+             "ScrollText": null
+           }
+         ]
+       }
+     }
+
+   },
+   {
+     "LogName": "YES SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+     },
+     "TargetField": [ "EastScarp", "MapAreas" ],
+     "Entries": {
+       "RodneysSilo": {
+         "Id": "RodneysSilo",
+         "PixelArea": {
+           "X": 124,
+           "Y": 35,
+           "Width": 4,
+           "Height": 11
+         },
+         "Tooltips": [
+           {
+             "Id": "RodneysSilo",
+             "Text": "{{i18n:MapName.ESRodneysHouse}}"
+           }
+         ],
+         "WorldPositions": [
+           {
+             "Id": "RodneySilo",
+             "LocationName": "EastScarp_RodneysHouse",
+             "ExtendedTileArea": null,
+             "MapPixelArea": {
+               "X": 124,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysHouse}}"
+           },
+           {
+             "Id": "RodneysBasement",
+             "LocationName": "EastScarp_RodneysBasement",
+             "MapPixelArea": {
+               "X": 124,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysBasement}}"
+           },
+           {
+             "ScrollTextZones": [],
+             "Id": "Default",
+             "LocationName": "EastScarp_Village",
+             "ScrollText": null
+           }
+         ]
+       }
+     }
+   },
+   {
+     "LogName": "NO SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+     },
+     "TargetField": [ "EastScarp", "MapAreas", "MainScarp", "ToolTips", "Silo" ],
+     "Entries": {
+       "Text": null
+     }
+   },
+   {
+     "LogName": "YES SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+     },
+     "TargetField": [ "EastScarp", "MapAreas", "MainScarp", "ToolTips", "Silo" ],
+     "Entries": 
+         {
+          "Text": null
+     }
+   }
     ]
 }
