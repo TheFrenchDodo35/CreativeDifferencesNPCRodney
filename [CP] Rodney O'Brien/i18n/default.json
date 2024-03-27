@@ -1065,6 +1065,9 @@
   "WWWA.WinterStarHat": "Purple Winter Star Hat", //added in 3.0.0
   "WWWA.WinterStarHat.Description": "A very fashionable hat to keep your head warm and look handsome for the Feast Of The Winter Star.", //added in 3.0.0
 
+  //Items category override //added in 3.0.3
+  "Items.AutographedPhoto.Category": "Promotional material",
+  "Items.GenuineAutograph.Category": "Rare collectible",
   //Mail //added in 3.0.0
   //Note for translators: all these letters were moved from the Mail Framework Mod pack so you can just port the translation.
 "Mail.RodneyBookLaunchInvite": "^My dear @,^My book, The Chronicles of Stardew Valley, is getting officially released soon! I'd like to invite you, along with a couple of very dear friends to a little shindig at the Stardrop Saloon next Friday! Be there by 7 pm, okay?^Dress code is smart casual. I hope to see you there.^Your friend, Rodney O'Brien.^ ^ ^^^^PS: My publisher printed these pictures to promote the book and I don't know what do with them so have a few of them.%item object (O)WWWA.AutographedPhoto 10 %%[letterbg Mods/TheFrenchDodo.RodneyOBrien/LetterBackgrounds 0][textcolor black][#]An invitation from Rodney O'Brien",

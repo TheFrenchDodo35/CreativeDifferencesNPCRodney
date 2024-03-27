@@ -121,6 +121,8 @@
                     "Type": "Fish",
                     "Edibility": -300,
                     "Category": -20,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 10,
                     "Texture": "{{InternalAssetKey: Assets/Items/Autographs/AnAutographedPhoto.png}}",
                     "SpriteIndex": 0
@@ -133,6 +135,8 @@
                     "Type": "Gem",
                     "Edibility": -300,
                     "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 8000,
                     "Texture": "{{InternalAssetKey: Assets/Items/Autographs/AGenuineAutograph.png}}",
                     "SpriteIndex": 0
@@ -144,6 +148,8 @@
                     "Description": "{{i18n:WWWA.Book.ArcanaCatcherPrunus.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/ArcanaCatcherPrunus.png}}",
                     "SpriteIndex": 0
@@ -155,6 +161,8 @@
                     "Description": "{{i18n:WWWA.Book.ArtifactOrCutlery.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/ArtifactOrCutlery.png}}",
                     "SpriteIndex": 0
@@ -166,6 +174,8 @@
                     "Description": "{{i18n:WWWA.Book.CrabsAndWhyIHateThem.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/CrabsAndWhyIHateThem.png}}",
                     "SpriteIndex": 0
@@ -177,6 +187,8 @@
                     "Description": "{{i18n:WWWA.Book.DeferenceArlington.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/DeferenceArlington.png}}",
                     "SpriteIndex": 0
@@ -188,6 +200,8 @@
                     "Description": "{{i18n:WWWA.Book.FishingForDumbDumbs.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/FishingForDumbDumbs.png}}",
                     "SpriteIndex": 0
@@ -199,6 +213,8 @@
                     "Description": "{{i18n:WWWA.Book.GettingChicksToLoveYou.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/GettingChicksToLoveYou.png}}",
                     "SpriteIndex": 0
@@ -210,6 +226,8 @@
                     "Description": "{{i18n:WWWA.Book.Goblins.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/Goblins.png}}",
                     "SpriteIndex": 0
@@ -221,6 +239,8 @@
                     "Description": "{{i18n:WWWA.Book.GuideToSculptingWithGold.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/GuideToSculptingWithGold.png}}",
                     "SpriteIndex": 0
@@ -232,6 +252,8 @@
                     "Description": "{{i18n:WWWA.Book.HerpetologyOfFerngill.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/HerpetologyOfFerngill.png}}",
                     "SpriteIndex": 0
@@ -243,6 +265,8 @@
                     "Description": "{{i18n:WWWA.Book.LunarkinTrollTales.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/LunarkinTrollTales.png}}",
                     "SpriteIndex": 0
@@ -254,6 +278,8 @@
                     "Description": "{{i18n:WWWA.Book.MysteriesOfTheDwarves.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/MysteriesOfTheDwarves.png}}",
                     "SpriteIndex": 0
@@ -265,6 +291,8 @@
                     "Description": "{{i18n:WWWA.Book.PepperRexes.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/PepperRexes.png}}",
                     "SpriteIndex": 0
@@ -276,6 +304,8 @@
                     "Description": "{{i18n:WWWA.Book.TheBookOfYoba.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/TheBookOfYoba.png}}",
                     "SpriteIndex": 0
@@ -287,6 +317,8 @@
                     "Description": "{{i18n:WWWA.Book.TheGreatBookOfSlimes.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/TheGreatBookOfSlimes.png}}",
                     "SpriteIndex": 0
@@ -298,6 +330,8 @@
                     "Description": "{{i18n:WWWA.Book.TheGreatTomeOfMayo.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/TheGreatTomeOfMayo.png}}",
                     "SpriteIndex": 0
@@ -309,6 +343,8 @@
                     "Description": "{{i18n:WWWA.Book.TheJojaConspiracy.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/TheJojaConspiracy.png}}",
                     "SpriteIndex": 0
@@ -320,6 +356,8 @@
                     "Description": "{{i18n:WWWA.Book.TheTarotRevealed.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/TheTarotRevealed.png}}",
                     "SpriteIndex": 0
@@ -331,6 +369,8 @@
                     "Description": "{{i18n:WWWA.Book.WhyPepperRexesAreTheBest.Description}}",
                     "Type": "asdf",
                     "Edibility": -300,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
                     "Price": 500,
                     "Texture": "{{InternalAssetKey: Assets/Items/Books/WhyPepperRexesAreTheBest.png}}",
                     "SpriteIndex": 0
@@ -374,5 +414,30 @@
             "Target": "Mods\\TheFrenchDodo\\WinterStarHat",
             "FromFile": "Assets/Items/Hats/WinterStarHat.png"
         },
+        //Category Override through SpaceCore. 
+        {
+        "Action": "EditData",
+        "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+        "Entries": { 
+            "WWWA.AutographedPhoto": { 
+                "CategoryTextOverride": "{{i18n:Items.AutographedPhoto.Category}}",
+                "CategoryColorOverride": {
+                                            "R": 224,
+                                            "G": 102,
+                                            "B": 255,
+                                            "A": 1
+                },
+            },
+            "WWWA.GenuineAutograph": { 
+                "CategoryTextOverride": "{{i18n:Items.GenuineAutograph.Category}}", 
+                "CategoryColorOverride": {
+                                            "R": 160,
+                                            "G": 32,
+                                            "B": 240,
+                                            "A": 1
+                },
+            },
+         }
+    },
     	]
 }

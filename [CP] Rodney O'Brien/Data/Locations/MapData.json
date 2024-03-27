@@ -249,6 +249,29 @@
          {
           "Text": null
      }
-   }
+   },
+   //Another Mads' fine piece of code
+{
+  "LogName": "Edit ES World Map NO SVE",
+  "Action": "EditImage",
+  "When": {
+    "Season": "spring, summer, fall, winter",
+    "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+  },
+  "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+  "PatchMode": "Overlay",
+  "FromFile": "Assets/WorldMapPatch/ESmap_Silo.png",
+},
+{
+  "LogName": "Edit ES World Map NO SVE",
+  "Action": "EditImage",
+  "When": {
+    "Season": "spring, summer, fall, winter",
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+  },
+  "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+  "PatchMode": "Overlay",
+  "FromFile": "Assets/WorldMapPatch/ESmap_SVE_Silo.png",
+},
     ]
 }
