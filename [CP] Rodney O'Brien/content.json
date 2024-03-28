@@ -510,7 +510,7 @@
 		// NATIONAL LIBRARY EVENT 
 		{
 			"Name": "Rodney_BookReading",
-			"Value": "farmer -1000 -1000 0 {{EventGunther}} -1000 -1000 0 RodneyOBrien 12 11 2 Gus -1000 -1000 0 Elliott -1000 -1000 0 Leah -1000 -1000 0 KatarynaLK -1000 -1000 0 MeredithOBrien -1000 -1000 0"
+			"Value": "farmer -1000 -1000 0 {{EventGunther}} -1000 -1000 0 RodneyOBrien 22 11 2 Gus -1000 -1000 0 Elliott -1000 -1000 0 Leah -1000 -1000 0 KatarynaLK -1000 -1000 0 MeredithOBrien -1000 -1000 0"
 		},
 		{
 			"Name": "Rodney_BookReading",
@@ -522,7 +522,7 @@
 		},
 		{
 			"Name": "Rodney_BookReading",
-			"Value": "{{Rodney_BookReading}}/addTemporaryActor Cameron 16 32 11 12 3 true Character/warp Cameron -1000 -1000 0",
+			"Value": "{{Rodney_BookReading}}/addTemporaryActor Cameron 16 32 11 12 3 true Character/warp Cameron -1000 -1000",
 			"When": {
 				"HasMod": "Lemurkat.NPCJasper",
 			},
