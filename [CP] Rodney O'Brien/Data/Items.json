@@ -422,18 +422,18 @@
             "WWWA.AutographedPhoto": { 
                 "CategoryTextOverride": "{{i18n:Items.AutographedPhoto.Category}}",
                 "CategoryColorOverride": {
-                                            "R": 224,
-                                            "G": 102,
-                                            "B": 255,
+                                            "R": 255,
+                                            "G": 0,
+                                            "B": 215,
                                             "A": 1
                 },
             },
             "WWWA.GenuineAutograph": { 
                 "CategoryTextOverride": "{{i18n:Items.GenuineAutograph.Category}}", 
                 "CategoryColorOverride": {
-                                            "R": 160,
-                                            "G": 32,
-                                            "B": 240,
+                                            "R": 145,
+                                            "G": 0,
+                                            "B": 201,
                                             "A": 1
                 },
             },
