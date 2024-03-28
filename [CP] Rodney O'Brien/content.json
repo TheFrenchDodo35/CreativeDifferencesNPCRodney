@@ -227,13 +227,13 @@
 				"Hearts:RodneyOBrien": "8, 10"
 			}
 		},
-		{
+/*		{
 			"Name": "RodneyMountainDialogue",
 			"Value": "{{i18n:rod.007.Romantic}}",
 			"When": {
 				"Relationship:RodneyOBrien |contains=Dating": true
 			}
-		},
+		},*/
 		//Schedule positions
 		{
 			"Name": "RodneyLibrarySpot",
