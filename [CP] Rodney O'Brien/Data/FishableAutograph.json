@@ -20,7 +20,7 @@
         }
       }
     },
-    /*{
+ /*   {
         "Action": "EditData",
         "Target": "Mods/shekurika.VisibleFish/LocationData",
         "TargetField": [
@@ -31,10 +31,10 @@
             "WWWA.RodneyAutograph": {
                 "X": 41,
                 "Y": 32,
-                "QualifiedItemId": "(O)WWWA.RodneyAutograph"
+                "QualifiedItemId": "(O)WWWA.AutographedPhoto"
             },
         },
-    }*/
+    } */
 
     	]
 }
