@@ -52,7 +52,7 @@
             "Target": "Characters/schedules/RodneyOBrien",
             "Entries": {
                 "fall_18": "730 EastScarp_RodneysHouse 7 7 1/1200 EastScarp_RodneysHouse 10 27 2/1800 EastScarp_RodneysHouse 2 32 1/2130 EastScarp_RodneysHouse 13 13 0 sleep",
-                "fall_27": "610 EastScarp_RodneysHouse 12 29 2/1130 EastScarp_VillageInn 32 33 0/2000 Town 18 51 2",
+                "fall_27": "610 EastScarp_RodneysHouse 12 29 2/1130 EastScarp_VillageInn_SpiritEve 32 33 0/2000 Town 18 51 2",
                 "winter_15": "730 EastScarp_Village 19 120 2/1100 Saloon 3 19 2 frontsit/1600 Beach 46 21 3/2200 EastScarp_RodneysHouse 13 13 0 sleep",
                 "winter_16": "700 EastScarp_Village 19 120 2/1100 Saloon 3 19 2 frontsit/1600 Beach 51 11 2/2230 EastScarp_RodneysHouse 13 13 0 sleep",
                 "winter_17": "700 EastScarp_Village 19 120 2/1100 Saloon 3 19 2 frontsit/1600 Beach 54 21 2/2230 EastScarp_RodneysHouse 13 13 0 sleep",

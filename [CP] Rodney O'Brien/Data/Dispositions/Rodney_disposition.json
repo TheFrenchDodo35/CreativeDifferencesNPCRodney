@@ -228,7 +228,7 @@
                             "ID": "Spirit's Eve",
                             "Condition": "EVENT_ID festival_fall27",
                             "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneySpiritsEve.png}}",
-                            "Sprite": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneySpiritsEve.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneySpiritsEve.png}}",
                             "Precedence": -20
                         },
 
