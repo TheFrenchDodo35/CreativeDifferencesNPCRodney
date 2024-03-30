@@ -224,9 +224,16 @@
                             "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyFair.png}}",
                             "Precedence": -20
                         },
-                        {
+                       /* {
                             "ID": "Spirit's Eve",
                             "Condition": "EVENT_ID festival_fall27",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneySpiritsEve.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneySpiritsEve.png}}",
+                            "Precedence": -20
+                        },*/
+                        {
+                            "ID": "Spirit's Eve",
+                            "Condition": "SEASON_DAY fall 27",
                             "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/RodneySpiritsEve.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneySpiritsEve.png}}",
                             "Precedence": -20
