@@ -123,6 +123,7 @@
                     "Category": -20,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
+                    "ExcludeFromFishingCollection": true,
                     "Price": 10,
                     "Texture": "{{InternalAssetKey: Assets/Items/Autographs/AnAutographedPhoto.png}}",
                     "SpriteIndex": 0
@@ -132,9 +133,8 @@
                     "Name": "WWWA.GenuineAutograph",
                     "Displayname": "{{i18n:WWWA.GenuineAutograph}}",
                     "Description": "{{i18n:WWWA.GenuineAutograph.Description}}",
-                    "Type": "Gem",
+                    "Type": "asdf",
                     "Edibility": -300,
-                    "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "Price": 8000,
