@@ -51,6 +51,8 @@
                 "AcceptGift_(O)WWWA.Book.TheJojaConspiracy": "{{i18n:RodneyReaction.Book.TheJojaConspiracy}}",
                 "AcceptGift_(O)WWWA.Book.TheTarotRevealed": "{{i18n:RodneyReaction.Book.TheTarotRevealed}}",
                 "AcceptGift_(O)WWWA.Book.WhyPepperRexesAreTheBest": "{{i18n:RodneyReaction.Book.WhyPepperRexesAreTheBest}}",
+                //New items 1.6
+                "AcceptGift_(O)StardropTea": "{{Random:{{i18n:RodneyReaction.StardropTea.1}}++{{i18n:RodneyReaction.StardropTea.2}}|inputSeparator=++}}",
             }
         },
  //       {
