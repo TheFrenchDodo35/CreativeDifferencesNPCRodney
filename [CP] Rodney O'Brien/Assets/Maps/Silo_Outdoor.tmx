@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="181">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="182">
  <editorsettings>
   <export format="tmx"/>
  </editorsettings>
@@ -1942,7 +1942,7 @@
 66,4765,4766,4767,4437,4438,130,
 0,4773,4774,4775,4462,4463,4464,
 1956,4781,4782,4783,258,4488,0,
-0,0,0,0,0,0,2066,
+0,0,0,0,2090,0,2066,
 0,0,0,0,0,0,2098
 </data>
  </layer>
@@ -1955,6 +1955,11 @@
   <object id="179" name="TileData" x="0" y="128" width="16" height="16">
    <properties>
     <property name="Action" value="Message RodMailBox"/>
+   </properties>
+  </object>
+  <object id="181" name="TileData" x="64" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage TheFrenchDodo.WWWA.TrashCan.RodneyOBrien"/>
    </properties>
   </object>
  </objectgroup>
@@ -1984,7 +1989,7 @@
 41,4761,4762,4763,0,131,105,
 0,4769,4770,4771,0,131,131,
 1931,0,0,0,4462,4463,4464,
-0,0,0,0,0,0,2034,
+0,0,0,0,2058,0,2034,
 0,0,0,0,0,0,0,
 0,4,0,0,0,0,0
 </data>

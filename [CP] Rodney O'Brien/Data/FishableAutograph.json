@@ -9,7 +9,7 @@
       ],
       "Entries": {
         "WWWA.RodneyAutograph": {
-          "Chance": 0.1,
+          "Chance": 0.5,
           "MinFishingLevel": 0,
           "MinDistanceFromShore": 0,
           "MaxDistanceFromShore": -1,

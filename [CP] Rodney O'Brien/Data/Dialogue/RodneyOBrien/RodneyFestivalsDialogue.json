@@ -104,7 +104,7 @@
         "RodneyOBrien": "{{i18n:Rodney.Marketpalooza.{{RomanticRodney}}}}",
       },
       "When": {
-            "HasMod": "Fellowclown.SW"
+            "HasMod": "Fellowclown.PC"
       }
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Festivals/Winter13",
+      "Target": "Data/Festivals/Winter6",
       "Entries": {
         "RodneyOBrien": "{{i18n:Rodney.LoveFestival.{{RomanticRodney}}}}",
       },

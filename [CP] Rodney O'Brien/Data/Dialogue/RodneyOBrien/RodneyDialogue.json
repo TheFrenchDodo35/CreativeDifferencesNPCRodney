@@ -211,39 +211,39 @@
                         },
                 },
                 {
-        "LogName": "Rodney Locational Dialogue",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/RodneyOBrien",
-        "Entries": {
-            "Beach_43_36": "{{RodneyPierDialogue}}",
-            "Saloon_3_19": "{{i18n:RodneyFreeAutographDialogue}}[(O)WWWA.AutographedPhoto]$1",
-            "EastScarp_CoastalGuild_8_13": "{{i18n:rod.003}}",
-            "EastScarp_DeepMountains_86_44": "{{RodneyMountainDialogue}}",
-            "EastScarp_RodneysHouse_12_28": "{{i18n:rod.008.{{RomanticRodney}}}}",
-            "EastScarp_RodneysHouse_12_29": "{{i18n:rod.008.{{RomanticRodney}}}}",
-            "EastScarp_RodneysHouse_2_32": "{{i18n:rod.009}}",
-            "Beach_51_11": "{{i18n:rod.011.{{RomanticRodney}}}}",
-            "Beach_46_21": "{{i18n:rod.012.{{RomanticRodney}}}}",
-            "EastScarp_RodneysHouse_4_17": "{{i18n:rod.013}}",
-            "EastScarp_Village_19_120": "{{i18n:rod.014.{{RomanticRodney}}}}",
-            "EastScarp_VillageInn_32_33": "{{i18n:rod.015.{{RomanticRodney}}}}",
-            "Beach_54_21": "{{i18n:rod.017.{{RomanticRodney}}}}",
-            "Custom_Ridgeside_RSVCliff_80_25": "{{i18n:rod.018.{{RomanticRodney}}}}",
-            "Custom_HM_Inn_16_13": "{{i18n:rod.021}}",
-        }
-    },
-        {
-        "LogName": "Rodney Mobile Phone Cues",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/RodneyOBrien",
-        "Entries": {
-            "MobilePhoneGreeting": "{{i18n:MobilePhoneGreeting}}",
-            "MobilePhoneReminisce": "{{i18n:MobilePhoneReminisce}}",
-            "MobilePhoneGoodBye": "{{i18n:MobilePhoneGoodBye}}",
-        },
-        "When": { "HasMod": "JoXW.MobilePhone", },
+                        "LogName": "Rodney Locational Dialogue",
+                        "Action": "EditData",
+                        "Target": "Characters/Dialogue/RodneyOBrien",
+                        "Entries": {
+                            "Beach_43_36": "{{RodneyPierDialogue}}",
+                            "Saloon_3_19": "{{i18n:RodneyFreeAutographDialogue}}[(O)WWWA.AutographedPhoto]$1",
+                            "EastScarp_CoastalGuild_8_13": "{{i18n:rod.003}}",
+                            "EastScarp_DeepMountains_86_44": "{{RodneyMountainDialogue}}",
+                            "EastScarp_RodneysHouse_12_28": "{{i18n:rod.008.{{RomanticRodney}}}}",
+                            "EastScarp_RodneysHouse_12_29": "{{i18n:rod.008.{{RomanticRodney}}}}",
+                            "EastScarp_RodneysHouse_2_32": "{{i18n:rod.009}}",
+                            "Beach_51_11": "{{i18n:rod.011.{{RomanticRodney}}}}",
+                            "Beach_46_21": "{{i18n:rod.012.{{RomanticRodney}}}}",
+                            "EastScarp_RodneysHouse_4_17": "{{i18n:rod.013}}",
+                            "EastScarp_Village_19_120": "{{i18n:rod.014.{{RomanticRodney}}}}",
+                            "EastScarp_VillageInn_32_33": "{{i18n:rod.015.{{RomanticRodney}}}}",
+                            "Beach_54_21": "{{i18n:rod.017.{{RomanticRodney}}}}",
+                            "Custom_Ridgeside_RSVCliff_80_25": "{{i18n:rod.018.{{RomanticRodney}}}}",
+                            "Custom_HM_Inn_16_13": "{{i18n:rod.021}}",
+                        }
+                        },
+                {
+                        "LogName": "Rodney Mobile Phone Cues",
+                        "Action": "EditData",
+                        "Target": "Characters/Dialogue/RodneyOBrien",
+                        "Entries": {
+                            "MobilePhoneGreeting": "{{i18n:MobilePhoneGreeting}}",
+                            "MobilePhoneReminisce": "{{i18n:MobilePhoneReminisce}}",
+                            "MobilePhoneGoodBye": "{{i18n:MobilePhoneGoodBye}}",
+                        },
+                        "When": { "HasMod": "JoXW.MobilePhone", },
 
-    },
+                    },
         ]
 }
 //quickquestion  $y 'QUESTION_PLAYER ANSWER1_NPC ANSWER 1_PLAYER ANSWER2_NPC ANSWER2'

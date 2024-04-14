@@ -171,6 +171,14 @@
                             "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/RodneyOBrien_beach.png}}",
                             "Precedence": -20
                         },
+                        //Green Rain
+                        {
+                            "ID": "Spock",
+                            "Condition": "WEATHER Target GreenRain",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_SpockCosplay.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_SpockCosplay.png}}",
+                            "Precedence": -20
+                        },
                         //Event 
                         {
                             "ID": "Birthday Suit",

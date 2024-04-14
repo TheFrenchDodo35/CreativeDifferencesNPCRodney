@@ -33,7 +33,7 @@
 		{
 			"Logname": "The Writer, The Witch & The Wardrobe Assistant Includes",
 			"Action": "Include",
-			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/Gift Tastes/ItemGiftTastes.json, Data/Mail.json, Data/TriggerActions/MailTriggerActions.json, Data/TriggerActions/JAmigrationTriggerActions.json, Data/AutographRecycling.json"
+			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/Gift Tastes/ItemGiftTastes.json, Data/Mail.json, Data/TriggerActions/MailTriggerActions.json, Data/TriggerActions/JAmigrationTriggerActions.json, Data/AutographRecycling.json, Data/Locations/TrashData.json"
 		},
 		{
 			"Logname": "The Writer, The Witch & The Wardrobe Assistant SVE Includes",
@@ -44,7 +44,7 @@
 		{
 			"Logname": "Rodney Includes",
 			"Action": "Include",
-			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json,",
+			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Schedule/RodneyOBrien/RodneyScheduleDialogue.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json,",
 		},
 		{
 			"LogName": "Rodney's autograph spawn",
@@ -95,6 +95,36 @@
 			"Action": "Load",
 			"Target": "Characters/MeredithOBrien_ChildMeredith",
 			"FromFile": "Assets/TempActors/ChildMeredith.png",
+		},
+		// // // // // // // // E V E N T   L O O K U P   C O M P A T I B I L I T Y // // // // // // // //
+		{
+			"Action": "EditData",
+			"Target": "Mods/shekurika.EventLookup/blocklist",
+			"Entries": {
+				"134371006": "T",
+				"134371007": "T",
+				"134371012": "T",
+				"134371015": "T",
+				"134371016": "T",
+				"134371017": "T",
+				"134371018": "T",
+			},
+			"When": {
+				"HasMod": "shekurika.EventLookup"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/shekurika.EventLookup/locationnames",
+			"Entries": {
+				"EastScarp_RodneysHouse": "Rodney's House",
+				"EastScarp_RodneysBasement": "Rodney's Basement",
+				"EastScarp_FerngillNationalLibrary": "Ferngill National Library",
+				"EastScarp_LibraryExterior": "Ferngill National Library's park",
+			},
+			"When": {
+				"HasMod": "shekurika.EventLookup"
+			},
 		},
 	],
 	/*
@@ -251,7 +281,7 @@
 		},
 		{
 			"Name": "RodneyVineyardSheerwaterSpot",
-			"Value": "Custom_LK_ClearingHouse 24 28 3",
+			"Value": "EastScarp_ClearingHouse 24 28 3",
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
 			}
@@ -280,7 +310,7 @@
 		},
 		{
 			"Name": "RodneyBookwormMobile",
-			"Value": "1130 Custom_RodneysHouse 1 13 0",
+			"Value": "1130 EastScarp_RodneysHouse 1 13 0",
 			"When": {
 				"HasMod |contains=Fellowclown.AND": "false",
 			}

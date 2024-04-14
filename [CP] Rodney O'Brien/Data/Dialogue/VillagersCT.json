@@ -193,11 +193,11 @@
             },
         },
         {
-            "LogName": "Rodney CT Dialogue MarlonFey",
+            "LogName": "Rodney CT Dialogue MarlonFay",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/MarlonFey",
+            "Target": "Characters/Dialogue/MarlonFay",
             "Entries": {
-                "RodStoryReading": "{{i18n:MarlonFey.RodStoryReading}}", //He wants to visit the mine	
+                "RodStoryReading": "{{i18n:MarlonFay.RodStoryReading}}", //He wants to visit the mine	
             },
         },
         {

@@ -305,11 +305,11 @@
             },
         },
         {
-            "LogName": "Autographed Photo Gift Dialogue MarlonFey",
+            "LogName": "Autographed Photo Gift Dialogue MarlonFay",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/MarlonFey",
+            "Target": "Characters/Dialogue/MarlonFay",
             "Entries": {
-                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:MarlonFey.GiftReaction_An_autographed_photo}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:MarlonFay.GiftReaction_An_autographed_photo}}",
             },
         },
         {

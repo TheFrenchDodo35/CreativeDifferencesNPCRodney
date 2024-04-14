@@ -17,7 +17,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 47 57 2",
+          "Value": "RodneyOBrien 47 57 down",
           "Delimiter": "/"
         },
         {
@@ -26,7 +26,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 38 72 3",
+          "Value": "RodneyOBrien 38 72 left",
           "Delimiter": "/"
         },
       ],
@@ -45,7 +45,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 48 56 2",
+          "Value": "RodneyOBrien 48 56 down",
           "Delimiter": "/"
         },
         {
@@ -54,7 +54,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 38 72 3",
+          "Value": "RodneyOBrien 38 72 left",
           "Delimiter": "/"
         },
       ],
@@ -73,7 +73,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ], //Setup
-          "Value": "RodneyOBrien 32 38 2",
+          "Value": "RodneyOBrien 32 38 down",
           "Delimiter": "/"
         },
         {
@@ -82,7 +82,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ], //Dance
-          "Value": "RodneyOBrien 12 32 0",
+          "Value": "RodneyOBrien 12 32 up",
           "Delimiter": "/"
         }
       ],
@@ -101,7 +101,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ], //Setup
-          "Value": "RodneyOBrien 31 38 2",
+          "Value": "RodneyOBrien 52 46 down",
           "Delimiter": "/"
         },
         {
@@ -110,7 +110,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ], //Dance
-          "Value": "RodneyOBrien 12 32 0",
+          "Value": "RodneyOBrien 12 32 up",
           "Delimiter": "/"
         }
       ],
@@ -129,7 +129,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 21 20 2",
+          "Value": "RodneyOBrien 21 20 down",
           "Delimiter": "/"
         },
         {
@@ -138,7 +138,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 48 11 3",
+          "Value": "RodneyOBrien 48 11 left",
           "Delimiter": "/"
         }
       ],
@@ -157,7 +157,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 21 20 2",
+          "Value": "RodneyOBrien 42 45 down",
           "Delimiter": "/"
         },
         {
@@ -166,7 +166,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 48 11 3",
+          "Value": "RodneyOBrien 48 11 left",
           "Delimiter": "/"
         }
       ],
@@ -185,7 +185,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 13 33 1",
+          "Value": "RodneyOBrien 13 33 right",
           "Delimiter": "/"
         },
       ],
@@ -204,7 +204,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 13 32 1",
+          "Value": "RodneyOBrien 86 44 left",
           "Delimiter": "/"
         },
       ],
@@ -223,7 +223,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 43 90 1",
+          "Value": "RodneyOBrien 43 90 right",
           "Delimiter": "/"
         }
       ],
@@ -242,7 +242,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 44 89 1",
+          "Value": "RodneyOBrien 44 89 right",
           "Delimiter": "/"
         }
       ],
@@ -263,7 +263,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 101 54 1",
+          "Value": "RodneyOBrien 101 54 right",
           "Delimiter": "/"
         },
         {
@@ -272,7 +272,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 67 43 0",
+          "Value": "RodneyOBrien 67 43 up",
           "Delimiter": "/"
         },
       ]
@@ -288,7 +288,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 18 50 2",
+          "Value": "RodneyOBrien 18 50 down",
           "Delimiter": "/"
         }
       ],
@@ -307,7 +307,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 64 64 2",
+          "Value": "RodneyOBrien 64 64 down", //Y1 35 80
           "Delimiter": "/"
         }
       ],
@@ -326,7 +326,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 85 28 2",
+          "Value": "RodneyOBrien 85 28 down",
           "Delimiter": "/"
         },
         {
@@ -335,7 +335,7 @@
             "Entries",
             "Main-Event_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 73 44 0",
+          "Value": "RodneyOBrien 73 44 up",
           "Delimiter": "/"
         }
       ],
@@ -354,7 +354,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 67 11 2",
+          "Value": "RodneyOBrien 67 11 down",
           "Delimiter": "/"
         },
         {
@@ -363,7 +363,7 @@
             "Entries",
             "Main-Event_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 67 24 2",
+          "Value": "RodneyOBrien 68 24 down",
           "Delimiter": "/"
         }
       ],
@@ -382,7 +382,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 23 74 1",
+          "Value": "RodneyOBrien 23 74 right",
           "Delimiter": "/"
         }
       ],
@@ -401,7 +401,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 20 49 2",
+          "Value": "RodneyOBrien 20 49 down",
           "Delimiter": "/"
         }
       ],
@@ -422,7 +422,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 41 29 1",
+          "Value": "RodneyOBrien 41 29 right",
           "Delimiter": "/"
         },
         {
@@ -431,7 +431,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 50 44 3",
+          "Value": "RodneyOBrien 50 44 left",
           "Delimiter": "/"
         },
       ]
@@ -477,7 +477,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 45 11 2",
+          "Value": "RodneyOBrien 45 11 down",
           "Delimiter": "/"
         },
         {
@@ -486,7 +486,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 145 64 3",
+          "Value": "RodneyOBrien 145 64 left",
           "Delimiter": "/"
         },
         {
@@ -495,7 +495,7 @@
             "Entries",
             "PostEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 34 15 0",
+          "Value": "RodneyOBrien 34 15 up",
           "Delimiter": "/"
         },
       ],
@@ -515,7 +515,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 8 6 1",
+          "Value": "RodneyOBrien 8 6 right",
           "Delimiter": "/"
         },
  /*       {
@@ -544,7 +544,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 41 19 2",
+          "Value": "RodneyOBrien 41 19 down",
           "Delimiter": "/"
         },
         {
@@ -553,7 +553,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 42 26 3",
+          "Value": "RodneyOBrien 42 26 left",
           "Delimiter": "/"
         },
       ],
@@ -565,7 +565,7 @@
     {
       "LogName": "Rodney Love Festival",
       "Action": "EditData",
-      "Target": "Data/Festivals/Winter13",
+      "Target": "Data/Festivals/Winter6",
       "TextOperations": [
         {
           "Operation": "Append",
@@ -573,7 +573,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 24 74 0",
+          "Value": "RodneyOBrien 24 74 up",
           "Delimiter": "/"
         },
       ],

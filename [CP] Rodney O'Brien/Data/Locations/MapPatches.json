@@ -84,7 +84,7 @@
 //Marketpalooza
 {
             "Action": "EditMap",
-            "Target": "Maps/Fellowclown.SW_Marketpalooza",
+            "Target": "Maps/Fellowclown.PC_Marketpalooza",
             "FromFile": "Assets/Maps/Marketpalooza_patch.tbin",
             "PatchMode": "Replace",
             "ToArea": {
@@ -94,7 +94,7 @@
                 "Height": 6,
             },
             "When": {
-                "HasMod": "Fellowclown.SW"
+                "HasMod": "Fellowclown.PC"
             }
         },
 
@@ -119,7 +119,7 @@
        {
             "Action": "EditMap",
             "Target": "Maps/Town",
-            "FromFile": "Assets/Maps/Town_patch_SVE.tbin",
+            "FromFile": "Assets/Maps/Town_patch_SVE.tmx",
             "PatchMode": "Overlay",
             "ToArea": {
                 "X": 96,

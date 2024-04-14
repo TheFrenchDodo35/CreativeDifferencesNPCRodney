@@ -111,6 +111,70 @@
                 //Lurking in the dark
                 "LitD_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
                 "LitD_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
+                "LitD_CT_SensFlowers": "{{i18n:LitD_CT_SensFlowers}}",
+/*
+                //Diamond in the rough
+                "DitR_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
+                "DitR_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
+                "DitR_CT_SensFlowers": "{{i18n:LitD_CT_SensFlowers}}}",
+                "DitR_CT_EveMeet": "{{i18n:Rodney.CT.EveMeet}}",
+                "DitR_CT_JeremyIntroduction": "{{i18n:Rodney.CT.JeremyIntroduction}}",
+                
+                //Nora The Herpetologist
+                "NoraClass": "{{i18n:Rodney.CT.NoraClass}}", //Third heart event, happens at the library, Nora has a little class with the kids. People who hang out in the library/have kids would know. 
+                "NoraSad": "{{i18n:Rodney.CT.NoraSad}}", //NoraSad: After her 6 hearts event, Nora is feeling quite low but won't disclose why. She's just quieter/sadder than usual. People who usually hang out with her/know her a bit would notice the difference.
+                "NoraBusy": "{{i18n:Rodney.CT.NoraBusy}}", //NoraBusy:  After 8 hearts event part 1, Nora will stay at home for about a week working on finishing her project. She's better but people would tell she's away, like people who spend a lot of time at the library would know
+                "NoraProud": "{{i18n:Rodney.CT.NoraProud}}", //NoraProud: After 8 hearts event part 2,  Nora finishes her PHD and celebrates with some friends at the saloon. Her friends would know
+                "NoraJob": "{{i18n:Rodney.CT.NoraJob}}", //NoraJob: After the 10 hearts event part 2,  Nora gets a job at the museum! People who work at the museum/spend lots of time there/her friends would know
+                "NoraChameleon": "{{i18n:Rodney.CT.NoraChameleon}}", // Nora finally  finds the endangered chameleon she was looking for! She is EXTREMELY excited and ALL of her friends (and people who are not really her friends) will be hearing about it
+
+
+                //SDV 1.6 CTs
+                "dating_Elliott": "{{i18n:Rodney.CT.dating_Elliott}}",
+                "married_Elliott": "{{i18n:Rodney.CT.married_Elliott}}",
+                "divorced_Elliott": "{{i18n:Rodney.CT.divorced_Elliott}}",
+                "GreenRain": "{{i18n:Rodney.CT.GreenRain.1}}",
+                "GreenRainFinished": "{{i18n:Rodney.CT.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:Rodney.CT.GreenRain.2}}",
+                "wonIceFishing": "{{i18n:Rodney.CT.wonIceFishing}}",
+
+                //SVE CTs
+                "guntherEscortDenied": "{{i18n:Rodney.CT.guntherEscortDenied}}",
+                "museumCompleted": "{{i18n:Rodney.CT.museumCompleted}}",
+                "jojaEmporium": "{{i18n:Rodney.CT.jojaEmporium}}",
+                "election": "{{i18n:Rodney.CT.election}}",
+                
+                //VMV
+
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}", 
+                
+                
+Barron Character Topics
+BusFire - its barron intro, her stove is on fire and the farmer puts it out
+Thepast - Shes contemplating why she wants to find her bio mother
+FindingPhoebe - Barron talks to marlin about phoebe, subtle implications of phoebe and marlin having a fling....
+PhoebeArrive- Her and Phoebe nearly get in a car crash thats how she meets her mom
+JinxIllness -Jinx is showing signs of illness, but ends up being pregnant
+
+Johns Character Topics
+JohnsArrival -John arrives via boat to east scarp, he has bad motion sickness
+JohnInjury -John faints at the seedsheop during exercise
+PopperSteals - pop steal seaglass, john discovers pop can talk
+VillainInTheValley - farmer fines pop in the garbage can, pop contemplates being evil and how he wishes ppl liked him
+
+Add ClownCore, E&D, S&S, BearFam 
+
+*/
             }
         },
     ]

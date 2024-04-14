@@ -66,7 +66,7 @@
   "summer_1": "Ah Summer! The season of sweat, scorching heat and humanity's greatest foes.#$e#Mosquitoes!$5#$e#Then again, Summer is also the time for swimming in the clear waters of the Gem Sea, enjoying some freshly grown melon from %farm Farm!$1#$e#Plus, I get to wear shorts, which are way better than regular pants.$1",
   "summer_Mon": "%Rodney looks grumpy.#$b#Oh great. You again.$5#$b#Here, let me pull a tarot card.$3.#$b#It says that... you need to leave me alone.$3",
   "summer_Mon2": "You know what I hate the most about Joja?$5#$b#How I enjoy drinking Joja Cola...$2#$b#I know it's gross and full of chemicals and sugar, but man, I can't get enough of that stuff.",
-  "summer_Mon4-1": "Well hello there farmer @.#$b#$y'If you could leave your farm for a bit, where would you like to spend your Summer vacation?_Sunbathing on a tropical beach._Yeah, that's a good choice.$1_Sightseeing around the world._That a great choice. The world has so much to offer outside of this charming valley.$1",
+  "summer_Mon4-1": "Well hello there farmer @.#$b#$y 'If you could leave your farm for a bit, where would you like to spend your Summer vacation?_Sunbathing on a tropical beach._Yeah, that's a good choice.$1_Sightseeing around the world._That a great choice. The world has so much to offer outside of this charming valley.$1'",
   "summer_Mon4-2": "#$b#Personally, I'd like to spend my vacation...at the library!$1#$b#What? I'm a writer. I love books.$7",
   "summer_Mon6": "Hey @! Do you know where cats go when they die?#$b#To purrgatory!$1#$e#Get it?", //purchatoire
   "summer_Mon8": "When I was a teenager, nobody believed I could make it as writer, including myself.#$b#But one day, I heard a quote from a Stellar Gallivant: The Second Genesis.#$b#'Things are only impossible until they are not'.#$b#It stuck with me and it became my personal mantra!$1",
@@ -305,6 +305,51 @@
   "LitD_CT_ShadowPlay": "I think Elliott's shack has a gas leak or something.#$b#The other night, I was going home after spending the day there, being my usual quality writing coach, and I noticed two people running around near Emily's house.#$b#And they looked exactly like the Shadowfolk from the legends!$8#$b#There is no such thing of course, so my money's on gas leak. Or maybe asbestos.", 
   "LitD_CT_GardenCompleted": "Have you ever visited the cave on the East Scarp beach? That place looks scary.$2#$b#I swear I heard some voices coming from there the other day.$2#$b#Oh well, it's was probably the kids!$1#$b#Right?$2", 
   "LitD_CT_SensFlowers": "Have you noticed those beautiful flowers that started growing everywhere? They look like crocuses, but prettier!$1",
+  "Rodney.CT.EveMeet": "", //added in 3.0.4
+  "Rodney.CT.JeremyIntroduction": "", //added in 3.0.4
+  "Rodney.CT.NoraClass": "", //added in 3.0.4
+  "Rodney.CT.NoraSad": "", //added in 3.0.4
+  "Rodney.CT.NoraBusy": "", //added in 3.0.4
+  "Rodney.CT.NoraProud": "", //added in 3.0.4
+  "Rodney.CT.NoraJob": "", //added in 3.0.4
+  "Rodney.CT.NoraChameleon": "", //added in 3.0.4
+  "Rodney.CT.guntherEscortDenied": "", //added in 3.0.4
+  "Rodney.CT.museumCompleted": "", //added in 3.0.4
+  "Rodney.CT.jojaEmporium": "", //added in 3.0.4
+  "Rodney.CT.election": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.": "", //added in 3.0.4
+  "Rodney.CT.married_Elliott": "", //added in 3.0.4
+  "Rodney.CT.divorced_Elliott": "", //added in 3.0.4
+  "Rodney.CT.wonIceFishing": "", //added in 3.0.4
+  "Rodney.CT.GreenRain.1": "", //added in 3.0.4
+  "Rodney.CT.GreenRainFinished": "", //added in 3.0.4
+  "Rodney.CT.GreenRain.2": "", //added in 3.0.4
+  "Rodney.CT.wonIceFishing": "", //added in 3.0.4
+
+
   //Festival dialogue Platonic (string name has been edited in 2.0.0 )
   "Rodney.EggFestival.Platonic": "Do you like my hat?$1#$b#I was at the library last week and Vincent, Jas and Eloise were planning on painting eggs for the Egg Festival. Eloise said my head looked like an egg.#$b#Long story short, Vincent made this hat for me. I am pulling it off though.",
   "Rodney.FlowerDance.Platonic": "What a silly yet quaint event. Do you want to dance with me?#$b#You know that I'm kidding right?$2",
@@ -380,6 +425,8 @@
   "RodHate": "You know what this is? This is the worst thing anyone has ever given me. And I was once bestowed the Worst Fantasy Novel of The Decade Award.",
   "RodNeutral": "That was very thoughtful of you.",
   //Gift reactions
+  "RodneyReaction.StardropTea.1": "Oh wow, that's amazing! I'm usually a coffee aficionado myself, but that's some quality tea! Thank you so much @.$1", //added in 3.0.4
+  "RodneyReaction.StardropTea.2": "Now, that's what I call some quali-tea!$1", //added in 3.0.4
   "GiftReaction_Quartz": "Oh! I love this stone! Quartz has so much energy. Thank you so much @!$1",
   "GiftReaction_Quartz~1": "Thanks a lot, @! I really love quartz. This one is going straight into my rock collection!$1",
   "GiftReaction_Banana": "Hmm banana.$1",
@@ -472,7 +519,11 @@
  // "rod.016.Platonic": "I might visit the Night Market again. It leaves tomorrow and we won't be able to enjoy it until next year!$1", //removed in 3.0.0
   "rod.017.Platonic": "I'm considering visiting the Mermaid Boat tonight.#$b#For...$2#$b#Research purposes! Yep, that's it. I plan on telling a story about mermaids in an upcoming novel.$1#$b#That is why I want to see the Mermaid Show. Research.$4#$b#Yeah.#$e#You're still here?$7",
   "rod.018.Platonic": "The view is pretty amazing from up here, don't you think?#$b#I mean, I love the ocean view in East Scarp, but this is something else. You can see the whole valley!$1",
-  "rod.021": "Oh, I didn't expect to see you there, @. I didn't know you were a friend of Mineral Town!$1#$b#Me? Oh, just visiting my old buddy Zack!",
+ // "rod.021": "Oh, I didn't expect to see you there, @. I didn't know you were a friend of Mineral Town!$1#$b#Me? Oh, just visiting my old buddy Zack!",
+  "Rodney.PrideFestival": "Look at all those fabulous queer folks!$1#$b#I feel like I really found my tribe here, you know? Being a bisexual man isn't always easy and I've had partners who didn't quite accept it.#$b#My dear Annwenn never questioned it though. She loved all of me.$4#$b#Anyway, Elliott and I are workshopping queer mystery novel ideas, wanna pitch in?$1", //added in 3.0.4
+  "RodneyGreenRain1": "Hello captain @. I have been conducting a thorough scan of this phenomenon. The readings from my tricorder seem to suggest that despite its impressive appearance, the green rain is harmless to humanoids.#$b#It also appears to have an enhancing effect on the local flora. With your permission, I would like to collect a few samples so I can run an in-depth analysis on the ship.", //added in 3.0.4
+  "RodneyGreenRain2": "Upon further analysis, I have concluded that the inhabitants of this world are deeply rooted in superstition, which explains, in part, why they seem to be afraid of a perfectly natural, albeit unusual, weather event.", //added in 3.0.4
+  "RodneyGreenRain3": "Captain. I have gathered sufficient data regarding the so-called green rain. While doing so, I may have discovered a way to harness its power to counteract the effect of the Genesis Device. I suggest we beam back to the ship without further delay and set a course for spacedock at maximum warp to present these findings to the admiral.", //added in 3.0.4
 
   // Schedule dialogue romantic 
   //the name of the strings has been changed in 2.0.0
@@ -554,7 +605,7 @@
   "Demetrius.GiftReaction_An_autographed_photo": "No.$4",
   "Dwarf.GiftReaction_An_autographed_photo": "What in the Void in that?",
   "Marlon.GiftReaction_An_autographed_photo": "What am I supposed to do with it? Hang it in the mines to scare the monsters away?",
-  "MarlonFey.GiftReaction_An_autographed_photo": "What am I supposed to do with it? Hang it in the mines to scare the monsters away?",
+  "MarlonFay.GiftReaction_An_autographed_photo": "What am I supposed to do with it? Hang it in the mines to scare the monsters away?",
   "Andy.GiftReaction_An_autographed_photo": "I guess I'll use this as fuel next time I need to start a fire.$2",
   "Victor.GiftReaction_An_autographed_photo": "Wow. No thank you.$2",
   "Lance.GiftReaction_An_autographed_photo": "What do you want me to do with that?$3",
@@ -620,7 +671,7 @@
   "Demetrius.RodStoryReading": "Rodney thinks because I'm a scientist, I love science-fiction. That's actually a pretty common misconception. I appreciate science and fiction, but I don't like when the two intertwine.",
   "Demetrius.FerngillNationalLibraryReading": "I heard you visited the Ferngill National Library. I really like going there. It is the ultimate repository of knowledge in the Ferngill Republic.",
   "Marlon.RodStoryReading": "That Rodney man wants me to escort him through the mines to do some research for a book.#$b#Of course, I told him no. I'm not a babysitter.",
-  "MarlonFey.RodStoryReading": "That Rodney man wants me to escort him through the mines to do some research for a book.#$b#Of course, I told him no. I'm not a babysitter.",
+  "MarlonFay.RodStoryReading": "That Rodney man wants me to escort him through the mines to do some research for a book.#$b#Of course, I told him no. I'm not a babysitter.",
   "Haley.MeetingMeredith": "I met a new girl in town and I absolutely loved her style! I think her name was Meredith or something?",
   "Dwarf.DwarfStory": "The tall man with a polished head came by the mine recently. He kept yelling 'Is there a dwarf out there? I need an answer for my book!'.#$b#I don't trust him.",
   // Events
