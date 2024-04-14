@@ -20,8 +20,10 @@
             //    "rod.017": "{{i18n:rod.017.{{RomanticRodney}}}}",
             //    "rod.018": "{{i18n:rod.018.{{RomanticRodney}}}}",
             //    "rod.021": "{{i18n:rod.021}}",
-                "RodneyPrideFestival": "{{i18:Rodney.PrideFestival}}",
+                "RodneyPrideFestival": "{{i18n:Rodney.PrideFestival}}",
                 "RodneyGreenRain1": "{{i18n:RodneyGreenRain1}}",
+                "RodneyGreenRain2": "{{i18n:RodneyGreenRain2}}",
+                "RodneyGreenRain3": "{{i18n:RodneyGreenRain3}}",
             }
         }
     ]
