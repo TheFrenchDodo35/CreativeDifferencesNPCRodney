@@ -112,6 +112,10 @@
                 "LitD_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
                 "LitD_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
                 "LitD_CT_SensFlowers": "{{i18n:LitD_CT_SensFlowers}}",
+
+                //SDV 1.6 CTs
+                "GreenRainFinished": "{{i18n:Rodney.CT.GreenRainFinished}}",
+
 /*
                 //Diamond in the rough
                 "DitR_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
@@ -134,7 +138,6 @@
                 "married_Elliott": "{{i18n:Rodney.CT.married_Elliott}}",
                 "divorced_Elliott": "{{i18n:Rodney.CT.divorced_Elliott}}",
                 "GreenRain": "{{i18n:Rodney.CT.GreenRain.1}}",
-                "GreenRainFinished": "{{i18n:Rodney.CT.GreenRainFinished}}",
                 "GreenRain_2": "{{i18n:Rodney.CT.GreenRain.2}}",
                 "wonIceFishing": "{{i18n:Rodney.CT.wonIceFishing}}",
 

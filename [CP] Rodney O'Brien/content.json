@@ -117,10 +117,10 @@
 			"Action": "EditData",
 			"Target": "Mods/shekurika.EventLookup/locationnames",
 			"Entries": {
-				"EastScarp_RodneysHouse": "Rodney's House",
-				"EastScarp_RodneysBasement": "Rodney's Basement",
-				"EastScarp_FerngillNationalLibrary": "Ferngill National Library",
-				"EastScarp_LibraryExterior": "Ferngill National Library's park",
+				"EastScarp_RodneysHouse": "{{i18n:MapName.ESRodneysHouse}}",
+				"EastScarp_RodneysBasement": "{{i18n:MapName.ESRodneysBasement}}",
+				"EastScarp_FerngillNationalLibrary": "{{i18n:MapName.ESFerngillNationalLibrary}}",
+				"EastScarp_LibraryExterior": "{{i18n:MapName.ESLibraryExterior}}",
 			},
 			"When": {
 				"HasMod": "shekurika.EventLookup"

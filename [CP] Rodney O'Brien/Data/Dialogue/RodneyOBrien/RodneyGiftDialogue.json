@@ -62,11 +62,33 @@
                 "AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:RodneyReaction.TastyAceCookie}}", 
                 "AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "{{i18n:RodneyReaction.ARomanticCookie}}", 
                 "AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:RodneyReaction.TransTart}}", 
-                //BearFam
-                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_PotentMead": "{{i18n:RodneyReaction.FerskenPeach_PotentMead}}";
+                //#BearFam
+                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_PotentMead": "{{i18n:RodneyReaction.FerskenPeach_PotentMead}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.BrazierSecretAlfredo": "{{i18n:RodneyReaction.BrazierSecretAlfredo}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.HoneyWheatBread": "{{i18n:RodneyReaction.HoneyWheatBread}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.SesameBrownBread": "{{i18n:RodneyReaction.SesameBrownBread}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.GudrunPerfectRamen": "{{i18n:RodneyReaction.GudrunPerfectRamen}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarPerfectRamen": "{{i18n:RodneyReaction.GunnarPerfectRamen}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.SondraPerfectRamen": "{{i18n:RodneyReaction.SondraPerfectRamen}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.SigurdPerfectRamen": "{{i18n:RodneyReaction.SigurdPerfectRamen}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_Mead": "{{i18n:RodneyReaction.FerskenPeach_Mead}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard": "{{i18n:RodneyReaction.FerskenPeach_Mead_Tankard}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.PumpkinJoja": "{{i18n:RodneyReaction.PumpkinJoja}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.PeachJoja": "{{i18n:RodneyReaction.PeachJoja}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.BananaBread": "{{i18n:RodneyReaction.BananaBread}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarThirdPotion": "{{i18n:RodneyReaction.GunnarThirdPotion}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarPerfectPotion": "{{i18n:RodneyReaction.GunnarPerfectPotion}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarRemedyAll": "{{i18n:RodneyReaction.GunnarRemedyAll}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarBadPotion": "{{i18n:RodneyReaction.GunnarBadPotion}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarFirstPotion": "{{i18n:RodneyReaction.GunnarFirstPotion}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarMysteryPotion": "{{i18n:RodneyReaction.GunnarMysteryPotion}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarSecondPotion": "{{i18n:RodneyReaction.GunnarSecondPotion}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarWeirdPotion": "{{i18n:RodneyReaction.GunnarWeirdPotion}}",
+                "AcceptGift_(O)MadDog.BearFam.Colacrab": "{{i18n:RodneyReaction.Colacrab}}",
+
 
             }
-        }, //"{{i18n:RodneyReaction.}}";
+        }, //"{{i18n:RodneyReaction.}}",
  //       {
  //           "LogName": "Rodney Stardrop Flower",
    //         "Action": "EditData",

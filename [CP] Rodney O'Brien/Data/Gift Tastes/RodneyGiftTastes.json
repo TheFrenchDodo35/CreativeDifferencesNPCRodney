@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
 			"Entries": {
-				"RodneyOBrien": "{{i18n:RodLove}}/80 91 253 303 444 WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.Goblins WWWA.Book.LunarkinTrollTales WWWA.Book.MysteriesOfTheDwarves WWWA.Book.ArtifactOrCutlery WWWA.Book.TheGreatTomeOfMayo WWWA.Book.TheTarotRevealed sapphicsaph_pitv.BiBerryMuffin/{{i18n:RodLike}}/-80 -2 167 306 346 395 424 426 sapphicsaph_pitv.PridePop sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart/{{i18n:RodDislike}}/-4 78 216 290 WWWA.Book.ArcanaCatcherPrunus WWWA.Book.TheBookOfYoba/{{i18n:RodHate}}/-21 -20 446 WWWA.AutographedPhoto WWWA.GenuineAutograph WWWA.Book.GuideToSculptingWithGold WWWA.Book.TheGreatBookOfSlimes/{{i18n:RodNeutral}}/WWWA.Book.DeferenceArlington WWWA.Book.FishingForDumbDumbs/ ",
+				"RodneyOBrien": "{{i18n:RodLove}}/80 91 253 303 444 WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.Goblins WWWA.Book.LunarkinTrollTales WWWA.Book.MysteriesOfTheDwarves WWWA.Book.ArtifactOrCutlery WWWA.Book.TheGreatTomeOfMayo WWWA.Book.TheTarotRevealed sapphicsaph_pitv.BiBerryMuffin )MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.BananaBread/{{i18n:RodLike}}/-80 -2 167 306 346 395 424 426 sapphicsaph_pitv.PridePop sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.SesameBrownBread MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.PeachJoja/{{i18n:RodDislike}}/-4 78 216 290 WWWA.Book.ArcanaCatcherPrunus WWWA.Book.TheBookOfYoba/{{i18n:RodHate}}/-21 -20 446 WWWA.AutographedPhoto WWWA.GenuineAutograph WWWA.Book.GuideToSculptingWithGold WWWA.Book.TheGreatBookOfSlimes/{{i18n:RodNeutral}}/WWWA.Book.DeferenceArlington WWWA.Book.FishingForDumbDumbs MadDog.BearFam.Colacrab/ ",
 			},
 		},
 		{
@@ -30,3 +30,4 @@
 		},
 	]
 }
+

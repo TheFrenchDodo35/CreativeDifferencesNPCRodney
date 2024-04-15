@@ -345,7 +345,7 @@
   "Rodney.CT.divorced_Elliott": "", //added in 3.1.0
   "Rodney.CT.wonIceFishing": "", //added in 3.1.0
   "Rodney.CT.GreenRain.1": "", //added in 3.1.0
-  "Rodney.CT.GreenRainFinished": "", //added in 3.1.0
+  "Rodney.CT.GreenRainFinished": "That weather was wild, yesterday! And I really enjoyed doing some solo LARPing!$1#$b#Although, Demetrius did not seem amused by my performance...$2", //added in 3.1.0
   "Rodney.CT.GreenRain.2": "", //added in 3.1.0
   "Rodney.CT.wonIceFishing": "", //added in 3.1.0
 
@@ -508,10 +508,31 @@
     "RodneyReaction.EnbyEclair": "This looks delicious, thank you!#$b#By the way, do you know why LGBTQ people dislike coding?#$b#Because it's binary!$1#$e#Get it?", //added in 3.1.0 
     "RodneyReaction.TastyAceCookie": "That cookie does look tasty! Thank you, @!$1#$b#By the way, do you know how you call an asexual lawyer?#$b#An ace attorney!$1#$e#Get it?", //added in 3.1.0 
     "RodneyReaction.ARomanticCookie": "Oh! This one has extra flavour!#$b#Oh wait, it's aromantic, not aromatic!$1", //added in 3.1.0 
-    "RodneyReaction.TransTart": "Thank you very much, @. By the way, I was talking to mayor Lewis the other day. He told me that his truck supports trans rights!$1#$b#Because it's has trans mission!$1#$e#Get it?", //added in 3.1.0 
+    "RodneyReaction.TransTart": "Thank you very much, @. By the way, I was talking to mayor Lewis the other day. He told me that his truck supports trans rights!$1#$b#Because it has trans mission!$1#$e#Get it?", //added in 3.1.0 
 
   //#BearFam items 
-  "RodneyReaction.FerskenPeach_PotentMead": "Uuuuh what?$8#$b#Well, I guess I could use that to clear the bathtub drain...$2", 
+  "RodneyReaction.FerskenPeach_PotentMead": "Uuuuh what?$8#$b#Well, I guess I could use that to clear the bathtub drain...$2", //added in 3.1.0
+  "RodneyReaction.BrazierSecretAlfredo": "Did you make this yourself? How did you get that recipe?$8#$b#I love it, thank you so much, @!$1", //added in 3.1.0
+  "RodneyReaction.HoneyWheatBread": "Oh thanks, that looks delicious! Wait, Teren made this? Damn, he's not only a pretty face, then!$1", //added in 3.1.0
+  "RodneyReaction.SesameBrownBread": "Thank you, @! This is gonna be a treat for dinner. A slice of tasty bread with a little bit of cheese.$1#$b#Okay, maybe a lot of cheese.", //added in 3.1.0
+  "RodneyReaction.GudrunPerfectRamen": "Oh, is that a Gudrun recipe? Don't mind if I do! That little brat sure can cook!$1", //added in 3.1.0
+  "RodneyReaction.GunnarPerfectRamen": "Wait. A Gunnar recipe? Will it explode???$8#$b#It does look good actually. Thank you!", //added in 3.1.0
+  "RodneyReaction.SondraPerfectRamen": "Those ramen are just like Sondra. Sweet, fulfilling and a little spicy.$4", //added in 3.1.0
+  "RodneyReaction.SigurdPerfectRamen": "Thank you, @! Sig's recipe is a little too spicy for my taste, but I'll enjoy this anyway!$1", //added in 3.1.0
+  "RodneyReaction.FerskenPeach_Mead": "Sweet, sweet mead, come to daddy.$1", //added in 3.1.0
+  "RodneyReaction.FerskenPeach_Mead_Tankard": "Cheers, @! Thanks for the nice gift, I was feeling a little thirsty.$1", //added in 3.1.0
+  "RodneyReaction.PumpkinJoja": "You know, this doesn't have the right to be as good as this actually is.$1", //added in 3.1.0
+  "RodneyReaction.PeachJoja": "Thank you, @. This drink is one of Joja's greatest creation.$1", //added in 3.1.0
+  "RodneyReaction.BananaBread": "Oh wow, thank you so much @! This is the best thing ever. It's both bread AND banana. And yet, so much more!$1", //added in 3.1.0
+  "RodneyReaction.GunnarThirdPotion": "Oh. Uh. Thanks?$2", //added in 3.1.0
+  "RodneyReaction.GunnarPerfectPotion": "I will never sully my body by drinking something Gunnar brewed.$7", //added in 3.1.0
+  "RodneyReaction.GunnarRemedyAll": "Dear Yoba, this smells like death.$8", //added in 3.1.0
+  "RodneyReaction.GunnarBadPotion": "Are you trying to poison me, @?$7", //added in 3.1.0
+  "RodneyReaction.GunnarFirstPotion": "I think you've been scammed, @. If Gunnar knows how to brew actual potions, then I'm the Governor!$1#$b#Wait. Maybe I should run for Governor!$1", //added in 3.1.0
+  "RodneyReaction.GunnarMysteryPotion": "I have a feeling that the glass bottle is the tastiest part of this potion.$7", //added in 3.1.0
+  "RodneyReaction.GunnarSecondPotion": "I'd rather eat an expired mega bomb than drink this.$7", //added in 3.1.0
+  "RodneyReaction.GunnarWeirdPotion": "You know, if you want to get rid of me, just push me of a cliff, it would save you some money.$7", //added in 3.1.0
+  "RodneyReaction.Colacrab": "Oh thanks for the Joja Co-$1#$b#WAIT IS THAT A CRAB?$8", //added in 3.1.0 //neutral
 
   // Schedule dialogue Platonic 
   //the name of the strings has been changed in 2.0.0
