@@ -136,6 +136,10 @@
 	           |___/                                                                                      
 	*/
 	"DynamicTokens": [
+		{ //I have no idea how this works. I stole it from Axell's code.
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}"
+        },
 		//Rasmodia Compatibility
 		{
 			"Name": "WizardGender",
