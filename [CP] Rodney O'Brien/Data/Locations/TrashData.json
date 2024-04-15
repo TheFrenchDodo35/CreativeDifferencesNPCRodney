@@ -19,7 +19,7 @@
                         },
                         {
                             "Id": "TheFrenchDodo.WWWA.TrashCan.RodneyOBrien.RodneyMerch",
-                            "Condition": "RANDOM 0.3 @addDailyLuck",
+                            "Condition": "RANDOM 0.1 @addDailyLuck",
                             "RandomItemId": [ 
                                 "(BC)WWWA.RodneyWinterStarScarecrow", "(BC)WWWA.RodneySummerOutfitScarecrow", "(BC)WWWA.RodneyCosplayScarecrow", "(BC)WWWA.RodneyEggFestivalScarecrow", "(BC)WWWA.RodneyBeachOutfitScarecrow",
                             ]
