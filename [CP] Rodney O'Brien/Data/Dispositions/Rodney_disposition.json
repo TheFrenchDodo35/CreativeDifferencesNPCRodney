@@ -297,6 +297,13 @@
                             "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Fall2_Pink.png}}",
                             "Precedence": -20
                         },
+                        {
+                            "ID": "Pride Festival",
+                            "Condition": "SEASON_DAY summer 15, {{HasMod|contains=sapphicsaph_pitv}}",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/RodneyOBrien/Rodney_Pride.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/RodneyOBrien/Rodney_Pride.png}}",
+                            "Precedence": -20
+                        },
                     ]
                 },
                 

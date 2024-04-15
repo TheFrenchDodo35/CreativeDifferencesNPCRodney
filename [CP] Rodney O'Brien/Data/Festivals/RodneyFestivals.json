@@ -288,7 +288,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 18 50 down",
+          "Value": "RodneyOBrien 19 50 down",
           "Delimiter": "/"
         }
       ],
@@ -387,7 +387,26 @@
         }
       ],
       "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", "IsOddYear": false,
+      }
+    },
+    {
+      "LogName": "Winter Star position vanilla",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 29 86 down",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", "IsOddYear": true,
       }
     },
     {

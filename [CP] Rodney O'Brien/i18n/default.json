@@ -305,49 +305,49 @@
   "LitD_CT_ShadowPlay": "I think Elliott's shack has a gas leak or something.#$b#The other night, I was going home after spending the day there, being my usual quality writing coach, and I noticed two people running around near Emily's house.#$b#And they looked exactly like the Shadowfolk from the legends!$8#$b#There is no such thing of course, so my money's on gas leak. Or maybe asbestos.", 
   "LitD_CT_GardenCompleted": "Have you ever visited the cave on the East Scarp beach? That place looks scary.$2#$b#I swear I heard some voices coming from there the other day.$2#$b#Oh well, it's was probably the kids!$1#$b#Right?$2", 
   "LitD_CT_SensFlowers": "Have you noticed those beautiful flowers that started growing everywhere? They look like crocuses, but prettier!$1",
-  "Rodney.CT.EveMeet": "", //added in 3.0.4
-  "Rodney.CT.JeremyIntroduction": "", //added in 3.0.4
-  "Rodney.CT.NoraClass": "", //added in 3.0.4
-  "Rodney.CT.NoraSad": "", //added in 3.0.4
-  "Rodney.CT.NoraBusy": "", //added in 3.0.4
-  "Rodney.CT.NoraProud": "", //added in 3.0.4
-  "Rodney.CT.NoraJob": "", //added in 3.0.4
-  "Rodney.CT.NoraChameleon": "", //added in 3.0.4
-  "Rodney.CT.guntherEscortDenied": "", //added in 3.0.4
-  "Rodney.CT.museumCompleted": "", //added in 3.0.4
-  "Rodney.CT.jojaEmporium": "", //added in 3.0.4
-  "Rodney.CT.election": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.": "", //added in 3.0.4
-  "Rodney.CT.married_Elliott": "", //added in 3.0.4
-  "Rodney.CT.divorced_Elliott": "", //added in 3.0.4
-  "Rodney.CT.wonIceFishing": "", //added in 3.0.4
-  "Rodney.CT.GreenRain.1": "", //added in 3.0.4
-  "Rodney.CT.GreenRainFinished": "", //added in 3.0.4
-  "Rodney.CT.GreenRain.2": "", //added in 3.0.4
-  "Rodney.CT.wonIceFishing": "", //added in 3.0.4
+  "Rodney.CT.EveMeet": "", //added in 3.1.0
+  "Rodney.CT.JeremyIntroduction": "", //added in 3.1.0
+  "Rodney.CT.NoraClass": "", //added in 3.1.0
+  "Rodney.CT.NoraSad": "", //added in 3.1.0
+  "Rodney.CT.NoraBusy": "", //added in 3.1.0
+  "Rodney.CT.NoraProud": "", //added in 3.1.0
+  "Rodney.CT.NoraJob": "", //added in 3.1.0
+  "Rodney.CT.NoraChameleon": "", //added in 3.1.0
+  "Rodney.CT.guntherEscortDenied": "", //added in 3.1.0
+  "Rodney.CT.museumCompleted": "", //added in 3.1.0
+  "Rodney.CT.jojaEmporium": "", //added in 3.1.0
+  "Rodney.CT.election": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.": "", //added in 3.1.0
+  "Rodney.CT.married_Elliott": "", //added in 3.1.0
+  "Rodney.CT.divorced_Elliott": "", //added in 3.1.0
+  "Rodney.CT.wonIceFishing": "", //added in 3.1.0
+  "Rodney.CT.GreenRain.1": "", //added in 3.1.0
+  "Rodney.CT.GreenRainFinished": "", //added in 3.1.0
+  "Rodney.CT.GreenRain.2": "", //added in 3.1.0
+  "Rodney.CT.wonIceFishing": "", //added in 3.1.0
 
 
   //Festival dialogue Platonic (string name has been edited in 2.0.0 )
@@ -425,8 +425,8 @@
   "RodHate": "You know what this is? This is the worst thing anyone has ever given me. And I was once bestowed the Worst Fantasy Novel of The Decade Award.",
   "RodNeutral": "That was very thoughtful of you.",
   //Gift reactions
-  "RodneyReaction.StardropTea.1": "Oh wow, that's amazing! I'm usually a coffee aficionado myself, but that's some quality tea! Thank you so much @.$1", //added in 3.0.4
-  "RodneyReaction.StardropTea.2": "Now, that's what I call some quali-tea!$1", //added in 3.0.4
+  "RodneyReaction.StardropTea.1": "Oh wow, that's amazing! I'm usually a coffee aficionado myself, but that's some quality tea! Thank you so much @.$1", //added in 3.1.0
+  "RodneyReaction.StardropTea.2": "Now, that's what I call some quali-tea!$1", //added in 3.1.0
   "GiftReaction_Quartz": "Oh! I love this stone! Quartz has so much energy. Thank you so much @!$1",
   "GiftReaction_Quartz~1": "Thanks a lot, @! I really love quartz. This one is going straight into my rock collection!$1",
   "GiftReaction_Banana": "Hmm banana.$1",
@@ -499,6 +499,20 @@
   "RodneyReaction.Book.TheTarotRevealed": "According to my tarot deck, this is an excellent gift!$3#$b#Thank you, @. It means a lot that you'd bring me that book.$4", //added in 3.0.0
   "RodneyReaction.Book.WhyPepperRexesAreTheBest": "Thank you! I really like this book, even though I believe Mateo lacks some objectivity when it comes to Pepper Rexes.$1", //added in 3.0.0
 
+
+  //Pride Festival Items 
+    "RodneyReaction.BiBerryMuffin": "Wow, I love this, thank you! Although, making a good bisexual joke is pretty hard.#$b#It can go either way.$1#$e#Get it?", //added in 3.1.0 
+    "RodneyReaction.PridePop": "Thank you, dear @! This reminds me that I need to ask you a question. Can you tell me what LGBTQ means?#$b#I can never get a straight answer!$1#$e#Get it?", //added in 3.1.0 
+    "RodneyReaction.LesbianLollipop": "My my, thank you! This reminds me of a story. Did you hear about the two female spies who fell in love? It was Lesbianage!#$b#Get it?", //added in 3.1.0 
+    "RodneyReaction.GaylacticCookie": "Thanks, @! This cookie reminded me that you can never argue with a gay person...#$b#Because they're not thinking straight!$1#$e#Get it?", //added in 3.1.0 
+    "RodneyReaction.EnbyEclair": "This looks delicious, thank you!#$b#By the way, do you know why LGBTQ people dislike coding?#$b#Because it's binary!$1#$e#Get it?", //added in 3.1.0 
+    "RodneyReaction.TastyAceCookie": "That cookie does look tasty! Thank you, @!$1#$b#By the way, do you know how you call an asexual lawyer?#$b#An ace attorney!$1#$e#Get it?", //added in 3.1.0 
+    "RodneyReaction.ARomanticCookie": "Oh! This one has extra flavour!#$b#Oh wait, it's aromantic, not aromatic!$1", //added in 3.1.0 
+    "RodneyReaction.TransTart": "Thank you very much, @. By the way, I was talking to mayor Lewis the other day. He told me that his truck supports trans rights!$1#$b#Because it's has trans mission!$1#$e#Get it?", //added in 3.1.0 
+
+  //#BearFam items 
+  "RodneyReaction.FerskenPeach_PotentMead": "Uuuuh what?$8#$b#Well, I guess I could use that to clear the bathtub drain...$2", 
+
   // Schedule dialogue Platonic 
   //the name of the strings has been changed in 2.0.0
   "rod.001.0": "I like this area. I often come here. It's a great place to think and there's nobody to bother me.$1#$b#Well... except you.$7",
@@ -520,10 +534,10 @@
   "rod.017.Platonic": "I'm considering visiting the Mermaid Boat tonight.#$b#For...$2#$b#Research purposes! Yep, that's it. I plan on telling a story about mermaids in an upcoming novel.$1#$b#That is why I want to see the Mermaid Show. Research.$4#$b#Yeah.#$e#You're still here?$7",
   "rod.018.Platonic": "The view is pretty amazing from up here, don't you think?#$b#I mean, I love the ocean view in East Scarp, but this is something else. You can see the whole valley!$1",
  // "rod.021": "Oh, I didn't expect to see you there, @. I didn't know you were a friend of Mineral Town!$1#$b#Me? Oh, just visiting my old buddy Zack!",
-  "Rodney.PrideFestival": "Look at all those fabulous queer folks!$1#$b#I feel like I really found my tribe here, you know? Being a bisexual man isn't always easy and I've had partners who didn't quite accept it.#$b#My dear Annwenn never questioned it though. She loved all of me.$4#$b#Anyway, Elliott and I are workshopping queer mystery novel ideas, wanna pitch in?$1", //added in 3.0.4
-  "RodneyGreenRain1": "Hello captain @. I have been conducting a thorough scan of this phenomenon. The readings from my tricorder seem to suggest that despite its impressive appearance, the green rain is harmless to humanoids.#$b#It also appears to have an enhancing effect on the local flora. With your permission, I would like to collect a few samples so I can run an in-depth analysis on the ship.", //added in 3.0.4
-  "RodneyGreenRain2": "Upon further analysis, I have concluded that the inhabitants of this world are deeply rooted in superstition, which explains, in part, why they seem to be afraid of a perfectly natural, albeit unusual, weather event.", //added in 3.0.4
-  "RodneyGreenRain3": "Captain. I have gathered sufficient data regarding the so-called green rain. While doing so, I may have discovered a way to harness its power to counteract the effect of the Genesis Device. I suggest we beam back to the ship without further delay and set a course for spacedock at maximum warp to present these findings to the admiral.", //added in 3.0.4
+  "Rodney.PrideFestival": "Look at all those fabulous queer folks!$1#$b#I feel like I really found my tribe here, you know? Being a bisexual man isn't always easy and I've had partners who didn't quite accept it.#$b#My dear Annwenn never questioned it though. She loved all of me.$4#$b#Anyway, Elliott and I are workshopping queer mystery novel ideas, wanna pitch in?$1", //added in 3.1.0
+  "RodneyGreenRain1": "Hello captain @. I have been conducting a thorough scan of this phenomenon. The readings from my tricorder seem to suggest that despite its impressive appearance, the green rain is harmless to humanoids.#$b#It also appears to have an enhancing effect on the local flora. With your permission, I would like to collect a few samples so I can run an in-depth analysis on the ship.", //added in 3.1.0
+  "RodneyGreenRain2": "Upon further analysis, I have concluded that the inhabitants of this world are deeply rooted in superstition, which explains, in part, why they seem to be afraid of a perfectly natural, albeit unusual, weather event.", //added in 3.1.0
+  "RodneyGreenRain3": "Captain. I have gathered sufficient data regarding the so-called green rain. While doing so, I may have discovered a way to harness its power to counteract the effect of the Genesis Device. I suggest we beam back to the ship without further delay and set a course for spacedock at maximum warp to present these findings to the admiral.", //added in 3.1.0
 
   // Schedule dialogue romantic 
   //the name of the strings has been changed in 2.0.0

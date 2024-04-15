@@ -53,8 +53,20 @@
                 "AcceptGift_(O)WWWA.Book.WhyPepperRexesAreTheBest": "{{i18n:RodneyReaction.Book.WhyPepperRexesAreTheBest}}",
                 //New items 1.6
                 "AcceptGift_(O)StardropTea": "{{Random:{{i18n:RodneyReaction.StardropTea.1}}++{{i18n:RodneyReaction.StardropTea.2}}|inputSeparator=++}}",
+                //Pride Festival Items 
+                "AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:RodneyReaction.BiBerryMuffin}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:RodneyReaction.PridePop}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "{{i18n:RodneyReaction.LesbianLollipop}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:RodneyReaction.GaylacticCookie}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:RodneyReaction.EnbyEclair}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:RodneyReaction.TastyAceCookie}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "{{i18n:RodneyReaction.ARomanticCookie}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:RodneyReaction.TransTart}}", 
+                //BearFam
+                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_PotentMead": "{{i18n:RodneyReaction.FerskenPeach_PotentMead}}";
+
             }
-        },
+        }, //"{{i18n:RodneyReaction.}}";
  //       {
  //           "LogName": "Rodney Stardrop Flower",
    //         "Action": "EditData",
