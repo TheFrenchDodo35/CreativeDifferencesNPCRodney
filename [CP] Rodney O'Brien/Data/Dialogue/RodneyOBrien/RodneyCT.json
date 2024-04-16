@@ -98,11 +98,12 @@
                 //SDV 1.6 CTs
                 "GreenRainFinished": "{{i18n:Rodney.CT.GreenRainFinished}}",
 
-/*
                 //Diamond in the rough
                 "DitR_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
                 "DitR_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
                 "DitR_CT_SensFlowers": "{{i18n:LitD_CT_SensFlowers}}}",
+/*
+                
                 "DitR_CT_EveMeet": "{{i18n:Rodney.CT.EveMeet}}",
                 "DitR_CT_JeremyIntroduction": "{{i18n:Rodney.CT.JeremyIntroduction}}",
                 

@@ -435,7 +435,7 @@
 		},
 		{
 			"Name": "Rodney_SaloonParty",
-			"Value": "{{Rodney_SaloonParty}} Cambria 8 23 0 VoidOrchid 4 13 2",
+			"Value": "{{Rodney_SaloonParty}} Otter.Cambria 8 23 0 Otter.Orchid 4 13 2",
 			"When": {
 				"HasMod": "Squeaks.MGC.CP",
 			}
@@ -495,6 +495,50 @@
 			"Value": "{{Rodney_SaloonParty}} DialaSBV 20 20 3 DeryaSBV 20 19 3",
 			"When": {
 				"HasMod": "skellady.SBVCP",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} FC.John 2 20 1",
+			"When": {
+				"HasMod": "Fellowclown.AND",
+				"HasSeenEvent": "Fellowclown.AND_JohnIntroduction",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} RaffieJohn.Reyla 2 19 1",
+			"When": {
+				"HasMod": "RaffieJohn.Reyla",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Fievel 4 19 1",
+			"When": {
+                "HasMod": "EastScarp.FGES",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} MadDog.HashtagBearFam.Sondra 22 19 3",
+			"When": {
+                "HasMod": "MadDog.HashtagBearFam",
+			}
+		},
+		{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} MadDog.HashtagBearFam.Gunnar 7 20 1",
+			"When": {
+                "HasMod": "MadDog.HashtagBearFam",
+				"HasSeenEvent": "MadDog.BearFam.16197002",
+			}
+		},
+{
+			"Name": "Rodney_SaloonParty",
+			"Value": "{{Rodney_SaloonParty}} Nora 3 22 1",
+			"When": {
+                "HasMod": "Bagi.Nora.CP",
 			}
 		},
 		// LIBRARY GATHERING //
@@ -613,6 +657,29 @@
 			}
 		},
 		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} MadDog.HashtagBearFam.Sondra -1000 -1000 0 MadDog.HashtagBearFam.Sigurd -1000 -1000 0",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} MadDog.HashtagBearFam.Gunnar -1000 -1000 0 MadDog.HashtagBearFam.Gudrun -1000 -1000 0",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+				"HasSeenEvent": "MadDog.BearFam.16197002",
+			}
+		},
+{
+			"Name": "Rodney_PoetryReadingActor",
+			"Value": "{{Rodney_PoetryReadingActor}} MadDog.HashtagBearFam.Teren -1000 -1000 0",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+				"HasSeenEvent": "MadDog.BearFam.16199000",
+			}
+		},
+		{
 			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "speak Rosa \"{{i18n:event-134371017.Rosa.PoetryReaction}}$3\"/speak Jacob \"{{i18n:event-134371017.Jacob.PoetryReaction}}$2\"/emote RodneyOBrien 28/pause 300/speak Aideen \"{{i18n:event-134371017.Aideen.PoetryReaction}}$5\"/emote RodneyOBrien 16/pause 200/"
 		},
@@ -642,10 +709,25 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}} speak MadDog.HashtagBearFam.Sondra \"{{i18n:event-134371017.Sondra.PoetryReaction}}\"/emote RodneyOBrien 32/pause 800/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:event-134371017.Sigurd.PoetryReaction}}\"/emote RodneyOBrien 16/",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "{{Rodney_PoetryReadingReactions}}speak Void \"{{i18n:event-134371017.Void.PoetryReaction}}\"/speak Lavril \"{{i18n:event-134371017.Lavril.PoetryReaction}}\"/emote RodneyOBrien 32/",
 			"When": {
 				"HasMod": "Arknir27.Lavril",
 				"HasSeenEvent": "63070012",
+			}
+		},
+		{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}} speak MadDog.HashtagBearFam.Gunnar \"{{i18n:event-134371017.Gunnar.PoetryReaction}}\"/emote RodneyOBrien 28/pause 500/speak MadDog.HashtagBearFam.Gudrun \"{{i18n:event-134371017.Gudrun.PoetryReaction}}\"/emote RodneyOBrien 60/",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+				"HasSeenEvent": "MadDog.BearFam.16197002",
 			}
 		},
 		{
@@ -673,7 +755,7 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingReactions",
-			"Value": "{{Rodney_PoetryReadingReactions}}speak FC.Barron \"{{i18n:event-134371017.FC.Barron.PoetryReaction}}$4\"/emote RodneyOBrien 60/",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak FC.Barron \"{{i18n:event-134371017.Barron.PoetryReaction}}$4\"/emote RodneyOBrien 60/",
 			"When": {
 				"HasMod": "Fellowclown.AND",
 			}
@@ -704,6 +786,14 @@
 			"Value": "{{Rodney_PoetryReadingReactions}}speak Henry \"{{i18n:event-134371017.Henry.PoetryReaction}}$6\"/speak Sterling \"{{i18n:event-134371017.Sterling.PoetryReaction}}$3\"/",
 			"When": {
 				"HasMod": "Himetarts.ARV.CP",
+			}
+		},
+{
+			"Name": "Rodney_PoetryReadingReactions",
+			"Value": "{{Rodney_PoetryReadingReactions}} speak MadDog.HashtagBearFam.Teren \"{{i18n:event-134371017.Teren.PoetryReaction}}/emote RodneyOBrien 60/",
+			"When": {
+				"HasMod": "MadDog.HashtagBearFam",
+				"HasSeenEvent": "MadDog.BearFam.16199000",
 			}
 		},
 		//6 hearts shadowfolk
