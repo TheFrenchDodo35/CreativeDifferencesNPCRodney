@@ -31,11 +31,6 @@
                 "Aideen_Garden": "{{i18n:Aideen_Garden}}",
                 // ARV
                 "SterlingTrash": "{{i18n:SterlingTrash}}",
-                "SterlingSwim": "{{i18n:SterlingSwim}}",
-                "SterlingBike": "{{i18n:SterlingBike}}",
-                "SterlingDrugs": "{{i18n:SterlingDrugs}}",
-                "SterlingRelapse": "{{i18n:SterlingRelapse}}",
-                "SterlingApology": "{{i18n:SterlingApology}}",
                 "SterlingRiver": "{{i18n:SterlingRiver}}",
                 //Realistic writer Elliott
                 "elliott_writing_letter1": "{{i18n:elliott_writing_letter1}}",
@@ -65,24 +60,11 @@
                 // Mateo
                 "MateoAcceptance": "{{i18n:MateoAcceptance}}",
                 "GuildComplete": "{{i18n:GuildComplete}}",
-                // Jean & Jorts
-                "MeetTheCats": "{{i18n:MeetTheCats}}",
-                "DumpsterFishing": "{{i18n:DumpsterFishing}}",
-                "RubberCatting": "{{i18n:RubberCatting}}",
-                // Qi's Pumpkin spice
-                "pumpkin_spice_madness": "{{i18n:pumpkin_spice_madness}}",
-                // TNAG
-                "Lewis_specialnight": "{{i18n:Lewis_specialnight}}",
-                // CopperSun Joja Mods
-                "blackmarketpostCC": "{{i18n:blackmarketpostCC}}",
-                "Shane_Starts_Selling": "{{i18n:Shane_Starts_Selling}}",
-                "j_spring_seedsCT": "{{i18n:j_spring_seedsCT}}",
+
                 // Eli & Dylan
                 "EliIntro": "{{i18n:EliIntro}}",
                 "DylanIntro": "{{i18n:DylanIntro}}",
-                // TYRSA
-                "TYRSA_AnewCoupleInTown": "{{i18n:TYRSA_AnewCoupleInTown}}",
-                "TYRSA_AnewAndPenny": "{{i18n:TYRSA_AnewAndPenny}}",
+
                 // More conversation topics
                 "wedding": "{{i18n:wedding}}",
                 "luauBest": "{{i18n:luauBest}}",

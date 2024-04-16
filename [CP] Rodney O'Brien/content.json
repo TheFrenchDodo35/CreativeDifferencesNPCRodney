@@ -463,26 +463,10 @@
 		},
 		{
 			"Name": "Rodney_SaloonParty",
-			"Value": "{{Rodney_SaloonParty}} Anew 7 20 2",
-			"When": {
-				"HasMod": "CreatorKami.TYRSA.CP",
-				"HasSeenEvent": "105090009",
-			}
-		},
-		{
-			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} Mateo 6 22 1",
 			"When": {
 				"HasMod": "DN.SnS.CP",
 				"HasSeenEvent": "12360004",
-			}
-		},
-		{
-			"Name": "Rodney_SaloonParty",
-			"Value": "{{Rodney_SaloonParty}} PS.Thysania 24 20 3",
-			"When": {
-				"HasMod": "KediDili.ProjectStarlight.CP",
-				"HasSeenEvent": "70030006",
 			}
 		},
 		{
@@ -508,13 +492,6 @@
 		},
 		{
 			"Name": "Rodney_SaloonParty",
-			"Value": "{{Rodney_SaloonParty}} Dex 6 20 1",
-			"When": {
-				"HasMod": "DefinitelyDaire.TSG.CP",
-			}
-		},
-		{
-			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} DialaSBV 20 20 3 DeryaSBV 20 19 3",
 			"When": {
 				"HasMod": "skellady.SBVCP",
@@ -533,26 +510,10 @@
 		//				"HasSeenEvent": "134371005",
 		//			}
 		//		},
-		{
-			"Name": "Rodney_LibaryTalk",
-			"Value": "{{Rodney_LibaryTalk}} Anew 8 12 1",
-			"When": {
-				"HasMod": "CreatorKami.TYRSA.CP",
-				"HasSeenEvent": "105090009",
-			},
-		},
 		// NATIONAL LIBRARY EVENT 
 		{
 			"Name": "Rodney_BookReading",
 			"Value": "farmer -1000 -1000 0 {{EventGunther}} -1000 -1000 0 RodneyOBrien 22 11 2 Gus -1000 -1000 0 Elliott -1000 -1000 0 Leah -1000 -1000 0 KatarynaLK -1000 -1000 0 MeredithOBrien -1000 -1000 0"
-		},
-		{
-			"Name": "Rodney_BookReading",
-			"Value": "{{Rodney_BookReading}} Anew -1000 -1000 0",
-			"When": {
-				"HasMod": "CreatorKami.TYRSA.CP",
-				"HasSeenEvent": "105090009",
-			},
 		},
 		{
 			"Name": "Rodney_BookReading",
@@ -564,14 +525,6 @@
 		{
 			"Name": "Rodney_BookReading_Actors_Warp",
 			"Value": "warp {{EventGunther}} 14 11/warp Gus 19 11/warp Elliott 13 14/warp Leah 14 14/warp farmer 16 43/warp RodneyOBrien 15 43/warp KatarynaLK 20 15/warp MeredithOBrien 15 14"
-		},
-		{
-			"Name": "Rodney_BookReading_Actors_Warp",
-			"Value": "{{Rodney_BookReading_Actors_Warp}}/warp Anew 20 14",
-			"When": {
-				"HasMod": "CreatorKami.TYRSA.CP",
-				"HasSeenEvent": "105090009",
-			},
 		},
 		{
 			"Name": "Rodney_BookReading_Actors_Warp",
@@ -617,9 +570,9 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingActor",
-			"Value": "{{Rodney_PoetryReadingActor}} Trace -1000 -1000 0 Anew -1000 -1000 0",
+			"Value": "{{Rodney_PoetryReadingActor}} Trace -1000 -1000 0",
 			"When": {
-				"HasMod": "CreatorKami.TYRSA.CP",
+				"HasMod": "7thAxis.DitR.CP",
 			}
 		},
 		{
@@ -727,9 +680,9 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingReactions",
-			"Value": "{{Rodney_PoetryReadingReactions}}speak Trace \"{{i18n:event-134371017.Trace.PoetryReaction}}$3\"/emote RodneyOBrien 32/speak Anew \"{{i18n:event-134371017.Anew.PoetryReaction}}$13\"/",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak Trace \"{{i18n:event-134371017.Trace.PoetryReaction}}$3\"/emote RodneyOBrien 32/",
 			"When": {
-				"HasMod": "CreatorKami.TYRSA.CP",
+				"HasMod": "7thAxis.DitR.CP",
 			}
 		},
 		{
@@ -751,13 +704,6 @@
 			"Value": "{{Rodney_PoetryReadingReactions}}speak Henry \"{{i18n:event-134371017.Henry.PoetryReaction}}$6\"/speak Sterling \"{{i18n:event-134371017.Sterling.PoetryReaction}}$3\"/",
 			"When": {
 				"HasMod": "Himetarts.ARV.CP",
-			}
-		},
-		{
-			"Name": "Rodney_PoetryReadingReactions",
-			"Value": "{{Rodney_PoetryReadingReactions}}speak Dex \"{{i18n:event-134371017.Dex.PoetryReaction}}$5\"/shake RodneyOBrien 500/emote RodneyOBrien 16/",
-			"When": {
-				"HasMod": "DefinitelyDaire.TSG.CP",
 			}
 		},
 		//6 hearts shadowfolk
