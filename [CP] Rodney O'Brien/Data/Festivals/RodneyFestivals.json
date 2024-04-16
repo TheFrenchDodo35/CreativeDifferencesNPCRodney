@@ -387,7 +387,7 @@
         }
       ],
       "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", "IsOddYear": false,
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", "IsOddYear": true,
       }
     },
     {
@@ -406,7 +406,7 @@
         }
       ],
       "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", "IsOddYear": true,
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", "IsOddYear": false,
       }
     },
     {
