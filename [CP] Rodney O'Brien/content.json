@@ -614,7 +614,7 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingActor",
-			"Value": "{{Rodney_PoetryReadingActor}} Trace -1000 -1000 0",
+			"Value": "{{Rodney_PoetryReadingActor}} TraceV -1000 -1000 0",
 			"When": {
 				"HasMod": "7thAxis.DitR.CP",
 			}
@@ -762,7 +762,7 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingReactions",
-			"Value": "{{Rodney_PoetryReadingReactions}}speak Trace \"{{i18n:event-134371017.Trace.PoetryReaction}}$3\"/emote RodneyOBrien 32/",
+			"Value": "{{Rodney_PoetryReadingReactions}}speak TraceV \"{{i18n:event-134371017.Trace.PoetryReaction}}$3\"/emote RodneyOBrien 32/",
 			"When": {
 				"HasMod": "7thAxis.DitR.CP",
 			}
@@ -790,7 +790,7 @@
 		},
 {
 			"Name": "Rodney_PoetryReadingReactions",
-			"Value": "{{Rodney_PoetryReadingReactions}} speak MadDog.HashtagBearFam.Teren \"{{i18n:event-134371017.Teren.PoetryReaction}}/emote RodneyOBrien 60/",
+			"Value": "{{Rodney_PoetryReadingReactions}} speak MadDog.HashtagBearFam.Teren \"{{i18n:event-134371017.Teren.PoetryReaction}}\"/emote RodneyOBrien 60/",
 			"When": {
 				"HasMod": "MadDog.HashtagBearFam",
 				"HasSeenEvent": "MadDog.BearFam.16199000",
