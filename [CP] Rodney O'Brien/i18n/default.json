@@ -519,7 +519,49 @@
   "RodneyReaction.GunnarMysteryPotion": "I have a feeling that the glass bottle is the tastiest part of this potion.$7", //added in 3.1.0
   "RodneyReaction.GunnarSecondPotion": "I'd rather eat an expired mega bomb than drink this.$7", //added in 3.1.0
   "RodneyReaction.GunnarWeirdPotion": "You know, if you want to get rid of me, just push me of a cliff, it would save you some money.$7", //added in 3.1.0
-  "RodneyReaction.Colacrab": "Oh thanks for the Joja Co-$1#$b#WAIT IS THAT A CRAB?$8", //added in 3.1.0 //neutral
+  "RodneyReaction.Colacrab": "Oh thanks for the Joja Co-$1#$b#WAIT IS THAT A CRAB?$8", //added in 3.1.0
+
+  //A new dream items
+  "RodneyReaction.TastyPastry": "Hmmm, this sure does look tasty! Thank you, @. I like it!$1", //added in 3.1.0
+  "RodneyReaction.GemBirdPatties": "Thank y- #$b#Wait, is that made from Gem Bird? Gross!$8", //added in 3.1.0
+  "RodneyReaction.VoidJuice": "Uh. No thank you. This smells like despair. Or Clint's love life.$7", //added in 3.1.0
+  "RodneyReaction.GemBirdMeat": "Why would you give me Gem bird meat? That's so cruel.$2", //added in 3.1.0
+  "RodneyReaction.SeaglassFlowerDisplay": "Oh, that's very pretty! Thank you for the kind gift, @!$1", //added in 3.1.0
+  "RodneyReaction.Seaglass": "Thank you! This so so beautiful. I loved to collect sea glass!$1", //added in 3.1.0
+  "RodneyReaction.FrostedCake": "Hmmmm, cake.$1#$b#Thank you, @. I'm gonna eat this for dessert tonight!", //added in 3.1.0
+  "RodneyReaction.HotCereal": "Oh, thank you! This is indeed some hot cereal. Do you know what else is hot?$4#$b#What? The sun. What did you think I was gonna say?", //added in 3.1.0
+  "RodneyReaction.WhiteTruffle": "Thank you, @. I know this is very tasty, but somehow, my first instinct when I see a white mushroom is that it's probably poisonous.$1", //added in 3.1.0
+  "RodneyReaction.CheesyWhiteRisotto": "Oh wow, thank you so much, @! This meal looks absolutely delicious.$1", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  //Diamond in the rough items 
+  "RodneyReaction.UnluckyPurpleShorts.1": "Dear Yoba, the smell!$8", //added in 3.1.0
+  "RodneyReaction.UnluckyPurpleShorts.2": "Kill it! Kill it with fire!$8", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
+  "RodneyReaction.": "", //added in 3.1.0
 
   // Schedule dialogue Platonic 
   //the name of the strings has been changed in 2.0.0

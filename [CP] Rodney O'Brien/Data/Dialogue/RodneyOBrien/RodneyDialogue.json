@@ -204,8 +204,6 @@
                                 "give_flowersA": "{{i18n:give_flowersA}}",
                                 "give_flowersB": "{{i18n:give_flowersB}}",
                                 "give_pendant": "{{i18n:give_pendant}}",
-                                "RejectItem_(O)460": "{{i18n:pendant_reject}}",
-                                "RejectItem_(O)458": "{{i18n:bouquet_reject}}",
                                 "DumpsterDiveComment": "{{i18n:Rodney.DumpsterDiveComment}}",
                                 "HitBySlingshot": "{{i18n:Rodney.HitBySlingshot}}"
                         },
