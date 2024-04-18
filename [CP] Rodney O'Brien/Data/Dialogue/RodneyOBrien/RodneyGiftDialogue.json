@@ -100,6 +100,7 @@
                 "AcceptGift_(O)Fellowclown.AND_HotCereal": "{{i18n:RodneyReaction.HotCereal}}",
                 "AcceptGift_(O)Fellowclown.AND_WhiteTruffle": "{{i18n:RodneyReaction.WhiteTruffle}}",
                 "AcceptGift_(O)Fellowclown.AND_CheesyWhiteRisotto": "{{i18n:RodneyReaction.CheesyWhiteRisotto}}",
+               /* "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
                 "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
                 "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
                 "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
@@ -111,8 +112,7 @@
                 "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
                 "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
                 "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
-                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
-                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}", */
                 //Diamond in the rough
                 "RejectItem_(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts": "{{Random:{{i18n:RodneyReaction.UnluckyPurpleShorts.1}}++{{i18n:RodneyReaction.UnluckyPurpleShorts.2}}|inputSeparator=++}}",
                 
