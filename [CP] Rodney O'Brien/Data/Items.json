@@ -128,7 +128,7 @@
                     "Texture": "{{InternalAssetKey: Assets/Items/Autographs/AnAutographedPhoto.png}}",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "item_an_autographed_photo"
+                        "item_an_autographed_photo", "not_museum_donatable"
                     ]
                 },
                 "WWWA.GenuineAutograph": 
@@ -142,7 +142,10 @@
                     "ExcludeFromShippingCollection": true,
                     "Price": 8000,
                     "Texture": "{{InternalAssetKey: Assets/Items/Autographs/AGenuineAutograph.png}}",
-                    "SpriteIndex": 0
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "item_genuine_autograph", "not_museum_donatable"
+                    ]
                 },
                 },
     },
