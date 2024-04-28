@@ -304,7 +304,7 @@
 			"Name": "RodneyCoastalGuildVisit",
 			"Value": "1030 EastScarp_CoastalGuild 8 13 3/1500 EastScarp_CoastalGuild 8 13 2 read",
 			"When": {
-				"HasMod": "DN.SnS.CP",
+				"HasMod": "DN.SnS",
 				"HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail": "true",
 			}
 		},
@@ -317,7 +317,7 @@
 		},
 		{
 			"Name": "RodneyBookwormMobile",
-			"Value": "1130 Fellowclown.AND_TravelingTrailer 16 16 2 read",
+			"Value": "1130 Fellowclown.AND_TravelingTrailer 16 17 2 read",
 			"When": {
 				"HasMod": "Fellowclown.AND",
 			}
@@ -327,14 +327,14 @@
 			"Name": "SpecialOrderType",
 			"Value": "",
 			"When": {
-				"HasMod |contains=DN.SnS.CP": "false",
+				"HasMod |contains=DN.SnS": "false",
 			}
 		},
 		{
 			"Name": "SpecialOrderType",
 			"Value": "Esca.EMP/ESCoastalGuild",
 			"When": {
-				"HasMod": "DN.SnS.CP",
+				"HasMod": "DN.SnS",
 			}
 		},
 		//Dating tokens
@@ -461,7 +461,7 @@
 			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} Mateo 6 22 1",
 			"When": {
-				"HasMod": "DN.SnS.CP",
+				"HasMod": "DN.SnS",
 				"HasSeenEvent": "12360004",
 			}
 		},
@@ -598,7 +598,7 @@
 			"Name": "Rodney_PoetryReadingActor",
 			"Value": "{{Rodney_PoetryReadingActor}} Mateo -1000 -1000 0",
 			"When": {
-				"HasMod": "DN.SnS.CP",
+				"HasMod": "DN.SnS",
 			}
 		},
 		{
@@ -683,7 +683,7 @@
 			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "{{Rodney_PoetryReadingReactions}}speak Mateo \"{{i18n:event-134371017.Mateo.PoetryReaction1}}$7\"/",
 			"When": {
-				"HasMod": "DN.SnS.CP",
+				"HasMod": "DN.SnS",
 				"HasFlag |contains=RivalHearts_AideenMateo": true,
 			}
 		},
@@ -738,7 +738,7 @@
 			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "{{Rodney_PoetryReadingReactions}}speak Mateo \"{{i18n:event-134371017.Mateo.PoetryReaction2}}$9\"/emote RodneyOBrien 28/",
 			"When": {
-				"HasMod": "DN.SnS.CP",
+				"HasMod": "DN.SnS",
 				"HasFlag |contains=RivalHearts_AideenMateo": false,
 			}
 		},
