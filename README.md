@@ -14,14 +14,25 @@ This mod requires:
 - [MEEP](https://www.nexusmods.com/stardewvalley/mods/14493) (optional, but recommended). This mod uses MEEP to display images in game (tarot cards mostly).
 
 ## Config options
+**EnableAutograph**: Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Default to true.
+**Silo**: Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog). Default to vanilla.
+**RodneyPolyamory**: Choose whether you want Rodney to ask you out on a date when you are already in a relationship. Default is false. Note that you won't ever be able to date both Elliott & Rodney since they are related.
 
 ## Play guide
+For details about heart events, gift tastes and more, you can check [Rodney's page on the East Scarp Wiki](https://eastscarp.wiki.gg/wiki/Rodney)
 
-## Items
 
 ## Compatibility
+- Compatible with Stardew Valley Expanded (NPCs from SVE have gift tastes & reactions for a few items added by this mod).
+-    Compatible with Ridgeside Village (Rodney will attend the Ridgeside Gathering & The Ember of Resolution. He will also visit Ridgeside from time to time)
+-    Compatible with Mobile Phone Continued.
+-    Compatible with Romanceable Rasmodia - Female Wizard. If this mod is installed, Rodney & Ewina will now mention a witch instead of a wizard in their dialogue and events.
+-    Compatible with Stardew Reimagined 3. Rodney has a dedicated schedule for the maps edited by this mod, but due to how the reimagined maps are layered, he may clip through benches from time to time. His schedule has been adjusted accordingly. Let me know if you find any issue.
+-    As a part of East Scarp, Rodney will have something to say about what is going on in Never Ending Adventure, Yri The Architect, Always Raining in the Valley, Professor Jasper Thomas, Juliet & Jessie the Joja Clerks, Lavril, Lucikiel, Lurking in the dark, Fievel(including a crossover event), A New Dream and Nora The Herpetologist.
+    He will also have dialogue if you have Juna, Realistic Writer Elliott, and More Conversation Topics.
+-    Rodney will attend the following custom festivals: Fireworks Festival, Surfing Festival, Love Festival& Ferngill Fashion Festival. He will also attend the Marketpalooza Festival from the  Passerby Cemetery mod and he will have a shop there.
 
-## FAQ (WIP)
+## FAQ
 
 > Where does Rodney live?
 He lives in the silo in East Scarp. It is located on the north east of East Scarp's Main area.
@@ -51,3 +62,5 @@ Can I make on myself then?
 
 Rodney is too mean.
 > This is not a question.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q5F6B1I)
