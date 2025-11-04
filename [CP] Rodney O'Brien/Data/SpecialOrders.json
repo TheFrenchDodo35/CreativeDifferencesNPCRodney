@@ -61,7 +61,7 @@
         {
             "Action": "Load",
             "Target": "Mods/RodneyOBrien/Emojis",
-            "FromFile": "Assets/WWWemojis.png"
+            "FromFile": "Assets/WWWemojis_{{Rodney Sprite Style}}.png"
         },
         {
             "Action": "EditData",

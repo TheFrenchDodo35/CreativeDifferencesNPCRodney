@@ -241,7 +241,7 @@
           "Owners": [
             {
               "Name": "AnyOrNone",
-              "Portrait": "{{InternalAssetKey:Assets/Portraits/RodneyOBrien/Rodney_Fall2_Pink.png}}",
+              "Portrait": "{{InternalAssetKey:Assets/Portraits/{{Rodney Portrait Style}}/RodneyOBrien/Rodney_Fall2_Pink.png}}",
               "Dialogues": [
                 {
                   "Id": "WWWA.Marketpalooza",

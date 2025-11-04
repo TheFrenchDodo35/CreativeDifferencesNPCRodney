@@ -47,7 +47,7 @@
                             "ID": "Generic Meredith Outfit",
                             "Precedence": 0, 
                             "Weight": 1,
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/Portraits-Meredith.png}}",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/Portraits-Meredith.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/MeredithOBrien/MeredithOBrien.png}}"
                         },
                     ]

@@ -102,6 +102,9 @@
                 "DitR_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
                 "DitR_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
                 "DitR_CT_SensFlowers": "{{i18n:LitD_CT_SensFlowers}}}",
+
+                //Fleurine
+                "FleurineIntro": "{{i18n:Rodney.CT.FleurineIntro}}",
 /*
                 
                 "DitR_CT_EveMeet": "{{i18n:Rodney.CT.EveMeet}}",
@@ -145,20 +148,6 @@
                 "": "{{i18n:Rodney.CT.}}", 
                 
                 
-Barron Character Topics
-BusFire - its barron intro, her stove is on fire and the farmer puts it out
-Thepast - Shes contemplating why she wants to find her bio mother
-FindingPhoebe - Barron talks to marlin about phoebe, subtle implications of phoebe and marlin having a fling....
-PhoebeArrive- Her and Phoebe nearly get in a car crash thats how she meets her mom
-JinxIllness -Jinx is showing signs of illness, but ends up being pregnant
-
-Johns Character Topics
-JohnsArrival -John arrives via boat to east scarp, he has bad motion sickness
-JohnInjury -John faints at the seedsheop during exercise
-PopperSteals - pop steal seaglass, john discovers pop can talk
-VillainInTheValley - farmer fines pop in the garbage can, pop contemplates being evil and how he wishes ppl liked him
-
-Add ClownCore, E&D, S&S, BearFam 
 
 */
             }

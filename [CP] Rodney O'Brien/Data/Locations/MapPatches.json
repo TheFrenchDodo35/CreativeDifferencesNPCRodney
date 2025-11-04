@@ -1,156 +1,156 @@
 {
-    "Changes": [
+	"Changes": [
 //Silo patching and warps
-        {
-            "LogName": "Silo patching",
-            "Action": "EditMap",
-            "Target": "Maps/EastScarp_Village",
-            "FromFile": "Assets/Maps/Silo_Outdoor.tmx",
-            "ToArea": {
-                "X": 86,
-                "Y": 23,
-                "Width": 7,
-                "Height": 11,
-            },
-        },
-        {
-            "LogName": "Rodney House warps",
-            "Action": "EditMap",
-            "Target": "Maps/EastScarp_RodneysHouse",
-            "FromFile": "Assets/Maps/EastScarp_RodneysHouse.tmx",
-            "PatchMode": "Replace",
-            "AddWarps": [
-                "10 34 EastScarp_RodneysBasement 20 1",
-                "7 34 EastScarp_Village 88 32",
-            ],
-        },
-        {
-            "LogName": "Rodney basement warp",
-            "Action": "EditMap",
-            "Target": "Maps/EastScarp_RodneysBasement",
-            "FromFile": "Assets/Maps/EastScarp_RodneysBasement.tmx",
-            "PatchMode": "Replace",
-            "AddWarps": [
-                "20 0 EastScarp_RodneysHouse 10 33",
-            ],
-        },
+		{
+			"LogName": "Silo patching",
+			"Action": "EditMap",
+			"Target": "Maps/EastScarp_Village",
+			"FromFile": "Assets/Maps/{{SiloPatchVersion}}.tmx",
+			"ToArea": {
+				"X": 86,
+				"Y": 23,
+				"Width": 7,
+				"Height": 11,
+			},
+		},
+		{
+			"LogName": "Rodney House warps",
+			"Action": "EditMap",
+			"Target": "Maps/EastScarp_RodneysHouse",
+			"FromFile": "Assets/Maps/EastScarp_RodneysHouse.tmx",
+			"PatchMode": "Replace",
+			"AddWarps": [
+				"10 34 EastScarp_RodneysBasement 20 1",
+				"7 34 EastScarp_Village 88 32",
+			],
+		},
+		{
+			"LogName": "Rodney basement warp",
+			"Action": "EditMap",
+			"Target": "Maps/EastScarp_RodneysBasement",
+			"FromFile": "Assets/Maps/EastScarp_RodneysBasement.tmx",
+			"PatchMode": "Replace",
+			"AddWarps": [
+				"20 0 EastScarp_RodneysHouse 10 33",
+			],
+		},
  /*       {
-            "LogName": "Silo Warp",
-            "Action": "EditMap",
-            "Target": "Maps/EastScarp_RodneysHouse",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 10,
-                        "Y": 34
-                    },
-                    "Layer": "Back",
-                    "SetProperties": {
-                        "Action": "Warp 20 1 EastScarp_RodneysBasement"
-                    }
-                },
-                {
-                    "Position": {
-                        "X": 7,
-                        "Y": 34
-                    },
-                    "Layer": "Back",
-                    "SetProperties": {
-                        "Action": "Warp 88 32 EastScarp_Village"
-                    }
-                }
-            ],
-        }, */
-        {
-            "LogName": "Sleepover at Rodney's House",
-            "Action": "EditMap",
-            "Target": "Maps/EastScarp_RodneysHouse",
-            "MapTiles": [
-                {
-                    "Position": { "X": 12, "Y": 13 },
-                    "Layer": "Back",
-                    "SetProperties": {
-                        "Bed": "t",
-                        "NoFurniture": "T",
-                        "TouchAction": "Sleep",
-                    }
-                }
-            ],
+			"LogName": "Silo Warp",
+			"Action": "EditMap",
+			"Target": "Maps/EastScarp_RodneysHouse",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 10,
+						"Y": 34
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Action": "Warp 20 1 EastScarp_RodneysBasement"
+					}
+				},
+				{
+					"Position": {
+						"X": 7,
+						"Y": 34
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"Action": "Warp 88 32 EastScarp_Village"
+					}
+				}
+			],
+		}, */
+		{
+			"LogName": "Sleepover at Rodney's House",
+			"Action": "EditMap",
+			"Target": "Maps/EastScarp_RodneysHouse",
+			"MapTiles": [
+				{
+					"Position": { "X": 12, "Y": 13 },
+					"Layer": "Back",
+					"SetProperties": {
+						"Bed": "t",
+						"NoFurniture": "T",
+						"TouchAction": "Sleep",
+					}
+				}
+			],
 			"When": {
 				"Relationship:RodneyOBrien |contains=Dating": true
 			}
-        },
+		},
 
 //Marketpalooza
 {
-            "Action": "EditMap",
-            "Target": "Maps/Fellowclown.PC_Marketpalooza",
-            "FromFile": "Assets/Maps/Marketpalooza_patch.tbin",
-            "PatchMode": "Replace",
-            "ToArea": {
-                "X": 8,
-                "Y": 1,
-                "Width": 3,
-                "Height": 6,
-            },
-            "When": {
-                "HasMod": "Fellowclown.PC"
-            }
-        },
+			"Action": "EditMap",
+			"Target": "Maps/Fellowclown.PC_Marketpalooza",
+			"FromFile": "Assets/Maps/Marketpalooza_patch.tbin",
+			"PatchMode": "Replace",
+			"ToArea": {
+				"X": 21,
+				"Y": 8,
+				"Width": 3,
+				"Height": 5,
+			},
+			"When": {
+				"HasMod": "Fellowclown.PC"
+			}
+		},
 
 //Special Order
-       {
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "FromFile": "Assets/Maps/Town_LibraryPatch.tmx",
-            "PatchMode": "Overlay",
-            "ToArea": {
-                "X": 96,
-                "Y": 90,
-                "Width": 3,
-                "Height": 3,
-            },
-            "When": {
-                "HasFlag": "AutographCleanupComplete",
+	   {
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "Assets/Maps/Town_LibraryPatch.tmx",
+			"PatchMode": "Overlay",
+			"ToArea": {
+				"X": 96,
+				"Y": 90,
+				"Width": 3,
+				"Height": 3,
+			},
+			"When": {
+				"HasFlag": "AutographCleanupComplete",
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", 
 				"HasMod |contains=DaisyNiko.SVR3": "false",
-            },
-        },
-       {
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "FromFile": "Assets/Maps/Town_patch_SVE.tmx",
-            "PatchMode": "Overlay",
-            "ToArea": {
-                "X": 96,
-                "Y": 90,
-                "Width": 3,
-                "Height": 3,
-            },
-            "When": {
-                "HasFlag": "AutographCleanupComplete",
-                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+	   {
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "Assets/Maps/Town_patch_SVE.tmx",
+			"PatchMode": "Overlay",
+			"ToArea": {
+				"X": 96,
+				"Y": 90,
+				"Width": 3,
+				"Height": 3,
+			},
+			"When": {
+				"HasFlag": "AutographCleanupComplete",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"HasMod |contains=DaisyNiko.SVR3": "false",
 
-            },
-        },
-       {
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "FromFile": "Assets/Maps/Town_LibraryPatch.tmx",
-            "PatchMode": "Overlay",
-            "ToArea": {
-                "X": 96,
-                "Y": 90,
-                "Width": 3,
-                "Height": 3,
-            },
-            "When": {
-                "HasFlag": "AutographCleanupComplete",
-                "HasMod": "DaisyNiko.SVR3",
+			},
+		},
+	   {
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "Assets/Maps/Town_LibraryPatch.tmx",
+			"PatchMode": "Overlay",
+			"ToArea": {
+				"X": 96,
+				"Y": 90,
+				"Width": 3,
+				"Height": 3,
+			},
+			"When": {
+				"HasFlag": "AutographCleanupComplete",
+				"HasMod": "DaisyNiko.SVR3",
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false", 
 
-            },
-        }
-    ]
+			},
+		}
+	]
 }

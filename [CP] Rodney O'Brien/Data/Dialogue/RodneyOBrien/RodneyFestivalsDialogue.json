@@ -109,6 +109,16 @@
     },
     {
       "Action": "EditData",
+      "Target": "Data/Festivals/Winter3",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Marketpalooza.{{RomanticRodney}}}}",
+      },
+      "When": {
+            "HasMod": "Fellowclown.PC"
+      }
+    },
+    {
+      "Action": "EditData",
       "Target": "Data/Festivals/Spring19",
       "Entries": {
         "RodneyOBrien": "{{i18n:Rodney.FashionFestival.{{RomanticRodney}}}}",

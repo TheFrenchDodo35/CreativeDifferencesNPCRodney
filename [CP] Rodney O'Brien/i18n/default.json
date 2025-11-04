@@ -220,7 +220,7 @@
   "winterResort_Lef": "Damn it's cold in the Valley.$2#$b#It's crazy how different the weather is between Pelican Town and an island we can reach in a day with Willy's old boat.",
   "Resort_Adventure": "I could sunbathe all day on that beach, but I kinda want to see what's out there. Maybe I could put this island in a book?#$b#Imagine, the story of an intrepid adventurer fighting sentient parrots in his bathing suit while trying to uncover the secrets of the Smoluanu on a deserted island!$1#$b#Instant classic!",
   "Resort_Adventure_2": "It's nice to get away from the Valley for a day and explore something new. I could see myself living here.#$b#Well, maybe not. Those damn parrots look pretty mean and I'm not sure I wanna fight them for their land.$2",
-  // Conversation Topics
+  // Conversation Topics CT
   "joja_Begin": "So @. You decided to sell out to Joja?$7#$b#I really thought you had principles, but I guess I was wrong.$2",
   "cc_Begin": "I heard you agreed to help Mayor Lewis fix the old community center.#$b#That's great! I hope he's paying you enough.$1#$b#What? He's not paying you anything?$8#$b#You're not very smart, are you?$7",
   "cc_Bus": "I'm glad the bus was fixed. Maybe Mayor Lewis finally decided to use the tax money to fix the town instead of spending it on silly projects.#$b#What? You don't know about the statue?$8#$b#Well. You'll find out soon enough...$2",
@@ -292,49 +292,52 @@
   "LitD_CT_ShadowPlay": "I think Elliott's shack has a gas leak or something.#$b#The other night, I was going home after spending the day there, being my usual quality writing coach, and I noticed two people running around near Emily's house.#$b#And they looked exactly like the Shadowfolk from the legends!$8#$b#There is no such thing of course, so my money's on gas leak. Or maybe asbestos.", 
   "LitD_CT_GardenCompleted": "Have you ever visited the cave on the East Scarp beach? That place looks scary.$2#$b#I swear I heard some voices coming from there the other day.$2#$b#Oh well, it's was probably the kids!$1#$b#Right?$2", 
   "LitD_CT_SensFlowers": "Have you noticed those beautiful flowers that started growing everywhere? They look like crocuses, but prettier!$1",
-  "Rodney.CT.EveMeet": "", //added in 3.1.0
-  "Rodney.CT.JeremyIntroduction": "", //added in 3.1.0
-  "Rodney.CT.NoraClass": "", //added in 3.1.0
-  "Rodney.CT.NoraSad": "", //added in 3.1.0
-  "Rodney.CT.NoraBusy": "", //added in 3.1.0
-  "Rodney.CT.NoraProud": "", //added in 3.1.0
-  "Rodney.CT.NoraJob": "", //added in 3.1.0
-  "Rodney.CT.NoraChameleon": "", //added in 3.1.0
-  "Rodney.CT.guntherEscortDenied": "", //added in 3.1.0
-  "Rodney.CT.museumCompleted": "", //added in 3.1.0
-  "Rodney.CT.jojaEmporium": "", //added in 3.1.0
-  "Rodney.CT.election": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.": "", //added in 3.1.0
-  "Rodney.CT.married_Elliott": "", //added in 3.1.0
-  "Rodney.CT.divorced_Elliott": "", //added in 3.1.0
-  "Rodney.CT.wonIceFishing": "", //added in 3.1.0
-  "Rodney.CT.GreenRain.1": "", //added in 3.1.0
+  "Rodney.CT.EveMeet": "",
+  "Rodney.CT.JeremyIntroduction": "", 
+  "Rodney.CT.NoraClass": "",
+  "Rodney.CT.NoraSad": "",
+  "Rodney.CT.NoraBusy": "", 
+  "Rodney.CT.NoraProud": "", 
+  "Rodney.CT.NoraJob": "",
+  "Rodney.CT.NoraChameleon": "",
+  "Rodney.CT.guntherEscortDenied": "", 
+  "Rodney.CT.museumCompleted": "",
+  "Rodney.CT.jojaEmporium": "", 
+  "Rodney.CT.election": "", 
+  "Rodney.CT.FleurineIntro": "Have you met that new girl in town? She wears the pinkiest clothes!$1#$b#I need know where she gets those at all cost.$8", //added in 3.2.3
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.": "", 
+  "Rodney.CT.married_Elliott": "", 
+  "Rodney.CT.divorced_Elliott": "", 
+  "Rodney.CT.wonIceFishing": "", 
+  "Rodney.CT.GreenRain.1": "",
   "Rodney.CT.GreenRainFinished": "That weather was wild, yesterday! And I really enjoyed doing some solo LARPing!$1#$b#Although, Demetrius did not seem amused by my performance...$2", //added in 3.1.0
-  "Rodney.CT.GreenRain.2": "", //added in 3.1.0
-  "Rodney.CT.wonIceFishing": "", //added in 3.1.0
+  "Rodney.CT.GreenRain.2": "",
+  "Rodney.CT.wonIceFishing": "", 
 
 
   //Festival dialogue Platonic (string name has been edited in 2.0.0 )
@@ -990,7 +993,7 @@
   "event-134371019.04": "@! I'm glad you're here. What do you think of the new mini-library?$1", 
   "event-134371019.05": "It's simple. In this beautiful and very cute mini-library, you can trade those autographed photos of me for books!$1#$b#Most of these books come from my personal collection. People can drop those photos so I can recycle them and in exchange, they get a book. Everybody wins!$1", 
   "event-134371019.06": "By the way Rodney, why is there so many autographed photos of you everywhere in the Valley?", 
-  "event-134371019.07": "That's a bit embarrassing.$2#$b#When I moved to the Valley and started writing again, my publisher had all these photos of me printed because he believed I was on the verge on publishing a new book and he wanted to give me some exposure.#$b#Pretty standard marketing right? Then, and this is the embarrassing part, the plane that was shipping thousands of photos of me had a mishap with its hold.#$b#The cargo wasn't very well secured either and one night, it rained photos of me everywhere in the area.", 
+  "event-134371019.07": "That's a bit embarrassing.$2#$b#When I moved to the Valley and started writing again, my publisher had all these photos of me printed because he believed I was on the verge of publishing a new book and he wanted to give me some exposure.#$b#Pretty standard marketing right? Then, and this is the embarrassing part, the plane that was shipping thousands of photos of me had a mishap with its hold.#$b#The cargo wasn't very well secured either and one night, it rained photos of me everywhere in the area.", 
   "event-134371019.08": "My publisher hasn't done anything to fix it and the shipping company went bankrupt. So I'm doing what I can to help.", 
   "event-134371019.09": "That's not supposed to be a funny story!$8", 
   "event-134371019.10": "I'm sorry, Rodney, but it is!$1#$b#I can't stop picturing the night sky full of photos of you!$1", 

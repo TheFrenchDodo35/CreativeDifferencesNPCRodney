@@ -196,7 +196,7 @@
                 "DateRodney": "emote RodneyOBrien 20/addMailReceived DatingRodney/pause 500/speak RodneyOBrien \"{{i18n:event-134371020.07}}\"/emote farmer 32/pause 300/emote RodneyOBrien 20/pause 1000/end"
             },
             "When": {
-                "RodneyPolyamory": false,
+                "Rodney Polyamory": false,
             }
         },
         {
@@ -208,7 +208,7 @@
                 "DateRodney": "emote RodneyOBrien 20/addMailReceived DatingRodney/pause 500/speak RodneyOBrien \"{{i18n:event-134371020.07}}\"/emote farmer 32/pause 300/emote RodneyOBrien 20/pause 1000/end"
             },
             "When": {
-                "RodneyPolyamory": true,
+                "Rodney Polyamory": true,
             }
         },
         {

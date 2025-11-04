@@ -2,7 +2,7 @@
    "Name": "[NPC] Rodney O'Brien",
    "Author": "TheFrenchDodo",
    "Description": "Adds a friendly writer that also happens to be Elliott's uncle.",
-   "Version": "3.1.2",
+   "Version": "3.2.3",
    "UniqueID": "TheFrenchDodo.RodneyOBrien",
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
@@ -13,7 +13,11 @@
    "Dependencies": [
       {
          "UniqueID": "LemurKat.EastScarpe.CP",
-         "IsRequired": true
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Lemurkat.EastScarp",
+         "IsRequired": false
       },
       {
          "UniqueID": "Lumisteria.TtilesheetsOutdoor",

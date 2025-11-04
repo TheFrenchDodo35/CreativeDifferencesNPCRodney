@@ -1,6 +1,6 @@
 {
 	"Format": "2.0.0",
-/*
+	/*
    _____ ____  _   _ ______ _____ _____ 
   / ____/ __ \| \ | |  ____|_   _/ ____|
  | |   | |  | |  \| | |__    | || |  __ 
@@ -9,6 +9,30 @@
   \_____\____/|_| \_|_|    |_____\_____|                                                                           
 */
 	"ConfigSchema": {
+		"Rodney Portrait Style": {
+			"AllowValues": "Vanilla, Nyapu, Bassoonicorn",
+			"Default": "Vanilla",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Description": "Choose Rodney's portraits: default portraits (vanilla style), Nyapu's version or Bassoonicorn's version (based on a drawing by GoldenCoyotte).",
+			"Section": "Appearance"
+		},
+		"Rodney Sprite Style": {
+			"AllowValues": "Vanilla, Bassoonicorn",
+			"Default": "Vanilla",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Description": "Choose Rodney's sprites: default sprites (vanilla style), or Bassoonicorn's version (based on a drawing by GoldenCoyotte).",
+			"Section": "Appearance"
+		},
+		"Meredith Portrait Style": {
+			"AllowValues": "Vanilla, Nyapu",
+			"Default": "Vanilla",
+			"AllowBlank": false,
+			"AllowMultiple": false,
+			"Description": "Choose Meredith's portraits: default portraits (vanilla style) or Nyapu's style. Note that at the moment, Meredith's portraits are only visible in one event",
+			"Section": "Appearance"
+		},
 		"EnableAutograph": {
 			"AllowValues": "true, false",
 			"Default": true,
@@ -21,7 +45,7 @@
 			"Description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)",
 			"Section": "Silo's appearance"
 		},
-		"RodneyPolyamory": {
+		"Rodney Polyamory": {
 			"AllowValues": "true, false",
 			"Default": false,
 			"Description": "Choose whether you want Rodney to ask you out on a date when you are already in a relationship. Default is false. Note that you won't ever be able to date both Elliott & Rodney since they are related.",
@@ -39,7 +63,9 @@
 			"Logname": "The Writer, The Witch & The Wardrobe Assistant SVE Includes",
 			"Action": "Include",
 			"FromFile": "Data/Gift Tastes/ItemGiftTastesSVE.json",
-            "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP", },
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
 		},
 		{
 			"Logname": "Rodney Includes",
@@ -49,7 +75,7 @@
 		{
 			"LogName": "Rodney's autograph spawn",
 			"Action": "Include",
-			"FromFile": "Data/FishableAutograph.json", 
+			"FromFile": "Data/FishableAutograph.json",
 			"When": {
 				"EnableAutograph": true,
 			},
@@ -64,31 +90,31 @@
 			"LogName": "Portraits Rodney",
 			"Action": "Load",
 			"Target": "Portraits/RodneyOBrien",
-			"FromFile": "Assets/{{Target}}/Rodney_Spring1.png"
+			"FromFile": "Assets/Portraits/{{Rodney Portrait Style}}/RodneyOBrien/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Sprites Rodney",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien",
-			"FromFile": "Assets/{{Target}}/Rodney_Spring1.png"
+			"FromFile": "Assets/Characters/{{Rodney Sprite Style}}/RodneyOBrien/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Portraits Meredith",
 			"Action": "Load",
 			"Target": "Portraits/MeredithOBrien",
-			"FromFile": "Assets/{{Target}}/Portraits-Meredith.png"
+			"FromFile": "Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/Portraits-Meredith.png"
 		},
 		{
 			"LogName": "Sprites Meredith",
 			"Action": "Load",
 			"Target": "Characters/MeredithOBrien",
-			"FromFile": "Assets/{{Target}}/MeredithOBrien.png"
+			"FromFile": "Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien.png"
 		},
 		{
 			"LogName": "Young Rodney Sprite",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien_YoungRodney",
-			"FromFile": "Assets/Characters/RodneyOBrien/RodneyYoungRodney.png",
+			"FromFile": "Assets/TempActors/{{Rodney Sprite Style}}/Young-Rodney.png",
 		},
 		{
 			"LogName": "Child Meredith Sprite",
@@ -133,7 +159,7 @@
 	 | | | | | | | | | '_ \   / _` | | '_ ` _ \  | |  / __|     | |    / _ \  | |/ /  / _ \ | '_ \  / __|
 	 | |_| | | |_| | | | | | | (_| | | | | | | | | | | (__      | |   | (_) | |   <  |  __/ | | | | \__ \
 	 |____/   \__, | |_| |_|  \__,_| |_| |_| |_| |_|  \___|     |_|    \___/  |_|\_\  \___| |_| |_| |___/
-	           |___/                                                                                      
+			   |___/                                                                                      
 	*/
 	"DynamicTokens": [
 		//Rasmodia Compatibility
@@ -257,7 +283,7 @@
 				"Hearts:RodneyOBrien": "8, 10"
 			}
 		},
-/*		{
+		/*		{
 			"Name": "RodneyMountainDialogue",
 			"Value": "{{i18n:rod.007.Romantic}}",
 			"When": {
@@ -403,13 +429,6 @@
 		},
 		{
 			"Name": "Rodney_SaloonParty",
-			"Value": "{{Rodney_SaloonParty}} Sterling 8 21 0 Henry 9 20 2 Mia 8 20 2",
-			"When": {
-				"HasMod": "Himetarts.ARV.CP"
-			}
-		},
-		{
-			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} OliverK 15 21 0",
 			"When": {
 				"HasSeenEvent": "57873000",
@@ -438,13 +457,6 @@
 		},
 		{
 			"Name": "Rodney_SaloonParty",
-			"Value": "{{Rodney_SaloonParty}} JortsCat 17 17 2 JeanCat 16 17 2",
-			"When": {
-				"HasMod": "tiakall.jortsandjean",
-			}
-		},
-		{
-			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} Basil 5 20 1 Marie 5 19 1 Zack 10 23 0",
 			"When": {
 				"HasMod": "MineralTownArchitects.MineralTown",
@@ -469,7 +481,7 @@
 			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} SenS 3 13 2",
 			"When": {
-				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP"
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD"
 			}
 		},
 		{
@@ -512,29 +524,29 @@
 			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} Fievel 4 19 1",
 			"When": {
-                "HasMod": "EastScarp.FGES",
+				"HasMod": "EastScarp.FGES",
 			}
 		},
 		{
 			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} MadDog.HashtagBearFam.Sondra 22 19 3",
 			"When": {
-                "HasMod": "MadDog.HashtagBearFam",
+				"HasMod": "MadDog.HashtagBearFam",
 			}
 		},
 		{
 			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} MadDog.HashtagBearFam.Gunnar 7 20 1",
 			"When": {
-                "HasMod": "MadDog.HashtagBearFam",
+				"HasMod": "MadDog.HashtagBearFam",
 				"HasSeenEvent": "MadDog.BearFam.16197002",
 			}
 		},
-{
+		{
 			"Name": "Rodney_SaloonParty",
 			"Value": "{{Rodney_SaloonParty}} Nora 3 22 1",
 			"When": {
-                "HasMod": "Bagi.Nora.CP",
+				"HasMod": "Bagi.Nora.CP",
 			}
 		},
 		// LIBRARY GATHERING //
@@ -631,13 +643,6 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingActor",
-			"Value": "{{Rodney_PoetryReadingActor}} Henry -1000 -1000 0 Sterling -1000 -1000 0",
-			"When": {
-				"HasMod": "Himetarts.ARV.CP"
-			}
-		},
-		{
-			"Name": "Rodney_PoetryReadingActor",
 			"Value": "{{Rodney_PoetryReadingActor}} Lavril -1000 -1000 0 Void -1000 -1000 0",
 			"When": {
 				"HasMod": "Arknir27.Lavril",
@@ -648,7 +653,7 @@
 			"Name": "Rodney_PoetryReadingActor",
 			"Value": "{{Rodney_PoetryReadingActor}} SenS -1000 -1000 0",
 			"When": {
-				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD",
 				"HasSeenEvent": "107701000",
 			}
 		},
@@ -667,7 +672,7 @@
 				"HasSeenEvent": "MadDog.BearFam.16197002",
 			}
 		},
-{
+		{
 			"Name": "Rodney_PoetryReadingActor",
 			"Value": "{{Rodney_PoetryReadingActor}} MadDog.HashtagBearFam.Teren -1000 -1000 0",
 			"When": {
@@ -691,7 +696,7 @@
 			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "{{Rodney_PoetryReadingReactions}}speak SenS \"{{i18n:event-134371017.Sen.PoetryReaction}}\"/emote RodneyOBrien 8/",
 			"When": {
-				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD",
 				"HasSeenEvent": "107701000",
 			}
 		},
@@ -779,13 +784,6 @@
 		},
 		{
 			"Name": "Rodney_PoetryReadingReactions",
-			"Value": "{{Rodney_PoetryReadingReactions}}speak Henry \"{{i18n:event-134371017.Henry.PoetryReaction}}$6\"/speak Sterling \"{{i18n:event-134371017.Sterling.PoetryReaction}}$3\"/",
-			"When": {
-				"HasMod": "Himetarts.ARV.CP",
-			}
-		},
-{
-			"Name": "Rodney_PoetryReadingReactions",
 			"Value": "{{Rodney_PoetryReadingReactions}} speak MadDog.HashtagBearFam.Teren \"{{i18n:event-134371017.Teren.PoetryReaction}}\"/emote RodneyOBrien 60/",
 			"When": {
 				"HasMod": "MadDog.HashtagBearFam",
@@ -797,14 +795,14 @@
 			"Name": "ShadowGuy",
 			"Value": "SenS",
 			"When": {
-				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD",
 			}
 		},
 		{
 			"Name": "ShadowGuy",
 			"Value": "Krobus",
 			"When": {
-				"HasMod |contains=7thAxis.LitD.CP": "false",
+				"HasMod |contains=7thAxis.LitD": "false",
 				"HasMod |contains=7thAxis.DitR.CP": "false",
 			}
 		},
@@ -812,14 +810,14 @@
 			"Name": "SenOutfit",
 			"Value": "changePortrait SenS Default/changeSprite SenS Default/",
 			"When": {
-				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+				"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD",
 			}
 		},
 		{
 			"Name": "SenOutfit",
 			"Value": "",
 			"When": {
-				"HasMod |contains=7thAxis.LitD.CP": "false",
+				"HasMod |contains=7thAxis.LitD": "false",
 				"HasMod |contains=7thAxis.DitR.CP": "false",
 			}
 		},
@@ -879,6 +877,21 @@
 			"Value": "{{4HeartsSaloonAnimations}}/animate Sigurd false true 1200 56",
 			"When": {
 				"HasMod": "MadDog.HashtagBearFam",
+			}
+		},
+		//TEMP ESR Token
+		{
+			"Name": "SiloPatchVersion",
+			"Value": "Silo_Outdoor",
+			"When": {
+				"HasMod": "LemurKat.EastScarpe.CP"
+			}
+		},
+		{
+			"Name": "SiloPatchVersion",
+			"Value": "Silo_Outdoor_ESR",
+			"When": {
+				"HasMod": "Lemurkat.EastScarp"
 			}
 		},
 	],

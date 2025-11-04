@@ -891,7 +891,7 @@
     },
     // Marketpalooza
     {
-      "LogName": "Rodney Marketpalooza",
+      "LogName": "Rodney Marketpalooza Fall",
       "Action": "EditData",
       "Target": "Data/Festivals/Fall3",
       "TextOperations": [
@@ -901,7 +901,35 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "RodneyOBrien 8 6 right",
+          "Value": "RodneyOBrien 22 11 right",
+          "Delimiter": "/"
+        },
+ /*       {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 46 18 2",
+          "Delimiter": "/"
+        }, */
+      ],
+      "When": {
+        "HasMod": "Fellowclown.PC"
+      }
+    },
+    {
+      "LogName": "Rodney Marketpalooza Winter",
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter3",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "RodneyOBrien 22 11 right",
           "Delimiter": "/"
         },
  /*       {
