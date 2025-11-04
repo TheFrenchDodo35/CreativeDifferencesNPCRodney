@@ -1,0 +1,40 @@
+    {
+	"Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Default",
+        "Fish"
+      ],
+      "Entries": {
+        "WWWA.RodneyAutograph": {
+          "Chance": 0.5,
+          "MinFishingLevel": 0,
+          "MinDistanceFromShore": 0,
+          "MaxDistanceFromShore": -1,
+          "Precedence": 1000,
+          "Condition": "ANY \"LOCATION_NAME Target Beach\" \"LOCATION_NAME Target Forest\" \"LOCATION_NAME Target UndergroundMine\" \"LOCATION_NAME Target Desert\" \"LOCATION_NAME Target Mountain\" \"LOCATION_NAME Target Woods\" \"LOCATION_NAME Target Sewer\" \"LOCATION_NAME Target BugLand\" \"LOCATION_NAME Target WitchSwamp\" \"LOCATION_NAME Target IslandNorth\" \"LOCATION_NAME Target IslandSouth\" \"LOCATION_NAME Target IslandWest\" \"LOCATION_NAME Target IslandSouthEast\" \"LOCATION_NAME Target IslandSouthEastCave\" \"LOCATION_NAME Target EastScarp_Village\"",
+          "Id": "WWWA.AutographedPhoto",
+          "ItemId": "(O)WWWA.AutographedPhoto",
+        }
+      }
+    },
+ /*   {
+        "Action": "EditData",
+        "Target": "Mods/shekurika.VisibleFish/LocationData",
+        "TargetField": [
+            "Beach",
+            "Spawns"
+        ],
+        "Entries": {
+            "WWWA.RodneyAutograph": {
+                "X": 41,
+                "Y": 32,
+                "QualifiedItemId": "(O)WWWA.AutographedPhoto"
+            },
+        },
+    } */
+
+    	]
+}

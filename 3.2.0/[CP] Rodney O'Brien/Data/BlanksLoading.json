@@ -1,0 +1,16 @@
+{
+    "Changes": [
+		{
+			"LogName": "Events Data Blanks",
+			"Action": "Load",
+			"Target": "Data/Events/EastScarp_RodneysHouse, Data/Events/EastScarp_FerngillNationalLibrary, Data/Events/EastScarp_LibraryExterior, Data/Events/EastScarp_RodneysBasement",
+			"FromFile": "Data/blank.json"
+		},
+		{
+			"Logname": "Rodney Blanks",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/RodneyOBrien, Characters/schedules/RodneyOBrien, Strings/schedules/RodneyOBrien",
+			"FromFile": "Data/blank.json"
+		},
+				]
+}
