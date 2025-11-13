@@ -1,0 +1,1 @@
+- DaisyNiko's Tilesheet is now a hard requirement (previously required through East Scarp)
