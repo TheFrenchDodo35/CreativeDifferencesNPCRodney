@@ -1,0 +1,153 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney Conversation Topics",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RodneyOBrien",
+            "Entries": {
+                //Vanilla
+                "joja_Begin": "{{i18n:joja_Begin}}",
+                "cc_Begin": "{{i18n:cc_Begin}}",
+                "cc_Bus": "{{i18n:cc_Bus}}",
+                "cc_Bridge": "{{i18n:cc_Bridge}}",
+                "cc_Complete": "{{i18n:cc_Complete}}",
+                "movieTheater": "{{i18n:movieTheater}}",
+                "pamHouseUpgrade": "{{i18n:pamHouseUpgrade}}",
+                "pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous}}",
+                //This mod
+                "MeetingMeredith": "{{i18n:MeetingMeredith}}",
+                "DwarfStory": "{{i18n:DwarfStory}}",
+                "ShadowfolkStory": "{{i18n:ShadowfolkStory1}}{{WizardGender}}{{i18n:ShadowfolkStory2}}",
+                "EdwinaAppears": "{{i18n:EdwinaAppears}}",
+                "RodStoryReading": "{{i18n:RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:BookLaunchParty}}",
+                "FerngillNationalLibraryReading": "{{i18n:FerngillNationalLibraryReading}}",
+                "RodneyBirthaySuit": "{{i18n:RodneyBirthaySuit}}",
+                "RodneyPoetryReading": "{{i18n:RodneyPoetryReading}}",
+                "RodneyOliverPlotHole": "{{i18n:RodneyOliverPlotHole}}",
+                "RodneyMeetsFievel": "{{i18n:RodneyMeetsFievel}}",
+                //East Scarp
+                "reject_EastScarp_Vintage_Ruby_Ring": "{{i18n:reject_534}}",
+                "Aideen_Garden": "{{i18n:Aideen_Garden}}",
+                // ARV
+                "SterlingTrash": "{{i18n:SterlingTrash}}",
+                "SterlingRiver": "{{i18n:SterlingRiver}}",
+                //Realistic writer Elliott
+                "elliott_writing_letter1": "{{i18n:elliott_writing_letter1}}",
+                "elliott_writing_letter2": "{{i18n:elliott_writing_letter2}}",
+                "elliott_writing_letter3": "{{i18n:elliott_writing_letter3}}",
+                "elliott_writing_letter4": "{{i18n:elliott_writing_letter4}}",
+                //Juliet & JEssie
+                "JulietGremlin": "{{i18n:JulietGremlin}}",
+                // Juna
+                "JunaBeachBallet": "{{i18n:JunaBeachBallet}}",
+                "JunaForestPicnic": "{{i18n:JunaForestPicnic}}",
+                "BigFootWizard": "{{i18n:BigFootWizard1}}{{WizardGender}}{{i18n:BigFootWizard2}}",
+                // Lavril
+                "LavrilUnlocked": "{{i18n:LavrilUnlocked}}",
+                // Lucikiel hot demon man
+                "LucikielArrives": "{{i18n:LucikielArrives}}",
+                "ReputationIncreased": "{{i18n:ReputationIncreased}}",
+                // Jasper
+                "JasperGone2": "{{i18n:JasperGone2}}",
+                "JasperHomeA": "{{i18n:JasperHomeA}}",
+                // RSV
+                "keahi_prank": "{{i18n:keahi_prank}}",
+                // Yri
+                "YriIntroduction": "{{i18n:YriIntroduction}}",
+                "AfterProposal": "{{i18n:AfterProposal}}",
+                "YriShack": "{{i18n:YriShack}}",
+                // Mateo
+                "MateoAcceptance": "{{i18n:MateoAcceptance}}",
+                "GuildComplete": "{{i18n:GuildComplete}}",
+
+                // Eli & Dylan
+                "EliIntro": "{{i18n:EliIntro}}",
+                "DylanIntro": "{{i18n:DylanIntro}}",
+
+                // More conversation topics
+                "wedding": "{{i18n:wedding}}",
+                "luauBest": "{{i18n:luauBest}}",
+                "luauShorts": "{{i18n:luauShorts}}",
+                "luauPoisoned": "{{i18n:luauPoisoned}}",
+                "divorce": "{{i18n:divorce}}",
+                "babyBoy": "{{i18n:babyBoy}}",
+                "babyGirl": "{{i18n:babyGirl}}",
+                "joja_Complete": "{{i18n:joja_Complete}}",
+                "willyBoatRepaired": "{{i18n:willyBoatRepaired}}",
+                "leoValleyArrival": "{{i18n:leoValleyArrival}}",
+                "islandResortUnlocked": "{{i18n:islandResortUnlocked}}",
+                "railroadEarthquake": "{{i18n:railroadEarthquake}}",
+                "MaruCometSighting": "{{i18n:MaruCometSighting}}",
+                "HaleysCakeWalk": "{{i18n:HaleysCakeWalk}}",
+                "ElliottTourOver": "{{i18n:ElliottTourOver}}",
+                // Mineral Town
+                "MineralTownIntro": "{{i18n:MineralTownIntro}}",
+                // Metalcore goes cottagecore
+                "CamieIntro": "{{i18n:CamieIntro}}",
+                // Unhinged Mayo mod
+                "MayoPlan": "{{i18n:MayoPlan}}",
+                //Fievel
+                "Fievel2H": "{{i18n:Fievel2H}}",
+                "Fievel10H": "{{i18n:Fievel10H}}",
+                //Lurking in the dark
+                "LitD_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
+                "LitD_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
+                "LitD_CT_SensFlowers": "{{i18n:LitD_CT_SensFlowers}}",
+
+                //SDV 1.6 CTs
+                "GreenRainFinished": "{{i18n:Rodney.CT.GreenRainFinished}}",
+
+                //Diamond in the rough
+                "DitR_CT_ShadowPlay": "{{i18n:LitD_CT_ShadowPlay}}",
+                "DitR_CT_GardenCompleted": "{{i18n:LitD_CT_GardenCompleted}}",
+                "DitR_CT_SensFlowers": "{{i18n:LitD_CT_SensFlowers}}}",
+/*
+                
+                "DitR_CT_EveMeet": "{{i18n:Rodney.CT.EveMeet}}",
+                "DitR_CT_JeremyIntroduction": "{{i18n:Rodney.CT.JeremyIntroduction}}",
+                
+                //Nora The Herpetologist
+                "NoraClass": "{{i18n:Rodney.CT.NoraClass}}", //Third heart event, happens at the library, Nora has a little class with the kids. People who hang out in the library/have kids would know. 
+                "NoraSad": "{{i18n:Rodney.CT.NoraSad}}", //NoraSad: After her 6 hearts event, Nora is feeling quite low but won't disclose why. She's just quieter/sadder than usual. People who usually hang out with her/know her a bit would notice the difference.
+                "NoraBusy": "{{i18n:Rodney.CT.NoraBusy}}", //NoraBusy:  After 8 hearts event part 1, Nora will stay at home for about a week working on finishing her project. She's better but people would tell she's away, like people who spend a lot of time at the library would know
+                "NoraProud": "{{i18n:Rodney.CT.NoraProud}}", //NoraProud: After 8 hearts event part 2,  Nora finishes her PHD and celebrates with some friends at the saloon. Her friends would know
+                "NoraJob": "{{i18n:Rodney.CT.NoraJob}}", //NoraJob: After the 10 hearts event part 2,  Nora gets a job at the museum! People who work at the museum/spend lots of time there/her friends would know
+                "NoraChameleon": "{{i18n:Rodney.CT.NoraChameleon}}", // Nora finally  finds the endangered chameleon she was looking for! She is EXTREMELY excited and ALL of her friends (and people who are not really her friends) will be hearing about it
+
+
+                //SDV 1.6 CTs
+                "dating_Elliott": "{{i18n:Rodney.CT.dating_Elliott}}",
+                "married_Elliott": "{{i18n:Rodney.CT.married_Elliott}}",
+                "divorced_Elliott": "{{i18n:Rodney.CT.divorced_Elliott}}",
+                "GreenRain": "{{i18n:Rodney.CT.GreenRain.1}}",
+                "GreenRain_2": "{{i18n:Rodney.CT.GreenRain.2}}",
+                "wonIceFishing": "{{i18n:Rodney.CT.wonIceFishing}}",
+
+                //SVE CTs
+                "guntherEscortDenied": "{{i18n:Rodney.CT.guntherEscortDenied}}",
+                "museumCompleted": "{{i18n:Rodney.CT.museumCompleted}}",
+                "jojaEmporium": "{{i18n:Rodney.CT.jojaEmporium}}",
+                "election": "{{i18n:Rodney.CT.election}}",
+                
+                //VMV
+
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}",
+                "": "{{i18n:Rodney.CT.}}", 
+                
+                
+
+*/
+            }
+        },
+    ]
+}

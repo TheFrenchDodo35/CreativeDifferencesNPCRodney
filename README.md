@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # Creative Differences - NPC Rodney O'Brien
 
 This is the repository for a Stardew Valley mod. You can find the current public release on Nexusmods: https://www.nexusmods.com/stardewvalley/mods/13437
@@ -66,6 +67,8 @@ Rodney is too mean.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q5F6B1I)
 =======
+=======
+>>>>>>> Stashed changes
 # Creative Differences - NPC Rodney O'Brien
 
 This is the repository for a Stardew Valley mod. You can find the current public release on Nexusmods: https://www.nexusmods.com/stardewvalley/mods/13437
@@ -119,4 +122,7 @@ Can I make on myself then?
 
 Rodney is too mean.
 > This is not a question.
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

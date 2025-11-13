@@ -1,0 +1,1125 @@
+{
+    "Changes": [ 
+        {   "LogName": "Gift tastes for custom items",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus WWWA.Book.ArtifactOrCutlery WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.DeferenceArlington WWWA.Book.FishingForDumbDumbs WWWA.Book.GettingChicksToLoveYou WWWA.Book.Goblins WWWA.Book.GuideToSculptingWithGold WWWA.Book.HerpetologyOfFerngill WWWA.Book.LunarkinTrollTales WWWA.Book.MysteriesOfTheDwarves WWWA.Book.PepperRexes WWWA.Book.TheBookOfYoba WWWA.Book.TheGreatBookOfSlimes WWWA.Book.TheGreatTomeOfMayo WWWA.Book.TheJojaConspiracy WWWA.Book.TheTarotRevealed WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ", // if there are already values, add a space between them and the new one
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Universal_Love" ],
+                    "Value": "WWWA.GenuineAutograph",
+                    "Delimiter": " ",
+                },
+               {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_hate"],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " ",
+                }, 
+                //AutographedPhoto gift tastes
+                //Like
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Elliott", 3 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Gus", 3 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Leah", 3 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 3 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                //Dislike
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Emily", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Evelyn", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "George", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shane", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vincent", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Alex", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Caroline", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Linus", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Kent", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Marnie", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Penny", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pierre", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Robin", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sam", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sandy", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Leo", 5 ],
+                    "Value": "WWWA.AutographedPhoto",
+                    "Delimiter": " "
+                },
+                //BOOKS GIFT TASTES 
+                //ArcanaCatcherPrunus
+                //Love
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 1 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+/*               { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "MeredithOBrien", 1 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                }, */
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 1 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                //Neutral
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 9 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                //Dislike 
+ /*               { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "EdwinaOBrien", 5 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },*/
+                //Hate 
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 7 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lewis", 7 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Clint", 7 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pam", 7 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                { //
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 7 ],
+                    "Value": "WWWA.Book.ArcanaCatcherPrunus",
+                    "Delimiter": " ",
+                },
+                //ArtifactOrCutlery
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Clint", 1 ],
+                    "Value": "WWWA.Book.ArtifactOrCutlery",
+                    "Delimiter": " ",
+                },
+                //GuideToSculptingWithGold
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Clint", 1 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 1 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Marnie", 1 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 1 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 1 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 9 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Linus", 7 ],
+                    "Value": "WWWA.Book.GuideToSculptingWithGold",
+                    "Delimiter": " ",
+                },
+                //CrabsAndWhyIHateThem
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 1 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 9 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 7 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 7 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Gus", 7 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 7 ],
+                    "Value": "WWWA.Book.CrabsAndWhyIHateThem",
+                    "Delimiter": " ",
+                },
+                //DeferenceArlington
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Elliott", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Gus", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Leah", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 1 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 9 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 7 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 7 ],
+                    "Value": "WWWA.Book.DeferenceArlington",
+                    "Delimiter": " ",
+                },
+                //FishingForDumbDumbs
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vincent", 1 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Gus", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Leah", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pierre", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Caroline", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Kent", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shane", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Marnie", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Clint", 9 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 7 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Leo", 7 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 7 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pam", 7 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Elliott", 7 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 7 ],
+                    "Value": "WWWA.Book.FishingForDumbDumbs",
+                    "Delimiter": " ",
+                },
+                //GettingChicksToLoveYou
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Marnie", 1 ],
+                    "Value": "WWWA.Book.GettingChicksToLoveYou",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 1 ],
+                    "Value": "WWWA.Book.GettingChicksToLoveYou",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Clint", 1 ],
+                    "Value": "WWWA.Book.GettingChicksToLoveYou",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 9 ],
+                    "Value": "WWWA.Book.GettingChicksToLoveYou",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 5 ],
+                    "Value": "WWWA.Book.GettingChicksToLoveYou",
+                    "Delimiter": " ",
+                },
+                //Goblins
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 1 ],
+                    "Value": "WWWA.Book.Goblins",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 9 ],
+                    "Value": "WWWA.Book.Goblins",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 9 ],
+                    "Value": "WWWA.Book.Goblins",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 9 ],
+                    "Value": "WWWA.Book.Goblins",
+                    "Delimiter": " ",
+                },
+                //HerpetologyOfFerngill
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sebastian", 1 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vincent", 1 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 1 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 1 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 9 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 9 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 9 ],
+                    "Value": "WWWA.Book.HerpetologyOfFerngill",
+                    "Delimiter": " ",
+                },
+                //LunarkinTrollTales
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vincent", 1 ],
+                    "Value": "WWWA.Book.LunarkinTrollTales",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 1 ],
+                    "Value": "WWWA.Book.LunarkinTrollTales",
+                    "Delimiter": " ",
+                },
+                //MysteriesOfTheDwarves
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 1 ],
+                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 9 ],
+                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 9 ],
+                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 7 ],
+                    "Value": "WWWA.Book.MysteriesOfTheDwarves",
+                    "Delimiter": " ",
+                },
+                //PepperRexes
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vincent", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 1 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 9 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 7 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 7 ],
+                    "Value": "WWWA.Book.PepperRexes",
+                    "Delimiter": " ",
+                },
+                //TheBookOfYoba
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 1 ],
+                    "Value": "WWWA.Book.TheBookOfYoba",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "George", 1 ],
+                    "Value": "WWWA.Book.TheBookOfYoba",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Evelyn", 1 ],
+                    "Value": "WWWA.Book.TheBookOfYoba",
+                    "Delimiter": " ",
+                },
+                //TheGreatBookOfSlimes
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 1 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 1 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 1 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 1 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Evelyn", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Emily", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pierre", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Caroline", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "George", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pam", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sam", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Alex", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 7 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Marnie", 9 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lewis", 9 ],
+                    "Value": "WWWA.Book.TheGreatBookOfSlimes",
+                    "Delimiter": " ",
+                },
+                //TheGreatTomeOfMayo
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lewis", 7 ],
+                    "Value": "WWWA.Book.TheGreatTomeOfMayo",
+                    "Delimiter": " ",
+                },
+                //TheJojaConspiracy
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pierre", 1 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Caroline", 1 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Linus", 1 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Gus", 1 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 1 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Robin", 1 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lewis", 9 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 9 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Alex", 9 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 9 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pam", 7 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 7 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shane", 7 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sam", 7 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Kent", 7 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 5 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vincent", 5 ],
+                    "Value": "WWWA.Book.TheJojaConspiracy",
+                    "Delimiter": " ",
+                },
+                //TheTarotRevealed
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 1 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Emily", 1 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Caroline", 1 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 9 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Alex", 9 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pierre", 9 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 9 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shane", 9 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Kent", 9 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 5 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pam", 5 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 7 ],
+                    "Value": "WWWA.Book.TheTarotRevealed",
+                    "Delimiter": " ",
+                },
+                //WhyPepperRexesAreTheBest
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Krobus", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vincent", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 1 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wizard", 9 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarf", 7 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 7 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sebastian", 9 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Robin", 9 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Evelyn", 9 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "George", 5 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+                { 
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sebastian", 9 ],
+                    "Value": "WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Delimiter": " ",
+                },
+            ]
+        },
+    ]
+}
+
+/* 
+1 = Love
+3 = Like
+5 = dislike
+7 = hate
+9 = neutral
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                    "Fields",
+                    "*****NPC_ID*****",
+                    1 //1= loves, change to target specific field in NPCGiftTastes for other tiers
+                            ],
+                    "Value": "******Item_ID Item_ID Item_ID Item_ID (etc)*****",
+                    "Delimiter": " "
+                },
+
+
+*/

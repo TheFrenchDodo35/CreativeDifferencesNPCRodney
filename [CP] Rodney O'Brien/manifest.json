@@ -2,7 +2,11 @@
    "Name": "[NPC] Rodney O'Brien",
    "Author": "TheFrenchDodo",
    "Description": "Adds a friendly writer that also happens to be Elliott's uncle.",
+<<<<<<< Updated upstream
    "Version": "3.2.4",
+=======
+   "Version": "3.2.3",
+>>>>>>> Stashed changes
    "UniqueID": "TheFrenchDodo.RodneyOBrien",
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
@@ -39,12 +43,19 @@
          "UniqueID": "JoXW.MobilePhone",
          "IsRequired": false,
       },
+<<<<<<< Updated upstream
          {
          "UniqueID": "DaisyNiko.Tilesheets",
          "IsRequired": true
       },
+=======
+>>>>>>> Stashed changes
    ],
    "UpdateKeys": [
       "Nexus:13437"
    ],
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

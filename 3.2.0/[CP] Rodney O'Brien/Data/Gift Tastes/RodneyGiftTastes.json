@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"LogName": "NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"RodneyOBrien": "{{i18n:RodLove}}/80 91 253 303 444 WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.Goblins WWWA.Book.LunarkinTrollTales WWWA.Book.MysteriesOfTheDwarves WWWA.Book.ArtifactOrCutlery WWWA.Book.TheGreatTomeOfMayo WWWA.Book.TheTarotRevealed sapphicsaph_pitv.BiBerryMuffin )MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.BananaBread Fellowclown.AND_CheesyWhiteRisotto/{{i18n:RodLike}}/-80 -2 167 306 346 395 424 426 sapphicsaph_pitv.PridePop sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.SesameBrownBread MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.PeachJoja Fellowclown.AND_TastyPastry Fellowclown.AND_SeaglassFlowerDisplay Fellowclown.AND_Seaglass Fellowclown.AND_FrostedCake Fellowclown.AND_HotCereal Fellowclown.AND_WhiteTruffle Fellowclown.AND_CheesyWhiteRisotto/{{i18n:RodDislike}}/-4 78 216 290 WWWA.Book.ArcanaCatcherPrunus WWWA.Book.TheBookOfYoba Fellowclown.AND_GemBirdPatties/{{i18n:RodHate}}/-21 -20 446 WWWA.AutographedPhoto WWWA.GenuineAutograph WWWA.Book.GuideToSculptingWithGold WWWA.Book.TheGreatBookOfSlimes Fellowclown.AND_VoidJuice Fellowclown.AND_GemBirdMeat/{{i18n:RodNeutral}}/WWWA.Book.DeferenceArlington WWWA.Book.FishingForDumbDumbs MadDog.BearFam.Colacrab/ ",
+			},
+		},
+		{
+			"LogName": "Rodney Rabbit's Foot Replacers",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "RemoveDelimited",
+					"Target": [
+						"Fields",
+						"RodneyOBrien",
+						"7"
+					],
+					"Search": "446",
+					"Delimiter": " "
+				}
+			],
+			"When": {
+				"Query: {{HasMod |contains=PurpleChickadee.StardropFlower}} OR {{HasMod |contains=LorenOlson.RabbitClovers}} OR {{HasMod |contains=DaisyNiko.RabbitFloof}}": true
+			}
+		},
+		{ //Axell gave this to and said I needed it. I have no idea what I'm doing.
+            "LogName": "Allow Unlucky Purple Shorts Gifting",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "TargetField": [ "7thAxis.DitR.CP.Items.UnluckyPurpleShorts", "GiftableToNpcAllowList" ],    
+            "Entries": { "RodneyOBrien": true },
+            "When": { "HasMod": "7thAxis.DitR.CP" }
+        },
+	]
+}
+
