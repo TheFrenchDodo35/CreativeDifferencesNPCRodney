@@ -10,11 +10,11 @@
 */
 	"ConfigSchema": {
 		"Rodney Portrait Style": {
-			"AllowValues": "Vanilla, Nyapu, Bassoonicorn",
+			"AllowValues": "Vanilla, Nyapu, Bassoonicorn, New",
 			"Default": "Vanilla",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "Choose Rodney's portraits: default portraits (vanilla style), Nyapu's version or Bassoonicorn's version (based on a drawing by GoldenCoyotte).",
+			"Description": "Choose Rodney's portraits: default portraits (vanilla style), Nyapu's version, Bassoonicorn's version (based on a drawing by GoldenCoyotte) or the new version (released 2026). Note that the sprites for the new version are not included yet because they are not finished.",
 			"Section": "Appearance"
 		},
 		"Rodney Sprite Style": {
@@ -30,7 +30,7 @@
 			"Default": "Vanilla",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "Choose Meredith's portraits: default portraits (vanilla style) or Nyapu's style. Note that at the moment, Meredith's portraits are only visible in one event",
+			"Description": "Choose Meredith's portraits: default portraits (art by 7thAxis) or Nyapu's style. Note that at the moment, Meredith's portraits are only visible in one event",
 			"Section": "Appearance"
 		},
 		"EnableAutograph": {
@@ -102,13 +102,13 @@
 			"LogName": "Portraits Meredith",
 			"Action": "Load",
 			"Target": "Portraits/MeredithOBrien",
-			"FromFile": "Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/Portraits-Meredith.png"
+			"FromFile": "Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Spring.png"
 		},
 		{
 			"LogName": "Sprites Meredith",
 			"Action": "Load",
 			"Target": "Characters/MeredithOBrien",
-			"FromFile": "Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien.png"
+			"FromFile": "Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Spring.png"
 		},
 		{
 			"LogName": "Young Rodney Sprite",

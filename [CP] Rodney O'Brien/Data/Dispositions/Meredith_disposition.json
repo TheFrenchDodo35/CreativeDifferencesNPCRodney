@@ -44,13 +44,40 @@
                     "Appearance": [
                         //Spring
                         {
-                            "ID": "Generic Meredith Outfit",
-                            "Precedence": 0, 
+                            "ID": "Spring Outfit",
+                            "Season": "Spring",
+                            "Precedence": 0,
                             "Weight": 1,
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/Portraits-Meredith.png}}",
-                            "Sprite": "{{InternalAssetKey: Assets/Characters/MeredithOBrien/MeredithOBrien.png}}"
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Spring.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Spring.png}}"
                         },
-                    ]
+                        //Summer
+                        {
+                            "ID": "Summer Outfit",
+                            "Season": "Summer",
+                            "Precedence": 0,
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Summer.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Summer.png}}"
+                        },
+                        //Fall
+                        {
+                            "ID": "Fall Outfit",
+                            "Season": "Fall",
+                            "Precedence": 0,
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Fall.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Fall.png}}"
+                        },
+                        //Winter
+                        {
+                            "ID": "Winter Outfit",
+                            "Season": "Winter",
+                            "Precedence": 0,
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Winter.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Winter.png}}"
+                        },                    ]
                 },
                 
                 }
