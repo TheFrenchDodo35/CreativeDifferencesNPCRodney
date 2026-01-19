@@ -108,7 +108,7 @@
 			"LogName": "Sprites Meredith",
 			"Action": "Load",
 			"Target": "Characters/MeredithOBrien",
-			"FromFile": "Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Spring.png"
+			"FromFile": "Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Spring.png"
 		},
 		{
 			"LogName": "Young Rodney Sprite",

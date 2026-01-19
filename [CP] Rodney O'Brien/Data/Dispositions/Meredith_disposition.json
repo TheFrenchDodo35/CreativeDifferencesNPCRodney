@@ -49,7 +49,7 @@
                             "Precedence": 0,
                             "Weight": 1,
                             "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Spring.png}}",
-                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Spring.png}}"
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Spring.png}}"
                         },
                         //Summer
                         {
@@ -58,7 +58,7 @@
                             "Precedence": 0,
                             "Weight": 1,
                             "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Summer.png}}",
-                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Summer.png}}"
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Summer.png}}"
                         },
                         //Fall
                         {
@@ -67,7 +67,7 @@
                             "Precedence": 0,
                             "Weight": 1,
                             "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Fall.png}}",
-                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Fall.png}}"
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Fall.png}}"
                         },
                         //Winter
                         {
@@ -76,7 +76,7 @@
                             "Precedence": 0,
                             "Weight": 1,
                             "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Winter.png}}",
-                            "Sprite": "{{InternalAssetKey: Assets/Characters/{{Meredith Sprite Style}}/MeredithOBrien/MeredithOBrien_Winter.png}}"
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Winter.png}}"
                         },                    ]
                 },
                 
