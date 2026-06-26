@@ -1,7 +1,44 @@
 ﻿{
-  // Note to translators: There should be a comment like // add in 1.X.X at the end of each new line added when updating the mod! Feel free to message me if you have a question regarding translation. Thank you for your hard work! 
-  // In this version : some lines have been changed (I added a comment saying //changed in 2.0.0)
-  //The name of the keys for his 10 hearts dialogue have been changed (for the platonic, festival & location dialogue) and a romantic version of each of the 10 hearts strings has been added.
+  /*  Note to translators:
+There should be a comment like // added or changed in X.X.X at the end of each new line added when updating the mod! Feel free to message me if you have a question regarding translation. Thank you for your hard work!
+
+Current version is 3.2.7
+  */
+
+  //Config
+  // added in 3.2.7, sorry for not including before, it slipped my mind!
+  "Config.Section.Appearance.name": "Appearance", // added in 3.2.7
+  "Config.Section.AutographSpawning.name": "Autograph Spawning", // added in 3.2.7
+  "Config.Section.SiloStyle.name": "Rodney Silo's Style", // added in 3.2.7
+  "Config.Section.PolyamorousRodney.name": "Polyamorous Rodney", // added in 3.2.7
+  "Config.RodneyPortraitStyle.name": "Rodney's portrait",  // added in 3.2.7
+  "Config.RodneyPortraitStyle.description": "Choose Rodney's portraits: bearded (default), shaved, Nyapu's version (bearded only), or Bassoonicorn's version (bearded only, based on a drawing by GoldenCoyotte).",  // added in 3.2.7
+  "Config.RodneyPortraitStyle.values.bearded": "Bearded",  // added in 3.2.7
+  "Config.RodneyPortraitStyle.values.shaved": "Shaved",  // added in 3.2.7
+  "Config.RodneyPortraitStyle.values.Nyapu": "Nyapu",  // added in 3.2.7
+  "Config.RodneyPortraitStyle.values.Bassoonicorn": "Bassoonicorn",  // added in 3.2.7
+  "Config.RodneySpriteStyle.name": "Rodney's sprite",  // added in 3.2.7
+  "Config.RodneySpriteStyle.description": "Choose Rodney's sprites: bearded (default), shaved,, or Bassoonicorn's version (bearded only, based on a drawing by GoldenCoyotte).",  // added in 3.2.7
+  "Config.RodneySpriteStyle.values.bearded": "Bearded", // added in 3.2.7
+  "Config.RodneySpriteStyle.values.shaved": "Shaved", // added in 3.2.7
+  "Config.RodneySpriteStyle.values.Bassoonicorn": "Bassoonicorn", // added in 3.2.7
+  "Config.MeredithPortraitStyle.name": "Meredith's portrait",  // added in 3.2.7
+  "Config.MeredithPortraitStyle.description": "Choose Meredith's portraits: default portraits (art by 7thAxis) or Nyapu's style. In the current version, Meredith's portraits are only visible in one event",  // added in 3.2.7
+  "Config.MeredithPortraitStyle.values.vanilla": "Vanilla",  // added in 3.2.7
+  "Config.MeredithPortraitStyle.values.Nyapu": "Nyapu",  // added in 3.2.7
+  "Config.EnableAutograph.name": "Autograph Spawning",  // added in 3.2.7
+  "Config.EnableAutograph.description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun. Visible Fish users: if you want it to spawn but not be visible, simply disable Visible Trash in Visible Fish's config.",  // added in 3.2.7
+  "Config.EnableAutograph.values.true": "True",  // added in 3.2.7
+  "Config.EnableAutograph.values.false": "False",  // added in 3.2.7
+  "Config.Silo.name": "Rodney Silo's Style",  // added in 3.2.7
+  "Config.Silo.description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)",  // added in 3.2.7
+  "Config.Silo.values.vanilla": "Vanilla",  // added in 3.2.7
+  "Config.Silo.values.yri": "Yri",  // added in 3.2.7
+  "Config.RodneyPolyamory.name": "Polyamorous Rodney",  // added in 3.2.7
+  "Config.RodneyPolyamory.description": "Choose whether you want Rodney to ask you out on a date when you are already in a relationship. Default is false. Note that you won't ever be able to date both Elliott & Rodney since they are related.",  // added in 3.2.7
+  "Config.RodneyPolyamory.values.true": "True",  // added in 3.2.7
+  "Config.RodneyPolyamory.values.false": "False",  // added in 3.2.7
+
   // Disposition
   "RodneyDisplayName": "Rodney",
   "MeredithDisplayName": "Meredith",
@@ -1064,10 +1101,6 @@
   "WeddingPhoto": "There is a note below the frame: Annwenn & Rodney's wedding day.",
   //Notes 
   "MEEP-Board": "This board is covered it notes. They don't make much sense to you:^^Is there a magic child in town? OR TWO???^^Is Sebastian a vampire?^^Remember to buy some vinegar.^^Deference Arlington, volume 15: An Admiral Lost In Space.",
-  //Config menu
-  "config.EnableAutograph.name": "EnableAutograph",
-  "config.EnableAutograph.description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun.",
-  "config.section.Autograph Spawning.name": "Autograph Spawning",
   //Special order - added in 2.0.0
   "Quests.Rodney.SpecialOrders.AutographCleanup.Name": "Autograph clean-up", 
   "Quests.Rodney.SpecialOrders.AutographCleanup.Text": "Promotional photos of myself have been polluting the Valley. Please deliver some to my house so I can have them properly recycled.     -Two-time award winner, author Rodney O'Brien.", 

@@ -6,50 +6,50 @@
  | |   | |  | |  \| | |__    | || |  __ 
  | |   | |  | | . ` |  __|   | || | |_ |
  | |___| |__| | |\  | |     _| || |__| |
-  \_____\____/|_| \_|_|    |_____\_____|                                                                           
+  \_____\____/|_| \_|_|    |_____\_____|
 */
 	"ConfigSchema": {
-		"Rodney Portrait Style": {
-			"AllowValues": "Vanilla, Nyapu, Bassoonicorn, New",
-			"Default": "Vanilla",
+		"RodneyPortraitStyle": {
+			"AllowValues": "bearded, shaved, Nyapu, Bassoonicorn",
+			"Default": "bearded",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "Choose Rodney's portraits: default portraits (vanilla style), Nyapu's version, Bassoonicorn's version (based on a drawing by GoldenCoyotte) or the new version (released 2026). Note that the sprites for the new version are not included yet because they are not finished.",
-			"Section": "Appearance"
+			"Description": "{{i18n:Config.RodneyPortraitStyle.description}}",
+			"Section": "{{i18n:Config.Section.Appearance.name}}"
 		},
-		"Rodney Sprite Style": {
-			"AllowValues": "Vanilla, Bassoonicorn",
-			"Default": "Vanilla",
+		"RodneySpriteStyle": {
+			"AllowValues": "bearded, shaved, Bassoonicorn",
+			"Default": "bearded",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "Choose Rodney's sprites: default sprites (vanilla style), or Bassoonicorn's version (based on a drawing by GoldenCoyotte).",
-			"Section": "Appearance"
+			"Description": "{{i18n:Config.RodneySpriteStyle.description}}",
+			"Section": "{{i18n:Config.Section.Appearance.name}}"
 		},
-		"Meredith Portrait Style": {
-			"AllowValues": "Vanilla, Nyapu",
-			"Default": "Vanilla",
+		"MeredithPortraitStyle": {
+			"AllowValues": "vanilla, Nyapu",
+			"Default": "vanilla",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "Choose Meredith's portraits: default portraits (art by 7thAxis) or Nyapu's style. Note that at the moment, Meredith's portraits are only visible in one event",
-			"Section": "Appearance"
+			"Description": "{{i18n:Config.MeredithPortraitStyle.description}}",
+			"Section": "{{i18n:Config.Section.Appearance.name}}"
 		},
 		"EnableAutograph": {
 			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun.",
-			"Section": "Autograph Spawning"
+			"Default": "true",
+			"Description": "{{i18n:Config.EnableAutograph.description}}",
+			"Section": "{{i18n:Config.Section.AutographSpawning.name}}"
 		},
 		"Silo": {
 			"AllowValues": "Vanilla, Yri",
 			"Default": "Vanilla",
-			"Description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)",
-			"Section": "Silo's appearance"
+			"Description": "{{i18n:Config.Silo.description}}",
+			"Section": "{{i18n:Config.Section.SiloStyle.name}}"
 		},
-		"Rodney Polyamory": {
+		"RodneyPolyamory": {
 			"AllowValues": "true, false",
-			"Default": false,
-			"Description": "Choose whether you want Rodney to ask you out on a date when you are already in a relationship. Default is false. Note that you won't ever be able to date both Elliott & Rodney since they are related.",
-			"Section": "Polyamorous Rodney"
+			"Default": "false",
+			"Description": "{{i18n:Config.RodneyPolyamory.description}}",
+			"Section": "{{i18n:Config.Section.PolyamorousRodney.name}}"
 		}
 	},
 	// INCLUDES
@@ -90,31 +90,31 @@
 			"LogName": "Portraits Rodney",
 			"Action": "Load",
 			"Target": "Portraits/RodneyOBrien",
-			"FromFile": "Assets/Portraits/{{Rodney Portrait Style}}/RodneyOBrien/Rodney_Spring1.png"
+			"FromFile": "Assets/Portraits/RodneyOBrien/{{Rodney Portrait Style}}/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Sprites Rodney",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien",
-			"FromFile": "Assets/Characters/{{Rodney Sprite Style}}/RodneyOBrien/Rodney_Spring1.png"
+			"FromFile": "Assets/Characters/RodneyOBrien/{{Rodney Sprite Style}}/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Portraits Meredith",
 			"Action": "Load",
 			"Target": "Portraits/MeredithOBrien",
-			"FromFile": "Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Spring.png"
+			"FromFile": "Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style}}/MeredithOBrien_Spring.png"
 		},
 		{
 			"LogName": "Sprites Meredith",
 			"Action": "Load",
 			"Target": "Characters/MeredithOBrien",
-			"FromFile": "Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Spring.png"
+			"FromFile": "Assets/Characters/MeredithOBrien/MeredithOBrien_Spring.png"
 		},
 		{
 			"LogName": "Young Rodney Sprite",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien_YoungRodney",
-			"FromFile": "Assets/TempActors/{{Rodney Sprite Style}}/Young-Rodney.png",
+			"FromFile": "Assets/TempActors/{{Young Rodney Sprite Style}}/Young-Rodney.png",
 		},
 		{
 			"LogName": "Child Meredith Sprite",
@@ -162,6 +162,86 @@
 			   |___/                                                                                      
 	*/
 	"DynamicTokens": [
+	    //This is not needed, this is just so I can have stupid folder names. Don't do this folks, it's not worth it.
+		{
+			"Name": "{{Rodney Portrait Style}}",
+			"Value": "Hotrod",
+			"When": {
+				"RodneyPortraitStyle": "bearded"
+			}
+		},
+		{
+			"Name": "{{Rodney Portrait Style}}",
+			"Value": "Oddney",
+			"When": {
+				"RodneyPortraitStyle": "shaved"
+			}
+		},
+		{
+			"Name": "{{Rodney Portrait Style}}",
+			"Value": "Nyapu",
+			"When": {
+				"RodneyPortraitStyle": "Nyapu"
+			}
+		},
+		{
+			"Name": "{{Rodney Portrait Style}}",
+			"Value": "Bassoonicorn",
+			"When": {
+				"RodneyPortraitStyle": "Bassoonicorn"
+			}
+		},
+		{
+			"Name": "{{Rodney Sprite Style}}",
+			"Value": "Hotrod",
+			"When": {
+				"RodneySpriteStyle": "bearded"
+			}
+		},
+		{
+			"Name": "{{Rodney Sprite  Style}}",
+			"Value": "Oddney",
+			"When": {
+				"RodneySpriteStyle": "shaved"
+			}
+		},
+		{
+			"Name": "{{Rodney Sprite Style}}",
+			"Value": "Bassoonicorn",
+			"When": {
+				"RodneySpriteStyle": "Bassoonicorn"
+			}
+		},
+		{
+			"Name": "{{Meredith Portrait  Style}}",
+			"Value": "Vanilla",
+			"When": {
+				"MeredithPortraitStyle": "vanilla"
+			}
+		},
+		{
+			"Name": "{{Meredith Portrait Style}}",
+			"Value": "Nyapu",
+			"When": {
+				"MeredithPortraitStyle": "Nyapu"
+			}
+		},
+		{
+			"Name": "{{Young Rodney Sprite Style}}",
+			"Value": "Vanilla",
+			"When": {
+				"RodneySpriteStyle": "bearded",
+				"RodneySpriteStyle": "shaved,",
+			}
+		},
+		{
+			"Name": "{{Young Rodney Sprite Style}}",
+			"Value": "Bassoonicorn",
+			"When": {
+				"RodneySpriteStyle": "Bassoonicorn"
+			}
+		},
+
 		//Rasmodia Compatibility
 		{
 			"Name": "WizardGender",
