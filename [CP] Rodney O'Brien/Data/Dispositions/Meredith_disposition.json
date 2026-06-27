@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "NPC Dispositions",
+            "LogName": "Meredith Disposition",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
@@ -48,7 +48,7 @@
                             "Season": "Spring",
                             "Precedence": 0,
                             "Weight": 1,
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Spring.png}}",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style Path}}/MeredithOBrien_Spring.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Spring.png}}"
                         },
                         //Summer
@@ -57,7 +57,7 @@
                             "Season": "Summer",
                             "Precedence": 0,
                             "Weight": 1,
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Summer.png}}",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style Path}}/MeredithOBrien_Summer.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Summer.png}}"
                         },
                         //Fall
@@ -66,7 +66,7 @@
                             "Season": "Fall",
                             "Precedence": 0,
                             "Weight": 1,
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Fall.png}}",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style Path}}/MeredithOBrien_Fall.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Fall.png}}"
                         },
                         //Winter
@@ -75,7 +75,7 @@
                             "Season": "Winter",
                             "Precedence": 0,
                             "Weight": 1,
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/{{Meredith Portrait Style}}/MeredithOBrien/MeredithOBrien_Winter.png}}",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style Path}}/MeredithOBrien_Winter.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Winter.png}}"
                         },                    ]
                 },

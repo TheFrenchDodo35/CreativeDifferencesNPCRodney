@@ -219,7 +219,7 @@
         {
             "Action": "Load",
             "Target": "TheFrenchDodoRodney/WeddingPhoto",
-            "FromFile": "Assets/MEEP_Images/WeddingPhoto_{{Rodney Sprite Style}}.png"
+            "FromFile": "Assets/MEEP_Images/WeddingPhoto_{{Rodney Sprite Style Path}}.png"
         },
         {
             "Action": "EditMap",

@@ -5,13 +5,13 @@
 			"LogName": "Silo patching",
 			"Action": "EditMap",
 			"Target": "Maps/EastScarp_Village",
-			"FromFile": "Assets/Maps/{{SiloPatchVersion}}.tmx",
+			"FromFile": "Assets/Maps/Silo_Outdoor_ESR.tmx",
 			"ToArea": {
 				"X": 86,
 				"Y": 23,
 				"Width": 7,
-				"Height": 11,
-			},
+				"Height": 11
+			}
 		},
 		{
 			"LogName": "Rodney House warps",
@@ -21,8 +21,8 @@
 			"PatchMode": "Replace",
 			"AddWarps": [
 				"10 34 EastScarp_RodneysBasement 20 1",
-				"7 34 EastScarp_Village 88 32",
-			],
+				"7 34 EastScarp_Village 88 32"
+			]
 		},
 		{
 			"LogName": "Rodney basement warp",
@@ -31,8 +31,8 @@
 			"FromFile": "Assets/Maps/EastScarp_RodneysBasement.tmx",
 			"PatchMode": "Replace",
 			"AddWarps": [
-				"20 0 EastScarp_RodneysHouse 10 33",
-			],
+				"20 0 EastScarp_RodneysHouse 10 33"
+			]
 		},
  /*       {
 			"LogName": "Silo Warp",

@@ -19,7 +19,7 @@
 		  "CanBePlacedOutdoors": true,
 		  "CanBePlacedIndoors": true,
 		  "IsLamp": false,
-		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style}}/RodneyBeachOutfitScarecrow.png}}",
+		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style Path}}/RodneyBeachOutfitScarecrow.png}}",
 		  "SpriteIndex": 0,
 		  "ContextTags": [
 			"crow_scare"
@@ -39,7 +39,7 @@
 		  "CanBePlacedOutdoors": true,
 		  "CanBePlacedIndoors": true,
 		  "IsLamp": false,
-		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style}}/RodneyCosplayScarecrow.png}}",
+		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style Path}}/RodneyCosplayScarecrow.png}}",
 		  "SpriteIndex": 0,
 		  "ContextTags": [
 			"crow_scare"
@@ -59,7 +59,7 @@
 		  "CanBePlacedOutdoors": true,
 		  "CanBePlacedIndoors": true,
 		  "IsLamp": false,
-		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style}}/RodneyEggFestivalScarecrow.png}}",
+		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style Path}}/RodneyEggFestivalScarecrow.png}}",
 		  "SpriteIndex": 0,
 		  "ContextTags": [
 			"crow_scare"
@@ -79,7 +79,7 @@
 		  "CanBePlacedOutdoors": true,
 		  "CanBePlacedIndoors": true,
 		  "IsLamp": false,
-		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style}}/RodneySummerOutfitScarecrow.png}}",
+		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style Path}}/RodneySummerOutfitScarecrow.png}}",
 		  "SpriteIndex": 0,
 		  "ContextTags": [
 			"crow_scare"
@@ -99,7 +99,7 @@
 		  "CanBePlacedOutdoors": true,
 		  "CanBePlacedIndoors": true,
 		  "IsLamp": false,
-		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style}}/RodneyWinterStarScarecrow.png}}",
+		  "Texture": "{{InternalAssetKey: Assets/Items/Scarecrows/{{Rodney Sprite Style Path}}/RodneyWinterStarScarecrow.png}}",
 		  "SpriteIndex": 0,
 		  "ContextTags": [
 			"crow_scare"
@@ -125,7 +125,7 @@
 					"ExcludeFromShippingCollection": true,
 					"ExcludeFromFishingCollection": true,
 					"Price": 10,
-					"Texture": "{{InternalAssetKey: Assets/Items/Autographs/{{Rodney Sprite Style}}/AnAutographedPhoto.png}}",
+					"Texture": "{{InternalAssetKey: Assets/Items/Autographs/{{Rodney Sprite Style Path}}/AnAutographedPhoto.png}}",
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"item_an_autographed_photo", "not_museum_donatable"
@@ -141,7 +141,7 @@
 					"ExcludeFromRandomSale": true,
 					"ExcludeFromShippingCollection": true,
 					"Price": 8000,
-					"Texture": "{{InternalAssetKey: Assets/Items/Autographs/{{Rodney Sprite Style}}/AGenuineAutograph.png}}",
+					"Texture": "{{InternalAssetKey: Assets/Items/Autographs/{{Rodney Sprite Style Path}}/AGenuineAutograph.png}}",
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"item_genuine_autograph", "not_museum_donatable"

@@ -1868,7 +1868,7 @@
  <tileset firstgid="4316" name="spring_mod_lumisteria_tilesheetsoutdoor_decorations" tilewidth="16" tileheight="16" tilecount="400" columns="25">
   <image source="spring_mod_lumisteria_tilesheetsoutdoor_decorations.png" trans="000000" width="400" height="256"/>
  </tileset>
- <tileset firstgid="4716" name="silo_tilesheet" tilewidth="16" tileheight="16" tilecount="72" columns="8">
+ <tileset firstgid="4716" name="spring_silo" tilewidth="16" tileheight="16" tilecount="72" columns="8">
   <image source="spring_silo.png" width="128" height="144"/>
  </tileset>
  <tileset firstgid="4788" name="spring_EastScarp" tilewidth="16" tileheight="16" tilecount="2375" columns="25">

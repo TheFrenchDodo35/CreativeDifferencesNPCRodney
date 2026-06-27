@@ -9,100 +9,100 @@
   \_____\____/|_| \_|_|    |_____\_____|
 */
 	"ConfigSchema": {
-		"RodneyPortraitStyle": {
+		"Rodney Portrait Style": {
 			"AllowValues": "bearded, shaved, Nyapu, Bassoonicorn",
 			"Default": "bearded",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "{{i18n:Config.RodneyPortraitStyle.description}}",
-			"Section": "{{i18n:Config.Section.Appearance.name}}"
+			"Description": "",
+			"Section": "Appearance"
 		},
-		"RodneySpriteStyle": {
+		"Rodney Sprite Style": {
 			"AllowValues": "bearded, shaved, Bassoonicorn",
 			"Default": "bearded",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "{{i18n:Config.RodneySpriteStyle.description}}",
-			"Section": "{{i18n:Config.Section.Appearance.name}}"
+			"Description": "",
+			"Section": "Appearance"
 		},
-		"MeredithPortraitStyle": {
+		"Meredith Portrait Style": {
 			"AllowValues": "vanilla, Nyapu",
 			"Default": "vanilla",
 			"AllowBlank": false,
 			"AllowMultiple": false,
-			"Description": "{{i18n:Config.MeredithPortraitStyle.description}}",
-			"Section": "{{i18n:Config.Section.Appearance.name}}"
+			"Description": "",
+			"Section": "Appearance"
 		},
 		"EnableAutograph": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "{{i18n:Config.EnableAutograph.description}}",
-			"Section": "{{i18n:Config.Section.AutographSpawning.name}}"
+			"Description": "",
+			"Section": "AutographSpawning"
 		},
 		"Silo": {
 			"AllowValues": "Vanilla, Yri",
 			"Default": "Vanilla",
-			"Description": "{{i18n:Config.Silo.description}}",
-			"Section": "{{i18n:Config.Section.SiloStyle.name}}"
+			"Description": "",
+			"Section": "SiloStyle"
 		},
-		"RodneyPolyamory": {
+		"Rodney Polyamory": {
 			"AllowValues": "true, false",
 			"Default": "false",
-			"Description": "{{i18n:Config.RodneyPolyamory.description}}",
-			"Section": "{{i18n:Config.Section.PolyamorousRodney.name}}"
+			"Description": "",
+			"Section": "PolyamorousRodney"
 		}
 	},
 	// INCLUDES
 	"Changes": [
 		{
-			"Logname": "The Writer, The Witch & The Wardrobe Assistant Includes",
+			"LogName": "The Writer, The Witch & The Wardrobe Assistant Includes",
 			"Action": "Include",
-			"FromFile": "Data/BlanksLoading.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/Tilesheets.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/Gift Tastes/ItemGiftTastes.json, Data/Mail.json, Data/TriggerActions/MailTriggerActions.json, Data/TriggerActions/JAmigrationTriggerActions.json, Data/AutographRecycling.json, Data/Locations/TrashData.json"
+			"FromFile": "Data/BlanksLoading.json, Data/Locations/Tilesheets.json, Data/Locations/MapPatches.json, Data/Locations/TempLocations.json, Data/Locations/MapData.json, Data/Dialogue/VillagersCT.json, Data/Dialogue/VillagersGiftDialogue.json, Data/Events.json, Data/MEEP/MEEP_Rodney.json, Data/SpecialOrders.json, Data/Strings.json, Data/MusicLoading.json, Data/TempActors.json, Data/Animations.json, Data/Shops.json, Data/Items.json, Data/Gift Tastes/ItemGiftTastes.json, Data/Mail.json, Data/TriggerActions/MailTriggerActions.json, Data/TriggerActions/JAmigrationTriggerActions.json, Data/AutographRecycling.json, Data/Locations/TrashData.json"
 		},
 		{
-			"Logname": "The Writer, The Witch & The Wardrobe Assistant SVE Includes",
+			"LogName": "The Writer, The Witch & The Wardrobe Assistant SVE Includes",
 			"Action": "Include",
 			"FromFile": "Data/Gift Tastes/ItemGiftTastesSVE.json",
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
-			},
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
 		},
 		{
-			"Logname": "Rodney Includes",
+			"LogName": "Rodney Includes",
 			"Action": "Include",
-			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Schedule/RodneyOBrien/RodneyScheduleDialogue.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json,",
+			"FromFile": "Data/Dispositions/Rodney_disposition.json, Data/Dialogue/RodneyOBrien/RodneyCT.json, Data/Dialogue/RodneyOBrien/RodneyDialogue.json, Data/Dialogue/RodneyOBrien/RodneyFestivalsDialogue.json, Data/Dialogue/RodneyOBrien/RodneyGiftDialogue.json, Data/Festivals/RodneyFestivals.json, Data/Schedule/RodneyOBrien/RodneySchedule.json, Data/Schedule/RodneyOBrien/RodneyScheduleDialogue.json, Data/Gift Tastes/RodneyGiftTastes.json, Data/Movies/RodneyMovies.json"
 		},
 		{
 			"LogName": "Rodney's autograph spawn",
 			"Action": "Include",
 			"FromFile": "Data/FishableAutograph.json",
 			"When": {
-				"EnableAutograph": true,
-			},
+				"EnableAutograph": true
+			}
 		},
 		{
-			"Logname": "Meredith Includes",
+			"LogName": "Meredith Includes",
 			"Action": "Include",
-			"FromFile": "Data/Dispositions/Meredith_disposition.json",
+			"FromFile": "Data/Dispositions/Meredith_disposition.json"
 		},
 		//Basic Portraits & Sprites
 		{
 			"LogName": "Portraits Rodney",
 			"Action": "Load",
 			"Target": "Portraits/RodneyOBrien",
-			"FromFile": "Assets/Portraits/RodneyOBrien/{{Rodney Portrait Style}}/Rodney_Spring1.png"
+			"FromFile": "Assets/Portraits/RodneyOBrien/{{Rodney Portrait Style Path}}/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Sprites Rodney",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien",
-			"FromFile": "Assets/Characters/RodneyOBrien/{{Rodney Sprite Style}}/Rodney_Spring1.png"
+			"FromFile": "Assets/Characters/RodneyOBrien/{{Rodney Sprite Style Path}}/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Portraits Meredith",
 			"Action": "Load",
 			"Target": "Portraits/MeredithOBrien",
-			"FromFile": "Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style}}/MeredithOBrien_Spring.png"
+			"FromFile": "Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style Path}}/MeredithOBrien_Spring.png"
 		},
 		{
 			"LogName": "Sprites Meredith",
@@ -114,7 +114,7 @@
 			"LogName": "Young Rodney Sprite",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien_YoungRodney",
-			"FromFile": "Assets/TempActors/{{Young Rodney Sprite Style}}/Young-Rodney.png",
+			"FromFile": "Assets/TempActors/{{Rodney Sprite Style Path}}/Young-Rodney.png",
 		},
 		{
 			"LogName": "Child Meredith Sprite",
@@ -162,86 +162,91 @@
 			   |___/                                                                                      
 	*/
 	"DynamicTokens": [
-	    //This is not needed, this is just so I can have stupid folder names. Don't do this folks, it's not worth it.
+		//This is not needed, this is just so I can have stupid folder names. Don't do this folks, it's not worth it.
 		{
-			"Name": "{{Rodney Portrait Style}}",
+			"Name": "Rodney Portrait Style Path",
 			"Value": "Hotrod",
 			"When": {
-				"RodneyPortraitStyle": "bearded"
+				"Rodney Portrait Style": "bearded"
 			}
 		},
 		{
-			"Name": "{{Rodney Portrait Style}}",
+			"Name": "Rodney Portrait Style Path",
 			"Value": "Oddney",
 			"When": {
-				"RodneyPortraitStyle": "shaved"
+				"Rodney Portrait Style": "shaved"
 			}
 		},
 		{
-			"Name": "{{Rodney Portrait Style}}",
+			"Name": "Rodney Portrait Style Path",
 			"Value": "Nyapu",
 			"When": {
-				"RodneyPortraitStyle": "Nyapu"
+				"Rodney Portrait Style": "Nyapu"
 			}
 		},
 		{
-			"Name": "{{Rodney Portrait Style}}",
+			"Name": "Rodney Portrait Style Path",
 			"Value": "Bassoonicorn",
 			"When": {
-				"RodneyPortraitStyle": "Bassoonicorn"
+				"Rodney Portrait Style": "Bassoonicorn"
 			}
 		},
 		{
-			"Name": "{{Rodney Sprite Style}}",
+			"Name": "Rodney Sprite Style Path",
 			"Value": "Hotrod",
 			"When": {
-				"RodneySpriteStyle": "bearded"
+				"Rodney Sprite Style": "bearded"
 			}
 		},
 		{
-			"Name": "{{Rodney Sprite  Style}}",
+			"Name": "Rodney Sprite  Style Path",
 			"Value": "Oddney",
 			"When": {
-				"RodneySpriteStyle": "shaved"
+				"Rodney Sprite Style": "shaved"
 			}
 		},
 		{
-			"Name": "{{Rodney Sprite Style}}",
+			"Name": "Rodney Sprite Style Path",
 			"Value": "Bassoonicorn",
 			"When": {
-				"RodneySpriteStyle": "Bassoonicorn"
+				"Rodney Sprite Style": "Bassoonicorn"
 			}
 		},
 		{
-			"Name": "{{Meredith Portrait  Style}}",
+			"Name": "Meredith Portrait  Style Path",
 			"Value": "Vanilla",
 			"When": {
-				"MeredithPortraitStyle": "vanilla"
+				"Meredith Portrait Style": "vanilla"
 			}
 		},
 		{
-			"Name": "{{Meredith Portrait Style}}",
+			"Name": "Meredith Portrait Style Path",
 			"Value": "Nyapu",
 			"When": {
-				"MeredithPortraitStyle": "Nyapu"
+				"Meredith Portrait Style": "Nyapu"
 			}
 		},
 		{
-			"Name": "{{Young Rodney Sprite Style}}",
-			"Value": "Vanilla",
+			"Name": "Young Rodney Sprite Style Path",
+			"Value": "Hotrod",
 			"When": {
-				"RodneySpriteStyle": "bearded",
-				"RodneySpriteStyle": "shaved,",
+				"Rodney Sprite Style": "bearded"
 			}
 		},
 		{
-			"Name": "{{Young Rodney Sprite Style}}",
+			"Name": "Young Rodney Sprite Style Path",
+			"Value": "Oddney",
+			"When": {
+				"Rodney Sprite Style": "shaved"
+			}
+		},
+		{
+			"Name": "Young Rodney Sprite Style Path",
 			"Value": "Bassoonicorn",
 			"When": {
-				"RodneySpriteStyle": "Bassoonicorn"
+				"Rodney Sprite Style": "Bassoonicorn"
 			}
 		},
-
 		//Rasmodia Compatibility
 		{
 			"Name": "WizardGender",
@@ -959,7 +964,7 @@
 				"HasMod": "MadDog.HashtagBearFam",
 			}
 		},
-		//TEMP ESR Token
+		/*TEMP ESR Token
 		{
 			"Name": "SiloPatchVersion",
 			"Value": "Silo_Outdoor",
@@ -974,5 +979,6 @@
 				"HasMod": "Lemurkat.EastScarp"
 			}
 		},
+		*/
 	],
 }
