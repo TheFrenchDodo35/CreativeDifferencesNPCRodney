@@ -1,5 +1,5 @@
 {
-	"Format": "2.0.0",
+	"Format": "2.9.0",
 	/*
    _____ ____  _   _ ______ _____ _____ 
   / ____/ __ \| \ | |  ____|_   _/ ____|
@@ -36,18 +36,24 @@
 		"EnableAutograph": {
 			"AllowValues": "true, false",
 			"Default": "true",
+			"AllowBlank": false,
+			"AllowMultiple": false,
 			"Description": "",
 			"Section": "AutographSpawning"
 		},
 		"Silo": {
 			"AllowValues": "Vanilla, Yri",
 			"Default": "Vanilla",
+			"AllowBlank": false,
+			"AllowMultiple": false,
 			"Description": "",
 			"Section": "SiloStyle"
 		},
 		"Rodney Polyamory": {
 			"AllowValues": "true, false",
 			"Default": "false",
+			"AllowBlank": false,
+			"AllowMultiple": false,
 			"Description": "",
 			"Section": "PolyamorousRodney"
 		}
@@ -90,19 +96,19 @@
 			"LogName": "Portraits Rodney",
 			"Action": "Load",
 			"Target": "Portraits/RodneyOBrien",
-			"FromFile": "Assets/Portraits/RodneyOBrien/{{Rodney Portrait Style Path}}/Rodney_Spring1.png"
+			"FromFile": "Assets/Portraits/RodneyOBrien/{{Rodney Portrait Style}}/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Sprites Rodney",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien",
-			"FromFile": "Assets/Characters/RodneyOBrien/{{Rodney Sprite Style Path}}/Rodney_Spring1.png"
+			"FromFile": "Assets/Characters/RodneyOBrien/{{Rodney Sprite Style}}/Rodney_Spring1.png"
 		},
 		{
 			"LogName": "Portraits Meredith",
 			"Action": "Load",
 			"Target": "Portraits/MeredithOBrien",
-			"FromFile": "Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style Path}}/MeredithOBrien_Spring.png"
+			"FromFile": "Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style}}/MeredithOBrien_Spring.png"
 		},
 		{
 			"LogName": "Sprites Meredith",
@@ -114,7 +120,7 @@
 			"LogName": "Young Rodney Sprite",
 			"Action": "Load",
 			"Target": "Characters/RodneyOBrien_YoungRodney",
-			"FromFile": "Assets/TempActors/{{Rodney Sprite Style Path}}/Young-Rodney.png",
+			"FromFile": "Assets/TempActors/{{Rodney Sprite Style}}/Young-Rodney.png",
 		},
 		{
 			"LogName": "Child Meredith Sprite",
@@ -162,7 +168,7 @@
 			   |___/                                                                                      
 	*/
 	"DynamicTokens": [
-		//This is not needed, this is just so I can have stupid folder names. Don't do this folks, it's not worth it.
+		/*This is not needed, this is just so I can have stupid folder names. Don't do this folks, it's not worth it.
 		{
 			"Name": "Rodney Portrait Style Path",
 			"Value": "Hotrod",
@@ -246,7 +252,7 @@
 			"When": {
 				"Rodney Sprite Style": "Bassoonicorn"
 			}
-		},
+		}, */
 		//Rasmodia Compatibility
 		{
 			"Name": "WizardGender",

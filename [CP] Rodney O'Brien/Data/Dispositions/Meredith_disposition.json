@@ -75,7 +75,7 @@
                             "Season": "Winter",
                             "Precedence": 0,
                             "Weight": 1,
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style Path}}/MeredithOBrien_Winter.png}}",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/MeredithOBrien/{{Meredith Portrait Style}}/MeredithOBrien_Winter.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Vanilla/MeredithOBrien/MeredithOBrien_Winter.png}}"
                         },                    ]
                 },
