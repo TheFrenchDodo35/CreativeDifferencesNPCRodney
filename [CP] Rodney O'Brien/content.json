@@ -397,14 +397,14 @@
 			}
 		},
 		{
-			"Name": "RodneyVineyardSheerwaterSpot",
-			"Value": "EastScarp_ClearingHouse 24 28 3",
+			"Name": "RodneyPierSheerwaterSpot",
+			"Value": "EastScarp_Village 20 129 1",
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
 			}
 		},
 		{
-			"Name": "RodneyVineyardSheerwaterSpot",
+			"Name": "RodneyPierSheerwaterSpot",
 			"Value": "Custom_ShearwaterBridge 29 22 2",
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP",

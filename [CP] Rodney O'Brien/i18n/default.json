@@ -2,42 +2,42 @@
   /*  Note to translators:
 There should be a comment like // added or changed in X.X.X at the end of each new line added when updating the mod! Feel free to message me if you have a question regarding translation. Thank you for your hard work!
 
-Current version is 3.2.7
+Current version is 3.3
   */
 
   //Config
-  // added in 3.2.7, sorry for not including it before, it slipped my mind!
-  "Config.Section.Appearance.name": "Appearance", // added in 3.2.7
-  "Config.Section.AutographSpawning.name": "Autograph Spawning", // added in 3.2.7
-  "Config.Section.SiloStyle.name": "Silo's Style", // added in 3.2.7
-  "Config.Section.PolyamorousRodney.name": "Polyamorous Rodney", // added in 3.2.7
-  "Config.Rodney Portrait Style.name": "Rodney's portrait",  // added in 3.2.7
-  "Config.Rodney Portrait Style.description": "Choose Rodney's portraits: bearded (default), shaved, Nyapu's version (bearded only), or Bassoonicorn's version (bearded only, based on a drawing by GoldenCoyotte).",  // added in 3.2.7
-  "Config.Rodney Portrait Style.values.bearded": "Bearded",  // added in 3.2.7
-  "Config.Rodney Portrait Style.values.shaved": "Shaved",  // added in 3.2.7
-  "Config.Rodney Portrait Style.values.Nyapu": "Nyapu",  // added in 3.2.7
-  "Config.Rodney Portrait Style.values.Bassoonicorn": "Bassoonicorn",  // added in 3.2.7
-  "Config.Rodney SpriteS tyle.name": "Rodney's sprite",  // added in 3.2.7
-  "Config.Rodney Sprite Style.description": "Choose Rodney's sprites: bearded (default), shaved,, or Bassoonicorn's version (bearded only, based on a drawing by GoldenCoyotte).",  // added in 3.2.7
-  "Config.Rodney Sprite Style.values.bearded": "Bearded", // added in 3.2.7
-  "Config.Rodney Sprite Style.values.shaved": "Shaved", // added in 3.2.7
-  "Config.Rodney Sprite Style.values.Bassoonicorn": "Bassoonicorn", // added in 3.2.7
-  "Config.Meredith Portrait Style.name": "Meredith's portrait",  // added in 3.2.7
-  "Config.Meredith Portrait Style.description": "Choose Meredith's portraits: default portraits (art by 7thAxis) or Nyapu's style. In the current version, Meredith's portraits are only visible in one event",  // added in 3.2.7
-  "Config.Meredith Portrait Style.values.vanilla": "Vanilla",  // added in 3.2.7
-  "Config.Meredith Portrait Style.values.Nyapu": "Nyapu",  // added in 3.2.7
-  "Config.EnableAutograph.name": "Autograph Spawning",  // added in 3.2.7
-  "Config.EnableAutograph.description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun. Visible Fish users: if you want it to spawn but not be visible, simply disable Visible Trash in Visible Fish's config.",  // added in 3.2.7
-  "Config.EnableAutograph.values.true": "True",  // added in 3.2.7
-  "Config.EnableAutograph.values.false": "False",  // added in 3.2.7
-  "Config.Silo.name": "Rodney Silo's Style",  // added in 3.2.7
-  "Config.Silo.description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)",  // added in 3.2.7
-  "Config.Silo.values.vanilla": "Vanilla",  // added in 3.2.7
-  "Config.Silo.values.yri": "Yri",  // added in 3.2.7
-  "Config.Rodney Polyamory.name": "Polyamorous Rodney",  // added in 3.2.7
-  "Config.Rodney Polyamory.description": "Choose whether you want Rodney to ask you out on a date when you are already in a relationship. Default is false. Note that you won't ever be able to date both Elliott & Rodney since they are related.",  // added in 3.2.7
-  "Config.Rodney Polyamory.values.true": "True",  // added in 3.2.7
-  "Config.Rodney Polyamory.values.false": "False",  // added in 3.2.7
+  // added in 3.3., sorry for not including it before, it slipped my mind!
+  "Config.Section.Appearance.name": "Appearance", // added in 3.3.
+  "Config.Section.AutographSpawning.name": "Autograph Spawning", // added in 3.3.
+  "Config.Section.SiloStyle.name": "Silo's Style", // added in 3.3.
+  "Config.Section.PolyamorousRodney.name": "Polyamorous Rodney", // added in 3.3.
+  "Config.Rodney Portrait Style.name": "Rodney's portrait",  // added in 3.3.
+  "Config.Rodney Portrait Style.description": "Choose Rodney's portraits: bearded (default), shaved, Nyapu's version (bearded only), or Bassoonicorn's version (bearded only, based on a drawing by GoldenCoyotte).",  // added in 3.3.
+  "Config.Rodney Portrait Style.values.bearded": "Bearded",  // added in 3.3.
+  "Config.Rodney Portrait Style.values.shaved": "Shaved",  // added in 3.3.
+  "Config.Rodney Portrait Style.values.Nyapu": "Nyapu",  // added in 3.3.
+  "Config.Rodney Portrait Style.values.Bassoonicorn": "Bassoonicorn",  // added in 3.3.
+  "Config.Rodney SpriteS tyle.name": "Rodney's sprite",  // added in 3.3.
+  "Config.Rodney Sprite Style.description": "Choose Rodney's sprites: bearded (default), shaved,, or Bassoonicorn's version (bearded only, based on a drawing by GoldenCoyotte).",  // added in 3.3.
+  "Config.Rodney Sprite Style.values.bearded": "Bearded", // added in 3.3.
+  "Config.Rodney Sprite Style.values.shaved": "Shaved", // added in 3.3.
+  "Config.Rodney Sprite Style.values.Bassoonicorn": "Bassoonicorn", // added in 3.3.
+  "Config.Meredith Portrait Style.name": "Meredith's portrait",  // added in 3.3.
+  "Config.Meredith Portrait Style.description": "Choose Meredith's portraits: default portraits (art by 7thAxis) or Nyapu's style. In the current version, Meredith's portraits are only visible in one event",  // added in 3.3.
+  "Config.Meredith Portrait Style.values.vanilla": "Vanilla",  // added in 3.3.
+  "Config.Meredith Portrait Style.values.Nyapu": "Nyapu",  // added in 3.3.
+  "Config.EnableAutograph.name": "Autograph Spawning",  // added in 3.3.
+  "Config.EnableAutograph.description": "Allows Rodney's autographed photo to spawn in the water and sometimes in artifact spots. Disable if you hate fun. Visible Fish users: if you want it to spawn but not be visible, simply disable Visible Trash in Visible Fish's config.",  // added in 3.3.
+  "Config.EnableAutograph.values.true": "True",  // added in 3.3.
+  "Config.EnableAutograph.values.false": "False",  // added in 3.3.
+  "Config.Silo.name": "Rodney Silo's Style",  // added in 3.3.
+  "Config.Silo.description": "Choose the style of Rodney's silo: vanilla style (default) or Yri (to match Yri's Project Yellog)",  // added in 3.3.
+  "Config.Silo.values.vanilla": "Vanilla",  // added in 3.3.
+  "Config.Silo.values.yri": "Yri",  // added in 3.3.
+  "Config.Rodney Polyamory.name": "Polyamorous Rodney",  // added in 3.3.
+  "Config.Rodney Polyamory.description": "Choose whether you want Rodney to ask you out on a date when you are already in a relationship. Default is false. Note that you won't ever be able to date both Elliott & Rodney since they are related.",  // added in 3.3.
+  "Config.Rodney Polyamory.values.true": "True",  // added in 3.3.
+  "Config.Rodney Polyamory.values.false": "False",  // added in 3.3.
 
   // Disposition
   "RodneyDisplayName": "Rodney",

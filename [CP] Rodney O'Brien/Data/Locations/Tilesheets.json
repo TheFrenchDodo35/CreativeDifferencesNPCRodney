@@ -45,5 +45,11 @@
 			"Target": "maps/spring_MiniLibrary, maps/summer_MiniLibrary, maps/fall_MiniLibrary, maps/winter_MiniLibrary,",
 			"FromFile": "Assets/Tilesheets/MiniLibrary/{{TargetWithoutPath}}.png",
 		},
+		{
+			"LogName": "Story event mine tilesheet",
+			"Action": "Load",
+			"Target": "maps/MineDangerousEventMap",
+			"FromFile": "Assets/Tilesheets/MineDangerousEventMap.png",
+		},
         ]
 }

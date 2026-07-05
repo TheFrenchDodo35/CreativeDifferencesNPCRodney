@@ -3,8 +3,8 @@
  <properties>
   <property name="AmbientLight" value="120 140 30"/>
  </properties>
- <tileset firstgid="1" name="mine" tilewidth="16" tileheight="16" tilecount="320" columns="16">
-  <image source="mine_lava_dangerous" width="256" height="320"/>
+ <tileset firstgid="1" name="MineDangerousEventMap" tilewidth="16" tileheight="16" tilecount="320" columns="16">
+  <image source="MineDangerousEventMap" width="256" height="320"/>
   <tile id="0">
    <properties>
     <property name="Type" value="Dirt"/>
