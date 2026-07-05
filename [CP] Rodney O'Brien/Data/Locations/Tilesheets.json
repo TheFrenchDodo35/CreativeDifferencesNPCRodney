@@ -33,6 +33,13 @@
 			"FromFile": "Assets/Tilesheets/thefrenchdodo-tilesheet.png",
 		},
 		{
+			"LogName": "Rodney's Saloon Poster",
+			"Action": "Load",
+			"Target": "maps/Poster",
+			"FromFile": "Assets/TempActors/{{Rodney Sprite Style}}/Poster.png",
+
+		},
+		{
 			"LogName": "Mini library patch seasonals",
 			"Action": "Load",
 			"Target": "maps/spring_MiniLibrary, maps/summer_MiniLibrary, maps/fall_MiniLibrary, maps/winter_MiniLibrary,",
