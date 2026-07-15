@@ -1,5 +1,7 @@
 # Creative Differences - NPC Rodney O'Brien
 
+[![Alt](https://staticdelivery.nexusmods.com/mods/1303/images/13437/13437-1700837799-524686881.png)](Creative Differences Rodney NPC East Scarp Logo)
+
 This is the repository for a Stardew Valley mod. You can find the current public release on Nexusmods: https://www.nexusmods.com/stardewvalley/mods/13437
 
 This mod adds a new NPC (Rodney) and some custom items. 
@@ -53,15 +55,16 @@ What can I do with Rodney's autograph?
 > You can recycle it in the recycling machine to get some useful material (cloth) or even a rare and much more valuable version of the autograph. It is also a liked and loved item for several modded NPCs. Or do what I do, give it to Lewis just to annoy him.
 
 Are there other NPCs planned for this mod?
-> I am working on the full mod called "The Writer, The Witch & The Wardrobe Assistant". It will add Rodney's daughter, Meredith, and his grandmother, Edwina. The full mod will also feature a retired pirate captain, the curator of the Ferngill National Library, the groundskeeper of this library and an undetermined amount of witches.
+> At the moment, the only full NPC planned is Meredith, Rodney's daughter. Some other NPCs might be included down the line, but I can't guarantee it. The mod featuring Rodney & Meredith will be called "Meet the O'Briens".
+
 
 Can I get a version of this mod which doesn't require east Scarp?
 > No.
 
-Can I make on myself then?
+Can I make one myself then?
 > Nope.
 
-Rodney is too mean.
-> This is not a question.
+Can I use the code, text or assets from this mod to train AI models, generate content, etc.?
+> Please don't. If you are making mods for Stardew Valley involving generative AI, I recommend you check the [AI Mod Exclusion](https://stardewmodding.wiki.gg/wiki/AI_Mod_Exclusion) page on the Stardew Modding wiki which has information on how to figure out which mods are okay with it and which are not. You can also check the [AI Mod Exclusion.json](https://stardewmodding.wiki.gg/wiki/AI_Mod_Exclusion.json) which lists mods opting out of being involved in such AI generative mods.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q5F6B1I)
