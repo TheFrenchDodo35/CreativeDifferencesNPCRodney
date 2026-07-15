@@ -1,6 +1,6 @@
 # Creative Differences - NPC Rodney O'Brien
 
-[![Creative Differences Rodney NPC East Scarp Logo]](https://staticdelivery.nexusmods.com/mods/1303/images/13437/13437-1700837799-524686881.png)
+[![Creative Differences Rodney NPC East Scarp Logo](https://staticdelivery.nexusmods.com/mods/1303/images/13437/13437-1700837799-524686881.png)]
 
 This is the repository for a Stardew Valley mod. You can find the current public release on Nexusmods: https://www.nexusmods.com/stardewvalley/mods/13437
 
@@ -57,7 +57,7 @@ What can I do with Rodney's autograph?
 Are there other NPCs planned for this mod?
 > At the moment, the only full NPC planned is Meredith, Rodney's daughter. Some other NPCs might be included down the line, but I can't guarantee it. The mod featuring Rodney & Meredith will be called "Meet the O'Briens".
 
-[![Meet The O'Briens Logo]](https://i.postimg.cc/d1c94Fn4/Logo-MTO-Big.png)
+[![Meet The O'Briens Logo](https://i.postimg.cc/d1c94Fn4/Logo-MTO-Big.png)]
 
 Can I get a version of this mod which doesn't require east Scarp?
 > No.
