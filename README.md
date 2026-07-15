@@ -1,6 +1,6 @@
 # Creative Differences - NPC Rodney O'Brien
 
-[![Alt](https://staticdelivery.nexusmods.com/mods/1303/images/13437/13437-1700837799-524686881.png)](Creative Differences Rodney NPC East Scarp Logo)
+[!](https://staticdelivery.nexusmods.com/mods/1303/images/13437/13437-1700837799-524686881.png)](Creative Differences Rodney NPC East Scarp Logo)
 
 This is the repository for a Stardew Valley mod. You can find the current public release on Nexusmods: https://www.nexusmods.com/stardewvalley/mods/13437
 
