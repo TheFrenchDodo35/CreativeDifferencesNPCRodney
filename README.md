@@ -1,12 +1,12 @@
 # Creative Differences - NPC Rodney O'Brien
 
-[![Creative Differences Rodney NPC East Scarp Logo](https://staticdelivery.nexusmods.com/mods/1303/images/13437/13437-1700837799-524686881.png)]
+![Creative Differences Rodney NPC East Scarp Logo](https://staticdelivery.nexusmods.com/mods/1303/images/13437/13437-1700837799-524686881.png)
 
 This is the repository for a Stardew Valley mod. You can find the current public release on Nexusmods: https://www.nexusmods.com/stardewvalley/mods/13437
 
 This mod adds a new NPC (Rodney) and some custom items. 
 
-Feel free to plunder my code, just don't steal assets like sprites, music, etc.
+Feel free to plunder my code, just don't steal assets like sprites, music, etc. And don't train AI on it please. If you want to use my assets in some capacity, feel free to to DM me on Nexusmods or on Discord.
 
 ## Requirements
 
