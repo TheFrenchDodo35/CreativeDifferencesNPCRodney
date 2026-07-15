@@ -6,7 +6,7 @@ This is the repository for a Stardew Valley mod. You can find the current public
 
 This mod adds a new NPC (Rodney) and some custom items. 
 
-Feel free to plunder my code, just don't steal assets like sprites, music, etc. And don't train AI on it please. If you want to use my assets in some capacity, feel free to to DM me on Nexusmods or on Discord.
+Feel free to plunder my code, just don't steal assets like sprites, music, etc. And don't train AI on it please. If you want to use my assets in some capacity, feel free to to DM me on [Nexusmods](https://www.nexusmods.com/profile/TheFrenchDodo) or on Discord.
 
 ## Requirements
 
@@ -57,7 +57,7 @@ What can I do with Rodney's autograph?
 Are there other NPCs planned for this mod?
 > At the moment, the only full NPC planned is Meredith, Rodney's daughter. Some other NPCs might be included down the line, but I can't guarantee it. The mod featuring Rodney & Meredith will be called "Meet the O'Briens".
 
-[![Meet The O'Briens Logo](https://i.postimg.cc/d1c94Fn4/Logo-MTO-Big.png)]
+![Meet The O'Briens Logo](https://i.postimg.cc/d1c94Fn4/Logo-MTO-Big.png)
 
 Can I get a version of this mod which doesn't require east Scarp?
 > No.
