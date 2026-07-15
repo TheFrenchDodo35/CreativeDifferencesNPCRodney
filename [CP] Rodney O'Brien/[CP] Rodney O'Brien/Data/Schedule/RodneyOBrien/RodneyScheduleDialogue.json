@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "LogName": "Schedule Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/RodneyOBrien",
+            "Entries": {
+            //    "rod.001": "{{RodneyPierDialogue}}",
+          //      "rod.002": "{{i18n:RodneyFreeAutographDialogue}}[(O)WWWA.AutographedPhoto]$1",
+          //      "rod.003": "{{i18n:rod.003}}",
+          //      "rod.007": "{{RodneyMountainDialogue}}",
+           //     "rod.008": "{{i18n:rod.008.{{RomanticRodney}}}}",
+           //     "rod.009": "{{i18n:rod.009}}",
+           //     "rod.011": "{{i18n:rod.011.{{RomanticRodney}}}}",
+           //     "rod.012": "{{i18n:rod.012.{{RomanticRodney}}}}",
+           //     "rod.013": "{{i18n:rod.013}}",
+           //     "rod.014": "{{i18n:rod.014.{{RomanticRodney}}}}",
+           //     "rod.015": "{{i18n:rod.015.{{RomanticRodney}}}}",
+            //    "rod.016": "{{i18n:rod.016.{{RomanticRodney}}}}",
+            //    "rod.017": "{{i18n:rod.017.{{RomanticRodney}}}}",
+            //    "rod.018": "{{i18n:rod.018.{{RomanticRodney}}}}",
+            //    "rod.021": "{{i18n:rod.021}}",
+                "RodneyPrideFestival": "{{i18n:Rodney.PrideFestival}}",
+                "RodneyGreenRain1": "{{i18n:RodneyGreenRain1}}",
+                "RodneyGreenRain2": "{{i18n:RodneyGreenRain2}}",
+                "RodneyGreenRain3": "{{i18n:RodneyGreenRain3}}",
+            }
+        }
+    ]
+}

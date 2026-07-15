@@ -1,0 +1,37 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Rodney's deluxe stationery",
+            "Action": "Load",
+            "Target": "Mods/TheFrenchDodo.RodneyOBrien/LetterBackgrounds",
+            "FromFile": "Assets/RodneyLetterBG.png"
+        },
+    
+        {
+            "LogName": "Rodney Book Launch Party Invite",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "WWWA.RodneyBookLaunchInvite":"{{i18n:Mail.RodneyBookLaunchInvite}}",
+            }
+        },
+        {
+            "LogName": "Rodney Library Talk Invite",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "WWWA.RodneyLibraryTalkInvite":"{{i18n:Mail.RodneyLibraryTalkInvite}}"
+            }
+        },
+        {
+            "LogName": "Rodney Library Talk Invite",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "WWWA.RodneyNationalLibraryInvite":"{{i18n:Mail.RodneyNationalLibraryInvite}}"
+            }
+        },
+    ]
+}
+
+//[letterbg Mods/TheFrenchDodo.RodneyOBrien/LetterBackgrounds 0]

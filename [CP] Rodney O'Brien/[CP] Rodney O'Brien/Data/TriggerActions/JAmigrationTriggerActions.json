@@ -1,0 +1,46 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "WWWA.TriggerActions.SenItemMigration": {
+                "Id": "WWWA.TriggerActions.RodneyItemMigration",
+                "Trigger": "DayStarted",
+                "HostOnly": true,
+                "Actions": [
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Rodney Beach Outfit (Scarecrow)}} WWWA.RodneyBeachOutfitScarecrow",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Rodney Cosplay (Scarecrow)}} WWWA.RodneyCosplayScarecrow",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Rodney Egg Festival (Scarecrow)}} WWWA.RodneyEggFestivalScarecrow",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Rodney Summer Outfit (Scarecrow)}} WWWA.RodneySummerOutfitScarecrow",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Rodney Winter Star (Scarecrow)}} WWWA.RodneyWinterStarScarecrow",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: An autographed photo}} WWWA.AutographedPhoto",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: A genuine autograph}} WWWA.GenuineAutograph",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Arcana Catcher Prunus}} WWWA.Book.ArcanaCatcherPrunus",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Artifact or cutlery}} WWWA.Book.ArtifactOrCutlery",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Crabs and Why I Hate Them}} WWWA.Book.CrabsAndWhyIHateThem",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Deference Arlington The Complete Saga}} WWWA.Book.DeferenceArlington",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Fishing for dumb dumbs}} WWWA.Book.FishingForDumbDumbs",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Getting Chicks To Love You}} WWWA.Book.GettingChicksToLoveYou",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Goblins}} WWWA.Book.Goblins",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Beginner's guide to sculpting with gold}} WWWA.Book.GuideToSculptingWithGold",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Herpetology of Ferngill}} WWWA.Book.HerpetologyOfFerngill",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Lunarkin Troll Tales Book One}} WWWA.Book.LunarkinTrollTales",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Mysteries of the Dwarves}} WWWA.Book.MysteriesOfTheDwarves",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Pepper Rexes}} WWWA.Book.PepperRexes",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: The Book Of Yoba}} WWWA.Book.TheBookOfYoba",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: The Great Book Of Slimes}} WWWA.Book.TheGreatBookOfSlimes",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: The Great Tome of Mayonnaise}} WWWA.Book.TheGreatTomeOfMayo",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: The Joja Conspiracy}} WWWA.Book.TheJojaConspiracy",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: The Tarot Revealed}} WWWA.Book.TheTarotRevealed",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Why Pepper Rexes are the Best}} WWWA.Book.WhyPepperRexesAreTheBest",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Prunus Crown}} WWWA.PrunusCrown",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Pink Summer Hat}} WWWA.PinkSummerHat",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Egg Hat}} WWWA.EggHat",
+                ]
+            }
+        },
+        "When": { "HasMod": "spacechase0.jsonAssets" }
+    }
+    ]
+}

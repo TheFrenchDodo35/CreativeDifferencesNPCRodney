@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "Logname": "Rodney's Trashcan",
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ], 
+            "Entries": {
+               
+                "TheFrenchDodo.WWWA.TrashCan.RodneyOBrien": {
+                    "BaseChance": 1.0,
+                    "Items": [
+                       {
+                            "Id": "TheFrenchDodo.WWWA.TrashCan.RodneyOBrien.GenuineAutograph",
+                            "Condition": "RANDOM 0.01 @addDailyLuck",
+                            "RandomItemId": [ 
+                                "(O)WWWA.GenuineAutograph", "(H)WWWA.PrunusCrown", "(H)WWWA.PinkSummerHat", "(H)WWWA.EggHat", "(H)WWWA.WinterStarHat",
+                            ]
+                        },
+                        {
+                            "Id": "TheFrenchDodo.WWWA.TrashCan.RodneyOBrien.RodneyMerch",
+                            "Condition": "RANDOM 0.1 @addDailyLuck",
+                            "RandomItemId": [ 
+                                "(BC)WWWA.RodneyWinterStarScarecrow", "(BC)WWWA.RodneySummerOutfitScarecrow", "(BC)WWWA.RodneyCosplayScarecrow", "(BC)WWWA.RodneyEggFestivalScarecrow", "(BC)WWWA.RodneyBeachOutfitScarecrow",
+                            ]
+                        },
+                        {
+                            "Id": "TheFrenchDodo.WWWA.TrashCan.RodneyOBrien.Trash",
+                            "RandomItemId": [ "(O)168", "(O)172", "(O)WWWA.AutographedPhoto" ]
+                        }
+                    ],
+                    "CustomFields": {}
+                }
+            }
+        },
+
+        ]
+}

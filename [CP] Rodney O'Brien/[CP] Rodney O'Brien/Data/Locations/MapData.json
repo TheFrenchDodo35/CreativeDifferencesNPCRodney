@@ -1,0 +1,277 @@
+{
+  "Changes": [
+
+	//   ____                 _                           _                              _     _                 
+	//  / ___|  _   _   ___  | |_    ___    _ __ ___     | |       ___     ___    __ _  | |_  (_)   ___    _ __  
+	// | |     | | | | / __| | __|  / _ \  | '_ ` _ \    | |      / _ \   / __|  / _` | | __| | |  / _ \  | '_ \ 
+	// | |___  | |_| | \__ \ | |_  | (_) | | | | | | |   | |___  | (_) | | (__  | (_| | | |_  | | | (_) | | | | |
+	//  \____|  \__,_| |___/  \__|  \___/  |_| |_| |_|   |_____|  \___/   \___|  \__,_|  \__| |_|  \___/  |_| |_|
+
+    {
+      "LogName": "Maps loading",
+      "Action": "Load",
+      "Target": "Maps/EastScarp_RodneysBasement,Maps/EastScarp_RodneysHouse,Maps/EastScarp_FerngillNationalLibrary,Maps/EastScarp_LibraryExterior",
+      "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
+    },
+    //Silo
+    {
+      "LogName": "Rodney's House",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_RodneysHouse": {
+          "DisplayName": "{{i18n:MapName.ESRodneysHouse}}",
+          "CreateOnLoad": {
+            "MapPath": "Maps/EastScarp_RodneysHouse"
+          },
+          "DefaultArrivalTile": {
+            "X": 7,
+            "Y": 33
+          },
+          "ExcludeFromNpcPathfinding": false,
+          "MusicDefault": "WWWA.ComfyHouse",
+          "ArtifactSpots": [],
+          "FishAreas": {},
+          "Fish": [],
+          "Forage": [],
+          "CustomFields": {}
+        }
+      }
+    },
+ {
+      "LogName": "Rodney's Basement",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_RodneysBasement": {
+          "DisplayName": "{{i18n:MapName.ESRodneysBasement}}",
+          "CreateOnLoad": {
+            "MapPath": "Maps/EastScarp_RodneysBasement"
+          },
+          "DefaultArrivalTile": {
+            "X": 20,
+            "Y": 1
+          },
+          "ExcludeFromNpcPathfinding": false,
+          "ArtifactSpots": [],
+          "FishAreas": {},
+          "Fish": [],
+          "Forage": [],
+          "CustomFields": {}
+        }
+      }
+    },
+//Ferngill National Library
+ {
+      "LogName": "National Library - Indoors",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_FerngillNationalLibrary": {
+          "DisplayName": "{{i18n:MapName.ESFerngillNationalLibrary}}",
+          "CreateOnLoad": {
+            "MapPath": "Maps/EastScarp_FerngillNationalLibrary"
+          },
+          "DefaultArrivalTile": {
+            "X": 16,
+            "Y": 44
+          },
+          "ExcludeFromNpcPathfinding": false,
+          "ArtifactSpots": [],
+          "FishAreas": {},
+          "Fish": [],
+          "Forage": [],
+          "CustomFields": {}
+        }
+      }
+    },
+ {
+      "LogName": "National Library - Outdoors",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_LibraryExterior": {
+          "DisplayName": "{{i18n:MapName.ESLibraryExterior}}",
+          "CreateOnLoad": {
+            "MapPath": "Maps/EastScarp_LibraryExterior"
+          },
+          "DefaultArrivalTile": {
+            "X": 31,
+            "Y": 50
+          },
+          "ExcludeFromNpcPathfinding": false,
+          "ArtifactSpots": [],
+          "FishAreas": {},
+          "Fish": [],
+          "Forage": [],
+          "CustomFields": {}
+        }
+      }
+    },
+
+    // World map stuff Mads did and I don't really understand but it works to there's that.
+   {
+     "LogName": "NO SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+     },
+     "TargetField": [ "EastScarp", "MapAreas" ],
+     "Entries": {
+       "RodneysSilo": {
+         "Id": "RodneysSilo",
+         "PixelArea": {
+           "X": 204,
+           "Y": 35,
+           "Width": 4,
+           "Height": 11
+         },
+         "Tooltips": [
+           {
+             "Id": "RodneysSilo",
+             "Text": "{{i18n:MapName.ESRodneysHouse}}"
+           }
+         ],
+         "WorldPositions": [
+           {
+             "Id": "RodneySilo",
+             "LocationName": "EastScarp_RodneysHouse",
+             "ExtendedTileArea": null,
+             "MapPixelArea": {
+               "X": 204,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysHouse}}"
+           },
+           {
+             "Id": "RodneysBasement",
+             "LocationName": "EastScarp_RodneysBasement",
+             "MapPixelArea": {
+               "X": 204,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysBasement}}"
+           },
+           {
+             "ScrollTextZones": [],
+             "Id": "Default",
+             "LocationName": "EastScarp_Village",
+             "ScrollText": null
+           }
+         ]
+       }
+     }
+
+   },
+   {
+     "LogName": "YES SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+     },
+     "TargetField": [ "EastScarp", "MapAreas" ],
+     "Entries": {
+       "RodneysSilo": {
+         "Id": "RodneysSilo",
+         "PixelArea": {
+           "X": 124,
+           "Y": 35,
+           "Width": 4,
+           "Height": 11
+         },
+         "Tooltips": [
+           {
+             "Id": "RodneysSilo",
+             "Text": "{{i18n:MapName.ESRodneysHouse}}"
+           }
+         ],
+         "WorldPositions": [
+           {
+             "Id": "RodneySilo",
+             "LocationName": "EastScarp_RodneysHouse",
+             "ExtendedTileArea": null,
+             "MapPixelArea": {
+               "X": 124,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysHouse}}"
+           },
+           {
+             "Id": "RodneysBasement",
+             "LocationName": "EastScarp_RodneysBasement",
+             "MapPixelArea": {
+               "X": 124,
+               "Y": 35,
+               "Width": 4,
+               "Height": 11
+             },
+             "ScrollText": "{{i18n:MapName.ESRodneysBasement}}"
+           },
+           {
+             "ScrollTextZones": [],
+             "Id": "Default",
+             "LocationName": "EastScarp_Village",
+             "ScrollText": null
+           }
+         ]
+       }
+     }
+   },
+   {
+     "LogName": "NO SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+     },
+     "TargetField": [ "EastScarp", "MapAreas", "MainScarp", "ToolTips", "Silo" ],
+     "Entries": {
+       "Text": null
+     }
+   },
+   {
+     "LogName": "YES SVE",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+     },
+     "TargetField": [ "EastScarp", "MapAreas", "MainScarp", "ToolTips", "Silo" ],
+     "Entries": 
+         {
+          "Text": null
+     }
+   },
+   //Another Mads' fine piece of code
+{
+  "LogName": "Edit ES World Map NO SVE",
+  "Action": "EditImage",
+  "When": {
+    "Season": "spring, summer, fall, winter",
+    "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+  },
+  "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+  "PatchMode": "Overlay",
+  "FromFile": "Assets/WorldMapPatch/ESmap_Silo.png",
+},
+{
+  "LogName": "Edit ES World Map NO SVE",
+  "Action": "EditImage",
+  "When": {
+    "Season": "spring, summer, fall, winter",
+       "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+  },
+  "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+  "PatchMode": "Overlay",
+  "FromFile": "Assets/WorldMapPatch/ESmap_SVE_Silo.png",
+},
+    ]
+}

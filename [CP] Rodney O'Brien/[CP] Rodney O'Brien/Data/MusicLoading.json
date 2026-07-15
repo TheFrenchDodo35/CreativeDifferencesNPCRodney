@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney's Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "WWWA.RodneysTheme": {
+                    "ID": "WWWA.RodneysTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/RodneysTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "LogName": "The Sad One",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "WWWA.TheSadOne": {
+                    "ID": "WWWA.TheSadOne",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/TheSadOne.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+{
+            "LogName": "Silo Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "WWWA.ComfyHouse": {
+                    "ID": "WWWA.ComfyHouse",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/ComfyHouse.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+    ]
+}

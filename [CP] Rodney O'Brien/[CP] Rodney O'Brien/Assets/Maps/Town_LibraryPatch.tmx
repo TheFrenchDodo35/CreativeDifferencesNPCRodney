@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="3" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="45">
+ <properties>
+  <property name="Arch" value="102 .02 100 .008 110 .02 115 .002"/>
+  <property name="DayTiles" value="AlwaysFront 52 98 907 AlwaysFront 56 98 907 AlwaysFront 24 50 907 AlwaysFront 33 53 907 AlwaysFront 24 58 907 AlwaysFront 27 72 907 AlwaysFront 30 72 907 AlwaysFront 38 65 907 AlwaysFront 27 86 907 AlwaysFront 17 86 907 AlwaysFront 21 64 907 Buildings 92 79 186 Buildings 41 69 560 Buildings 71 67 720"/>
+  <property name="Debris" value="8 .01 4 0 .02 4"/>
+  <property name="Fall_Objects" value="410 .6"/>
+  <property name="Fish" value="139 .15 138 .19 137 .22 132 .4 140 .33 141 .4 143 .05 144 .1 145 .4 153 .3"/>
+  <property name="Light" value="24 50 4 33 53 4 24 58 4 21 64 4 17 86 4 27 86 4 38 65 4 30 72 4 27 72 4 41 69 4 71 67 4 52 98 4 56 98 4 92 79 4"/>
+  <property name="NightTiles" value="AlwaysFront 52 98 908 AlwaysFront 56 98 908 AlwaysFront 24 50 908 AlwaysFront 33 53 908 AlwaysFront 24 58 908 AlwaysFront 27 72 908 AlwaysFront 30 72 908 AlwaysFront 38 65 908 AlwaysFront 27 86 908 AlwaysFront 17 86 908 AlwaysFront 21 64 908 Buildings 92 79 190 Buildings 41 69 653 Buildings 71 67 726"/>
+  <property name="Outdoors" value="T"/>
+  <property name="Spring_Objects" value="18 .9"/>
+  <property name="Summer_Objects" value="402 .9"/>
+  <property name="Warp" value="-1 53 BusStop 34 23 -1 54 BusStop 34 23 -1 55 BusStop 34 24 53 110 Beach 38 0 81 -1 Mountain 15 40 79 -1 Mountain 15 40 80 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 -1 92 Forest 118 25 -1 90 Forest 118 25 -1 89 Forest 118 25 -1 91 Forest 118 25 54 110 Beach 38 0 55 110 Beach 38 0 90 -1 Mountain 57 40 98 -1 Mountain 85 40 94 110 Beach 67 0"/>
+  <property name="Winter_Objects" value="418 .7 414 .1"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+  <tile id="0">
+   <properties>
+    <property name="PathType" value="NE"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="PathType" value="SE"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="PathType" value="WS"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="PathType" value="WN"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="PathType" value="Crossroad"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="PathType" value="End"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="37" name="spring_MiniLibrary" tilewidth="16" tileheight="16" tilecount="9" columns="3">
+  <image source="spring_MiniLibrary.png" width="48" height="48"/>
+ </tileset>
+ <layer id="1" name="Back" width="3" height="3">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="3" height="3">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,44,0
+</data>
+ </layer>
+ <layer id="3" name="Paths" width="3" height="3">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="3" height="3">
+  <data encoding="csv">
+37,38,39,
+40,41,42,
+0,0,0
+</data>
+ </layer>
+ <layer id="5" name="AlwaysFront" width="3" height="3">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <objectgroup id="7" name="Buildings">
+  <object id="43" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop WWWA.Bookexchange"/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop WWWA.Bookexchange"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="9" name="Front"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

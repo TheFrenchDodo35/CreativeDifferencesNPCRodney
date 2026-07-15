@@ -1,0 +1,37 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "WWWA.RodneyBookLaunchInvite.MailTrigger": 
+                {
+                    "Id": "WWWA.RodneyBookLaunchInvite.MailTrigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 134371003, PLAYER_FRIENDSHIP_POINTS Current RodneyOBrien 2000, !PLAYER_HAS_CONVERSATION_TOPIC Current RodStoryReading, PLAYER_HAS_MAIL Current RodStoryReadingEvent Received ",
+                    "Actions": [
+                        "AddMail Current WWWA.RodneyBookLaunchInvite",
+                    ]
+                },
+                "WWWA.RodneyLibraryTalkInvite.MailTrigger": 
+                {
+                    "Id": "WWWA.RodneyLibraryTalkInvite.MailTrigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 134371011, PLAYER_FRIENDSHIP_POINTS Current RodneyOBrien 2500, !PLAYER_HAS_CONVERSATION_TOPIC Current FlashbackEvent, PLAYER_HAS_MAIL Current Rodney10HP1 Received ",
+                    "Actions": [
+                        "AddMail Current WWWA.RodneyLibraryTalkInvite",
+                    ]
+                },
+                "WWWA.RodneyNationalLibraryInvite.MailTrigger": 
+                {
+                    "Id": "WWWA.RodneyNationalLibraryInvite.MailTrigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 134371013, PLAYER_FRIENDSHIP_POINTS Current RodneyOBrien 2500, !PLAYER_HAS_CONVERSATION_TOPIC Current LibraryTalk10HP2, PLAYER_HAS_MAIL Current RodneyLibraryTalk Received ",
+                    "Actions": [
+                        "AddMail Current WWWA.RodneyNationalLibraryInvite",
+                    ]
+                },
+            }
+        }
+    ]
+}

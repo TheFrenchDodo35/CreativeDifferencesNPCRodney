@@ -1,0 +1,220 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney CT Dialogue Elliott",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "TalkWithGunther": "{{i18n:Elliott.TalkWithGunther}}",
+                "MeetingMeredith": "{{i18n:Elliott.MeetingMeredith}}",
+                "RodStoryReading": "{{i18n:Elliott.RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:Elliott.BookLaunchParty}}",
+                "LibraryTalk10HP2": "{{i18n:Elliott.LibraryTalk10HP2}}",
+                "FerngillNationalLibraryReading": "{{i18n:Elliott.FerngillNationalLibraryReading}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Gus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "TalkWithGunther": "{{i18n:Gus.TalkWithGunther}}",
+                "MeetingMeredith": "{{i18n:Gus.MeetingMeredith}}",
+                "RodStoryReading": "{{i18n:Gus.RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:Gus.BookLaunchParty}}",
+                "LibraryTalk10HP2": "{{i18n:Gus.LibraryTalk10HP2}}",
+                "FerngillNationalLibraryReading": "{{i18n:Gus.FerngillNationalLibraryReading}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Gunther",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gunther",
+            "Entries": {
+                "ShadowfolkStory": "{{i18n:Gunther.ShadowfolkStory}}",
+                "DwarfStory": "{{i18n:Gunther.DwarfStory}}",
+                "RodStoryReading": "{{i18n:Gunther.RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:Gunther.BookLaunchParty}}",
+                "FerngillNationalLibraryReading": "{{i18n:Gunther.FerngillNationalLibraryReading}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Gunther SVE",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/GuntherSilvian",
+            "Entries": {
+                "ShadowfolkStory": "{{i18n:GuntherSilvian.ShadowfolkStory}}",
+                "DwarfStory": "{{i18n:GuntherSilvian.DwarfStory}}",
+                "RodStoryReading": "{{i18n:GuntherSilvian.RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:GuntherSilvian.BookLaunchParty}}",
+                "FerngillNationalLibraryReading": "{{i18n:GuntherSilvian.FerngillNationalLibraryReading}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Leah",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "MeetingMeredith": "{{i18n:Leah.MeetingMeredith}}",
+                "RodStoryReading": "{{i18n:Leah.RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:Leah.BookLaunchParty}}",
+                "FerngillNationalLibraryReading": "{{i18n:Leah.FerngillNationalLibraryReading}}",
+                "RodneyBirthaySuit": "{{i18n:Leah.RodneyBirthaySuit}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Abi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "BookLaunchParty": "{{i18n:Abigail.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Emily",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "TalkWithGunther": "{{i18n:Emily.TalkWithGunther}}",
+                "BookLaunchParty": "{{i18n:Emily.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "RodStoryReading": "{{i18n:Harvey.RodStoryReading}}",
+                "BookLaunchParty": "{{i18n:Harvey.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "BookLaunchParty": "{{i18n:Shane.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Caroline",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "BookLaunchParty": "{{i18n:Caroline.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "TalkWithGunther": "{{i18n:Jodi.TalkWithGunther}}",
+                "RodneyBirthaySuit": "{{i18n:Jodi.RodneyBirthaySuit}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Krobus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "ShadowfolkStory": "{{i18n:Krobus.ShadowfolkStory}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Penny",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "TalkWithGunther": "{{i18n:Penny.TalkWithGunther}}",
+                "BookLaunchParty": "{{i18n:Penny.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Pierre",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+                "BookLaunchParty": "{{i18n:Pierre.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Lewis",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "TalkWithGunther": "{{i18n:Lewis.TalkWithGunther}}",
+                "BookLaunchParty": "{{i18n:Lewis.BookLaunchParty}}",
+                "FerngillNationalLibraryReading": "{{i18n:Lewis.FerngillNationalLibraryReading}}",
+                "RodneyPoetryReading": "{{i18n:Lewis.RodneyPoetryReading}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Wizard",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "RodStoryReading": "{{i18n:Wizard.RodStoryReading}}", //He came to my tower again
+                "RodneyPoetryReading": "{{i18n:Wizard.RodneyPoetryReading}}", // he wants to read from my tower
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Clint",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "BookLaunchParty": "{{i18n:Clint.BookLaunchParty}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Pam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+                "BookLaunchParty": "{{i18n:Pam.BookLaunchParty}}",
+                "RodneyBirthaySuit": "{{i18n:Pam.RodneyBirthaySuit}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "RodStoryReading": "{{i18n:Demetrius.RodStoryReading}}", //He thinks I love scifi
+                "FerngillNationalLibraryReading": "{{i18n:Demetrius.FerngillNationalLibraryReading}}", //Great honour, repository of knowledge and culture
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Marlon",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marlon",
+            "Entries": {
+                "RodStoryReading": "{{i18n:Marlon.RodStoryReading}}", //He wants to visit the mine	
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue MarlonFay",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarlonFay",
+            "Entries": {
+                "RodStoryReading": "{{i18n:MarlonFay.RodStoryReading}}", //He wants to visit the mine	
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Haley",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "MeetingMeredith": "{{i18n:Haley.MeetingMeredith}}",
+            },
+        },
+        {
+            "LogName": "Rodney CT Dialogue Dwarf",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+                "DwarfStory": "{{i18n:Dwarf.DwarfStory}}",
+            },
+        },
+    ]
+}

@@ -1,0 +1,348 @@
+{
+    "Changes": [
+        {
+            "LogName": "Autographed Photo Gift Dialogue Elliott",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Elliott.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Gus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gus.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Gunther",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gunther",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gunther.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Gunther SVE",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/GuntherSilvian",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:GuntherSilvian.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Leah",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Leah.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Sophia",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sophia",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Sophia.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Olivia",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Olivia",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Olivia.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Susan",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Susan",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Susan.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Abi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Abigail.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Emily",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Emily.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Evelyn",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Evelyn.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue George",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:George.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Harvey.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Jas.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Shane.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Vincent.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Alex",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Alex.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Caroline",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Caroline.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Willy",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Willy.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Linus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Linus.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Jodi.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Kent.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Krobus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Krobus.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Marnie.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Maru",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Maru.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Penny",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Penny.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Pierre",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Pierre.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Robin.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Sam.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Sandy",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sandy",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Sandy.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Leo",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leo",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Leo.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Lewis",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Lewis.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Wizard",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Wizard.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Clint",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Clint.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Pam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Pam.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Demetrius.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Dwarf",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Dwarf.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Marlon",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marlon",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Marlon.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue MarlonFay",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarlonFay",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:MarlonFay.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Andy",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Andy",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Andy.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Victor",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Victor",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Victor.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Lance",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lance",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Lance.GiftReaction_An_autographed_photo}}",
+            },
+        },
+        {
+            "LogName": "Autographed Photo Gift Dialogue Haley",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Haley.GiftReaction_An_autographed_photo}}",
+            },
+        },
+    ]
+}

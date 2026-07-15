@@ -1,0 +1,152 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RodneyOBrien",
+            "Entries": {
+                "AcceptGift_(O)80": "{{Random:{{i18n:GiftReaction_Quartz}}++{{i18n:GiftReaction_Quartz~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)91": "{{Random:{{i18n:GiftReaction_Banana}}++{{i18n:GiftReaction_Banana~1}}++{{i18n:GiftReaction_Banana~2}}|inputSeparator=++}}",
+                "AcceptGift_(O)253": "{{Random:{{i18n:GiftReaction_Triple_Shot_Espresso}}++{{i18n:GiftReaction_Triple_Shot_Espresso~1}}++{{i18n:GiftReaction_Triple_Shot_Espresso~2}}++{{i18n:GiftReaction_Triple_Shot_Espresso~3}}|inputSeparator=++}}",
+                "AcceptGift_(O)303": "{{Random:{{i18n:GiftReaction_Pale_Ale}}++{{i18n:GiftReaction_Pale_Ale~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)444": "{{i18n:GiftReaction_Duck_Feather}}",
+                "AcceptGift_category_gem": "{{Random:{{i18n:GiftReactionCategory_-2}}++{{i18n:GiftReactionCategory_-2~1}}++{{i18n:GiftReactionCategory_-2~2}}++{{i18n:GiftReactionCategory_-2~3}}++{{i18n:GiftReactionCategory_-2~4}}|inputSeparator=++}}",
+
+                "AcceptGift_category_flowers": "{{Random:{{i18n:GiftReactionCategory_-80}}++{{i18n:GiftReactionCategory_-80~1}}++{{i18n:GiftReactionCategory_-80~2}}++{{i18n:GiftReactionCategory_-80~3}}|inputSeparator=++}}",
+                "AcceptGift_(O)167": "{{Random:{{i18n:GiftReaction_Joja_Cola}}++{{i18n:GiftReaction_Joja_Cola~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)395": "{{Random:{{i18n:GiftReaction_Coffee}}++{{i18n:GiftReaction_Coffee~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)424": "{{Random:{{i18n:GiftReaction_Cheese}}++{{i18n:GiftReaction_Cheese~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)426": "{{i18n:GiftReaction_Goat_Cheese}}",
+                "AcceptGift_(O)346": "{{Random:{{i18n:GiftReaction_Beer}}++{{i18n:GiftReaction_Beer~1}}|inputSeparator=++}}",
+                "AcceptGift_category_fish": "{{Random:{{i18n:GiftReactionCategory_-4}}++{{i18n:GiftReactionCategory_-4~1}}++{{i18n:GiftReactionCategory_-4~2}}++{{i18n:GiftReactionCategory_-4~3}}++{{i18n:GiftReactionCategory_-4~4}}|inputSeparator=++}}",
+                "AcceptGift_(O)216": "{{Random:{{i18n:GiftReaction_Bread}}++{{i18n:GiftReaction_Bread~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)390": "{{i18n:GiftReaction_Stone}}",
+                "AcceptGift_(O)78": "{{Random:{{i18n:GiftReaction_Cave_Carrot}}++{{i18n:GiftReaction_Cave_Carrot~1}}++{{i18n:GiftReaction_Cave_Carrot~2}}|inputSeparator=++}}",
+                "AcceptGift_category_bait": "{{i18n:GiftReactionCategory_-21}}",
+                "AcceptGift_category_junk": "{{i18n:GiftReactionCategory_-20}}",
+                "AcceptGift_(O)446": "{{i18n:GiftReaction_Rabbit's_Foot}}",
+                "AcceptGift_(O)WWWA.AutographedPhoto": "{{Random:{{i18n:GiftReaction_An_autographed_photo}}++{{i18n:GiftReaction_An_autographed_photo~1}}|inputSeparator=++}}",
+                "AcceptGift_(O)WWWA.GenuineAutograph": "{{Random:{{i18n:GiftReaction_An_autographed_photo}}++{{i18n:GiftReaction_An_autographed_photo~1}}|inputSeparator=++}}",
+                //Edit when content packs update
+ //               "AcceptGift_Rabbit_Floof": "{{i18n:GiftReaction_RabbitFloof}}",
+ //               "AcceptGift_Stardrop_Flower": "{{i18n:GiftReaction_StardropFlower}}",
+ //              "AcceptGift_Rabbit_Clover": "{{i18n:GiftReaction_RabbitClover}}",
+                "AcceptGift_(O)306": "{{Random:{{i18n:GiftReaction_Mayonnaise}}++{{i18n:GiftReaction_Mayonnaise~1}}|inputSeparator=++}}",
+                // No dating without his consent
+                "RejectItem_(O)460": "{{i18n:pendant_reject}}",
+                "RejectMermaidPendant": "{{i18n:pendant_reject}}",
+                "RejectItem_(O)458": "{{i18n:bouquet_reject}}",
+                //BOOKS
+                "AcceptGift_(O)WWWA.Book.ArcanaCatcherPrunus": "{{i18n:RodneyReaction.Book.ArcanaCatcherPrunus}}",
+                "AcceptGift_(O)WWWA.Book.ArtifactOrCutlery": "{{i18n:RodneyReaction.Book.ArtifactOrCutlery}}",
+                "AcceptGift_(O)WWWA.Book.CrabsAndWhyIHateThem": "{{i18n:RodneyReaction.Book.CrabsAndWhyIHateThem}}",
+                "AcceptGift_(O)WWWA.Book.DeferenceArlington": "{{i18n:RodneyReaction.Book.DeferenceArlington}}",
+                "AcceptGift_(O)WWWA.Book.FishingForDumbDumbs": "{{i18n:RodneyReaction.Book.FishingForDumbDumbs}}",
+                "AcceptGift_(O)WWWA.Book.GettingChicksToLoveYou": "{{i18n:RodneyReaction.Book.GettingChicksToLoveYou}}",
+                "AcceptGift_(O)WWWA.Book.Goblins": "{{i18n:RodneyReaction.Book.Goblins}}",
+                "AcceptGift_(O)WWWA.Book.GuideToSculptingWithGold": "{{i18n:RodneyReaction.Book.GuideToSculptingWithGold}}",
+                "AcceptGift_(O)WWWA.Book.HerpetologyOfFerngill": "{{i18n:RodneyReaction.Book.HerpetologyOfFerngill}}",
+                "AcceptGift_(O)WWWA.Book.LunarkinTrollTales": "{{i18n:RodneyReaction.Book.LunarkinTrollTales}}",
+                "AcceptGift_(O)WWWA.Book.MysteriesOfTheDwarves": "{{i18n:RodneyReaction.Book.MysteriesOfTheDwarves}}",
+                "AcceptGift_(O)WWWA.Book.PepperRexes": "{{i18n:RodneyReaction.Book.PepperRexes}}",
+                "AcceptGift_(O)WWWA.Book.TheBookOfYoba": "{{i18n:RodneyReaction.Book.TheBookOfYoba}}",
+                "AcceptGift_(O)WWWA.Book.TheGreatBookOfSlimes": "{{i18n:RodneyReaction.Book.TheGreatBookOfSlimes}}",
+                "AcceptGift_(O)WWWA.Book.TheGreatTomeOfMayo": "{{i18n:RodneyReaction.Book.TheGreatTomeOfMayo}}",
+                "AcceptGift_(O)WWWA.Book.TheJojaConspiracy": "{{i18n:RodneyReaction.Book.TheJojaConspiracy}}",
+                "AcceptGift_(O)WWWA.Book.TheTarotRevealed": "{{i18n:RodneyReaction.Book.TheTarotRevealed}}",
+                "AcceptGift_(O)WWWA.Book.WhyPepperRexesAreTheBest": "{{i18n:RodneyReaction.Book.WhyPepperRexesAreTheBest}}",
+                //New items 1.6
+                "AcceptGift_(O)StardropTea": "{{Random:{{i18n:RodneyReaction.StardropTea.1}}++{{i18n:RodneyReaction.StardropTea.2}}|inputSeparator=++}}",
+                //Pride Festival Items 
+                "AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:RodneyReaction.BiBerryMuffin}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:RodneyReaction.PridePop}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "{{i18n:RodneyReaction.LesbianLollipop}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:RodneyReaction.GaylacticCookie}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:RodneyReaction.EnbyEclair}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:RodneyReaction.TastyAceCookie}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "{{i18n:RodneyReaction.ARomanticCookie}}", 
+                "AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:RodneyReaction.TransTart}}", 
+                //#BearFam
+                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_PotentMead": "{{i18n:RodneyReaction.FerskenPeach_PotentMead}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.BrazierSecretAlfredo": "{{i18n:RodneyReaction.BrazierSecretAlfredo}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.HoneyWheatBread": "{{i18n:RodneyReaction.HoneyWheatBread}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.SesameBrownBread": "{{i18n:RodneyReaction.SesameBrownBread}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.GudrunPerfectRamen": "{{i18n:RodneyReaction.GudrunPerfectRamen}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.GunnarPerfectRamen": "{{i18n:RodneyReaction.GunnarPerfectRamen}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.SondraPerfectRamen": "{{i18n:RodneyReaction.SondraPerfectRamen}}", 
+                "AcceptGift_(O)MadDog.HashtagBearfam.SigurdPerfectRamen": "{{i18n:RodneyReaction.SigurdPerfectRamen}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_Mead": "{{i18n:RodneyReaction.FerskenPeach_Mead}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard": "{{i18n:RodneyReaction.FerskenPeach_Mead_Tankard}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.PumpkinJoja": "{{i18n:RodneyReaction.PumpkinJoja}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.PeachJoja": "{{i18n:RodneyReaction.PeachJoja}}",
+                "AcceptGift_(O)MadDog.HashtagBearfam.BananaBread": "{{i18n:RodneyReaction.BananaBread}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarThirdPotion": "{{i18n:RodneyReaction.GunnarThirdPotion}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarPerfectPotion": "{{i18n:RodneyReaction.GunnarPerfectPotion}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarRemedyAll": "{{i18n:RodneyReaction.GunnarRemedyAll}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarBadPotion": "{{i18n:RodneyReaction.GunnarBadPotion}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarFirstPotion": "{{i18n:RodneyReaction.GunnarFirstPotion}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarMysteryPotion": "{{i18n:RodneyReaction.GunnarMysteryPotion}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarSecondPotion": "{{i18n:RodneyReaction.GunnarSecondPotion}}",
+                "RejectItem_(O)MadDog.HashtagBearfam.GunnarWeirdPotion": "{{i18n:RodneyReaction.GunnarWeirdPotion}}",
+                "AcceptGift_(O)MadDog.BearFam.Colacrab": "{{i18n:RodneyReaction.Colacrab}}",
+                //A New Dream
+                "AcceptGift_(O)Fellowclown.AND_TastyPastry": "{{i18n:RodneyReaction.TastyPastry}}",
+                "AcceptGift_(O)Fellowclown.AND_GemBirdPatties": "{{i18n:RodneyReaction.GemBirdPatties}}",
+                "RejectItem_(O)Fellowclown.AND_VoidJuice": "{{i18n:RodneyReaction.VoidJuice}}",
+                "AcceptGift_(O)Fellowclown.AND_GemBirdMeat": "{{i18n:RodneyReaction.GemBirdMeat}}",
+                "AcceptGift_(O)Fellowclown.AND_SeaglassFlowerDisplay": "{{i18n:RodneyReaction.SeaglassFlowerDisplay}}",
+                "AcceptGift_(O)Fellowclown.AND_Seaglass": "{{i18n:RodneyReaction.Seaglass}}",
+                "AcceptGift_(O)Fellowclown.AND_FrostedCake": "{{i18n:RodneyReaction.FrostedCake}}",
+                "AcceptGift_(O)Fellowclown.AND_HotCereal": "{{i18n:RodneyReaction.HotCereal}}",
+                "AcceptGift_(O)Fellowclown.AND_WhiteTruffle": "{{i18n:RodneyReaction.WhiteTruffle}}",
+                "AcceptGift_(O)Fellowclown.AND_CheesyWhiteRisotto": "{{i18n:RodneyReaction.CheesyWhiteRisotto}}",
+               /* "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}",
+                "AcceptGift_(O)": "{{i18n:RodneyReaction.}}", */
+                //Diamond in the rough
+                "RejectItem_(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts": "{{Random:{{i18n:RodneyReaction.UnluckyPurpleShorts.1}}++{{i18n:RodneyReaction.UnluckyPurpleShorts.2}}|inputSeparator=++}}",
+                
+                
+
+
+            }
+        }, //"{{i18n:RodneyReaction.}}",
+ //       {
+ //           "LogName": "Rodney Stardrop Flower",
+   //         "Action": "EditData",
+     //       "Target": "Characters/Dialogue/RodneyOBrien",
+       //     "Entries": {
+         //       "AcceptGift_Rabbit's_Foot": "{{i18n:GiftReaction_StardropFlower}}",
+           // },
+        //    "//HasMod": "PurpleChickadee.StardropFlower"
+       // },
+        //{
+        //    "LogName": "Rodney Rabbit Floof",
+          //  "Action": "EditData",
+            //"Target": "Characters/Dialogue/RodneyOBrien",
+//            "Entries": {
+  //              "AcceptGift_Rabbit's_Foot": "{{i18n:GiftReaction_RabbitFloof}}",
+    //        },
+      //      "HasMod": "DaisyNiko.RabbitFloof"
+   //     },
+     //   {
+       //     "LogName": "Rodney Rabbit Clover",
+         //   "Action": "EditData",
+           // "Target": "Characters/Dialogue/RodneyOBrien",
+           // "Entries": {
+             //   "AcceptGift_Rabbit's_Foot": "{{i18n:GiftReaction_RabbitClover}}"
+            //},
+          //  "HasMod": "LorenOlson.RabbitClovers"
+       // },
+    ]
+}
